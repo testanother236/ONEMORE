@@ -538,7 +538,7 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>SampleDefaultPricingImplementation</apexClass>
+        <apexClass>SampleDefaultPricing2Implementation</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
