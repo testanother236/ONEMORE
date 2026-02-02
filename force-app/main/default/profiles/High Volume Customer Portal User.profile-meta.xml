@@ -3658,12 +3658,12 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>vlocity_cmt__CampaignRestAPIV2Test</apexClass>
+        <apexClass>vlocity_cmt__CampaignService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CampaignService</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__CancelCartActionService</apexClass>
@@ -4098,19 +4098,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>vlocity_cmt__ConfigurePriceQuoteEventHandler</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__ConfigurePriceQuoteEventHandlerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__ConsoleController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__ConsoleUtilController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
