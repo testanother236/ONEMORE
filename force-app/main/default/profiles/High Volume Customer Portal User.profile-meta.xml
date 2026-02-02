@@ -1038,23 +1038,13 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>vlocity_cmt__APIGetOffersV3</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>vlocity_cmt__APIGetOffersV3Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__APIGetStatusV3</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__APIGetStatusV3Test</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>vlocity_cmt__APIGraphV1Controller</apexClass>
+        <enabled>true</enabled>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
