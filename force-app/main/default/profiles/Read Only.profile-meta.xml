@@ -130,6 +130,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContentDocumentLinkBatchSpeedTest2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContentLink</apexClass>
         <enabled>false</enabled>
     </classAccesses>
