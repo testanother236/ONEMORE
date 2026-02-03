@@ -16,6 +16,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Konina</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>OmniStudio_Console</application>
         <default>false</default>
         <visible>false</visible>
@@ -206,11 +211,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>vlocity_cmt__VlocityTelecommunicationServices</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>vlocity_cmt__VlocityXOM</application>
         <default>false</default>
         <visible>false</visible>
@@ -327,7 +327,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegConfirmController</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>CommunitiesSelfRegConfirmControllerTest</apexClass>
@@ -997,22 +997,7 @@
         <apexClass>vlocity_cmt__APICreateEcomCartV3</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__APICreateEcomCartV3Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__APIDictionaryStringTranslationsV2</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__APIDictionaryStringTranslationsV2Test</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>vlocity_cmt__APIEcommTestData</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
+    <classAccesses></classAccesses>
     <classAccesses>
         <apexClass>vlocity_cmt__APIExpandItemCartsCpqV2Test</apexClass>
         <enabled>false</enabled>
