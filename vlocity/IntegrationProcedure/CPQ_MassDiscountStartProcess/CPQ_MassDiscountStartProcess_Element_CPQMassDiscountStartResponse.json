@@ -1,0 +1,39 @@
+{
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "CPQ_MassDiscountStartProcess",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/CPQ/MassDiscountStartProcess/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
+    },
+    "%vlocity_namespace%__PropertySet__c": {
+        "additionalOutput": {
+            "Failed": "=IF(ISBLANK(%res:allRoots:RootId%) || EXIST(%postCartsDiscountResponse:messages:severity%, 'ERROR'),true,false)",
+            "itemsToProcessList": "=IF(ISBLANK(%res:allRoots:RootId%),LIST(),LIST(%res:allRoots:RootId%))",
+            "statusCode": "=IF(ISBLANK(%res:allRoots:RootId%) || EXIST(%postCartsDiscountResponse:messages:severity%, 'ERROR'),500,200)",
+            "statusMessage": "=IF(ISBLANK(%res:allRoots:RootId%), 'No Root Item Ids found.', IF(EXIST(%postCartsDiscountResponse:messages:severity%, 'ERROR'), %postCartsDiscountResponse:messages:message% ,'COMPLETED'))"
+        },
+        "disOnTplt": false,
+        "executionConditionalFormula": "",
+        "label": "ResponseAction1",
+        "responseDefaultData": {
+        },
+        "responseFormat": "JSON",
+        "responseJSONNode": "",
+        "responseJSONPath": "",
+        "returnFullDataJSON": false,
+        "returnOnlyAdditionalOutput": false,
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": null,
+        "useFormulas": true,
+        "vlcResponseHeaders": {
+        }
+    },
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Response Action",
+    "Name": "CPQMassDiscountStartResponse",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/CPQ/MassDiscountStartProcess/Procedure/CPQMassDiscountStartResponse"
+}

@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "a22ec1c1-6f00-73f5-22ee-2f0a9f6f56da",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": "01tak00000MOvDVAA1",
+    "%vlocity_namespace%__ProductGroupKey__c": "4c51e0d4-f9a3-d4b7-95b3-1355728c4207",
+    "%vlocity_namespace%__SequenceNumber__c": 1,
+    "%vlocity_namespace%__UrlLong__c": "https://www.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/samsung-fast-charge.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "SamsungCharger",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/a22ec1c1-6f00-73f5-22ee-2f0a9f6f56da"
+}

@@ -1,0 +1,9 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "cb7cb069-dab8-f6ed-987a-e0092219fd99",
+    "%vlocity_namespace%__Implementation__c": "worker",
+    "%vlocity_namespace%__PodReplicas__c": 0,
+    "Name": "High Priority",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__ThorOrchestrationQueue__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__ThorOrchestrationQueue__c/cb7cb069-dab8-f6ed-987a-e0092219fd99"
+}

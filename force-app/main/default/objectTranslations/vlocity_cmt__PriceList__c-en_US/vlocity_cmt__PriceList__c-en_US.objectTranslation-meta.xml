@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__PriceList__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Price List --></label>
+        <name>vlocity_cmt__NewPriceList</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity EPC Price List Layout</layout>
+        <sections>
+            <label><!-- Availability --></label>
+            <section>Availability</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit PriceList --></label>
+        <name>vlocity_cmt__PriceList_Edit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- PriceList record --></description>
+        <label><!-- PriceList --></label>
+        <name>vlocity_cmt__PriceList</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Effective Until Date should be greater than or equal to Effective From Date. --></errorMessage>
+        <name>vlocity_cmt__EffectiveFromDate_Greater_UntilDate</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_PriceList --></label>
+        <name>vlocity_cmt__New_PriceList</name>
+    </webLinks>
+</CustomObjectTranslation>

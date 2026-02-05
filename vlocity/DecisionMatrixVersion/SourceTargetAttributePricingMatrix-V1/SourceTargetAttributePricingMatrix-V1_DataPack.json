@@ -1,0 +1,23 @@
+{
+    "ApiName": "SourceTargetAttributePricingMatrix_V1",
+    "CalculationMatrix.Name": "SourceTargetAttributePricingMatrix",
+    "CalculationMatrixId": {
+        "Name": "SourceTargetAttributePricingMatrix",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "CalculationMatrix/SourceTargetAttributePricingMatrix",
+        "VlocityRecordSObjectType": "CalculationMatrix"
+    },
+    "DecisionMatrixDefinitionVerId": "9QOak000003GZBPGA4",
+    "EndDateTime": "",
+    "GroupKeyValue": "",
+    "MatrixType": "Standard",
+    "Name": "SourceTargetAttributePricingMatrix V1",
+    "Namespace": "",
+    "Rank": 1,
+    "StartDateTime": "2022-07-08T10:53:36.000Z",
+    "SubGroupKeyValue": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrixVersion",
+    "VlocityRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/SourceTargetAttributePricingMatrix"
+}

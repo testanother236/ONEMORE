@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "InfiPencil image",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "8672b88a-466b-09fe-f372-fda5a17d246b",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "895b1559-6c5e-bc37-f23b-9d6a232ae138",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/895b1559-6c5e-bc37-f23b-9d6a232ae138",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "6401d216-3355-fa3e-1215-b1f5bc7d6ea3",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://www-stg.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/infiwave-pencil.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "InfiPencil",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/8672b88a-466b-09fe-f372-fda5a17d246b"
+}

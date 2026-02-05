@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "Infiwave Phone 8 image",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "31ee11d1-91de-7380-5707-198b68d3d25d",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "bba672b7-77f5-0367-4f3b-374ea0e573ab",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/bba672b7-77f5-0367-4f3b-374ea0e573ab",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "17de93ea-2de6-16cd-9df3-b59d6faee725",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://www-stg.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/infiwave-phone-8.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Infiwave Phone 8",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/31ee11d1-91de-7380-5707-198b68d3d25d"
+}

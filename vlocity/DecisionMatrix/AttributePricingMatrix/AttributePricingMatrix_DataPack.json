@@ -1,0 +1,14 @@
+{
+    "CalculationMatrixColumn": "AttributePricingMatrix_CalculationMatrixColumns.json",
+    "DecisionMatrixType": "DecisionMatrix",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "AttributePricingMatrix",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "Standard",
+    "UniqueName": "AttributePricingMatrix",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/AttributePricingMatrix"
+}

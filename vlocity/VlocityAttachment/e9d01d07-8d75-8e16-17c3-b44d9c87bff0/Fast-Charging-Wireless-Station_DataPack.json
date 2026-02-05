@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "Fast Charging Wireless Station image",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e9d01d07-8d75-8e16-17c3-b44d9c87bff0",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "f4d374a2-948e-0dfa-2a11-49f420f508b3",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/f4d374a2-948e-0dfa-2a11-49f420f508b3",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "025744a2-8291-2fe9-5abd-0db61e1a8944",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://www-stg.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/infiwave-charger.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Fast Charging Wireless Station",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/e9d01d07-8d75-8e16-17c3-b44d9c87bff0"
+}

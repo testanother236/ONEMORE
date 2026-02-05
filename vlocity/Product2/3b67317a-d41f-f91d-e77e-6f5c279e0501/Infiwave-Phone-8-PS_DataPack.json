@@ -1,0 +1,474 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Infiwave-Phone-8-PS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_DT_BRD": "Infiwave",
+        "ATT_DT_CAP": "128 GB",
+        "ATT_DT_SZ": "5.7 x 2.7 x .30",
+        "ATT_RT_CLR": null,
+        "ATT_RT_MOS": "Android",
+        "ATT_RT_PAY_TYPE": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "ACAT_Phones",
+                "Name": "Mobile Devices",
+                "displaySequence": 20,
+                "id": "a0Jak000002ffXZEAY",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Kak000007CjYtEAK",
+                            "cloneable": true,
+                            "code": "ATT_RT_PAY_TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        },
+                        {
+                            "attributeId": "a0Kak000007CjYfEAK",
+                            "cloneable": true,
+                            "code": "ATT_DT_BRD",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Brand",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "3eb374af-293b-647f-3770-538711878820",
+                                    "label": "Samsung",
+                                    "name": "3eb374af-293b-647f-3770-538711878820",
+                                    "readonly": true,
+                                    "value": "Samsung"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "4a5e1aba-18a3-da49-c150-ca803b8e0556",
+                                    "label": "LG",
+                                    "name": "4a5e1aba-18a3-da49-c150-ca803b8e0556",
+                                    "readonly": true,
+                                    "value": "LG"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 5,
+                                    "id": "4b9a4681-859c-6f62-fc0d-23def6dfc5c6",
+                                    "label": "Infiwave",
+                                    "name": "4b9a4681-859c-6f62-fc0d-23def6dfc5c6",
+                                    "readonly": true,
+                                    "value": "Infiwave"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ac5b52df-143d-2038-6bdb-0eab8087ac37",
+                                    "label": "Apple",
+                                    "name": "ac5b52df-143d-2038-6bdb-0eab8087ac37",
+                                    "readonly": true,
+                                    "value": "Apple"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "d8edad84-cb33-a62f-e9a4-5fcfd10acb35",
+                                    "label": "Google",
+                                    "name": "d8edad84-cb33-a62f-e9a4-5fcfd10acb35",
+                                    "readonly": true,
+                                    "value": "Google"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kak000007CjYeEAK",
+                            "cloneable": true,
+                            "code": "ATT_RT_CLR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "10",
+                                    "label": "Black",
+                                    "name": "10",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "20",
+                                    "label": "Brown",
+                                    "name": "20",
+                                    "readonly": false,
+                                    "value": "Brown"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "30",
+                                    "label": "Blue",
+                                    "name": "30",
+                                    "readonly": false,
+                                    "value": "Blue"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "40",
+                                    "label": "Purple",
+                                    "name": "40",
+                                    "readonly": false,
+                                    "value": "Purple"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "50",
+                                    "label": "Red",
+                                    "name": "50",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "60",
+                                    "label": "Yellow",
+                                    "name": "60",
+                                    "readonly": false,
+                                    "value": "Yellow"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "70",
+                                    "label": "Green",
+                                    "name": "70",
+                                    "readonly": false,
+                                    "value": "Green"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kak000007CjYgEAK",
+                            "cloneable": true,
+                            "code": "ATT_DT_CAP",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "10",
+                                    "label": "32 GB",
+                                    "name": "10",
+                                    "readonly": true,
+                                    "value": "32 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "20",
+                                    "label": "64 GB",
+                                    "name": "20",
+                                    "readonly": true,
+                                    "value": "64 GB"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "30",
+                                    "label": "128 GB",
+                                    "name": "30",
+                                    "readonly": true,
+                                    "value": "128 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kak000007CjYhEAK",
+                            "cloneable": true,
+                            "code": "ATT_RT_MOS",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Mobile OS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "10",
+                                    "label": "Android",
+                                    "name": "10",
+                                    "readonly": true,
+                                    "value": "Android"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "20",
+                                    "label": "iOS",
+                                    "name": "20",
+                                    "readonly": true,
+                                    "value": "iOS"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kak000007CjYjEAK",
+                            "cloneable": true,
+                            "code": "ATT_DT_SZ",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Size",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultValue": "5.7 x 2.7 x .30",
+                                    "disabled": true,
+                                    "readonly": true
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a0c1I000006e70zQAA",
+            "messages": [
+            ],
+            "name": "Phones",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2017-10-01",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2017-10-01T07:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "1cf2fe94-8daf-3cbd-770a-1018abb0babd",
+    "%vlocity_namespace%__GlobalKey__c": "3b67317a-d41f-f91d-e77e-6f5c279e0501",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "64313afb61a6afa3e75aab1ed6da93b9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/64313afb61a6afa3e75aab1ed6da93b9",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Handset",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Infiwave-Phone-8-PS_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Infiwave-Phone-8-PS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2017-10-01T07:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Introducing the Infiwave Phone 8. Discover a better way to capture, store, and see the world. Infiwave Phone 8 features a smart camera that takes beautiful photos in any light, a fast charging battery and the an Assistant built in.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Handset",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Infiwave Phone 8 PS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Infiwave-Phone-8-PS_PricebookEntries.json",
+    "ProductCode": "IW-PHONE08-01-PS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Infiwave Phone 8 PS",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "3b67317a-d41f-f91d-e77e-6f5c279e0501",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "3b67317a-d41f-f91d-e77e-6f5c279e0501",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/3b67317a-d41f-f91d-e77e-6f5c279e0501",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "IW-PHONE08-01-PS",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Generated796216630"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/3b67317a-d41f-f91d-e77e-6f5c279e0501"
+}

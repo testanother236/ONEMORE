@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"groups\": []}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "MultisiteApplyMemberValidationFlyout.json",
+    "%vlocity_namespace%__Description__c": "This Flyout shows the group validation status.",
+    "%vlocity_namespace%__GlobalKey__c": "MultisiteApplyMemberValidationFlyout/Vlocity/1/1634125016950",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"groups\":[]}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__multisiteFooter .slds-grid.slds-wrap{\\n    justify-content: flex-end;\\n}\\n.cpq__multisiteButton {\\n    display: inline-flex;\\n    width: auto;\\n}\\n.cpq__multisiteTableHeader {\\n    border-top: 1px solid #ccc;\\n    padding: 0.6rem 0;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "MultisiteApplyMemberValidationFlyout",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/MultisiteApplyMemberValidationFlyout"
+}

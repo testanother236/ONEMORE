@@ -1,0 +1,17 @@
+{
+    "%vlocity_namespace%__Creator__c": "CME TSO v240 Admin",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c6a453bc-d6c4-eaa6-41aa-a33d66192e01",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__IsDefault__c": true,
+    "%vlocity_namespace%__LastModifier__c": "CME TSO v240 Admin",
+    "%vlocity_namespace%__OriginalCreatedDate__c": "2022-10-26T17:39:27.000Z",
+    "%vlocity_namespace%__ProjectItem__c": "Default-Project-for-CME-TSO-v240-Admin_ProjectItems.json",
+    "%vlocity_namespace%__ProjectOwner__c": "CME TSO v240 Admin",
+    "%vlocity_namespace%__Status__c": "Draft",
+    "Name": "Default Project for CME TSO v240 Admin",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Project__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Project__c/c6a453bc-d6c4-eaa6-41aa-a33d66192e01"
+}

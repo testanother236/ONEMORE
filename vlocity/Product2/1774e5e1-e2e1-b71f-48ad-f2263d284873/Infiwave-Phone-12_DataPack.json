@@ -1,0 +1,485 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Infiwave-Phone-12_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_DT_BRD": "Infiwave",
+        "ATT_DT_CAP": "128 GB",
+        "ATT_DT_SZ": "5.78x2.82x0.3 inches",
+        "ATT_RT_CLR": null,
+        "ATT_RT_MOS": null,
+        "ATT_RT_PAY_TYPE": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "ACAT_Phones",
+                "Name": "Mobile Devices",
+                "displaySequence": 20,
+                "id": "a0J1I000000u9pxUAA",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0K1I000007Q215UAC",
+                            "cloneable": true,
+                            "code": "ATT_RT_PAY_TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Payment Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "68799995-f287-e291-5a67-9e9a981edb43",
+                                    "label": "Pay in Full",
+                                    "readonly": false,
+                                    "value": "Pay in Full"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "5a89e782-6f0b-2639-79c9-1f6dca091c88",
+                                    "label": "Pay Monthly",
+                                    "readonly": false,
+                                    "value": "Pay Monthly"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0K1I0000019ltLUAQ",
+                            "cloneable": true,
+                            "code": "ATT_DT_BRD",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Brand",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 5,
+                                    "id": "4b9a4681-859c-6f62-fc0d-23def6dfc5c6",
+                                    "label": "Infiwave",
+                                    "readonly": true,
+                                    "value": "Infiwave"
+                                },
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 10,
+                                    "id": "ac5b52df-143d-2038-6bdb-0eab8087ac37",
+                                    "label": "OLA",
+                                    "readonly": true,
+                                    "value": "OLA"
+                                },
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 20,
+                                    "id": "4a5e1aba-18a3-da49-c150-ca803b8e0556",
+                                    "label": "Celiqa",
+                                    "readonly": true,
+                                    "value": "Celiqa"
+                                },
+                                {
+                                    "disabled": true,
+                                    "displaySequence": 30,
+                                    "id": "3eb374af-293b-647f-3770-538711878820",
+                                    "label": "Meteor",
+                                    "readonly": true,
+                                    "value": "Meteor"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0K1I0000019lp3UAA",
+                            "cloneable": true,
+                            "code": "ATT_RT_CLR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "90cb9a36-b25e-c968-fbc2-a7d9e22ef4f5",
+                                    "label": "Black",
+                                    "readonly": false,
+                                    "value": "Black"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "ac1ae8fc-9723-e5ea-32d3-5f5f951fdc71",
+                                    "label": "Brown",
+                                    "readonly": false,
+                                    "value": "Brown"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "6caffad0-6f60-6f7f-631f-4a5a690837ec",
+                                    "label": "Blue",
+                                    "readonly": false,
+                                    "value": "Blue"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "2f4f0bdd-14bf-5de9-5bdf-d29d5ad9cb7f",
+                                    "label": "Purple",
+                                    "readonly": false,
+                                    "value": "Purple"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "c08e32ea-9c02-3cfd-f1df-9f7444833432",
+                                    "label": "Red",
+                                    "readonly": false,
+                                    "value": "Red"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "51aa9a4a-e907-c9e2-c951-8b3a5500440e",
+                                    "label": "Yellow",
+                                    "readonly": false,
+                                    "value": "Yellow"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "f619573b-8740-a23f-6044-10c54b5b5e1b",
+                                    "label": "Green",
+                                    "readonly": false,
+                                    "value": "Green"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0K1I0000019ltQUAQ",
+                            "cloneable": true,
+                            "code": "ATT_DT_CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "a55f4b57-b005-5722-edd4-0c2d7566ae71",
+                                    "label": "8 GB",
+                                    "readonly": false,
+                                    "value": "8 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "f61c684c-a5a9-6c83-b66e-8eaca639ac61",
+                                    "label": "16 GB",
+                                    "readonly": false,
+                                    "value": "16 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "602507a5-0765-50aa-9828-2a6ce3017595",
+                                    "label": "32 GB",
+                                    "readonly": false,
+                                    "value": "32 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "07217933-d29d-f0a4-a8c4-2451d209d788",
+                                    "label": "64 GB",
+                                    "readonly": false,
+                                    "value": "64 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 50,
+                                    "id": "ca8fdb13-62c8-118b-6f67-324d53ddb6be",
+                                    "label": "128 GB",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 60,
+                                    "id": "b30d3dcb-b8b9-db35-0548-72f4dcb54dfd",
+                                    "label": "256 GB",
+                                    "readonly": false,
+                                    "value": "256 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 70,
+                                    "id": "0d169e74-e260-a8d1-ce7e-6962719fdf7a",
+                                    "label": "512 GB",
+                                    "readonly": false,
+                                    "value": "512 GB"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 80,
+                                    "id": "266fd4b0-1ade-5c50-495a-075fec7d7e32",
+                                    "label": "1 TB",
+                                    "readonly": false,
+                                    "value": "1 TB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0K1I0000019ltVUAQ",
+                            "cloneable": true,
+                            "code": "ATT_RT_MOS",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Mobile OS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "46beacf1-47e4-5842-41ea-4cf14173e627",
+                                    "label": "OLAOS",
+                                    "readonly": false,
+                                    "value": "OLAOS"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "6f93b6d7-c602-42f9-fa85-89dca333c9bb",
+                                    "label": "CeliqaOS",
+                                    "readonly": false,
+                                    "value": "CeliqaOS"
+                                },
+                                {
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "4243cab6-f134-f2b7-2e19-5adbecabffe3",
+                                    "label": "InfiMobileOS",
+                                    "readonly": false,
+                                    "value": "InfiMobileOS"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0K1I0000019sOkUAI",
+                            "cloneable": true,
+                            "code": "ATT_DT_SZ",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "text",
+                            "isNotAssetizable": false,
+                            "isNotTranslatable": false,
+                            "label": "Size",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": "",
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2023-02-02",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2023-02-02T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "e8a83f61-3b9a-91e3-fabe-87c440b2c91f",
+    "%vlocity_namespace%__GlobalKey__c": "1774e5e1-e2e1-b71f-48ad-f2263d284873",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": true,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "Draft",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectFieldAttribute__c": "Infiwave-Phone-12_ObjectFieldAttributes.json",
+    "%vlocity_namespace%__ObjectTypeId__c": "",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Infiwave-Phone-12_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Infiwave-Phone-12_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "1937aae8-e335-8696-851f-901243cb7dd9",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/1937aae8-e335-8696-851f-901243cb7dd9",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductSpecName__c": "Infiwave Phone 12 PS",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2023-02-02T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "Simple",
+    "%vlocity_namespace%__SpecificationType__c": "Offer",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "The Infiwave Phone 12 has the most advanced triple-action camera system on the market and a max-resolution screen. It's a mega-fast 5G-ready super-phone.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Infiwave Phone 12",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Infiwave-Phone-12_PricebookEntries.json",
+    "ProductCode": "IW-PHONE12-01",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Infiwave Phone 12",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "1774e5e1-e2e1-b71f-48ad-f2263d284873",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "1774e5e1-e2e1-b71f-48ad-f2263d284873",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/1774e5e1-e2e1-b71f-48ad-f2263d284873",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "IW-PHONE12-01",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Generated-1996691901"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/1774e5e1-e2e1-b71f-48ad-f2263d284873"
+}

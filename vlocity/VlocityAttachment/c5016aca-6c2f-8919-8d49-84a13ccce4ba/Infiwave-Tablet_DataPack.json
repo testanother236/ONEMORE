@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "Infiwave Tablet image",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "c5016aca-6c2f-8919-8d49-84a13ccce4ba",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "4e68dd3a-b9b8-8d5c-67ce-4a50c2e6beca",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/4e68dd3a-b9b8-8d5c-67ce-4a50c2e6beca",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductGroupKey__c": "27c08e25-2078-d1cc-3ee3-67cb6f1689bd",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://www-stg.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/infiwave-tablet.png",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Infiwave Tablet",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/c5016aca-6c2f-8919-8d49-84a13ccce4ba"
+}
