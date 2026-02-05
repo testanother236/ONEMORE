@@ -1,0 +1,23 @@
+{
+    "ApiName": "RangeAttributePricingMatrix_V1",
+    "CalculationMatrix.Name": "RangeAttributePricingMatrix",
+    "CalculationMatrixId": {
+        "Name": "RangeAttributePricingMatrix",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "CalculationMatrix/RangeAttributePricingMatrix",
+        "VlocityRecordSObjectType": "CalculationMatrix"
+    },
+    "DecisionMatrixDefinitionVerId": "9QOak000003GZBNGA4",
+    "EndDateTime": "",
+    "GroupKeyValue": "",
+    "MatrixType": "Standard",
+    "Name": "RangeAttributePricingMatrix V1",
+    "Namespace": "",
+    "Rank": 1,
+    "StartDateTime": "2022-06-22T09:12:58.000Z",
+    "SubGroupKeyValue": "",
+    "VersionNumber": 1,
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrixVersion",
+    "VlocityRecordSourceKey": "CalculationMatrixVersion/1/CalculationMatrix/RangeAttributePricingMatrix"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__OrchestrationDependencyDefinition__c-en_US</fullName>
+    <validationRules>
+        <errorMessage><!-- Orchestration Item Definition and Dependency Item Definition cannot have same value. --></errorMessage>
+        <name>vlocity_cmt__CircularDependencyValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

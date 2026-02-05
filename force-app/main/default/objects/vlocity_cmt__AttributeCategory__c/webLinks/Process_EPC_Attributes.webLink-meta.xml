@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_EPC_Attributes</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Process EPC Attributes</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!requireScript(&quot;/soap/ajax/41.0/connection.js&quot;)} 
+{!requireScript(&quot;/soap/ajax/41.0/apex.js&quot;)} 
+
+{ 
+var retStr; 
+retStr = sforce.apex.execute(&quot;BatchAttribProcessor&quot;,&quot;RunProcess&quot;,{}); 
+alert(&quot;EPC product attributes are being processed. &quot; + retStr); 
+}</url>
+</WebLink>

@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "[\n{\"value\":\"value1\"}, {\"value\":\"value2\"},\n{\"value\":\"value1\"}, {\"value\":\"value2\"},\n{\"value\":\"value1\"}, {\"value\":\"value2\"}\n]",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqMultiSiteAppliedFiltersChild.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqMultiSiteAppliedFiltersChild/Vlocity/1/1632400504380",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "[{\"value\":\"value1\"},{\"value\":\"value2\"},{\"value\":\"value1\"},{\"value\":\"value2\"},{\"value\":\"value1\"},{\"value\":\"value2\"}]",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__multisite-applied-filters_value {\\n    font-size: 13px;\\n    width: auto;\\n}\\n\\n.cpq__multisite-applied-filters_remove {\\n    width: auto;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqMultiSiteAppliedFiltersChild",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqMultiSiteAppliedFiltersChild"
+}

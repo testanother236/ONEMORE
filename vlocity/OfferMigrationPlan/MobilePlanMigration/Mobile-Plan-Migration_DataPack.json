@@ -1,0 +1,15 @@
+{
+    "%vlocity_namespace%__AccountScope__c": "Same Account",
+    "%vlocity_namespace%__BusinessReason__c": "None",
+    "%vlocity_namespace%__Code__c": "MobilePlanMigration",
+    "%vlocity_namespace%__Description__c": "Switch your mobile plan",
+    "%vlocity_namespace%__EffectiveEndDate__c": "",
+    "%vlocity_namespace%__EffectiveStartDate__c": "2022-08-17T18:30:00.000Z",
+    "%vlocity_namespace%__MigrationMethod__c": "Any to Any Offers",
+    "%vlocity_namespace%__ProductFamily__c": "Mobile Plan",
+    "%vlocity_namespace%__isActive__c": true,
+    "Name": "Mobile Plan Migration",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OfferMigrationPlan__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OfferMigrationPlan__c/MobilePlanMigration"
+}

@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"name\":\"\",\"description\":\"\", \"select\":true, \"submitted\":false, \"add\":false, \"nameChanged\":false, \"descriptionChanged\":false}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqMultiSiteCreateGroup.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqMultiSiteCreateGroup/Vlocity/3/1635311185858",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "cpqCreateGroup/Vlocity/2/1631108994463",
+    "%vlocity_namespace%__SampleData__c": "{\"name\":\"\",\"description\":\"\",\"select\":true,\"submitted\":false,\"add\":false,\"nameChanged\":false,\"descriptionChanged\":false}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".buttons{\\n    margin-left: auto;\\n    width:fit-content;\\n}\\n.custom-btn{\\n    width:fit-content;\\n    width: -moz-fit-content; /* Support Mozilla Firefox Browser */\\n}\\n\\n.custom-btn .slds-button{\\n    border-radius: 0px;\\n    margin-right: 5px;\\n}\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqMultiSiteCreateGroup",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqMultiSiteCreateGroup"
+}

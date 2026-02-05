@@ -1,0 +1,31 @@
+{
+    "%vlocity_namespace%__Author__c": "Vlocity",
+    "%vlocity_namespace%__CardType__c": "flex",
+    "%vlocity_namespace%__Datasource__c": {
+        "contextVariables": [
+        ],
+        "orderBy": {
+            "isReverse": false,
+            "name": ""
+        },
+        "type": "Custom",
+        "value": {
+            "body": "{\"selectedGroupType\":\"\",\n\"groupMemberTypeList\":\"\"}",
+            "dsDelay": "",
+            "resultVar": ""
+        }
+    },
+    "%vlocity_namespace%__Definition__c": "cpqMultisiteGroupSelectorContainer.json",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "cpqMultisiteGroupSelectorContainer/Vlocity/1/1631775084784",
+    "%vlocity_namespace%__IsChildCard__c": true,
+    "%vlocity_namespace%__ParentID__c": "",
+    "%vlocity_namespace%__SampleData__c": "{\"selectedGroupType\":\"\",\"groupMemberTypeList\":\"\"}",
+    "%vlocity_namespace%__Styles__c": "{\"customStyles\":\".cpq__group-selector-container-text{\\n    font-size: 0.95rem;\\n}\\n\\n.cpq__multisite-group-selector-container{\\n    padding: 1rem 2rem;\\n    background: #F3F2F2;\\n    box-shadow: inset 0px -1px 0px #E7ECF3;\\n}\\n.cpq__multisite-group-name-container{\\n    width: 20rem;\\n}\\n.cpq__multisite-group-type-container{\\n    width: 10rem;\\n}\\n.cpq__group-selector-info-icon{\\n    height: 1.25rem;\\n    width:  1.25rem;\\n}\\n.cpq__multisite-group-type-header, .cpq__multisite-group-name-header{\\n    color: #444;\\n}\\n.cpq__multisite-group-name-dropdown{\\n    margin-top: -0.375rem;\\n}\\n\"}",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__Version__c": 1,
+    "Name": "cpqMultisiteGroupSelectorContainer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityCard__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityCard__c/cpqMultisiteGroupSelectorContainer"
+}
