@@ -1,10 +1,12 @@
 
+/**
+ * Test class for validating the behavior of the Account trigger that sets the Description field.
+ */
 @isTest
 private class QD_AccountTriggerTest {
 
     /**
-     * Test method to verify the trigger sets the Description field correctly 
-     * for a single Account record on insert.
+     * Test method to verify the trigger sets the Description field correctly for a single Account record on insert.
      * This is the primary positive test case.
      */
     @isTest
