@@ -1,5 +1,5 @@
 @isTest
-private class QD_HighCoverage_Test {
+private class QD_HighCoverageTest{
 
     @isTest
     static void testDoubleIt_PositiveNumber() {
