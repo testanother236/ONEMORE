@@ -3,7 +3,6 @@
     <applyLoginPageTypeToEmbeddedLogin>false</applyLoginPageTypeToEmbeddedLogin>
     <blockEmbeddedLoginUnknownURLRedirect>false</blockEmbeddedLoginUnknownURLRedirect>
     <enableCspContactVisibilityPref>false</enableCspContactVisibilityPref>
-    <enableEnablePRM>false</enableEnablePRM>
     <enableExternalAccHierPref>false</enableExternalAccHierPref>
     <enableGuestPermDisOptOutCruc>false</enableGuestPermDisOptOutCruc>
     <enableGuestRecordReassignOrgPref xsi:nil="true"></enableGuestRecordReassignOrgPref>

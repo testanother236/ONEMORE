@@ -3,12 +3,8 @@
     <fullName>AllIncidentsDefault</fullName>
     <columns>Name</columns>
     <columns>Subject</columns>
-    <columns>ReportedBy</columns>
-    <columns>Priority</columns>
+    <columns>Description</columns>
     <columns>Status</columns>
-    <columns>AssignedUser</columns>
-    <columns>Category</columns>
-    <columns>SubCategory</columns>
     <filterScope>Everything</filterScope>
     <label>All Incidents (Default)</label>
 </ListView>

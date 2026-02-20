@@ -2,6 +2,8 @@
 <DevHubSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableDevOpsCenter>false</enableDevOpsCenter>
     <enableDevOpsCenterGA>false</enableDevOpsCenterGA>
-    <enableScratchOrgManagementPref>false</enableScratchOrgManagementPref>
+    <enablePackaging2>true</enablePackaging2>
+    <enableScratchOrgManagementPref>true</enableScratchOrgManagementPref>
+    <enableScratchOrgSnapshotPref>false</enableScratchOrgSnapshotPref>
     <enableShapeExportPref>false</enableShapeExportPref>
 </DevHubSettings>
