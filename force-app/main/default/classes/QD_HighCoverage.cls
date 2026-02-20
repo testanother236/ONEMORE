@@ -3,4 +3,3 @@ public with sharing class QD_HighCoverage {
         return x * 2;
     }
 }
-//test

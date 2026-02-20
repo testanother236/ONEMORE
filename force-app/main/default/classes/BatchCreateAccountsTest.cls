@@ -47,7 +47,6 @@ private class BatchCreateAccountsTest {
     @isTest
     static void testBatchExecutionWithDifferentBatchSize() {
         // Testing the batch execution with an altered batch size if needed
-        // This test ensures that the batch can handle varying sizes, though the batch size is fixed in this class.
         
         // Start the test context
         Test.startTest();
@@ -61,7 +60,7 @@ private class BatchCreateAccountsTest {
         
         // Verify that accounts were created
         Integer accountCount = [SELECT COUNT() FROM Account];
-        System.assertEquals(1000, accountCount, 'Expected 1000 accounts to be created, regardless of batch size.');
+        System.assertEquals(1000, accountCount, 'Expected 1000 aaaaccounts to be created.');
     }
 
     @isTest
