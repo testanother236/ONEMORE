@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <description>EmailAlertOnBuild</description>
+        <fullName>Flosum__EmailAlertOnBuild</fullName>
+        <protected>false</protected>
+        <recipients>
+            <recipient>chatty.00dhn0000018pnlmaq.wdma8onx0lvz@chatter.salesforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>flosum.trailforce.testing.zrw1udtf2ean.g83nbxqkkxus@flosumtesting.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ravi.saini.managed@flosumtesting.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Flosum__Flosum/Flosum__BuildTemplate</template>
+    </alerts>
+    <rules>
+        <actions>
+            <name>Flosum__EmailAlertOnBuild</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Flosum__Build__c.Flosum__Status__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </criteriaItems>
+        <fullName>Flosum__OnBuildComplete</fullName>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__User__c</field>
+    </columns>
+    <columns>
+        <field>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__Branch__c</field>
+    </columns>
+    <columns>
+        <field>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Name</field>
+    </columns>
+    <columns>
+        <field>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__Reviewer__c</field>
+    </columns>
+    <columns>
+        <field>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__Status__c</field>
+    </columns>
+    <columns>
+        <field>Flosum__Pull_Request__c$Flosum__Approval_Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Van Test</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Flosum__Pull_Request__c.Flosum__Pull_Request_Reviewers__r$Flosum__Approval_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>pending</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Approve Or Reject Data</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Flosum__PullReqToPullReqReviewer__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Flosum__Pull_Request__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
