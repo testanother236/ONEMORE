@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flosum__Process_Approval__c-en_US</fullName>
+    <validationRules>
+        <errorMessage><!-- Peace do --></errorMessage>
+        <name>branch_to_repo</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your bunny wrote --></errorMessage>
+        <name>merge_branch</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Chop is dish --></errorMessage>
+        <name>snap_to_repo</name>
+    </validationRules>
+</CustomObjectTranslation>

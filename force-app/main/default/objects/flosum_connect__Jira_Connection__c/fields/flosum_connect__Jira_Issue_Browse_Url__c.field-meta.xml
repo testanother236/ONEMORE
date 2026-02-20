@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>flosum_connect__Jira_Issue_Browse_Url__c</fullName>
+    <deprecated>false</deprecated>
+    <description>PERHAPS NEED TO BE DEPRECATED
+Jira Issue Browse Url (copied from Jira_Admin_Settings__c.JiraIssueBrowseUrl__c)</description>
+    <externalId>false</externalId>
+    <label>Jira Issue Browse Url</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

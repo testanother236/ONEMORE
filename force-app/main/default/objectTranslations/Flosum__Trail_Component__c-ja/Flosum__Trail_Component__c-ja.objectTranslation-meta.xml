@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flosum__Trail_Component__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Trail Component JP --></value>
+    </caseValues>
+    <layouts>
+        <layout>Trail Component Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Trail Component Name --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Retrieve_Changes --></label>
+        <name>Flosum__Retrieve_Changes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Schedule_Audit --></label>
+        <name>Flosum__Schedule_Audit</name>
+    </webLinks>
+</CustomObjectTranslation>
