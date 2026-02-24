@@ -26,7 +26,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Email</field>
+                <field>Email__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
