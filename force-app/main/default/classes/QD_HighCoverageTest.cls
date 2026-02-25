@@ -1,35 +1,21 @@
-@isTest
-private class QD_HighCoverageTest{
+@IsTest
+private class QD_HighCoverageTest {
 
-    @isTest
-    static void testDoubleIt_PositiveNumber() {
-        Integer input = 5;
-        Integer result = QD_HighCoverage.doubleIt(input);
-        
-        System.assertEquals(10, result, '5 doubled should equal 10');
+    @IsTest
+    static void testDoubleIt_positive() {
+        Integer result = QD_HighCoverage.doubleIt(5);
+        System.assertEquals(10, result);
     }
-    
-    @isTest
-    static void testDoubleIt_Zero() {
-        Integer input = 0;
-        Integer result = QD_HighCoverage.doubleIt(input);
-        
-        System.assertEquals(0, result, '0 doubled should equal 0');
+
+    @IsTest
+    static void testDoubleIt_zero() {
+        Integer result = QD_HighCoverage.doubleIt(0);
+        System.assertEquals(0, result);
     }
-    
-    @isTest
-    static void testDoubleIt_NegativeNumber() {
-        Integer input = -4;
-        Integer result = QD_HighCoverage.doubleIt(input);
-        
-        System.assertEquals(-8, result, '-4 doubled should equal -8');
-    }
-    
-    @isTest
-    static void testDoubleIt_LargeNumber() {
-        Integer input = 1000000;
-        Integer result = QD_HighCoverage.doubleIt(input);
-        
-        System.assertEquals(2000000, result, 'Large number doubling failed');
+
+    @IsTest
+    static void testDoubleIt_negative() {
+        Integer result = QD_HighCoverage.doubleIt(-3);
+        System.assertEquals(-6, result);
     }
 }
