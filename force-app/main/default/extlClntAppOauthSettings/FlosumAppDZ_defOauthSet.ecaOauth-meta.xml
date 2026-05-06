@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Web, Full, Chatter, CustomApplications, RefreshToken, OpenID, CustomPermissions, Wave</commaSeparatedOauthScopes>
+    <externalClientApplication>FlosumAppDZ</externalClientApplication>
+    <isFirstPartyAppEnabled>false</isFirstPartyAppEnabled>
+    <label>FlosumAppDZ_defOauthSet</label>
+    <oauthLink>00DD6000000VVzP:888D6000000wr1L</oauthLink>
+</ExtlClntAppOauthSettings>
