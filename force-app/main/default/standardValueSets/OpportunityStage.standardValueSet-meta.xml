@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Prospecting</fullName>
+        <label>Prospecting</label>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Qualification</fullName>
+        <label>Qualification</label>
+        <probability>10</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Needs Analysis</fullName>
+        <label>Needs Analysis</label>
+        <probability>20</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Value Proposition</fullName>
+        <label>Value Proposition</label>
+        <probability>50</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Id. Decision Makers</fullName>
+        <label>Id. Decision Makers</label>
+        <probability>60</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Perception Analysis</fullName>
+        <label>Perception Analysis</label>
+        <probability>70</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Proposal/Price Quote</fullName>
+        <label>Proposal/Price Quote</label>
+        <probability>75</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <forecastCategory>Pipeline</forecastCategory>
+        <fullName>Negotiation/Review</fullName>
+        <label>Negotiation/Review</label>
+        <probability>90</probability>
+        <won>false</won>
+    </standardValue>
+    <standardValue>
+        <closed>true</closed>
+        <default>false</default>
+        <forecastCategory>Closed</forecastCategory>
+        <fullName>Closed Won</fullName>
+        <label>Closed Won</label>
+        <probability>100</probability>
+        <won>true</won>
+    </standardValue>
+    <standardValue>
+        <closed>true</closed>
+        <default>false</default>
+        <forecastCategory>Omitted</forecastCategory>
+        <fullName>Closed Lost</fullName>
+        <label>Closed Lost</label>
+        <probability>0</probability>
+        <won>false</won>
+    </standardValue>
+</StandardValueSet>
