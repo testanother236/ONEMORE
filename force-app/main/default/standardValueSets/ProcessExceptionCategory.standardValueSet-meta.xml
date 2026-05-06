@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>true</default>
+        <fullName>Order Activation</fullName>
+        <label>Order Activation</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Order Approval</fullName>
+        <label>Order Approval</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Fulfillment</fullName>
+        <label>Fulfillment</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Payment</fullName>
+        <label>Payment</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Invoicing</fullName>
+        <label>Invoicing</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Place Order</fullName>
+        <label>Place Order</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Order To Asset</fullName>
+        <label>Order To Asset</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Order Item Summary To Asset</fullName>
+        <label>Order Item Summary To Asset</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Order To Billing Schedule</fullName>
+        <label>Order To Billing Schedule</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Catalog Syndication</fullName>
+        <label>Catalog Syndication</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Subscription Payment</fullName>
+        <label>Subscription Payment</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Cancel</fullName>
+        <label>Cancel</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Payment Credit</fullName>
+        <label>Payment Credit</label>
+    </standardValue>
+</StandardValueSet>

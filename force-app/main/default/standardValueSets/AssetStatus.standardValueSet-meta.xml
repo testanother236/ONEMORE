@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Shipped</fullName>
+        <label>Shipped</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Installed</fullName>
+        <label>Installed</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Registered</fullName>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Obsolete</fullName>
+        <label>Obsolete</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Purchased</fullName>
+        <label>Purchased</label>
+    </standardValue>
+</StandardValueSet>

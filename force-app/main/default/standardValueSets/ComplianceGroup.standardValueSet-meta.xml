@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>PII</fullName>
+        <label>PII</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>HIPAA</fullName>
+        <label>HIPAA</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>GDPR</fullName>
+        <label>GDPR</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>PCI</fullName>
+        <label>PCI</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>COPPA</fullName>
+        <label>COPPA</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>CCPA</fullName>
+        <label>CCPA</label>
+    </standardValue>
+</StandardValueSet>

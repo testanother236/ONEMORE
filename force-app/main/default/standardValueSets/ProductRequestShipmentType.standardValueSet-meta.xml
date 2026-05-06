@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>true</default>
+        <fullName>Rush</fullName>
+        <label>Rush</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Overnight</fullName>
+        <label>Overnight</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Next Business Day</fullName>
+        <label>Next Business Day</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Pick Up</fullName>
+        <label>Pick Up</label>
+    </standardValue>
+</StandardValueSet>

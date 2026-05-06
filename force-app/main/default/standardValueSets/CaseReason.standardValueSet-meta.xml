@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Installation</fullName>
+        <label>Installation</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Equipment Complexity</fullName>
+        <label>Equipment Complexity</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Performance</fullName>
+        <label>Performance</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Breakdown</fullName>
+        <label>Breakdown</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Equipment Design</fullName>
+        <label>Equipment Design</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Feedback</fullName>
+        <label>Feedback</label>
+    </standardValue>
+    <standardValue>
+        <cssExposed>false</cssExposed>
+        <default>false</default>
+        <fullName>Other</fullName>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

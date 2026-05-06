@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Visa</fullName>
+        <label>Visa</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Master Card</fullName>
+        <label>Master Card</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>American Express</fullName>
+        <label>American Express</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Diners Club</fullName>
+        <label>Diners Club</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>JCB</fullName>
+        <label>JCB</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Maestro</fullName>
+        <label>Maestro</label>
+    </standardValue>
+</StandardValueSet>

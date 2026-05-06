@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>13 or Older</fullName>
+        <label>13 or Older</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>16 or Older</fullName>
+        <label>16 or Older</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Self</fullName>
+        <label>Self</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Representative</fullName>
+        <label>Representative</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Contact Center Agent</fullName>
+        <label>Contact Center Agent</label>
+    </standardValue>
+</StandardValueSet>

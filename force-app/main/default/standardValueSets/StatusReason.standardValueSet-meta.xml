@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Online</fullName>
+        <label>Online</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Paused</fullName>
+        <label>Paused</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Standby</fullName>
+        <label>Standby</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Offline</fullName>
+        <label>Offline</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Not Ready</fullName>
+        <label>Not Ready</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Off</fullName>
+        <label>Off</label>
+    </standardValue>
+</StandardValueSet>

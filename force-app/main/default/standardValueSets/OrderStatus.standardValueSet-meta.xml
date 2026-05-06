@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>OrderStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Draft</fullName>
+        <groupingString>Draft</groupingString>
+        <label>Draft</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Activated</fullName>
+        <groupingString>Activated</groupingString>
+        <label>Activated</label>
+    </standardValue>
+</StandardValueSet>

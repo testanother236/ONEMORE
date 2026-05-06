@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Medical Prescriptions and Expenses</fullName>
+        <label>Medical Prescriptions and Expenses</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Health and Hospitalization Insurance Premiums</fullName>
+        <label>Health and Hospitalization Insurance Premiums</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Child Care</fullName>
+        <label>Child Care</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Spousal Support</fullName>
+        <label>Spousal Support</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Child Support</fullName>
+        <label>Child Support</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Garnishments</fullName>
+        <label>Garnishments</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Representative Payee</fullName>
+        <label>Representative Payee</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Reimbursement</fullName>
+        <label>Reimbursement</label>
+    </standardValue>
+</StandardValueSet>

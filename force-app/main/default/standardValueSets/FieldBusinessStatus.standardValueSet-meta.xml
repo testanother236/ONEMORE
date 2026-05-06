@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>FieldBusinessStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Active</fullName>
+        <groupingString>Active</groupingString>
+        <label>Active</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>DeprecateCandidate</fullName>
+        <groupingString>DeprecateCandidate</groupingString>
+        <label>DeprecateCandidate</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Hidden</fullName>
+        <groupingString>Hidden</groupingString>
+        <label>Hidden</label>
+    </standardValue>
+</StandardValueSet>

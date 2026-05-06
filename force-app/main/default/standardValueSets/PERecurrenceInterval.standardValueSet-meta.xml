@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>One Time</fullName>
+        <label>One Time</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Weekly</fullName>
+        <label>Weekly</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Bi-Weekly</fullName>
+        <label>Bi-Weekly</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Monthly</fullName>
+        <label>Monthly</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Yearly</fullName>
+        <label>Yearly</label>
+    </standardValue>
+</StandardValueSet>

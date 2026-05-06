@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <fullName>Salon_Establishment_License</fullName>
+    <label>Salon Establishment License</label>
+    <picklistValues>
+        <picklist>ApplicationCategory</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Basic</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Special</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ApplicationType</picklist>
+        <values>
+            <default>false</default>
+            <fullName>New</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Renewal</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category</picklist>
+        <values>
+            <default>false</default>
+            <fullName>License</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Permit</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Application Accepted</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Approved</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Approved with Conditions</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Canceled</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Review</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Inspection Phase</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Submitted</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

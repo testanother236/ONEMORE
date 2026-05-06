@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>Submitted</fullName>
+        <label>Submitted</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Application Accepted</fullName>
+        <label>Application Accepted</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>In Review</fullName>
+        <label>In Review</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Inspection Phase</fullName>
+        <label>Inspection Phase</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Approved</fullName>
+        <label>Approved</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Approved with Conditions</fullName>
+        <label>Approved with Conditions</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Canceled</fullName>
+        <label>Canceled</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Returned</fullName>
+        <label>Returned</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Application Rejected</fullName>
+        <label>Application Rejected</label>
+    </standardValue>
+</StandardValueSet>

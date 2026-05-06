@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>ContractStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <default>false</default>
+        <fullName>In Approval Process</fullName>
+        <groupingString>InApproval</groupingString>
+        <label>In Approval Process</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Activated</fullName>
+        <groupingString>Activated</groupingString>
+        <label>Activated</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Draft</fullName>
+        <groupingString>Draft</groupingString>
+        <label>Draft</label>
+    </standardValue>
+</StandardValueSet>
