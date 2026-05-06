@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>pamitrovel@gmail.com</contactEmail>
+    <label>Test JWT</label>
+    <oauthConfig>
+        <callbackUrl>https://successcraft-dd-dev-ed.develop.lightning.force.com/</callbackUrl>
+        <certificate>MIIEYTCCA0mgAwIBAgIOAZpTqDLEAAAAAHMc8OMwDQYJKoZIhvcNAQELBQAweTERMA8GA1UEAwwISldUQ2VydDIxGDAWBgNVBAsMDzAwREhuMDAwMDAxOHBuTDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjUxMTA1MTA1NTIzWhcNMjYxMTA1MDAwMDAwWjB5MREwDwYDVQQDDAhKV1RDZXJ0MjEYMBYGA1UECwwPMDBESG4wMDAwMDE4cG5MMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALLpk1U9z/w1H9sqvkm0rPe2tQnEJ1HU9IGSecvukP/QsNLPoPTIdXr3VYE8+addlCXrCSF4qU2/GVZP0oCJuBbI609E7bvQGPTUkmiRH4p3vhR8+5kwCiuYe+W+bxGDwb+boXJTJADVsLCLtXvYez783iiSSM01ZOMmopcFsH1z2vzURSqzfEc8koxl79b/kYFbOVQDezyhtdWUECkaRoXWMcuW/fmlyGl04eThX0rakxROIb/aHcrgy88MPa2OlZcQxKyEIyTXqUeb11TYi0CeaoQPoKDzohg6SG1o3Yom25u/AbGFoNAoDr40ADYQX/nUMhAsTuN6akUMUgbzIk0CAwEAAaOB5jCB4zAdBgNVHQ4EFgQUwQ7fQK1bXiwhD/NSw7MhhDd0dQowDwYDVR0TAQH/BAUwAwEB/zCBsAYDVR0jBIGoMIGlgBTBDt9ArVteLCEP81LDsyGEN3R1CqF9pHsweTERMA8GA1UEAwwISldUQ2VydDIxGDAWBgNVBAsMDzAwREhuMDAwMDAxOHBuTDEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGaU6gyxAAAAABzHPDjMA0GCSqGSIb3DQEBCwUAA4IBAQAGqOVpr92ffaX0yZWbM28DcNUpCzXRUNV5XjXasVY5yJqH9m/8wL0VO59t4/2FVZjDcV0X7TJhhXXQlkXBLy3BfC2mT7Fz01JcnMLjwEV15M1e9irC303rUhI3igc1Sni5wluAvILzhlgFJZiepMok5nUTI2DnJjnt6O2L/Ar4/cMP+czjeN1d2S2n7DPjJqygT238TD5IG83isaFy1OAwHDbWh5g9TsuwMh6AO19OZIJjnHNL7JhVr6Fuf1+anGVx/MSTs5P2SnQL42WXFQttnqQGFLQErg5vWEBy9LYyRjtlT4bBzHggvfX3azer5EhKDbYtlv0P1ywFNa/COVGi</certificate>
+        <consumerKey>3MVG9pRzvMkjMb6kNgpzoRwdC0vkKPvsQHzgL7iK6sJQxsctCg02ZvVacVo4PCPlNr_2moJuk0UcWgSMpA7TL</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>true</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+        <scopes>Pardot</scopes>
+        <scopes>Lightning</scopes>
+        <scopes>Content</scopes>
+        <scopes>CDPIngest</scopes>
+        <scopes>CDPProfile</scopes>
+        <scopes>CDPQuery</scopes>
+        <scopes>Chatbot</scopes>
+        <scopes>CDPSegment</scopes>
+        <scopes>CDPIdentityResolution</scopes>
+        <scopes>CDPCalculatedInsight</scopes>
+        <scopes>ForgotPassword</scopes>
+        <scopes>UserRegistration</scopes>
+        <scopes>SFAP</scopes>
+        <scopes>Interaction</scopes>
+        <scopes>CDP</scopes>
+        <scopes>EinsteinGPT</scopes>
+        <scopes>PwdlessLogin</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>Bi &amp; ba + Bo *ba _  Ameba - Bo /ber</profileName>
+</ConnectedApp>
