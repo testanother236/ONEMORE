@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <fullName>On Hold</fullName>
+        <label>On Hold</label>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>false</default>
+        <fullName>Escalated</fullName>
+        <label>Escalated</label>
+    </standardValue>
+    <standardValue>
+        <closed>true</closed>
+        <default>false</default>
+        <fullName>Closed</fullName>
+        <label>Closed</label>
+    </standardValue>
+    <standardValue>
+        <closed>false</closed>
+        <default>true</default>
+        <fullName>New</fullName>
+        <label>New</label>
+    </standardValue>
+</StandardValueSet>
