@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"></SharingRules>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>startsWith</operation>
+            <value>005</value>
+        </criteriaItems>
+        <fullName>Service_Appointment_Sharing_Rule_Pro_Guest_User</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Service Appointment Sharing Rule-Pro Guest User</label>
+        <sharedTo>
+            <guestUser>OldProf3</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>startsWith</operation>
+            <value>005</value>
+        </criteriaItems>
+        <fullName>Share_SA_with_Prof_Guest</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Share SA with Prof Guest</label>
+        <sharedTo>
+            <guestUser>SDO_Professional</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+</SharingRules>

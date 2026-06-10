@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Street_Address_Not_Valid</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Street Address Not Valid</shortDescription>
+    <value>Street address is not valid</value>
+</CustomLabel>

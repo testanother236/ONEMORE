@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>WorkOrderKnowledge_BadInput</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>WorkOrderKnowledge_BadInput</shortDescription>
+    <value>Your entry must be at least 3 characters</value>
+</CustomLabel>

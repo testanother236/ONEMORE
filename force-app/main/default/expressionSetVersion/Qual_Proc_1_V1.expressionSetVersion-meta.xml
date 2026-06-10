@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExpressionSetDefinitionVersion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <expressionSetDefinition>Qual_Proc_1</expressionSetDefinition>
+    <interfaceSourceType>QualificationProcedure</interfaceSourceType>
+    <label>Qual Proc 1 V1</label>
+    <processType>DefaultPricing</processType>
+    <shouldShowExplExternally>false</shouldShowExplExternally>
+    <startDate>2025-10-22T15:17:18.000Z</startDate>
+    <status>Draft</status>
+    <versionNumber>1</versionNumber>
+</ExpressionSetDefinitionVersion>

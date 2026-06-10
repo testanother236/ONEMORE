@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"></SharingRules>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>EstimatedDuration</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <fullName>Share_Guest_WT</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Share Guest WT</label>
+        <sharedTo>
+            <guestUser>OldProf3</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>EstimatedDuration</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <fullName>Share_WT_with_Prof_Guest</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Share WT with Prof Guest</label>
+        <sharedTo>
+            <guestUser>SDO_Professional</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+</SharingRules>

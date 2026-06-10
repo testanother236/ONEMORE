@@ -131,7 +131,9 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>Promotion</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MarketSegment</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Promotion</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MarketSegment</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Ship_To_Section_Header</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Ship To Section Header</shortDescription>
+    <value>Ship To</value>
+</CustomLabel>

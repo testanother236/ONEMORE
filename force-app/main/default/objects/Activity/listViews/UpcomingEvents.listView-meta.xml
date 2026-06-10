@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UpcomingEvents</fullName>
     <filterScope>Mine</filterScope>
     <filters>
         <field>ACTIVITY.TASK</field>
@@ -11,6 +12,5 @@
         <operation>greaterThan</operation>
         <value>YESTERDAY</value>
     </filters>
-    <fullName>UpcomingEvents</fullName>
     <label>Upcoming Events</label>
 </ListView>

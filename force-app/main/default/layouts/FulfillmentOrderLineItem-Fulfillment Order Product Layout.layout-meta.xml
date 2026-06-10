@@ -12,6 +12,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
+                <field>Type</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
                 <field>Quantity</field>
             </layoutItems>
             <layoutItems>
@@ -20,6 +24,14 @@
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>OrderItemSummaryId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>TypeCode</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>OriginalQuantity</field>

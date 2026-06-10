@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_SCOM_OOA_Commerce_User_Requests__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Commerce User Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Commerce User Requests</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>SDO_Commerce_DFP_Current</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>DFP Current</shortDescription>
+    <value>Current</value>
+</CustomLabel>

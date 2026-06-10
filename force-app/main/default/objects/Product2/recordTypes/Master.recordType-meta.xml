@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>Master</fullName>
+    <label>Master</label>
+    <picklistValues>
+        <picklist>Approvals__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>ETL</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>No</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>UL</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attribute_1__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Conference Room-in-a-Box</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Projectors</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attribute_2__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Desktop Audio</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Headphones</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attribute_3__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Home Theatre</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Multi-Room Audio</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Speakers</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attribute_4__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Black</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Gray</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Silver</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>White</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Attribute_5__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Installation Services</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Protection Plans</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Tech Support</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Badge1_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Free Shipping Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Generic Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Price Discount Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Product Quantity Badge</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Badge2_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Free Shipping Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Generic Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Price Discount Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Product Quantity Badge</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Segment__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Enterprise</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Middle Market</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>SMB</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Batteries</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Battery Tools</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Kits</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Product</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Service</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Software Licenses</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Solar Panels</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Turbines</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GFCI_Safety_Circuit__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>No</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Yes</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Guided_Selling__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Batteries</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Battery Tools</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Kits</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Services</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Software Licenses</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Turbines</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Power_Source__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Electric</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Solar</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Water</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Wind</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Catalog__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Basic</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Premium</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Each</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SDO_B2B_Status__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Approved</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Review</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Published to Website</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SDO_SCOM_Brand__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Cirrus</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>LuminaSol</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>PhotonPower</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>SolarWave</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>StarVolt</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>SunFusion</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>SunSavvy</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sdo_Scom_Badge1_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Free Shipping Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Generic Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Price Discount Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Product Quantity Badge</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sdo_Scom_Badge2_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Free Shipping Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Generic Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Price Discount Badge</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Product Quantity Badge</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Warranty__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>1 Year</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>2 Years</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>3 Years</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>4 Years</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>5 Years</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Not Available</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

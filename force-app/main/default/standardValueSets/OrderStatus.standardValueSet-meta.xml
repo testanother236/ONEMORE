@@ -9,6 +9,18 @@
         <groupingString>Draft</groupingString>
     </standardValue>
     <standardValue>
+        <fullName>Shipped</fullName>
+        <default>false</default>
+        <label>Shipped</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivered</fullName>
+        <default>false</default>
+        <label>Delivered</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
         <fullName>Activated</fullName>
         <default>false</default>
         <label>Activated</label>

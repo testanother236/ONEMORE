@@ -2,18 +2,13 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Email</fullName>
+        <fullName>Case</fullName>
         <default>false</default>
-        <label>Email</label>
+        <label>Case</label>
     </standardValue>
     <standardValue>
-        <fullName>Chat</fullName>
+        <fullName>Monitoring System</fullName>
         <default>false</default>
-        <label>Chat</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Voice</fullName>
-        <default>false</default>
-        <label>Voice</label>
+        <label>Monitoring System</label>
     </standardValue>
 </StandardValueSet>

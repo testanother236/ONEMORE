@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dataplier__Data_Set__c-en_US</fullName>
+    <layouts>
+        <layout>Data Set Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- for test --></description>
+        <label><!-- DataSet --></label>
+        <name>Dataplier__DataSet</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Count_Records --></label>
+        <name>Dataplier__Count_Records</name>
+    </webLinks>
+</CustomObjectTranslation>

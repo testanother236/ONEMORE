@@ -1,0 +1,20 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Quote List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "text" : "Mi cuenta"
+        },
+        "id" : "86e3b2e4-183b-4d2a-86de-2515bcc4c3e0"
+      }, {
+        "attributes" : {
+          "text" : "Mis presupuestos"
+        },
+        "id" : "c5da4198-3950-4b51-8e22-3e42d45cf115"
+      } ]
+    }
+  },
+  "urlName" : "quote-list"
+}

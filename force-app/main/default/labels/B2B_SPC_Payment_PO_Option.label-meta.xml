@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Payment_PO_Option</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Payment PO Option</shortDescription>
+    <value>Purchase Order</value>
+</CustomLabel>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <description>Send Email Notification of Failed Mobile Send</description>
+        <fullName>et4ae5__MobileSendFailed</fullName>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>et4ae5__ExactTarget/et4ae5__ETMobileSendDone</template>
+    </alerts>
+    <alerts>
+        <description>Send Email Notification of Completed Mobile Send</description>
+        <fullName>et4ae5__MobileSendStatus</fullName>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>et4ae5__ExactTarget/et4ae5__ETMobileSendDone</template>
+    </alerts>
+    <fieldUpdates>
+        <field>et4ae5__TriggerDelayedSend__c</field>
+        <fullName>et4ae5__DelayedMobileSend</fullName>
+        <literalValue>1</literalValue>
+        <name>DelayedMobileSend</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__Messages__c</field>
+        <formula>$Label.et4ae5__errorNoRes</formula>
+        <fullName>et4ae5__FailBackupSMSWorkflowM</fullName>
+        <name>FailBackupSMSWorkflowM</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>true</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__SendStatus__c</field>
+        <fullName>et4ae5__FailBackupSmsWorkflow</fullName>
+        <literalValue>Failed</literalValue>
+        <name>FailBackupSmsWorkflow</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>true</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__Status_Date_Time__c</field>
+        <formula>now()</formula>
+        <fullName>et4ae5__MobileSendStatusDateTime</fullName>
+        <name>MobileSendStatusDateTime</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__BackupWorkflow__c</field>
+        <formula>IF(
+et4ae5__HasEnteredRetry__c ,
+IF(
+OR(ISBLANK(et4ae5__Scheduled_Date_Time__c),et4ae5__Scheduled_Date_Time__c &lt; now()),
+now()+(1/48),
+et4ae5__Scheduled_Date_Time__c+(1/48)
+),
+IF(
+OR(ISBLANK(et4ae5__Scheduled_Date_Time__c),et4ae5__Scheduled_Date_Time__c &lt; now()),
+now()+(1/288),
+et4ae5__Scheduled_Date_Time__c+(1/288)
+))</formula>
+        <fullName>et4ae5__PopulateBackupSmsWorkflow</fullName>
+        <name>PopulateBackupSmsWorkflow</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__ConversationId__c</field>
+        <formula>$Organization.Id+Id</formula>
+        <fullName>et4ae5__SetMobileConversationId</fullName>
+        <name>SetMobileConversationId</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <field>et4ae5__BackupWorkflow__c</field>
+        <fullName>et4ae5__UnpopulateBackupSmsWorkflow</fullName>
+        <name>UnpopulateBackupSmsWorkflow</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__FailBackupSmsWorkflow</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__MobileSendComplete</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__MobileSendFailed</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__MobileSendStatusDateTime</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__PopulateBackupSmsWorkflow</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <active>true</active>
+        <description>This workflow rule is now deprecated. Please deactivate this workflow rule.</description>
+        <formula>ISBLANK(&apos;DEPRECATED&apos;)</formula>
+        <fullName>et4ae5__SetMobileConversationId</fullName>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

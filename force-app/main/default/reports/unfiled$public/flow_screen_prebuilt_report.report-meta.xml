@@ -11,7 +11,7 @@
         <chartType>HorizontalBarStacked</chartType>
         <enableHoverLabels>false</enableHoverLabels>
         <expandOthers>true</expandOthers>
-        <groupingColumn>FlowInterviewLog$FlowDeveloperName</groupingColumn>
+        <groupingColumn>FlowInterviewLog$FlowLabel</groupingColumn>
         <legendPosition>Right</legendPosition>
         <location>CHART_BOTTOM</location>
         <secondaryGroupingColumn>FlowInterviewLog$InterviewStatus</secondaryGroupingColumn>
@@ -30,7 +30,7 @@
         <field>FlowInterviewLog.FlowInterviewLogs$LogEntryType</field>
     </columns>
     <columns>
-        <field>FlowInterviewLog.FlowInterviewLogs$ElementApiName</field>
+        <field>FlowInterviewLog.FlowInterviewLogs$ElementLabel</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
@@ -43,11 +43,12 @@
     <columns>
         <field>FlowInterviewLog$CreatedBy</field>
     </columns>
+    <currency>USD</currency>
     <description>Which flows run, what’s the status of each interview, and how long do users take to complete the screens?</description>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>FlowInterviewLog$FlowDeveloperName</field>
+        <field>FlowInterviewLog$FlowLabel</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <groupingsDown>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClosingThisMonth</fullName>
     <filterScope>Everything</filterScope>
     <filters>
         <field>OPPORTUNITY.CLOSED</field>
@@ -11,6 +12,5 @@
         <operation>equals</operation>
         <value>THIS_MONTH</value>
     </filters>
-    <fullName>ClosingThisMonth</fullName>
     <label>Closing This Month</label>
 </ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__ArcGISBatchPushSetting__c-es_MX</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuración de distribución de lote ArcGIS</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraciones de distribuciones de lotes ArcGIS</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Nombre de Configuración de distribución</nameFieldLabel>
+</CustomObjectTranslation>

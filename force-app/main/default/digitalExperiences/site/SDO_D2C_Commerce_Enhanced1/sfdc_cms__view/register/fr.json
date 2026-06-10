@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Register",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "id" : "720695fd-b060-45d9-8696-cce91bded504",
+        "attributes" : {
+          "pageTitle" : "S'inscrire"
+        }
+      } ]
+    }
+  },
+  "urlName" : "register"
+}

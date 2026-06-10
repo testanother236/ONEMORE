@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dataplier__Data_Set_Option__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Data Set Option</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Use this data set independently</fullName>
+                <default>true</default>
+                <label>Use this data set independently</label>
+            </value>
+            <value>
+                <fullName>Overlay this data set by parent records</fullName>
+                <default>false</default>
+                <label>Overlay this data set by parent records</label>
+            </value>
+            <value>
+                <fullName>Deploy this data set and all parents</fullName>
+                <default>false</default>
+                <label>Deploy this data set and all parents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

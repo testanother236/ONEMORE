@@ -21,6 +21,12 @@
         <groupingString>Dispatched</groupingString>
     </standardValue>
     <standardValue>
+        <fullName>Travel</fullName>
+        <default>false</default>
+        <label>Travel</label>
+        <groupingString>InProgress</groupingString>
+    </standardValue>
+    <standardValue>
         <fullName>In Progress</fullName>
         <default>false</default>
         <label>In Progress</label>
@@ -43,5 +49,11 @@
         <default>false</default>
         <label>Canceled</label>
         <groupingString>Canceled</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Approaching</fullName>
+        <default>false</default>
+        <label>Approaching</label>
+        <groupingString>InProgress</groupingString>
     </standardValue>
 </StandardValueSet>

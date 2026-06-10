@@ -2,33 +2,27 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <closed>false</closed>
-        <default>true</default>
         <fullName>Not Started</fullName>
+        <default>true</default>
         <label>Not Started</label>
+        <closed>false</closed>
     </standardValue>
     <standardValue>
-        <closed>false</closed>
-        <default>false</default>
         <fullName>In Progress</fullName>
+        <default>false</default>
         <label>In Progress</label>
+        <closed>false</closed>
     </standardValue>
     <standardValue>
-        <closed>true</closed>
-        <default>false</default>
         <fullName>Completed</fullName>
+        <default>false</default>
         <label>Completed</label>
+        <closed>true</closed>
     </standardValue>
     <standardValue>
-        <closed>false</closed>
+        <fullName>On Hold</fullName>
         <default>false</default>
-        <fullName>Waiting on someone else</fullName>
-        <label>Waiting on someone else</label>
-    </standardValue>
-    <standardValue>
+        <label>On Hold</label>
         <closed>false</closed>
-        <default>false</default>
-        <fullName>Deferred</fullName>
-        <label>Deferred</label>
     </standardValue>
 </StandardValueSet>

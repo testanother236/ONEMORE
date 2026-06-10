@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Enter_PO_Number</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Enter PO Number</shortDescription>
+    <value>Enter PO Number</value>
+</CustomLabel>

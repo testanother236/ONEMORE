@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dataplier__Execution_Step__c-en_US</fullName>
+    <layouts>
+        <layout>Execution Step Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- for test --></description>
+        <label><!-- ExecutionStep --></label>
+        <name>Dataplier__ExecutionStep</name>
+    </recordTypes>
+</CustomObjectTranslation>

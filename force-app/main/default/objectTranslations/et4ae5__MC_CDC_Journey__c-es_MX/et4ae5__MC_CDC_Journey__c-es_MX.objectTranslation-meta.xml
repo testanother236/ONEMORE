@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>et4ae5__MC_CDC_Journey__c-es_MX</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Trayectoria de CDC de MC</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trayectorias de CDC de MC</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Número de trayectoria</nameFieldLabel>
+</CustomObjectTranslation>

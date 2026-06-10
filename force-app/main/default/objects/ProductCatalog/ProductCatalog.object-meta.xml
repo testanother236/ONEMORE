@@ -128,7 +128,24 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
-    <searchLayouts></searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <externalSharingModel>Read</externalSharingModel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CatalogType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>NumberOfCategories</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Code</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CatalogType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NumberOfCategories</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Code</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CatalogType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NumberOfCategories</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Code</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CatalogType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NumberOfCategories</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Code</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

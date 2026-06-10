@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Timesheet_Period__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>タイムシート期間</value>
+    </caseValues>
+    <nameFieldLabel>タイムシート期間名</nameFieldLabel>
+</CustomObjectTranslation>

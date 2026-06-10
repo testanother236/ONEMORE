@@ -2,16 +2,17 @@
 <ApexSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableAggregateCodeCoverageOnly>false</enableAggregateCodeCoverageOnly>
     <enableApexAccessRightsPref>false</enableApexAccessRightsPref>
-    <enableApexApprovalLockUnlock>false</enableApexApprovalLockUnlock>
+    <enableApexApprovalLockUnlock>true</enableApexApprovalLockUnlock>
     <enableApexCtrlImplicitWithSharingPref>false</enableApexCtrlImplicitWithSharingPref>
     <enableApexPropertyGetterPref>false</enableApexPropertyGetterPref>
     <enableAuraApexCtrlAuthUserAccessCheckPref>false</enableAuraApexCtrlAuthUserAccessCheckPref>
     <enableAuraApexCtrlGuestUserAccessCheckPref>false</enableAuraApexCtrlGuestUserAccessCheckPref>
-    <enableCompileOnDeploy>true</enableCompileOnDeploy>
+    <enableCompileOnDeploy>false</enableCompileOnDeploy>
     <enableDisableParallelApexTesting>false</enableDisableParallelApexTesting>
-    <enableDoNotEmailDebugLog>false</enableDoNotEmailDebugLog>
-    <enableGaplessTestAutoNum>true</enableGaplessTestAutoNum>
-    <enableMngdCtrlActionAccessPref>false</enableMngdCtrlActionAccessPref>
-    <enableNonCertifiedApexMdCrud>true</enableNonCertifiedApexMdCrud>
+    <enableGaplessTestAutoNum>false</enableGaplessTestAutoNum>
+    <enableMngdCtrlActionAccessPref>true</enableMngdCtrlActionAccessPref>
+    <enableNonCertifiedApexMdCrud>false</enableNonCertifiedApexMdCrud>
+    <enableRestrictCommunityExecAnon>false</enableRestrictCommunityExecAnon>
     <enableSecureNoArgConstructorPref>false</enableSecureNoArgConstructorPref>
+    <enableTestSetupSkipTestResults>false</enableTestSetupSkipTestResults>
 </ApexSettings>

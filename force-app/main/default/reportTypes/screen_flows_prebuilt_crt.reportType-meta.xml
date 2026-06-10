@@ -38,6 +38,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>ElementLabel</field>
+            <table>FlowInterviewLog.FlowInterviewLogs</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Id</field>
             <table>FlowInterviewLog.FlowInterviewLogs</table>
         </columns>
@@ -82,6 +87,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>FlowInterviewGuid</field>
+            <table>FlowInterviewLog</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>FlowLabel</field>
             <table>FlowInterviewLog</table>
         </columns>
         <columns>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__CalEventBaseObj__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Basisobject van Maps Calendar-event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Basisobjecten van Maps Calendar-event</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam basisobject agendagebeurtenis Maps</nameFieldLabel>
+</CustomObjectTranslation>

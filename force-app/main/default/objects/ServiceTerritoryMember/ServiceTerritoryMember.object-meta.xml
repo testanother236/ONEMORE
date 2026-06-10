@@ -135,25 +135,21 @@
         <customTabListAdditionalFields>TerritoryType</customTabListAdditionalFields>
         <customTabListAdditionalFields>EffectiveStartDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>EffectiveEndDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Role</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>ServiceResource</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ServiceTerritory</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>TerritoryType</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>EffectiveStartDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>EffectiveEndDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Role</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceResource</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ServiceTerritory</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>TerritoryType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>EffectiveStartDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>EffectiveEndDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Role</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>ServiceResource</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ServiceTerritory</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TerritoryType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EffectiveStartDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>EffectiveEndDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Role</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

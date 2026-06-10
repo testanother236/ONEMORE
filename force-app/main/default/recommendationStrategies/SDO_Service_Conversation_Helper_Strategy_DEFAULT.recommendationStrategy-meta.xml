@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>MessagingSession</contextRecordType>
+    <if>
+        <childNode>Simple1</childNode>
+        <childNode>Restricted_Shipment</childNode>
+        <label>Display NBA</label>
+        <name>Display_NBA</name>
+        <childNodeExpression>
+            <childName>Simple1</childName>
+            <expression>NOT(ISPICKVAL($Record.SDO_MessagingSession_BotName__c, &apos;Agentforce Service Agent&apos;))</expression>
+        </childNodeExpression>
+        <childNodeExpression>
+            <childName>Restricted_Shipment</childName>
+            <expression>ISPICKVAL($Record.SDO_MessagingSession_BotName__c, &apos;Agentforce Service Agent&apos;)</expression>
+        </childNodeExpression>
+        <onlyFirstMatch>false</onlyFirstMatch>
+    </if>
+    <label>Service - Conversation Helper DEFAULT</label>
+    <recommendationLoad>
+        <label>Simple1</label>
+        <name>Simple1</name>
+        <condition>
+            <field>Name</field>
+            <operator>EQUALS</operator>
+            <value>
+                <type>TEXT</type>
+                <value>Simple1</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
+    </recommendationLoad>
+    <recommendationLoad>
+        <label>Restricted Shipment</label>
+        <name>Restricted_Shipment</name>
+        <condition>
+            <field>Name</field>
+            <operator>CONTAINS</operator>
+            <value>
+                <type>TEXT</type>
+                <value>Restricted Shipment</value>
+            </value>
+        </condition>
+        <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
+    </recommendationLoad>
+    <union>
+        <childNode>Display_NBA</childNode>
+        <label>Output</label>
+        <name>Output_ed33402913c044519873a4e33b471371</name>
+    </union>
+</RecommendationStrategy>

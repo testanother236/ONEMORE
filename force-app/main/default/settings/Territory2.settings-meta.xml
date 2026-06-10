@@ -4,5 +4,15 @@
     <defaultCaseAccessLevel>None</defaultCaseAccessLevel>
     <defaultContactAccessLevel>Edit</defaultContactAccessLevel>
     <defaultOpportunityAccessLevel>None</defaultOpportunityAccessLevel>
-    <enableTerritoryManagement2>false</enableTerritoryManagement2>
+    <enableTerritoryManagement2>true</enableTerritoryManagement2>
+    <opportunityFilterSettings>
+        <apexClassName>OppTerrAssignDefaultLogicFilter</apexClassName>
+        <enableFilter>true</enableFilter>
+        <runMultiThreaded>false</runMultiThreaded>
+        <runOnCreate>false</runOnCreate>
+    </opportunityFilterSettings>
+    <showTM2EnabledBanner>false</showTM2EnabledBanner>
+    <t2ForecastAccessLevel>Edit</t2ForecastAccessLevel>
+    <tm2BypassRealignAccInsert>false</tm2BypassRealignAccInsert>
+    <tm2EnableUserAssignmentLog>false</tm2EnableUserAssignmentLog>
 </Territory2Settings>

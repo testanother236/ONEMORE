@@ -15,7 +15,7 @@
                 <field>TargetEntityId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns></layoutColumns>
+        <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -23,9 +23,9 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <showEmailCheckbox>false</showEmailCheckbox>

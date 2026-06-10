@@ -22,5 +22,6 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-ContentNote</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

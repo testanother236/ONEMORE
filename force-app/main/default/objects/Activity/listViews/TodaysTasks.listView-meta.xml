@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TodaysTasks</fullName>
     <filterScope>Mine</filterScope>
     <filters>
         <field>TASK.CLOSED</field>
@@ -16,6 +17,5 @@
         <operation>lessThan</operation>
         <value>TOMORROW</value>
     </filters>
-    <fullName>TodaysTasks</fullName>
     <label>Today&apos;s Tasks</label>
 </ListView>

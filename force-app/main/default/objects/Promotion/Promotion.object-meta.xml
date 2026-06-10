@@ -113,17 +113,34 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableDataTranslation>true</enableDataTranslation>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>Campaign</customTabListAdditionalFields>
+        <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>EndDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LoyaltyPromotionType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>FulfillmentAction</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>Campaign</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>StartDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>EndDate</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CreatedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LoyaltyPromotionType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>FulfillmentAction</lookupDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Campaign</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>StartDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>EndDate</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CreatedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LoyaltyPromotionType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FulfillmentAction</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>Campaign</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>StartDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>EndDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LoyaltyPromotionType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>FulfillmentAction</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

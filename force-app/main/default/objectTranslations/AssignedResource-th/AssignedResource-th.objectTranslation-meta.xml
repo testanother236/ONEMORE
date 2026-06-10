@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AssignedResource-th</fullName>
+    <layouts>
+        <layout>SDO - SFS Assigned Resource</layout>
+        <sections>
+            <label><!-- Appointment Assistant --></label>
+            <section>Appointment Assistant</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

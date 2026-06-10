@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Company_Name_Not_Valid</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Company Name Not Valid</shortDescription>
+    <value>Company Name is not valid</value>
+</CustomLabel>

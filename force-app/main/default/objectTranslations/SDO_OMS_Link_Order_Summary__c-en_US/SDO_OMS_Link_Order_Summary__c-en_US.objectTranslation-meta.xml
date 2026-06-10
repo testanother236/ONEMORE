@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDO_OMS_Link_Order_Summary__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Link Order Summary</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Link Order Summaries</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

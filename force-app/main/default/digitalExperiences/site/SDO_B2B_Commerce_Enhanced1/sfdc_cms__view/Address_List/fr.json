@@ -1,0 +1,25 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Address List",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "text" : "Mon compte"
+        },
+        "id" : "d55a1e51-0431-492d-a5fe-5ca68c7da84a"
+      }, {
+        "id" : "df047385-7d38-43b3-bf02-4f77fa406c9d",
+        "attributes" : {
+          "text" : "Adresses"
+        }
+      }, {
+        "id" : "6f350641-d632-4e0b-9dec-9a22c123cd1a",
+        "attributes" : {
+          "text" : "Ajouter une adresse"
+        }
+      } ]
+    }
+  },
+  "urlName" : "address-list"
+}

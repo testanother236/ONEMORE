@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__SLR_Cache__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Cachegeheugen voor SLR</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Cachegeheugens voor SLR’s</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <nameFieldLabel>SLR-cachenummer</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <label>Account</label>
+    <protected>false</protected>
+    <values>
+        <field>datamask__API_Name__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>datamask__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>datamask__Batch_Data__c</field>
+        <value xsi:nil="true"></value>
+    </values>
+    <values>
+        <field>datamask__Custom__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>datamask__DataMask_Configuration__c</field>
+        <value xsi:type="xsd:string">MainConfiguration</value>
+    </values>
+    <values>
+        <field>datamask__Estimated_Affected_Record_Count__c</field>
+        <value xsi:type="xsd:double">7.0</value>
+    </values>
+    <values>
+        <field>datamask__Filter_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>datamask__Last_Prepped_Date__c</field>
+        <value xsi:nil="true"></value>
+    </values>
+    <values>
+        <field>datamask__Master_Object__c</field>
+        <value xsi:nil="true"></value>
+    </values>
+    <values>
+        <field>datamask__Number_of_Fields__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>datamask__Raw_Filter_Data__c</field>
+        <value xsi:type="xsd:string">{&quot;applyconditions&quot;:&quot;and&quot;,&quot;conditionList&quot;:[{&quot;field&quot;:{&quot;name&quot;:&quot;Industry&quot;,&quot;picklistValues&quot;:[{&quot;label&quot;:&quot;Agriculture&quot;,&quot;value&quot;:&quot;Agriculture&quot;},{&quot;label&quot;:&quot;Apparel&quot;,&quot;value&quot;:&quot;Apparel&quot;},{&quot;label&quot;:&quot;Banking&quot;,&quot;value&quot;:&quot;Banking&quot;},{&quot;label&quot;:&quot;Biotechnology&quot;,&quot;value&quot;:&quot;Biotechnology&quot;},{&quot;label&quot;:&quot;Chemicals&quot;,&quot;value&quot;:&quot;Chemicals&quot;},{&quot;label&quot;:&quot;Communications&quot;,&quot;value&quot;:&quot;Communications&quot;},{&quot;label&quot;:&quot;Construction&quot;,&quot;value&quot;:&quot;Construction&quot;},{&quot;label&quot;:&quot;Consulting&quot;,&quot;value&quot;:&quot;Consulting&quot;},{&quot;label&quot;:&quot;Education&quot;,&quot;value&quot;:&quot;Education&quot;},{&quot;label&quot;:&quot;Electronics&quot;,&quot;value&quot;:&quot;Electronics&quot;},{&quot;label&quot;:&quot;Energy&quot;,&quot;value&quot;:&quot;Energy&quot;},{&quot;label&quot;:&quot;Engineering&quot;,&quot;value&quot;:&quot;Engineering&quot;},{&quot;label&quot;:&quot;Entertainment&quot;,&quot;value&quot;:&quot;Entertainment&quot;},{&quot;label&quot;:&quot;Environmental&quot;,&quot;value&quot;:&quot;Environmental&quot;},{&quot;label&quot;:&quot;Food &amp; Beverage&quot;,&quot;value&quot;:&quot;Food &amp; Beverage&quot;},{&quot;label&quot;:&quot;Government&quot;,&quot;value&quot;:&quot;Government&quot;},{&quot;label&quot;:&quot;Healthcare &amp; Life Sciences&quot;,&quot;value&quot;:&quot;Healthcare &amp; Life Sciences&quot;},{&quot;label&quot;:&quot;Hospitality&quot;,&quot;value&quot;:&quot;Hospitality&quot;},{&quot;label&quot;:&quot;Insurance&quot;,&quot;value&quot;:&quot;Insurance&quot;},{&quot;label&quot;:&quot;Machinery&quot;,&quot;value&quot;:&quot;Machinery&quot;},{&quot;label&quot;:&quot;Manufacturing&quot;,&quot;value&quot;:&quot;Manufacturing&quot;},{&quot;label&quot;:&quot;Media&quot;,&quot;value&quot;:&quot;Media&quot;},{&quot;label&quot;:&quot;Not For Profit&quot;,&quot;value&quot;:&quot;Not For Profit&quot;},{&quot;label&quot;:&quot;Other&quot;,&quot;value&quot;:&quot;Other&quot;},{&quot;label&quot;:&quot;Recreation&quot;,&quot;value&quot;:&quot;Recreation&quot;},{&quot;label&quot;:&quot;Retail&quot;,&quot;value&quot;:&quot;Retail&quot;},{&quot;label&quot;:&quot;Shipping&quot;,&quot;value&quot;:&quot;Shipping&quot;},{&quot;label&quot;:&quot;Technology&quot;,&quot;value&quot;:&quot;Technology&quot;},{&quot;label&quot;:&quot;Telecommunications&quot;,&quot;value&quot;:&quot;Telecommunications&quot;},{&quot;label&quot;:&quot;Transportation&quot;,&quot;value&quot;:&quot;Transportation&quot;},{&quot;label&quot;:&quot;Utilities&quot;,&quot;value&quot;:&quot;Utilities&quot;},{&quot;label&quot;:&quot;Financial Services&quot;,&quot;value&quot;:&quot;Financial Services&quot;}],&quot;type&quot;:&quot;STRING&quot;},&quot;operator&quot;:&quot;equals&quot;,&quot;criteria&quot;:&quot;Communications&quot;,&quot;index&quot;:0}]}</value>
+    </values>
+    <values>
+        <field>datamask__Record_Count__c</field>
+        <value xsi:nil="true"></value>
+    </values>
+    <values>
+        <field>datamask__Run_In_Poly__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>datamask__Run_In_Serial__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>datamask__Where_Criteria_LT__c</field>
+        <value xsi:type="xsd:string">Industry = &apos;Communications&apos;</value>
+    </values>
+    <values>
+        <field>datamask__Where_Criteria__c</field>
+        <value xsi:nil="true"></value>
+    </values>
+</CustomMetadata>

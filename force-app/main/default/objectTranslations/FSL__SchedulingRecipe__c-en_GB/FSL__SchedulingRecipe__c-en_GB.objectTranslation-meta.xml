@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__SchedulingRecipe__c-en_GB</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Scheduling Recipe</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Scheduling Recipes</value>
+    </caseValues>
+    <nameFieldLabel>Scheduling Recipe Name</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

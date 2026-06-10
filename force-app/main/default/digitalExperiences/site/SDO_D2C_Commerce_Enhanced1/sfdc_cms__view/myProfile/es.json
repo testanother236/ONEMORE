@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "My Profile",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "text" : "Mi cuenta"
+        },
+        "id" : "e8136313-d682-4b0a-ac17-e8292d00e798"
+      } ]
+    }
+  },
+  "urlName" : "my-profile"
+}

@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"></SharingRules>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <fullName>Appointment_Invitation1</fullName>
+        <includeHVUOwnedRecords>true</includeHVUOwnedRecords>
+        <label>Appointment Invitation1</label>
+        <sharedTo>
+            <guestUser>OldProf3</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>startsWith</operation>
+            <value>005</value>
+        </criteriaItems>
+        <fullName>Appointment_Invitation_Sharing_Rule_Pro_Guest_User</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Appointment Invitation Sharing Rule-Pro Guest User</label>
+        <sharedTo>
+            <guestUser>OldProf3</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <fullName>Share_AI_with_Prof_Guest</fullName>
+        <includeHVUOwnedRecords>true</includeHVUOwnedRecords>
+        <label>Share AI with Prof Guest</label>
+        <sharedTo>
+            <guestUser>SDO_Professional</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+</SharingRules>

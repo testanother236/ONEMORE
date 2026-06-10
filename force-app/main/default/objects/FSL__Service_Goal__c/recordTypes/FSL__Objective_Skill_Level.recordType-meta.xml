@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Prefer the least/most qualified candidate</description>
+    <fullName>FSL__Objective_Skill_Level</fullName>
+    <label>Skill Level</label>
+    <picklistValues>
+        <picklist>FSL__Custom_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Objective%D6%BF_Priority_By_Distance_To_Engineer</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Asap</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Minimize_Engineer_Idle_Time</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Minimize_Overtime</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Minimize_Travel</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Minimize_Use_Of_Elasticity</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_PreferredEngineer</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Resource_Priority</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Skill_Level</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Objective_Travel_From_Home_Base</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FSL__Prioritize_Resource__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>Least Qualified</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Most Qualified</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

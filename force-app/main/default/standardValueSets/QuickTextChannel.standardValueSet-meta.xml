@@ -2,33 +2,48 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <default>true</default>
         <fullName>Email</fullName>
+        <default>true</default>
         <label>Email</label>
     </standardValue>
     <standardValue>
-        <default>false</default>
         <fullName>Portal</fullName>
+        <default>false</default>
         <label>Portal</label>
     </standardValue>
     <standardValue>
-        <default>false</default>
         <fullName>Phone</fullName>
+        <default>false</default>
         <label>Phone</label>
     </standardValue>
     <standardValue>
-        <default>false</default>
         <fullName>Internal</fullName>
+        <default>false</default>
         <label>Internal</label>
     </standardValue>
     <standardValue>
-        <default>false</default>
         <fullName>Event</fullName>
+        <default>false</default>
         <label>Event</label>
     </standardValue>
     <standardValue>
-        <default>false</default>
         <fullName>Task</fullName>
+        <default>false</default>
         <label>Task</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Live Agent</fullName>
+        <default>false</default>
+        <label>Live Agent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Messaging</fullName>
+        <default>false</default>
+        <label>Messaging</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Knowledge</fullName>
+        <default>false</default>
+        <label>Knowledge</label>
     </standardValue>
 </StandardValueSet>

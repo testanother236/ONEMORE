@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__AdvRoutePromotionalPeriodConfiguration__c-zh_TW</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Maps Advanced 促銷期間組態</value>
+    </caseValues>
+    <layouts>
+        <layout>Maps Advanced Promotional Period Config Layout</layout>
+        <sections>
+            <label><!-- Default Values --></label>
+            <section>Default Values</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Maps Advanced 促銷期間組態名稱</nameFieldLabel>
+</CustomObjectTranslation>

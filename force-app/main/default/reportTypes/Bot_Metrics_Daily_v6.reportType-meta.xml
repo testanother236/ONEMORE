@@ -4,7 +4,7 @@
     <category>other</category>
     <deployed>true</deployed>
     <description>Einstein Bot metrics aggregated by day.</description>
-    <label>Bot Metrics Daily Spring &apos;24</label>
+    <label>Bot Metrics Daily Winter &apos;24</label>
     <sections>
         <columns>
             <checkedByDefault>true</checkedByDefault>

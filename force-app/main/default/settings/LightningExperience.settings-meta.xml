@@ -3,11 +3,13 @@
     <enableAccessCheckCrucPref>false</enableAccessCheckCrucPref>
     <enableApiUserLtngOutAccessPref>false</enableApiUserLtngOutAccessPref>
     <enableAuraCDNPref>true</enableAuraCDNPref>
-    <enableAuraDepAccessChksCRUCPref>false</enableAuraDepAccessChksCRUCPref>
-    <enableFeedbackInMobile>true</enableFeedbackInMobile>
+    <enableAuraSecStaticResCRUCPref>false</enableAuraSecStaticResCRUCPref>
+    <enableErrorExperienceEnabled>false</enableErrorExperienceEnabled>
+    <enableFeedbackInMobile>false</enableFeedbackInMobile>
+    <enableHideOpenInQuip>false</enableHideOpenInQuip>
     <enableIE11DeprecationMsgHidden>false</enableIE11DeprecationMsgHidden>
     <enableIE11LEXCrucPref>false</enableIE11LEXCrucPref>
-    <enableInAppTooltips>true</enableInAppTooltips>
+    <enableInAppTooltips>false</enableInAppTooltips>
     <enableLEXExtensionComponentCustomization>false</enableLEXExtensionComponentCustomization>
     <enableLEXExtensionDarkMode>false</enableLEXExtensionDarkMode>
     <enableLEXExtensionInlineEditModifier>false</enableLEXExtensionInlineEditModifier>
@@ -15,24 +17,23 @@
     <enableLEXExtensionRelatedLists>false</enableLEXExtensionRelatedLists>
     <enableLEXExtensionRequiredFields>false</enableLEXExtensionRequiredFields>
     <enableLEXExtensionTrailhead>false</enableLEXExtensionTrailhead>
-    <enableLEXOnIpadEnabled>false</enableLEXOnIpadEnabled>
-    <enableLexEndUsersNoSwitching>false</enableLexEndUsersNoSwitching>
+    <enableLEXOnIpadEnabled>true</enableLEXOnIpadEnabled>
+    <enableLexEndUsersNoSwitching>true</enableLexEndUsersNoSwitching>
     <enableNavPersonalizationOptOut>false</enableNavPersonalizationOptOut>
+    <enableNoBackgroundNavigations>false</enableNoBackgroundNavigations>
+    <enableQuip>false</enableQuip>
     <enableRemoveThemeBrandBanner>false</enableRemoveThemeBrandBanner>
     <enableS1BannerPref>true</enableS1BannerPref>
     <enableS1BrowserEnabled>true</enableS1BrowserEnabled>
     <enableS1DesktopEnabled>true</enableS1DesktopEnabled>
     <enableS1UiLoggingEnabled>true</enableS1UiLoggingEnabled>
-    <enableSparkAllUsers>false</enableSparkAllUsers>
-    <enableSparkConversationEnabled>false</enableSparkConversationEnabled>
-    <enableSplitViewOnStandard>false</enableSplitViewOnStandard>
-    <enableTryLightningOptOut>false</enableTryLightningOptOut>
+    <enableSidToken3rdPartyAuraApp>false</enableSidToken3rdPartyAuraApp>
+    <enableStackedModalManagerEnabled>true</enableStackedModalManagerEnabled>
+    <enableTryLightningOptOut>true</enableTryLightningOptOut>
     <enableUseS1AlohaDesktop>false</enableUseS1AlohaDesktop>
-    <enableUsersAreLightningOnly>false</enableUsersAreLightningOnly>
-    <enableWebExEnabled>false</enableWebExEnabled>
-    <enableWebexAllUsers>false</enableWebexAllUsers>
+    <enableUsersAreLightningOnly>true</enableUsersAreLightningOnly>
     <isLEXExtensionComponentCustomizationOff>false</isLEXExtensionComponentCustomizationOff>
     <isLEXExtensionDarkModeOff>false</isLEXExtensionDarkModeOff>
     <isLEXExtensionLinkGrabberOff>false</isLEXExtensionLinkGrabberOff>
-    <isLEXExtensionOff>false</isLEXExtensionOff>
+    <isLEXExtensionOff>true</isLEXExtensionOff>
 </LightningExperienceSettings>

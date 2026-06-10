@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__TPRole__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>영역 계획 역할</value>
+    </caseValues>
+    <nameFieldLabel>이름</nameFieldLabel>
+</CustomObjectTranslation>

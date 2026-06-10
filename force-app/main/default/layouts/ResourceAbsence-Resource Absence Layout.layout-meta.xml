@@ -35,6 +35,10 @@
                 <behavior>Required</behavior>
                 <field>Type</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ApprovalStatus</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -62,13 +66,14 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
         <fields>Type</fields>
+        <fields>ApprovalStatus</fields>
     </miniLayout>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>

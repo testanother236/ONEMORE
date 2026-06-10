@@ -3,5 +3,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Enablement_User</label>
     <permissionSets>force__EnablementUser</permissionSets>
+    <permissionSets>force__Walkthroughs</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

@@ -127,45 +127,18 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>ReturnOrder</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductRequestLineItem</customTabListAdditionalFields>
         <customTabListAdditionalFields>OrderItem</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ProductItem</customTabListAdditionalFields>
         <customTabListAdditionalFields>Product2</customTabListAdditionalFields>
         <customTabListAdditionalFields>SourceLocation</customTabListAdditionalFields>
-        <customTabListAdditionalFields>DestinationLocation</customTabListAdditionalFields>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OrderItemSummary</customTabListAdditionalFields>
         <customTabListAdditionalFields>ChangeOrderItem</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ReturnOrder</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>OrderItem</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Product2</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>SourceLocation</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>DestinationLocation</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>Asset</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>ChangeOrderItem</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ReturnOrder</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>OrderItem</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Product2</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>SourceLocation</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>DestinationLocation</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Asset</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>ChangeOrderItem</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ReturnOrder</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>OrderItem</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Product2</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>SourceLocation</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>DestinationLocation</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Asset</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ChangeOrderItem</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

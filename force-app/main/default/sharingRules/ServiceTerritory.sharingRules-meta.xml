@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata"></SharingRules>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <fullName>Share_Guest_ST</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Share Guest ST</label>
+        <sharedTo>
+            <guestUser>OldProf3</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+    <sharingGuestRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <fullName>Share_ST_with_Prof_Guest</fullName>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+        <label>Share ST with Prof Guest</label>
+        <sharedTo>
+            <guestUser>SDO_Professional</guestUser>
+        </sharedTo>
+    </sharingGuestRules>
+</SharingRules>

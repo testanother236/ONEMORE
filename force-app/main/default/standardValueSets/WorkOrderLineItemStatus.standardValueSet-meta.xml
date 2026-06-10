@@ -15,12 +15,6 @@
         <groupingString>InProgress</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>On Hold</fullName>
-        <default>false</default>
-        <label>On Hold</label>
-        <groupingString>OnHold</groupingString>
-    </standardValue>
-    <standardValue>
         <fullName>Completed</fullName>
         <default>false</default>
         <label>Completed</label>
@@ -31,17 +25,5 @@
         <default>false</default>
         <label>Closed</label>
         <groupingString>Closed</groupingString>
-    </standardValue>
-    <standardValue>
-        <fullName>Cannot Complete</fullName>
-        <default>false</default>
-        <label>Cannot Complete</label>
-        <groupingString>CannotComplete</groupingString>
-    </standardValue>
-    <standardValue>
-        <fullName>Canceled</fullName>
-        <default>false</default>
-        <label>Canceled</label>
-        <groupingString>Canceled</groupingString>
     </standardValue>
 </StandardValueSet>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__CreateFilterEvent__e-pt_PT</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Criar evento de filtro --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Criar eventos de filtros --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

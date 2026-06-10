@@ -15,7 +15,7 @@
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
-        <quickActionLayoutColumns></quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
     </quickActionLayout>
     <standardLabel>AddRecord</standardLabel>
     <targetObject>CollaborationGroupRecord</targetObject>

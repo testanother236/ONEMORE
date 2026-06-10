@@ -1,0 +1,15 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Checkout Layout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">© Copyright 2025 Salesforce.com, inc. | This is not a real company. </span></p><p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 14px;\">It is used for Salesforce demos. No orders will be processed.</span></p>"
+        },
+        "id" : "ef8f2777-0592-40ed-9ea6-fe0c56383ae5"
+      } ]
+    }
+  },
+  "urlName" : "checkout-layout"
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__User_Territory__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>用户区域</value>
+    </caseValues>
+    <nameFieldLabel>使用区域号码</nameFieldLabel>
+</CustomObjectTranslation>

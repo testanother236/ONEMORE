@@ -139,6 +139,7 @@
         <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Sdo_Scom_Phone__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>

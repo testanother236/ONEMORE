@@ -4,21 +4,21 @@
     <standardValue>
         <fullName>Critical</fullName>
         <default>true</default>
-        <label>Critical</label>
+        <label>🔥 Critical</label>
     </standardValue>
     <standardValue>
         <fullName>High</fullName>
         <default>false</default>
-        <label>High</label>
+        <label>⚡ High</label>
     </standardValue>
     <standardValue>
         <fullName>Moderate</fullName>
         <default>false</default>
-        <label>Moderate</label>
+        <label>✨ Moderate</label>
     </standardValue>
     <standardValue>
         <fullName>Low</fullName>
         <default>false</default>
-        <label>Low</label>
+        <label>🧊 Low</label>
     </standardValue>
 </StandardValueSet>

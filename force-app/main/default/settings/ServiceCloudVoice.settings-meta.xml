@@ -5,9 +5,11 @@
     <enableDefaultChannelForSCV>false</enableDefaultChannelForSCV>
     <enableEndUserForSCV>false</enableEndUserForSCV>
     <enableOmniCapacityForSCV>false</enableOmniCapacityForSCV>
+    <enablePTQueueManagement>false</enablePTQueueManagement>
     <enablePhoneNumberMaskingForSCV>false</enablePhoneNumberMaskingForSCV>
     <enableRZoneCloudVoiceOptIn>false</enableRZoneCloudVoiceOptIn>
     <enableSCVBYOT>false</enableSCVBYOT>
+    <enableSCVExternalTelephony>false</enableSCVExternalTelephony>
     <enableSCVSupportBannerDisplayed>false</enableSCVSupportBannerDisplayed>
     <enableServiceCloudVoice>false</enableServiceCloudVoice>
 </ServiceCloudVoiceSettings>

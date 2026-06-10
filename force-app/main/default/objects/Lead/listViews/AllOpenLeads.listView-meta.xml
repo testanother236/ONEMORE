@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpenLeads</fullName>
     <columns>FULL_NAME</columns>
     <columns>LEAD.COMPANY</columns>
     <columns>LEAD.STATE</columns>
@@ -14,6 +15,5 @@
         <operation>notEqual</operation>
         <value>Qualified</value>
     </filters>
-    <fullName>AllOpenLeads</fullName>
     <label>All Open Leads</label>
 </ListView>

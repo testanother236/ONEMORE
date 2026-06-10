@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>SDO_Knowledge_KCSArticle</fullName>
+    <label>KCSArticle</label>
+    <picklistValues>
+        <picklist>Article_Confidence__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Archived</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Not Validated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Validated</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Work in Progress</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

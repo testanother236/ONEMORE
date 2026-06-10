@@ -31,4 +31,19 @@
         <default>false</default>
         <label>Maestro</label>
     </standardValue>
+    <standardValue>
+        <fullName>Discover</fullName>
+        <default>false</default>
+        <label>Discover</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Union Pay</fullName>
+        <default>false</default>
+        <label>Union Pay</label>
+    </standardValue>
+    <standardValue>
+        <fullName>UnionPay</fullName>
+        <default>false</default>
+        <label>UnionPay</label>
+    </standardValue>
 </StandardValueSet>

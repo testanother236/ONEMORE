@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>ContractLifecycleManagement</fullName>
+    <label>Contract Lifecycle Management</label>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Activated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Awaiting Signature</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Canceled</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Contract Expired</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Contract Terminated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Draft</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Approval Process</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Negotiating</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Rejected</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Signature Declined</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Signed</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

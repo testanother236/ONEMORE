@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CodeBuilder__Alert__e-en_GB</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Alert --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Alerts --></value>
+    </caseValues>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

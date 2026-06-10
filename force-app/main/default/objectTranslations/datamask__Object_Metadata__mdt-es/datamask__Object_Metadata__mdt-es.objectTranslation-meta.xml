@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>datamask__Object_Metadata__mdt-es</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Metadatos de objeto --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Metadatos de objeto --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

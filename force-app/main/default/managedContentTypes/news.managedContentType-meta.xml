@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ManagedContentType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>A basic article format with rich text and image support.</description>
+    <description>Add a news article with rich text and image support.</description>
     <developerName>news</developerName>
     <managedContentNodeTypes>
         <isLocalizable>true</isLocalizable>
@@ -17,7 +17,7 @@
         <nodeType>RTE</nodeType>
     </managedContentNodeTypes>
     <managedContentNodeTypes>
-        <helpText>Images aren’t required, but they help your post get attention.</helpText>
+        <helpText>Images aren&apos;t required, but they help your post get attention.</helpText>
         <isLocalizable>false</isLocalizable>
         <isRequired>false</isRequired>
         <nodeLabel>Banner Image</nodeLabel>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -14,6 +15,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ProductCode</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>CurrencyIsoCode</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -42,6 +47,61 @@
         <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>PCM</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>ConfigureDuringSale</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AvailabilityDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>StockKeepingUnit</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DisplayUrl</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsSoldOnlyWithOtherProds</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>BasedOnId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DiscontinuedDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>EndOfLifeDate</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsAssetizable</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Type</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>SpecificationType</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
         <customLabel>false</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
@@ -61,16 +121,134 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
-        <layoutColumns></layoutColumns>
+        <label>Custom Links</label>
+        <layoutColumns/>
+        <layoutColumns/>
+        <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <quickActionList>
+        <quickActionListItems>
+            <quickActionName>FeedItem.TextPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.ContentPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>NewOpportunity</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.RypplePost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.LinkPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.PollPost</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>FeedItem.QuestionPost</quickActionName>
+        </quickActionListItems>
+    </quickActionList>
     <relatedLists>
         <relatedList>RelatedStandardPriceList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>ProductCategory</fields>
+        <fields>IsPrimaryCategory</fields>
+        <relatedList>RelatedProductCategories</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>ProductSellingModelOption</fields>
+        <fields>ProductSellingModel</fields>
+        <fields>SellingModelType</fields>
+        <fields>IsDefault</fields>
+        <fields>SellingModelTerm</fields>
+        <fields>SellingModelTermUnit</fields>
+        <fields>ProrationPolicy</fields>
+        <fields>Status</fields>
+        <relatedList>RelatedProductSellingModelOption</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>AttributeDefinition</fields>
+        <fields>AttributeDataType</fields>
+        <fields>AttributeCategory</fields>
+        <fields>AttributePicklist</fields>
+        <fields>Status</fields>
+        <relatedList>ProductClassificationAttributes</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>AttributeDefinition</fields>
+        <fields>AttributeDefinitionDataType</fields>
+        <fields>AttributeCategory</fields>
+        <fields>AttributePicklist</fields>
+        <fields>Status</fields>
+        <relatedList>ProductAttributeDefinitions</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>RootProduct</fields>
+        <fields>ParentProduct</fields>
+        <fields>EffectiveToDate</fields>
+        <fields>EffectiveFromDate</fields>
+        <relatedList>ProductQualification</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>RootProduct</fields>
+        <fields>ParentProduct</fields>
+        <fields>EffectiveToDate</fields>
+        <fields>EffectiveFromDate</fields>
+        <relatedList>ProductDisqualification</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>ChildProductName</fields>
+        <fields>ChildProductClassificationName</fields>
+        <fields>Quantity</fields>
+        <fields>ChildProductType</fields>
+        <fields>ParentSellingModel</fields>
+        <fields>ChildSellingModel</fields>
+        <fields>ProductComponentGroup</fields>
+        <fields>MinQuantity</fields>
+        <fields>MaxQuantity</fields>
+        <relatedList>RelatedChildProduct</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>OverrideContext</fields>
+        <fields>ProductRelatedComponent</fields>
+        <fields>IsExcluded</fields>
+        <fields>IsComponentRequired</fields>
+        <fields>IsQuantityEditable</fields>
+        <fields>QuantityScaleMethod</fields>
+        <relatedList>ProductRelComponentOverride</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>DefaultValue</fields>
+        <fields>Status</fields>
+        <relatedList>OverriddenProductAttributeDefinitions</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>ProductComponentGroup</fields>
+        <fields>IsExcluded</fields>
+        <fields>MinBundleComponents</fields>
+        <fields>MaxBundleComponents</fields>
+        <relatedList>ProductComponentGroupOverride</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>MinBundleComponents</fields>
+        <fields>MaxBundleComponents</fields>
+        <fields>Description</fields>
+        <fields>Sequence</fields>
+        <relatedList>ProductComponentGroups</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedPricebookEntryList</relatedList>
@@ -80,4 +258,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00hKj00000d19fW</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

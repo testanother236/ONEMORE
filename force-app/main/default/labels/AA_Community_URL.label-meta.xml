@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>AA_Community_URL</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>AA Community URL</shortDescription>
+    <value>___INSTANCE_URL___professional/s/salesforce-field-service/sfs-appointment-confirmation/?guestToken=#{!$Record.Id}#48</value>
+</CustomLabel>

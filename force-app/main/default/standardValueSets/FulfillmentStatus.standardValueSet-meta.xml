@@ -33,9 +33,9 @@
         <groupingString>CLOSED</groupingString>
     </standardValue>
     <standardValue>
-        <fullName>Cancelled</fullName>
+        <fullName>Canceled</fullName>
         <default>false</default>
-        <label>Cancelled</label>
+        <label>Canceled</label>
         <groupingString>CANCELLED</groupingString>
     </standardValue>
     <standardValue>
@@ -60,6 +60,30 @@
         <fullName>Pack Complete</fullName>
         <default>false</default>
         <label>Pack Complete</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting Assignment</fullName>
+        <default>false</default>
+        <label>Waiting Assignment</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting Pickpack</fullName>
+        <default>false</default>
+        <label>Waiting Pickpack</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for Pickup</fullName>
+        <default>false</default>
+        <label>Ready for Pickup</label>
+        <groupingString>FULFILLING</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Arrived</fullName>
+        <default>false</default>
+        <label>Customer Arrived</label>
         <groupingString>FULFILLING</groupingString>
     </standardValue>
 </StandardValueSet>

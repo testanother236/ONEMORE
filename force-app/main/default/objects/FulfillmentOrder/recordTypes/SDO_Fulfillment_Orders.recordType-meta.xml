@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>SDO_Fulfillment_Orders</fullName>
+    <label>SDO Fulfillment Orders</label>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Allocated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Assigned</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Canceled</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Draft</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Fulfilled</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Pickpack</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Rejected</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Download</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Email</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Store Pickup</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Retail Store</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Supplier</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Warehouse</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

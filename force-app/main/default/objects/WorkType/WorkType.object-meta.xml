@@ -128,7 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <searchLayouts>
         <customTabListAdditionalFields>EstimatedDuration</customTabListAdditionalFields>
         <customTabListAdditionalFields>DurationType</customTabListAdditionalFields>
@@ -139,5 +139,5 @@
         <searchResultsAdditionalFields>EstimatedDuration</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>DurationType</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

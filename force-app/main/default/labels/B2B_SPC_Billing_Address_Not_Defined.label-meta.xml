@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>B2B_SPC_Billing_Address_Not_Defined</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>B2B SPC Billing Address Not Defined</shortDescription>
+    <value>Billing address not defined for account</value>
+</CustomLabel>

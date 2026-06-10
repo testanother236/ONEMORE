@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>xDO_Tool_Tracking_Event_Version</fullName>
+    <categories>xDO Tool - Tracking Event</categories>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>xDO Tool Tracking Event Version</shortDescription>
+    <value>Summer 24 - v1.1.0</value>
+</CustomLabel>

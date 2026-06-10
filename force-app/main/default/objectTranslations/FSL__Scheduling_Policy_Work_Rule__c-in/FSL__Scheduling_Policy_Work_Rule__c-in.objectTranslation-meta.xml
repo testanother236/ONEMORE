@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FSL__Scheduling_Policy_Work_Rule__c-in</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Aturan Kerja Kebijakan Penjadwalan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aturan Kerja Kebijakan Penjadwalan</value>
+    </caseValues>
+    <nameFieldLabel>Nama Aturan Kerja Kebijakan Penjadwalan</nameFieldLabel>
+</CustomObjectTranslation>
