@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <converted>false</converted>
+        <default>false</default>
+        <fullName>Contacted</fullName>
+        <label>Contacted</label>
+    </standardValue>
+    <standardValue>
+        <converted>false</converted>
+        <default>true</default>
+        <fullName>Open</fullName>
+        <label>Open</label>
+    </standardValue>
+    <standardValue>
+        <converted>true</converted>
+        <default>false</default>
+        <fullName>Qualified</fullName>
+        <label>Qualified</label>
+    </standardValue>
+    <standardValue>
+        <converted>false</converted>
+        <default>false</default>
+        <fullName>Unqualified</fullName>
+        <label>Unqualified</label>
+    </standardValue>
+</StandardValueSet>
