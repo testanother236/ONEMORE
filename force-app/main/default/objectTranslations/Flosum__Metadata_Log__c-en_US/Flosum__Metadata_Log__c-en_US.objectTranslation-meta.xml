@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypes>
+        <label></label>
+        <name>Flosum__Validate</name>
+    </recordTypes>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Quick_Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Retrieve_Logs</name>
+    </webLinks>
+</CustomObjectTranslation>
