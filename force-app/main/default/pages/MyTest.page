@@ -1,0 +1,4 @@
+<!-- This Visualforce page displays a greeting message to the user. -->
+<apex:page showHeader="true">
+    <h1>Hello from Visualforce!</h1>
+</apex:page>
