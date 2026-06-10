@@ -5,10 +5,10 @@
       "default": true
     }
   ],
-  "name": "52c2f898-68c1-4619-878e-97bca54b0f85",
+  "name": "814a747b-e8c8-4da3-9874-034cbdcd8abb",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "64.0",
+  "sourceApiVersion": "66.0",
   "sourceBehaviorOptions": [
     "decomposeCustomLabelsBeta2"
   ]
