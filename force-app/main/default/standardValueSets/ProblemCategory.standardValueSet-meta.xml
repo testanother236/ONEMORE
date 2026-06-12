@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>true</default>
+        <fullName>Database</fullName>
+        <label>Database</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Hardware</fullName>
+        <label>Hardware</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Inquiry / Help</fullName>
+        <label>Inquiry / Help</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Network</fullName>
+        <label>Network</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Software</fullName>
+        <label>Software</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Security</fullName>
+        <label>Security</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Telephony</fullName>
+        <label>Telephony</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Storage</fullName>
+        <label>Storage</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Email</fullName>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Access Management</fullName>
+        <label>Access Management</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>true</default>
+        <fullName>DB2</fullName>
+        <label>DB2</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>MS SQL Server</fullName>
+        <label>MS SQL Server</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Oracle</fullName>
+        <label>Oracle</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>MySQL</fullName>
+        <label>MySQL</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>PostgreSQL</fullName>
+        <label>PostgreSQL</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>CPU</fullName>
+        <label>CPU</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Disk</fullName>
+        <label>Disk</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Keyboard</fullName>
+        <label>Keyboard</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Memory</fullName>
+        <label>Memory</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Monitor</fullName>
+        <label>Monitor</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Mouse</fullName>
+        <label>Mouse</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Printer</fullName>
+        <label>Printer</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Power Supply</fullName>
+        <label>Power Supply</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Laptop/Workstation</fullName>
+        <label>Laptop/Workstation</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Antivirus</fullName>
+        <label>Antivirus</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Email</fullName>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Internal Application</fullName>
+        <label>Internal Application</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Software Installation</fullName>
+        <label>Software Installation</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Password Reset</fullName>
+        <label>Password Reset</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Account Creation</fullName>
+        <label>Account Creation</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>DHCP</fullName>
+        <label>DHCP</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>DNS</fullName>
+        <label>DNS</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>IP Address</fullName>
+        <label>IP Address</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>VPN</fullName>
+        <label>VPN</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Wireless</fullName>
+        <label>Wireless</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>LAN/WAN</fullName>
+        <label>LAN/WAN</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Firewall</fullName>
+        <label>Firewall</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Switch/Router</fullName>
+        <label>Switch/Router</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Operating System</fullName>
+        <label>Operating System</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Office Suite</fullName>
+        <label>Office Suite</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Application Crashes</fullName>
+        <label>Application Crashes</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>License Issue</fullName>
+        <label>License Issue</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Patch/Update</fullName>
+        <label>Patch/Update</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Web Browser</fullName>
+        <label>Web Browser</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Access Violation</fullName>
+        <label>Access Violation</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Malware/Virus Detected</fullName>
+        <label>Malware/Virus Detected</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Data Breach</fullName>
+        <label>Data Breach</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Phishing</fullName>
+        <label>Phishing</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>VoIP</fullName>
+        <label>VoIP</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Call Quality</fullName>
+        <label>Call Quality</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>PBX</fullName>
+        <label>PBX</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Mobile Devices</fullName>
+        <label>Mobile Devices</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Backup Failure</fullName>
+        <label>Backup Failure</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>SAN Issues</fullName>
+        <label>SAN Issues</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Disk Space Low</fullName>
+        <label>Disk Space Low</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>File Corruption</fullName>
+        <label>File Corruption</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Email Delivery Failure</fullName>
+        <label>Email Delivery Failure</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Spam</fullName>
+        <label>Spam</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Access Issues</fullName>
+        <label>Access Issues</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Account Lockout</fullName>
+        <label>Account Lockout</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Permissions Issue</fullName>
+        <label>Permissions Issue</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>MFA/2FA Problem</fullName>
+        <label>MFA/2FA Problem</label>
+    </standardValue>
+</StandardValueSet>
