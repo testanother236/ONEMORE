@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>AlpahLabel</fullName>
+    <categories>Animals</categories>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>AlpahLabel</shortDescription>
+    <value>Elephant</value>
+</CustomLabel>

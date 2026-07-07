@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>custom_create_82field811__c</fullName>
+    <defaultValue>true</defaultValue>
+    <label>Custom created 82field811</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
