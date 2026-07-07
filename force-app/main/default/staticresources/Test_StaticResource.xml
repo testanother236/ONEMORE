@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResourceTest>
+    <Message>This is a test static resource</Message>
+    <Status>Success</Status>
+    <Timestamp>2024-04-27T12:00:00Z</Timestamp>
+</StaticResourceTest>
