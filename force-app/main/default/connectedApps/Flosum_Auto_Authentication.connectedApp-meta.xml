@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>pavel.mitrohin@succraft.com</contactEmail>
+    <label>Flosum_Auto_Authentication</label>
+    <oauthConfig>
+        <callbackUrl>https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__registerorganizations
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__editrepositorysettings
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__appsetting
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__createvlocitysnapshot
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__vlocitycleanorgdata
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__vlocityinstallvlocityinitial
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__componentvlocitydeployment
+https://successcraft-dd-dev-ed--flosum.develop.vf.force.com/apex/flosum__componentbranchdeploy
+oob</callbackUrl>
+        <consumerKey>KMzFKOwnkPCTtDLo6Q09f3Wn4yqrx4acLPfNwrui1U2regEK9RoDdSGqnV6tXkmY6SE6Dh5LAb56pSkep8u5l</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

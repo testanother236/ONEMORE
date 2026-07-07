@@ -1,0 +1,40 @@
+<apex:page >
+    <apex:includeScript value="{!URLFOR($Resource.ZipJS,'WebContent/zip.js')}"/>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Read" onClick="readIt(); return false;" reRender="none"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        zip.workerScriptsPath = "{!URLFOR($Resource.ZipJS,'WebContent')}/";
+        function onerror(message) {
+            //test1112223334445556666778889911
+            //test1112223334445556666778889911
+            console.error(message);
+        }
+        
+        function unzipDataURI(dataURI) {
+            zip.createReader(new zip.Data64URIReader(dataURI), function(zipReader) {
+                zipReader.getEntries(function(entries) {
+                    console.log(entries.length);
+                    // get first entry content as text
+                    entries[0].getData(new zip.TextWriter(), function(text) {
+                        // text contains the entry data as a String
+                        console.log(text);
+                
+                        // close the zip reader
+                        zipReader.close(function() {
+                          // onclose callback 123
+                        });
+                    });
+                });
+            }, onerror);
+        }
+        
+        function readIt() {
+            unzipDataURI('UEsDBAoAAAAAACOPOkvX0yV4DQAAAA0AAAAHAAAAb25lLnR4dG9uZSB0d28gdGhyZWVQSwECFAAKAAAAAAAjjzpL19MleA0AAAANAAAABwAAAAAAAAAAAAAAAAAAAAAAb25lLnR4dFBLBQYAAAAAAQABADUAAAAyAAAAAAA=');
+        }
+    </script>
+</apex:page>
