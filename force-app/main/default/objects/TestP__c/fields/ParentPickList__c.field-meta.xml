@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentPickList__c</fullName>
+    <label>ParentPickList</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Picklist__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ParentValue1</fullName>
+                <default>false</default>
+                <label>ParentValue1</label>
+            </value>
+            <value>
+                <fullName>ParentValue2</fullName>
+                <default>false</default>
+                <label>ParentValue2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Value1</controllingFieldValue>
+            <controllingFieldValue>Value2</controllingFieldValue>
+            <valueName>ParentValue1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Value3</controllingFieldValue>
+            <controllingFieldValue>Value4</controllingFieldValue>
+            <valueName>ParentValue2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
