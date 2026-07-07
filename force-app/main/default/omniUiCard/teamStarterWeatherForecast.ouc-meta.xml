@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OmniUiCard xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <authorName xsi:nil="true"></authorName>
+    <dataSourceConfig xsi:nil="true"></dataSourceConfig>
+    <isActive xsi:nil="true"></isActive>
+    <name xsi:nil="true"></name>
+    <omniUiCardType xsi:nil="true"></omniUiCardType>
+    <propertySetConfig xsi:nil="true"></propertySetConfig>
+    <versionNumber xsi:nil="true"></versionNumber>
+</OmniUiCard>
