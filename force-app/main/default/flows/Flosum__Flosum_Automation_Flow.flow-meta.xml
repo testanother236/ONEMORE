@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <description>Send Email</description>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientAddresses</name>
+            <value></value>
+        </inputParameters>
+        <inputParameters>
+            <name>composeEmailContent</name>
+            <value>
+                <stringValue>True</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>fInsertsEmailSubject</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <stringValue>&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Account Name: {!$Record.ZVP_Account__r.Name} &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Product Code: {!$Record.ZVP_Product_Code__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Mail Date: {!$Record.ZVP_Start_Date__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Sales Rep: {!$Record.ZVP_Contract__r.Account.Owner.ZVP_Full_Name__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;﻿{!varSaveWrapZones}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://valpak--sfdev.sandbox.lightning.force.com/builder_platform_interaction/%7B!fRecordIdUrl%7D&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(1, 118, 211);&quot;&gt;{!$Record.Name}&lt;/a&gt;&lt;/p&gt;</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <label>Inserts Email Alert</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Inserts_Email_Alert</name>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientAddresses</name>
+            <value></value>
+        </inputParameters>
+        <inputParameters>
+            <name>composeEmailContent</name>
+            <value>
+                <stringValue>True</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>sSaveWrapEmailSubject</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <stringValue>&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Account Name: {!$Record.ZVP_Account__r.Name} &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Product Code: {!$Record.ZVP_Product_Code__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-family: &amp;quot;Calibri Light&amp;quot;, sans-serif;&quot;&gt;Mail Date: {!$Record.ZVP_Start_Date__c}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;﻿{!varSaveWrapZones}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;{!fRecordIdUrl}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;{!$Record.Name}&lt;/a&gt;&lt;/p&gt;</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <label>Save Wrap Email Alert</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Save_Wrap_Email_Alert</name>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>66.0</apiVersion>
+    <assignments>
+        <assignmentItems>
+            <assignToReference>varInsertDistibutionInfo</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>For_all_Insert_Dist.ZVP_JobNTA__r.ZVP_Legacy_Issue__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varInsertDistibutionInfo</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>,</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>For_all_Insert_Dist</targetReference>
+        </connector>
+        <label>Collect Inserts Dist</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Collect_Inserts_Dist</name>
+    </assignments>
+    <assignments>
+        <assignmentItems>
+            <assignToReference>varSaveWrapZones</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>All_Save_Wrap_Dist.ZVP_JobNTA__r.ZVP_NTA_Desc__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varSaveWrapZones</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>,</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>All_Save_Wrap_Dist</targetReference>
+        </connector>
+        <label>Collect Zone Names</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Collect_Zone_Names</name>
+    </assignments>
+    <assignments>
+        <assignmentItems>
+            <assignToReference>varInsertDistibutionInfo</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.ZVP_Latest_Order_Product__r.ZVP_Desoto_Scenario__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Insert_Distribution</targetReference>
+        </connector>
+        <label>Desoto# Add</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Desoto_Add</name>
+    </assignments>
+    <decisions>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <description>Up on Status Change to Canceled for Save Wrap Products</description>
+        <label>Cancel OPS</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Cancel_OPS</name>
+        <rules>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ZVP_ATF_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Canceled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ZVP_Latest_Order_Product__r.Product2.ZVP_is_Save_Wrap_onPage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ZVP_ATF_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Get_Save_Wrap_Zones</targetReference>
+            </connector>
+            <label>Cancel Save Wrap</label>
+            <name>Cancel_Save_Wrap</name>
+        </rules>
+    </decisions>
+    <decisions>
+        <defaultConnector>
+            <targetReference>Cancel_OPS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Update</defaultConnectorLabel>
+        <label>is New</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>is_New</name>
+        <rules>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>fNewRecord</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Product_Group</targetReference>
+            </connector>
+            <label>New</label>
+            <name>New</name>
+        </rules>
+    </decisions>
+    <decisions>
+        <defaultConnectorLabel>Other Products</defaultConnectorLabel>
+        <description>Desoto Products, All Off-Pages (Includes Save Inserts) and LDPV/LDPV-Express</description>
+        <label>Product Group</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Product_Group</name>
+        <rules>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ZVP_Latest_Order_Product__r.Product2.ZVP_is_Save_Wrap_onPage__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Save_Wrap_Zones</targetReference>
+            </connector>
+            <label>Save Wrap</label>
+            <name>Save_Wrap</name>
+        </rules>
+        <rules>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ZVP_Latest_Order_Product__r.ZVP_Desoto_Scenario__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ZVP_Latest_Order_Product__r.SBQQ__QuoteLine__r.SBQQ__RequiredBy__r.SBQQ__ProductCode__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CL-OFFPAGE</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.ZVP_Product_Code__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>CL-LDPV</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Desoto_Add</targetReference>
+            </connector>
+            <label>Desoto/Off-Page/LDPV</label>
+            <name>Desoto_Off_Page_LDPV</name>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <dataType>String</dataType>
+        <expression>{!$Record.ZVP_Product_Code__c} + &apos;-&apos; + {!$Record.ZVP_Account__r.Name} + &apos;:&apos; +
+IF(
+TEXT({!$Record.ZVP_ATF_Status__c}) = &apos;Canceled&apos;,
+&apos;Canceled&apos;,
+&apos;Order&apos;
+) +
+&apos; &apos; +
+LPAD(TEXT(MONTH({!$Record.ZVP_Start_Date__c})),2,&apos;0&apos;) + &apos;/&apos; +
+LPAD(TEXT(DAY({!$Record.ZVP_Start_Date__c})),2,&apos;0&apos;) + &apos;/&apos; +
+RIGHT(TEXT(YEAR({!$Record.ZVP_Start_Date__c})),2)</expression>
+        <name>fInsertsEmailSubject</name>
+    </formulas>
+    <formulas>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+        <name>fNewRecord</name>
+    </formulas>
+    <formulas>
+        <dataType>String</dataType>
+        <expression>LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260))&amp;{!$Record.Id}</expression>
+        <name>fRecordIdUrl</name>
+    </formulas>
+    <formulas>
+        <dataType>String</dataType>
+        <expression>{!$Record.ZVP_Product_Code__c} + &apos;-&apos; + {!$Record.ZVP_Account__r.Name} + &apos;:&apos; +
+IF(
+TEXT({!$Record.ZVP_ATF_Status__c}) = &apos;Canceled&apos;,
+&apos;Canceled&apos;,
+&apos;Order&apos;
+) +
+&apos; &apos; +
+LPAD(TEXT(MONTH({!$Record.ZVP_Start_Date__c})),2,&apos;0&apos;) + &apos;/&apos; +
+LPAD(TEXT(DAY({!$Record.ZVP_Start_Date__c})),2,&apos;0&apos;) + &apos;/&apos; +
+RIGHT(TEXT(YEAR({!$Record.ZVP_Start_Date__c})),2)</expression>
+        <name>sSaveWrapEmailSubject</name>
+    </formulas>
+    <interviewLabel>RTAS: Order Product Summary Follow-up - Send Emails {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>RTAS: Order Product Summary Follow-up - Send Emails</label>
+    <loops>
+        <collectionReference>Get_Save_Wrap_Zones</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <label>All Save Wrap Dist</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>All_Save_Wrap_Dist</name>
+        <nextValueConnector>
+            <targetReference>Collect_Zone_Names</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Save_Wrap_Email_Alert</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <loops>
+        <collectionReference>Get_Insert_Distribution</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <label>For all Insert Dist</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>For_all_Insert_Dist</name>
+        <nextValueConnector>
+            <targetReference>Collect_Inserts_Dist</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Inserts_Email_Alert</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>For_all_Insert_Dist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ZVP_Sales_Line_Header__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ZVP_Sales_Line_Header__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <label>Get Insert Distribution</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Get_Insert_Distribution</name>
+        <object>ZVP_Job_NTA_Selection__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>All_Save_Wrap_Dist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ZVP_Sales_Line_Header__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ZVP_Sales_Line_Header__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <label>Get Save Wrap Zones</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <name>Get_Save_Wrap_Zones</name>
+        <object>ZVP_Job_NTA_Selection__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <connector>
+            <targetReference>is_New</targetReference>
+        </connector>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <object>ZVP_Order_Product_Summary__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <name>varInsertDistibutionInfo</name>
+    </variables>
+    <variables>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <name>varSaveWrapZones</name>
+    </variables>
+</Flow>
