@@ -1,0 +1,11 @@
+<messaging:emailTemplate subject="Peer Review rejected by the reviewer" recipientType="User" relatedToType="Flosum__Pull_Request_Reviewer__c">
+    <messaging:htmlEmailBody >
+        <html>
+            <body>
+                <p>Dear {!relatedTo.Owner.FirstName},</p>
+                <p>Peer Review({!relatedTo.Pull_Request__r.Name}) has been rejected by the user({!relatedTo.User__r.Name}).</p>
+                <c:FlosumLogo />
+            </body>
+        </html>
+    </messaging:htmlEmailBody>
+</messaging:emailTemplate>
