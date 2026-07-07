@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Info287__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Additional_Info287</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional_Info287</inlineHelpText>
+    <label>Additional_Info287</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
