@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <default>true</default>
+        <fullName>Email</fullName>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Portal</fullName>
+        <label>Portal</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Phone</fullName>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Internal</fullName>
+        <label>Internal</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Event</fullName>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <default>false</default>
+        <fullName>Task</fullName>
+        <label>Task</label>
+    </standardValue>
+</StandardValueSet>
