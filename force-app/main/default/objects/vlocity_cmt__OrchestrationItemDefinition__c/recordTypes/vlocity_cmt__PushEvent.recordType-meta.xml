@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>vlocity_cmt__PushEvent</fullName>
+    <label>Push Event</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__AttributesEncodingStyle__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Flat</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Structure</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__CalloutParameters__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Send Empty Values</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__CancelAmendBehaviour__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Smart Freeze</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__LengthUnit__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Business Days</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Business Hours</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Calendar Days</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Calendar Hours</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Seconds</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__ManualTaskExecutionMode__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Omniscript</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>VisualForce Page</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__RequestItemsEncodingStyle__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Flat</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Structure</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Scope__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Global</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Main Order Item</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Order</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Order Item</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Sales Bundle</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Swimlane</fullName>
+        </values>
+    </picklistValues>
+</RecordType>
