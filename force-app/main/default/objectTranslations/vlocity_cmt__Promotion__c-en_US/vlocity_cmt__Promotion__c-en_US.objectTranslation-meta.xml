@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Promotion__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Console Admin Search for Discount --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch_Discount</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Promotion --></label>
+        <name>vlocity_cmt__NewPromotion</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity EPC Discount Layout</layout>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- General Properties --></label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vlocity EPC Promotion Layout</layout>
+        <sections>
+            <label><!-- Additional Properties --></label>
+            <section>Additional Properties</section>
+        </sections>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- General Properties --></label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Edit --></label>
+        <name>vlocity_cmt__Promotion_Edit</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Discount record --></description>
+        <label><!-- Discount --></label>
+        <name>vlocity_cmt__Discount</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Promotion record --></description>
+        <label><!-- Promotion --></label>
+        <name>vlocity_cmt__Promotion</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- New_Discount --></label>
+        <name>vlocity_cmt__New_Discount</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Promotion --></label>
+        <name>vlocity_cmt__New_Promotion</name>
+    </webLinks>
+</CustomObjectTranslation>

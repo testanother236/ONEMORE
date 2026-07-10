@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Application__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- ApplicationChildListFieldSet --></label>
+        <name>vlocity_cmt__ApplicationChildListFieldSet</name>
+    </fieldSets>
+    <webLinks>
+        <label><!-- Review --></label>
+        <name>vlocity_cmt__Review</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Screen --></label>
+        <name>vlocity_cmt__Screen</name>
+    </webLinks>
+</CustomObjectTranslation>
