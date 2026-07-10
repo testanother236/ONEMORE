@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__FulfilmentRequest__c-en_US</fullName>
+    <recordTypes>
+        <label><!-- Fulfilment Request --></label>
+        <name>vlocity_cmt__FulfilmentRequest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Service Qualification Request --></label>
+        <name>vlocity_cmt__ServiceQualificationRequest</name>
+    </recordTypes>
+</CustomObjectTranslation>
