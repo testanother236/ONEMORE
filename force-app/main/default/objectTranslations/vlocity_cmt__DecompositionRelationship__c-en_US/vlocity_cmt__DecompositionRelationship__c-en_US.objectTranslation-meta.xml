@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__DecompositionRelationship__c-en_US</fullName>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Decomposition Relationship (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Mapping Rules --></label>
+            <section>Mapping Rules</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

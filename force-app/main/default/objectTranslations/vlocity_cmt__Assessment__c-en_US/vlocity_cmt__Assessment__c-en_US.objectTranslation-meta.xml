@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Assessment__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- AssessmentChildListFieldSet --></label>
+        <name>vlocity_cmt__AssessmentChildListFieldSet</name>
+    </fieldSets>
+</CustomObjectTranslation>
