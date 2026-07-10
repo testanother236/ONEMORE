@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__PricingComponent__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contract Line Items --></label>
+        <name>vlocity_cmt__ContractLineItems</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Pricing Component --></label>
+        <name>vlocity_cmt__NewPricingComponent</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Product Pricing --></label>
+        <name>vlocity_cmt__ProductPricing</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Alteration --></label>
+        <name>vlocity_cmt__Alteration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Charge Spec --></label>
+        <name>vlocity_cmt__ChargeSpec</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grant --></label>
+        <name>vlocity_cmt__Grant</name>
+    </recordTypes>
+</CustomObjectTranslation>

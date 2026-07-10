@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__OrchestrationPlan__c-en_US</fullName>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Plan (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label><!-- Orchestration Plan --></label>
+            <section>Orchestration Plan</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- ViewOrder --></label>
+        <name>vlocity_cmt__ViewOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewOrderDecomposition --></label>
+        <name>vlocity_cmt__ViewOrderDecomposition</name>
+    </webLinks>
+</CustomObjectTranslation>

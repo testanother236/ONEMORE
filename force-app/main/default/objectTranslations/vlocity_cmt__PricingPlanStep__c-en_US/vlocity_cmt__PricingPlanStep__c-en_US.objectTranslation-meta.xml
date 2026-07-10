@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__PricingPlanStep__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Pricing Plan Steps --></label>
+        <name>vlocity_cmt__PricingPlanSteps</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity EPC Pricing Plan Step Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

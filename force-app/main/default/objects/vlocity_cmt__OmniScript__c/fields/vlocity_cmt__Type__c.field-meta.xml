@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Licensing &amp; Permitting</fullName>
+                <default>false</default>
+                <label>Licensing &amp; Permitting</label>
+            </value>
+            <value>
+                <fullName>Contract</fullName>
+                <default>false</default>
+                <label>Contract</label>
+            </value>
+            <value>
+                <fullName>VU</fullName>
+                <default>false</default>
+                <label>VU</label>
+            </value>
+            <value>
+                <fullName>CPQ</fullName>
+                <default>false</default>
+                <label>CPQ</label>
+            </value>
+            <value>
+                <fullName>MACD</fullName>
+                <default>false</default>
+                <label>MACD</label>
+            </value>
+            <value>
+                <fullName>XOM</fullName>
+                <default>false</default>
+                <label>XOM</label>
+            </value>
+            <value>
+                <fullName>ThorManualTask</fullName>
+                <default>false</default>
+                <label>ThorManualTask</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

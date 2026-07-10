@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__AttributeAssignment__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Attribute Metadata --></label>
+        <name>vlocity_cmt__AttributeMetadata</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contract Term Admin --></label>
+        <name>vlocity_cmt__ContractTermAdmin</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Attribute Compare --></label>
+        <name>vlocity_cmt__ProductCompareVersion</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ProductJsonAttribute --></label>
+        <name>vlocity_cmt__ProductJsonAttribute</name>
+    </fieldSets>
+</CustomObjectTranslation>
