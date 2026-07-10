@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>vlocity_cmt__ServiceQualificationResult</fullName>
+    <label>Service Qualification Result</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__DisconnectLocation__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Line cut</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Meter removed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Switch flipped</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__ItemType__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Interval Meter</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Prepay Meter</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Smart Meter</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Two-way Meter</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Status__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Connected</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Disconnected</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Offline</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

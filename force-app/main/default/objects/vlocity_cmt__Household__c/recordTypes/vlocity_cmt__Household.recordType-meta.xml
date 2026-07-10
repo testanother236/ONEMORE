@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>vlocity_cmt__Household</fullName>
+    <label>Household</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__ResidenceType__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Apartment</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Multi-Family Dwelling</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Single Family Home</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Extended Family</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Immediate Family</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Partners</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

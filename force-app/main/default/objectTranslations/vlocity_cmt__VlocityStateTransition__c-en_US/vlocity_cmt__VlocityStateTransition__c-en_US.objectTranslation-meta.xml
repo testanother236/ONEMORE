@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__VlocityStateTransition__c-en_US</fullName>
+    <validationRules>
+        <errorMessage><!-- Selected State belongs to a different State Model. Please choose a State from the current State Model. --></errorMessage>
+        <name>vlocity_cmt__FromStateShouldBeOnTheSameModel</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selected State belongs to a different State Model. Please choose a State from the current State Model. --></errorMessage>
+        <name>vlocity_cmt__ToStateShouldBeOnTheSameModel</name>
+    </validationRules>
+</CustomObjectTranslation>
