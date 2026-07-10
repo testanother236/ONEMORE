@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__VqResource__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- VlocityAdmin --></label>
+        <name>vlocity_cmt__VlocityAdmin</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity Acuity Resource Layout</layout>
+        <sections>
+            <label><!-- Target Client Profile --></label>
+            <section>Target Client Profile</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

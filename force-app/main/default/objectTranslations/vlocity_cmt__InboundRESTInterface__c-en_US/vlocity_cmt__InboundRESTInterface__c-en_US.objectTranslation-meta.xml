@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__InboundRESTInterface__c-en_US</fullName>
+    <layouts>
+        <layout>Inbound REST Interface (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Vlocity Data Raptor Configuration --></label>
+            <section>Vlocity Data Raptor Configuration</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
