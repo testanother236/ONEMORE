@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>vlocity_cmt__MobilePhoneOrder</fullName>
+    <label>MobilePhoneOrder</label>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Activated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Draft</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__AsyncOperation__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Price</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Validate</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__CreditCheckDecision__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Accept-Deposit</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Accepted</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Accepted-Downsale</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Accepted-Reference</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Accepted-Upsell</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Declined</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__DeliveryMethod__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>In Store</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Premium Shipping</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Standard Shipping</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Store Pickup</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Delivery_Installation_Status__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Completed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In progress</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Yet to begin</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__ExternalPricingStatus__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Completed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Expired</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Invalidated</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Not Ready</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Ready</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Request Confirmed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Requested</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__FulfilmentStatus__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Activated</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Draft</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Progress</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Superseded</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__LeadSource__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Other</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Partner Referral</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Phone Inquiry</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Purchased List</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Web</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__LockedFor__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Async Operation</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Manual Edit</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__OrchestrationMethod__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Order Management</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Order Management Plus</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__OrderStatus__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Activated</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Cancel</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Cancel Requested</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Cancelled</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Complete</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>In Progress</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Ready To Submit</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__OriginatingChannel__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>Call Center</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Dealer</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Retail</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Web</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Reason__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Damage SIM</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Doesn%27t fit</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Faulty</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Lost %26 Stolen</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Malicious calls</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Nuisance calls</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Others</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>PUK blocked</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__SupplementalAction__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Amend</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Cancel</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Follow On</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__ValidationStatus__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Failed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Not yet run</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Passed</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

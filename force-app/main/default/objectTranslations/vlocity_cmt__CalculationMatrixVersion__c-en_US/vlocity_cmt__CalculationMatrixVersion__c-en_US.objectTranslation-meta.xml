@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__CalculationMatrixVersion__c-en_US</fullName>
+    <layouts>
+        <layout>Vlocity Pricing Matrix Version Layout</layout>
+        <sections>
+            <label><!-- Table --></label>
+            <section>Table</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create New Version --></label>
+        <name>vlocity_cmt__CreateNewVersion_Lightning</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- CreateNewVersion --></label>
+        <name>vlocity_cmt__CreateNewVersion</name>
+    </webLinks>
+</CustomObjectTranslation>

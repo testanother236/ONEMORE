@@ -1,0 +1,67 @@
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative ">
+            <div style="position: fixed;z-index: 999999;top: 0;right: 0;">
+  <vlocity_cmt-toast class="flexcard-toast-element" theme="slds" title="" message="" styletype=""> </vlocity_cmt-toast>
+</div>
+            <div if:true={showLoader} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: transparent; z-index: 99;">
+  <div>
+   <vlocity_cmt-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_cmt-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_cmt-flex-card-state if:true={record}  key={record._flex.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="slds-col   slds-border_bottom slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="     border-color:#cccccc;        " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-p-around_x-small  slds-size_5-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element0_child"   record={record}  card={card}  field-name="CaseSubject"  format="M/D/YYYY"  label="Subject"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element1" class="slds-col  slds-p-around_x-small  slds-size_3-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element1_child"   record={record}  card={card}  field-name="CaseStatus"  format="M/D/YYYY"  label="Status"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element2" class="slds-col  slds-p-around_x-small  slds-size_3-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element2_child"   record={record}  card={card}  field-name="CaseOpenDate"  format="M-D-YYYY"  label="Date Opened"  labelclass=""  placeholder="output"  styles='\{"label":{"fontFamily":"","fontSize":"10pt"},"value":{"fontFamily":"","fontSize":"12pt","textDecoration":""}}'  type="date"  valueclass=""  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element3" class="slds-col  slds-border_top slds-p-around_x-small  slds-size_10-of-12  " data-rindex={rindex} style="     border-color:#cccccc;        " ><vlocity_cmt-output-field data-style-id="state0element0block_element3_child"   record={record}  card={card}  field-name="CaseDescription"  format="M/D/YYYY"  label="Comments"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element4" class="slds-col  slds-p-around_x-small  slds-size_2-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-action data-style-id="state0element0block_element4_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  context-id="\{CaseId}"  icon-size="medium"  s-object-type="Account"  state-action='\{"displayName":"Update Case","id":"flex-action-1607648002537","isLwcOS":true,"layoutType":"lightning","omniType":{"Id":"a294x000000l1jAAAQ","Name":"sample/editCase/English","isLwcOs":true},"openUrlIn":"New Tab/Window","type":"OmniScript","vlocityIcon":"action:description"}'  theme="slds"  ></vlocity_cmt-action>
+        </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_cmt-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div data-style-id="state0element0" class="slds-col   slds-border_bottom slds-p-around_x-small  slds-size_12-of-12  " data-rindex={rindex} style="     border-color:#cccccc;        " >
+    <vlocity_cmt-block data-style-id="state0element0_child"  record={record}  card={card}  collapsed-by-default="false"  collapsible="false"  label="Block"  theme="slds"  ><div class="slds-grid slds-wrap">
+          <div data-style-id="state0element0block_element0" class="slds-col  slds-p-around_x-small  slds-size_5-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element0_child"   record={record}  card={card}  field-name="CaseSubject"  format="M/D/YYYY"  label="Subject"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element1" class="slds-col  slds-p-around_x-small  slds-size_3-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element1_child"   record={record}  card={card}  field-name="CaseStatus"  format="M/D/YYYY"  label="Status"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element2" class="slds-col  slds-p-around_x-small  slds-size_3-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-output-field data-style-id="state0element0block_element2_child"   record={record}  card={card}  field-name="CaseOpenDate"  format="M-D-YYYY"  label="Date Opened"  labelclass=""  placeholder="output"  styles='\{"label":{"fontFamily":"","fontSize":"10pt"},"value":{"fontFamily":"","fontSize":"12pt","textDecoration":""}}'  type="date"  valueclass=""  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element3" class="slds-col  slds-border_top slds-p-around_x-small  slds-size_10-of-12  " data-rindex={rindex} style="     border-color:#cccccc;        " ><vlocity_cmt-output-field data-style-id="state0element0block_element3_child"   record={record}  card={card}  field-name="CaseDescription"  format="M/D/YYYY"  label="Comments"  placeholder="output"  styles='\{"label":{"fontSize":"10pt"},"value":{"fontSize":"12pt"}}'  type="text"  theme="slds"  ></vlocity_cmt-output-field>
+      </div><div data-style-id="state0element0block_element4" class="slds-col  slds-p-around_x-small  slds-size_2-of-12  " data-rindex={rindex} style="             " ><vlocity_cmt-action data-style-id="state0element0block_element4_child"  tracking-obj={_childCardTrackingObj}   state-obj={record}  record={record}  card={card}  context-id="\{CaseId}"  icon-size="medium"  s-object-type="Account"  state-action='\{"displayName":"Update Case","id":"flex-action-1607648002537","isLwcOS":true,"layoutType":"lightning","omniType":{"Id":"a294x000000l1jAAAQ","Name":"sample/editCase/English","isLwcOs":true},"openUrlIn":"New Tab/Window","type":"OmniScript","vlocityIcon":"action:description"}'  theme="slds"  ></vlocity_cmt-action>
+        </div>
+        </div></vlocity_cmt-block>
+    </div>
+        </div>
+      </vlocity_cmt-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_cmt-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+      
+      </vlocity_cmt-action>
+  
+            <vlocity_cmt-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onselectcards={updateSelectedCards} onsetvalue={updateAction} onfireactionevent={actionEvtHandler}>
+            
+            </vlocity_cmt-action>
+            </div>
+          </template>
