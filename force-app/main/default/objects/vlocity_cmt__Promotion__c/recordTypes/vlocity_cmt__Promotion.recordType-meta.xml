@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <compactLayoutAssignment>vlocity_cmt__Vlocity_EPC_Promotion_Compact_Layout</compactLayoutAssignment>
+    <description>Promotion record</description>
+    <fullName>vlocity_cmt__Promotion</fullName>
+    <label>Promotion</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__CpqEngineHints__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>MultiAddCompatible</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__DiscountType__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Account</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Contract</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Order</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__DurationUnitOfMeasure__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Day</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Month</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Week</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Year</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__ServiceContinuation__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Manual Opt-In</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Manual Opt-Out</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>Not Applicable</fullName>
+        </values>
+    </picklistValues>
+</RecordType>
