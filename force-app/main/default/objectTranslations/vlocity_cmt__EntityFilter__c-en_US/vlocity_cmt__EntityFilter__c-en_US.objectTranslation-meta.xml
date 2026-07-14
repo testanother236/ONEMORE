@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__EntityFilter__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Entity Filter Edit Field Set --></label>
+        <name>vlocity_cmt__Entity_Filter_Edit_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Rule --></label>
+        <name>vlocity_cmt__NewRule</name>
+    </fieldSets>
+    <layouts>
+        <layout>Entity Filter (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- Entity Filter Conditions --></label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Entity Filter Layout</layout>
+        <sections>
+            <label><!-- Entity Filter Conditions --></label>
+            <section>Entity Filter Conditions</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please select a valid type for this Entity Filter. --></errorMessage>
+        <name>vlocity_cmt__EvaluationCriteriaNotNull</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__AdSpaceSpecification__c-en_US</fullName>
+    <recordTypes>
+        <description><!-- The Ad Space record type is used to create a single Ad Space Specification record. --></description>
+        <label><!-- Ad Space --></label>
+        <name>vlocity_cmt__AdSpace</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- The Ad Space Group record type is used to create the Ad Space Specification Group record. --></description>
+        <label><!-- Ad Space Group --></label>
+        <name>vlocity_cmt__AdSpaceGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents Ad Space specifications for Linear TV and Radio ads during scheduled programs. --></description>
+        <label><!-- Scheduled Program --></label>
+        <name>vlocity_cmt__ScheduledProgram</name>
+    </recordTypes>
+</CustomObjectTranslation>

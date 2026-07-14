@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__CalculationProcedure__c-en_US</fullName>
+    <quickActions>
+        <label><!-- Deep Clone --></label>
+        <name>vlocity_cmt__DeepClone_Lightning</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Class Based --></label>
+        <name>vlocity_cmt__ClassBased</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Declarative --></label>
+        <name>vlocity_cmt__Declarative</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- DeepClone --></label>
+        <name>vlocity_cmt__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import --></label>
+        <name>vlocity_cmt__Import</name>
+    </webLinks>
+</CustomObjectTranslation>
