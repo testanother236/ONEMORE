@@ -1,0 +1,38 @@
+{
+  "appPageId" : "406541d7-1b72-4ff2-81b3-f0d418fc93e0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "29bc6edb-65b6-43d9-b5fb-dd737b5c6653",
+  "label" : "User Profile",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "id" : "{!recordId}",
+        "profileTabLabel" : "Profile",
+        "richTextValue" : "<img alt='Banner image at the top of the page' class='sfdcCbImage' src='/sfsites/c/img/community/cpt/cpt-profile-banner.png'/>",
+        "settingsTabLabel" : "Settings & Preferences",
+        "showBannerImage" : true,
+        "showSettingsTab" : true
+      },
+      "componentName" : "forceCommunity:userProfileWithBanner",
+      "id" : "b6a19acc-e696-4f03-a794-bb13668cc9e6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f2515d96-1c97-4b73-b898-4e12ec0b5fab",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "505712f1-bafa-4262-b7d0-a04d4d0d14b7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "75911ad9-5638-43f7-83bc-c3f9360f108c",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

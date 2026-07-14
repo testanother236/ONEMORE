@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>English</fullName>
+        <default>true</default>
+        <label>English</label>
+    </customValue>
+    <customValue>
+        <fullName>French</fullName>
+        <default>false</default>
+        <label>French</label>
+    </customValue>
+    <customValue>
+        <fullName>Hindi</fullName>
+        <default>false</default>
+        <label>Hindi</label>
+    </customValue>
+    <customValue>
+        <fullName>Japanese</fullName>
+        <default>false</default>
+        <label>Japanese</label>
+    </customValue>
+    <customValue>
+        <fullName>May26</fullName>
+        <default>false</default>
+        <label>May26</label>
+    </customValue>
+    <masterLabel>LanguageSet</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
