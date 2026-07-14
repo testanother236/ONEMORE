@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metadata_Log__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Metadata Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Metadata Logs</value>
+    </caseValues>
+    <quickActions>
+        <label><!-- Rollback --></label>
+        <name>Veeva_Rollback</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Validate --></label>
+        <name>Validate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Veeva --></label>
+        <name>Veeva</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Impact_Analysis_MetadataLog --></label>
+        <name>Impact_Analysis_MetadataLog</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PreDeploy_Fix_MetadataLog --></label>
+        <name>PreDeploy_Fix_MetadataLog</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Deploy --></label>
+        <name>Quick_Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Retrieve_Logs --></label>
+        <name>Retrieve_Logs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>Rollback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate --></label>
+        <name>Validate</name>
+    </webLinks>
+</CustomObjectTranslation>

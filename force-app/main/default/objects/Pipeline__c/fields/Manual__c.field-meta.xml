@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Manual run pipeline</description>
+    <inlineHelpText>Check to start the pipeline manually only.</inlineHelpText>
+    <label>Manual</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
