@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__BillingDocument__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>מסמך בעלות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>מסמך בעלות</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>מסמכי חיוב</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>מסמכי חיוב</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Billing Document Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Analysis Information --></label>
+            <section>Analysis Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>מספר מסמך</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>רענן כתובות</label>
+        <name>fferpcore__RefreshAddresses</name>
+    </quickActions>
+    <webLinks>
+        <label>חישוב מס</label>
+        <name>fferpcore__CalculateTax</name>
+    </webLinks>
+    <webLinks>
+        <label>חישוב מס</label>
+        <name>fferpcore__CalculateTaxList</name>
+    </webLinks>
+</CustomObjectTranslation>

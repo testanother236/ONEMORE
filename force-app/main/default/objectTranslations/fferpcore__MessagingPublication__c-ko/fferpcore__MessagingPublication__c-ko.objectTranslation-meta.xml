@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingPublication__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>출판</value>
+    </caseValues>
+    <layouts>
+        <layout>Messaging System Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Virtual Data Object --></label>
+            <section>Virtual Data Object</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>출판물 이름</nameFieldLabel>
+    <webLinks>
+        <label>전체 클론</label>
+        <name>fferpcore__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label>출판물 수출</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>출판물 수출</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>링크 제어 활성화</label>
+        <name>fferpcore__PublicationActivateLinkControl</name>
+    </webLinks>
+</CustomObjectTranslation>

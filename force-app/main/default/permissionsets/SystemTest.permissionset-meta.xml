@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ãã¡ãã¥ã¼ãç¢ºèªç¨_ãã¹ããã¼ã¸</label>
+</PermissionSet>

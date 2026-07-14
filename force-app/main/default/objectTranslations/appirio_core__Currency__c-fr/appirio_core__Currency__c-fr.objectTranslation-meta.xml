@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Currency__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Devise</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Les devises</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Currency Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de la devise</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

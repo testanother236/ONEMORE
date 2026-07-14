@@ -1,0 +1,4 @@
+/*This is the key piece, import the css component you created here*/
+@import 'c/cssLibrary1';
+
+h2 { color: #8B85F8 }

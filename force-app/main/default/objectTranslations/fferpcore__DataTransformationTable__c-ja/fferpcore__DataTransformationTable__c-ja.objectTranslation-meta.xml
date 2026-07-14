@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__DataTransformationTable__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>データ変換表</value>
+    </caseValues>
+    <layouts>
+        <layout>Data Transformation Table Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>データ変換テーブル名</nameFieldLabel>
+</CustomObjectTranslation>

@@ -144,6 +144,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -216,6 +220,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -228,24 +236,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -268,6 +316,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -286,14 +335,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -312,7 +372,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Line Item Quantity Schedule Date</masterLabel>
         <name>LineItemQuantityScheduleDate</name>
@@ -357,6 +417,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -429,6 +493,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -441,24 +509,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -481,6 +589,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -499,14 +608,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -570,6 +690,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -646,6 +770,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -658,24 +786,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -698,6 +866,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -717,14 +886,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -743,7 +923,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Line Item Revenue Schedule Date</masterLabel>
         <name>LineItemRevenueScheduleDate</name>
@@ -788,6 +968,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -864,6 +1048,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -876,24 +1064,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -916,6 +1144,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -935,14 +1164,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1006,6 +1246,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1078,6 +1322,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1090,24 +1338,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1130,6 +1418,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1148,14 +1437,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1219,6 +1519,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1295,6 +1599,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1307,24 +1615,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1347,6 +1695,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1366,14 +1715,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1437,6 +1797,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1509,6 +1873,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1521,24 +1889,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1561,6 +1969,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1579,14 +1988,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1650,6 +2070,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1722,6 +2146,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1734,24 +2162,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1774,6 +2242,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -1792,14 +2261,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1818,7 +2298,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Opportunity Quantity Schedule Date</masterLabel>
         <name>OpportunityQuantityScheduleDate</name>
@@ -1863,6 +2343,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1935,6 +2419,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -1947,24 +2435,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -1987,6 +2515,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2005,14 +2534,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2076,6 +2616,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CORE.USERS.ALIAS</field>
             <label>Opportunity Owner Alias</label>
         </opportunityListFieldsLabelMappings>
@@ -2148,6 +2692,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2160,24 +2708,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2200,6 +2788,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
             <field>CORE.USERS.LAST_NAME</field>
@@ -2218,14 +2807,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2289,6 +2889,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2365,6 +2969,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2377,24 +2985,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2417,6 +3065,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2436,14 +3085,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2462,7 +3122,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Opportunity Revenue Schedule Date</masterLabel>
         <name>OpportunityRevenueScheduleDate</name>
@@ -2507,6 +3167,10 @@
             <label>Contract Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
+            <label>Opportunity Currency</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.AMOUNT</field>
             <label>Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2583,6 +3247,10 @@
             <label>Fiscal Period</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.RECORDTYPE</field>
+            <label>Opportunity Record Type</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <label>Last Activity</label>
         </opportunityListFieldsLabelMappings>
@@ -2595,24 +3263,64 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwt</field>
+            <field>00NDy000003Kg7b</field>
+            <label>Backup External Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7c</field>
+            <label>Backup Unique Id</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLPG</field>
+            <label>Branch Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7d</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwu</field>
+            <field>00NDy000003KLSP</field>
+            <label>Custom Employee</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7e</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwv</field>
+            <field>00NDy000003KLPL</field>
+            <label>Deploy Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLax</field>
+            <label>Field1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003KLb2</field>
+            <label>Field2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7f</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdww</field>
+            <field>00NDy000003Kg7g</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003KLSF</field>
+            <label>Total Fine</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00NDy000003Kg7h</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <label>Received Connection Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CONNECTION_SENT.NAME</field>
+            <label>Sent Connection Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
@@ -2635,6 +3343,7 @@
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <field>CONTRACT.NAME</field>
+            <field>OPPORTUNITY.CURRENCY_ISO_CODE</field>
             <field>OPPORTUNITY.AMOUNT</field>
             <field>CORE.USERS.ALIAS</field>
             <field>CORE.USERS.FIRST_NAME</field>
@@ -2654,14 +3363,25 @@
             <field>OPPORTUNITY.FISCAL_YEAR</field>
             <field>OPPORTUNITY.FISCAL_QUARTER</field>
             <field>OPPORTUNITY.FISCAL_PERIOD</field>
+            <field>OPPORTUNITY.RECORDTYPE</field>
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00NWU00001RGdwt</field>
-            <field>00NWU00001RGdwu</field>
-            <field>00NWU00001RGdwv</field>
-            <field>00NWU00001RGdww</field>
-            <field>00NWU00001RGdwx</field>
+            <field>00NDy000003Kg7b</field>
+            <field>00NDy000003Kg7c</field>
+            <field>00NDy000003KLPG</field>
+            <field>00NDy000003Kg7d</field>
+            <field>00NDy000003KLSP</field>
+            <field>00NDy000003Kg7e</field>
+            <field>00NDy000003KLPL</field>
+            <field>00NDy000003KLax</field>
+            <field>00NDy000003KLb2</field>
+            <field>00NDy000003Kg7f</field>
+            <field>00NDy000003Kg7g</field>
+            <field>00NDy000003KLSF</field>
+            <field>00NDy000003Kg7h</field>
+            <field>CONNECTION_RECEIVED.NAME</field>
+            <field>CONNECTION_SENT.NAME</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>

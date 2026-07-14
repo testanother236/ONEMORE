@@ -1,0 +1,7 @@
+<messaging:emailTemplate subject="Run Test Log" recipientType="User" relatedToType="Target_Hello_Object__c">
+<messaging:plainTextEmailBody >
+Before Log
+<c:LocCreator recordId="{!relatedTo.id}"/>
+After Log
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

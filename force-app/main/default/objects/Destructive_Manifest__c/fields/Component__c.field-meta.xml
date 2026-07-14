@@ -4,6 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <label>Component</label>
     <referenceTo>Component__c</referenceTo>
+    <relationshipLabel>Destructive Changes</relationshipLabel>
     <relationshipName>Destructive_Manifests</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

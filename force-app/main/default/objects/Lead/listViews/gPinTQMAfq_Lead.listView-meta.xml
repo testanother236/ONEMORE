@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gPinTQMAfq_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>gPinTQMAfq</label>
+    <queue>gPinTQMAfq</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

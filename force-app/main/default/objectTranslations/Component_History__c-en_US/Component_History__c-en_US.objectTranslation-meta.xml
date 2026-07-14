@@ -9,9 +9,12 @@
         <plural>true</plural>
         <value>Component History</value>
     </caseValues>
+    <layouts>
+        <layout>Component History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
-    <webLinks>
-        <label><!-- Comparison --></label>
-        <name>Comparison</name>
-    </webLinks>
 </CustomObjectTranslation>

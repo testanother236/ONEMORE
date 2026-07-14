@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFeedFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteria>
+        <feedItemType>TextPost</feedItemType>
+        <feedItemVisibility>AllUsers</feedItemVisibility>
+    </criteria>
+    <label>temp Filter 2</label>
+</CustomFeedFilter>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ERPProduct__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Produit enregistré</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Produits enregistrés</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>ERP Linked Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Version Details --></label>
+            <section>Version Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du produit</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

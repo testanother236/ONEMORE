@@ -30,6 +30,7 @@
     <columns>
         <field>OPPORTUNITY</field>
     </columns>
+    <currency>USD</currency>
     <description>How many tasks and activies are being added to Salesforce?</description>
     <format>Matrix</format>
     <groupingsDown>

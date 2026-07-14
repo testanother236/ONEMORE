@@ -1,0 +1,43 @@
+<apex:page controller="PaginationWithWraperSortingController">
+    <apex:form id="all">
+        <apex:pageBlock >
+            <apex:pageBlockTable value="{!books}" var="bk">
+                <apex:column value="{!bk.BookTitle}">
+                    <apex:facet name="header">
+                        <apex:commandLink value="BookTitle" action="{!changeOrderBy}" reRender="all">
+                            <apex:param assignTo="{!columnStr}" value="ByTitle" name="OrderByFieldName"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                </apex:column>
+                <apex:column value="{!bk.Author}">
+                    <apex:facet name="header">
+                        <apex:commandLink value="Author" action="{!changeOrderBy}" reRender="all">
+                            <apex:param assignTo="{!columnStr}" value="ByAuther" name="OrderByFieldName"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                </apex:column>
+                <apex:column value="{!bk.TotalPages}">
+                    <apex:facet name="header">
+                        <apex:commandLink value="TotalPages" action="{!changeOrderBy}" reRender="all">
+                            <apex:param assignTo="{!columnStr}" value="ByPage" name="OrderByFieldName"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                </apex:column>
+                <apex:column value="{!bk.Price}">
+                    <apex:facet name="header">
+                        <apex:commandLink value="Price" action="{!changeOrderBy}" reRender="all">
+                            <apex:param assignTo="{!columnStr}" value="ByPrice" name="OrderByFieldName"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                </apex:column>
+                <apex:column value="{!bk.publishingDate}">
+                    <apex:facet name="header">
+                        <apex:commandLink value="Publishing Date" action="{!changeOrderBy}" reRender="all">
+                            <apex:param assignTo="{!columnStr}" value="ByPublishingDate" name="OrderByFieldName"/>
+                        </apex:commandLink>
+                    </apex:facet>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

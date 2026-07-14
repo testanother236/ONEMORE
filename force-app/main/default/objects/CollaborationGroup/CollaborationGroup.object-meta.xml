@@ -128,5 +128,4 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
 </CustomObject>

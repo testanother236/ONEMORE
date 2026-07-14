@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>分析項目</value>
+    </caseValues>
+    <nameFieldLabel>名</nameFieldLabel>
+    <recordTypes>
+        <description>請求伝票のサブ分析に使用され、さまざまなビジネスコンセプトを表すために使用できます。</description>
+        <label>分析1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>請求伝票のサブ分析に使用され、さまざまなビジネスコンセプトを表すために使用できます。</description>
+        <label>分析2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>請求伝票をサブ分析するために使用され、さまざまなビジネスコンセプトを表すために使用できます。</description>
+        <label>分析3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>請求伝票をサブ分析するために使用され、さまざまなビジネスコンセプトを表すために使用できます。</description>
+        <label>分析4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

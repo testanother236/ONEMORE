@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HGGKRGKOpL_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>HGGKRGKOpL</label>
+    <queue>HGGKRGKOpL</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

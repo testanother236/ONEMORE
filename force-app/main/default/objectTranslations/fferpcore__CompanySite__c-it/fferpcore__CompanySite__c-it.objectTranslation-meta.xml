@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__CompanySite__c-it</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Sito aziendale</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Siti aziendali</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome del sito dell’azienda</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Convalida indirizzo</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Convalida indirizzo</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

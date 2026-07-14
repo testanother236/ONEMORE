@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__CompanyTaxInformation__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Informations fiscales sur l&apos;entreprise</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Informations fiscales sur l&apos;entreprise</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Company Tax Information Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- VAT/GST Tax Information --></label>
+            <section>VAT/GST Tax Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de l&apos;information fiscale de l&apos;entrep</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Assigner à des entreprises</label>
+        <name>fferpcore__AssignToCompanies</name>
+    </webLinks>
+</CustomObjectTranslation>

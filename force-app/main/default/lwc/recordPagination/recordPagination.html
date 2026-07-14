@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Pagination" icon-name="custom:custom14">
+        <ul class="slds-m-around_medium">
+            <template if:true={isRecordExist}>
+                <template for:each={Records} for:item="rec">
+                    <div key={rec.Id}>
+                        {rec.Id}
+                    </div>
+                    <div key={rec.Id}>
+                        {rec.Name}
+                    </div>
+                </template>
+            </template>
+            <template if:false={isRecordExist}>
+                No record found.
+            </template>
+        </ul>
+    </lightning-card>
+</template>

@@ -43,4 +43,10 @@
         <label>Other</label>
         <cssExposed>false</cssExposed>
     </standardValue>
+    <standardValue>
+        <fullName>case meta data testing</fullName>
+        <default>false</default>
+        <label>case meta data testing</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
 </StandardValueSet>

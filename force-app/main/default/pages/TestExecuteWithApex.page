@@ -1,0 +1,3 @@
+<apex:page controller="TestExecuteWithApexController">
+    <apex:pageMessages id="msg"/>
+</apex:page>

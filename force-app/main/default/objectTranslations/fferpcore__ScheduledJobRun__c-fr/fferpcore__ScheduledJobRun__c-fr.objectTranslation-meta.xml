@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJobRun__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Exécution de travail planifiée</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Exécutions de travail planifiées</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Scheduled Process Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Numéro de course</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
