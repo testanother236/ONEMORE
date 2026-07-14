@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Builder5</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Builder5</name>
+    <pageDevName>Builder5</pageDevName>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Builder5</subject>
+    <textOnly>Button Name &lt; https:// &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

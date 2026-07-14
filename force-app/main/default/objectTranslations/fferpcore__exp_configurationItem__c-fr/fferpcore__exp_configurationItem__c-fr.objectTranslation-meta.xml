@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__exp_configurationItem__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Élément de configuration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Éléments de configuration</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Configuration Builder Data Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de la configuration</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

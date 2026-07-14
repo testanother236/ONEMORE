@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJobRun__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ריצת עבודה מתוזמנת</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>ריצת עבודה מתוזמנת</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>עבודות עבודה מתוזמנות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>עבודות עבודה מתוזמנות</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Scheduled Process Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>הפעל מספר</nameFieldLabel>
+</CustomObjectTranslation>

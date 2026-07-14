@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>LABS_SF_PleaseEnterTheList</fullName>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>Please enter the list</shortDescription>
+    <value>Please enter the list of answers/responses in the field below. Each value should be separated by a new line.</value>
+</CustomLabel>

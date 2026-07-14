@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>Test1</fullName>
+    <categories>CategoryTest</categories>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>Test1</shortDescription>
+    <value>Test1</value>
+</CustomLabel>

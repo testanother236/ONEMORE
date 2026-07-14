@@ -1,0 +1,4 @@
+<aura:component >
+	<!--Comment-->
+    <div>Testing123</div>
+</aura:component>

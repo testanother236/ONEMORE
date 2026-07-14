@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__fflib_BatchProcess__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Processus par lots des fondations</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Processus par lots des fondations</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Batch Process Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Job Status --></label>
+            <section>Job Status</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Exécuter</label>
+        <name>fferpcore__Run</name>
+    </webLinks>
+    <webLinks>
+        <label>Exécuter des travaux</label>
+        <name>fferpcore__RunJobs</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>piGSorRmqu_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>piGSorRmqu</label>
+    <queue>piGSorRmqu</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

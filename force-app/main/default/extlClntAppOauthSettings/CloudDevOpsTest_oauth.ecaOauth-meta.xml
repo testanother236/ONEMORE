@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppOauthSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <commaSeparatedOauthScopes>Basic, Api, Web, Full, RefreshToken</commaSeparatedOauthScopes>
+    <externalClientApplication>CloudDevOpsTest</externalClientApplication>
+    <label>CloudDevOpsTest_oauth</label>
+    <oauthLink>00D3C0000005Oj9:888Dy000000Cxmt</oauthLink>
+</ExtlClntAppOauthSettings>

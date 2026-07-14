@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing Business Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <default>false</default>
+        <fullName>Closed - Converted</fullName>
+    </values>
+    <values>
+        <default>true</default>
+        <fullName>Open - Not Contacted</fullName>
+    </values>
+    <values>
+        <default>false</default>
+        <fullName>Working - Contacted</fullName>
+    </values>
+</BusinessProcess>

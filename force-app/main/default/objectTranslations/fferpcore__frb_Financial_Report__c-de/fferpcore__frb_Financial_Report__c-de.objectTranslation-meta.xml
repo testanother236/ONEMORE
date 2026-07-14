@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Financial_Report__c-de</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Finanzbericht</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Berichtsname</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Export</label>
+        <name>fferpcore__Export_Action</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Speichern</label>
+        <name>fferpcore__Save_Action</name>
+    </quickActions>
+</CustomObjectTranslation>

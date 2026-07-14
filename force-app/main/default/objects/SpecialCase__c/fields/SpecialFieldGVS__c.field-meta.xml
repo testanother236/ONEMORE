@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpecialFieldGVS__c</fullName>
+    <label>SpecialFieldGVS</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SpecialField__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>SPT</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>sdfds !@#$%^&amp;*()_+`-=</controllingFieldValue>
+            <valueName>ds!@#$%^&amp;*()_+=-0</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

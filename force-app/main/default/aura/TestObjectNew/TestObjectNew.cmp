@@ -1,0 +1,24 @@
+<aura:component implements="flexipage:availableForRecordHome,lightning:actionOverride" access="global">
+    <aura:attribute name="rec" type="Target_Hello_Object__c" access="global" />
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="fields"
+                    type="String[]"
+                    default="['Name', 'Pick1__c','Pick2__c','Pick3__c']"/>
+    <lightning:card>
+        <lightning:recordEditForm objectApiName="Target_Hello_Object__c">
+            <lightning:messages />
+                <div class="slds-grid">
+                    <div class="slds-col slds-size_1-of-4">
+                        <lightning:inputField fieldName="Test__c"/>
+                    </div>
+                    <div class="slds-col slds-size_1-of-4">
+                        <lightning:inputField fieldName="Test2__c"/>
+                    </div>
+                    <div class="slds-col slds-size_1-of-4">
+                        <lightning:inputField fieldName="Send_Email__c"/>
+                    </div>
+                </div>
+            <lightning:button class="slds-m-top_small" type="submit" label="Create new" />
+        </lightning:recordEditForm>
+    </lightning:card>
+</aura:component>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Key__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>מפתח</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>מפתח</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>מפתחות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>מפתחות</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>License Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key --></label>
+            <section>Key</section>
+        </sections>
+        <sections>
+            <label><!-- License Information --></label>
+            <section>License Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם מפתח</nameFieldLabel>
+</CustomObjectTranslation>

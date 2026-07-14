@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__CompanySite__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>会社サイト</value>
+    </caseValues>
+    <nameFieldLabel>会社サイト名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>住所を検証</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <webLinks>
+        <label>住所を検証</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

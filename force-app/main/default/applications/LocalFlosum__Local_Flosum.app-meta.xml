@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Local Flosum</label>
+    <tabs>LocalFlosum__FL_Local_Workspace</tabs>
+    <tabs>LocalFlosum__FL_Remote_Repository</tabs>
+    <tabs>LocalFlosum__FL_Sync__c</tabs>
+    <tabs>LocalFlosum__FL_Settings</tabs>
+</CustomApplication>

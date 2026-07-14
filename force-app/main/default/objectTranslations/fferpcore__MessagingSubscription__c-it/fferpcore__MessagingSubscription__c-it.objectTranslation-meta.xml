@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingSubscription__c-it</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Sottoscrizione</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sottoscrizioni</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Messaging System Subscription Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Routing Details --></label>
+            <section>Routing Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome dell&apos;abbonamento</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Clone completo</label>
+        <name>fferpcore__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label>Esporta abbonamento</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>Esporta sottoscrizioni</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>Attiva controllo link</label>
+        <name>fferpcore__SubscriptionActivateLinkControl</name>
+    </webLinks>
+</CustomObjectTranslation>

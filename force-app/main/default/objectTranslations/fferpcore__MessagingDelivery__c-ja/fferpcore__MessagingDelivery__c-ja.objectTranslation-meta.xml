@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingDelivery__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>配達</value>
+    </caseValues>
+    <layouts>
+        <layout>Messaging System Delivery Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Body --></label>
+            <section>Message Body</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>配送ID</nameFieldLabel>
+    <webLinks>
+        <label>配達を再試行</label>
+        <name>fferpcore__RetryMultiple</name>
+    </webLinks>
+    <webLinks>
+        <label>配達を再試行</label>
+        <name>fferpcore__RetrySingle</name>
+    </webLinks>
+</CustomObjectTranslation>

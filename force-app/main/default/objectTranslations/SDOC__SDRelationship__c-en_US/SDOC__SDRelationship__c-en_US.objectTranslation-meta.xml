@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDOC__SDRelationship__c-en_US</fullName>
+    <layouts>
+        <layout>SDoc Relationship Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Before you are able to manually set the Docs Status to &quot;Linked to Google Doc&quot;, you must first enter a valid URL to an existing Google Doc in the Google Docs Link field. --></errorMessage>
+        <name>SDOC__GD_Link</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Upload_to_Google_Docs --></label>
+        <name>SDOC__Upload_to_Google_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Upload_to_S3 --></label>
+        <name>SDOC__Upload_to_S3</name>
+    </webLinks>
+</CustomObjectTranslation>

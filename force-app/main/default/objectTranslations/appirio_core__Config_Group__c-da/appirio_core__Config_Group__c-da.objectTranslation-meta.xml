@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Config_Group__c-da</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Konfigurationsgruppe</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Konfigurationsgruppe</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Konfigurationsgruppe</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Konfigurationsgrupper</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Konfigurationsgrupper</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Konfigurationsgrupper</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Configuration Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Konfigurationsgruppens navn</nameFieldLabel>
+</CustomObjectTranslation>

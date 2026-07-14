@@ -1,0 +1,31 @@
+<apex:page controller="HeapSizeTestController">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton Value="Test Heap Size By Remote Action" onClick="testHeap(); return false;" reRender="none"/>
+                <apex:commandButton Value="Test Heap Size By Action" action="{!testHeapSize2}"/>
+            </apex:pageBlockButtons>   
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        function testHeap()
+        {
+            Visualforce.remoting.Manager.invokeAction(
+                                    '{!$RemoteAction.HeapSizeTestController.testHeapSize}',
+                                    handleHeapSize   
+                                );
+        }
+        
+        function handleHeapSize(r,e)
+        {
+            if(e.status && r) 
+            {
+                console.log(r);
+            }
+            else
+            {
+                console.log(e.message);
+            }
+        }
+    </script>
+</apex:page>

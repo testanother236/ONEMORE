@@ -1,0 +1,217 @@
+<apex:component controller="RecordFetchController">
+    <apex:includeScript value="{!URLFOR($Resource.Angular1_6)}"/>
+    <apex:attribute name="objectName" type="string" description="Name of the Object" required="true" assignTo="{!objectNameStr }"/>
+    <apex:attribute name="recordLimit" type="Integer" description="offset of records" required="true"/>
+    <apex:attribute name="fieldNames" type="String[]" description="coma seperated field names" required="true" assignTo="{!fieldNamesLi }"/>
+    <style>
+        div .pagination {
+            text-align: center;
+        }
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+          display: none !important;
+        }
+    </style>
+    <div ng-app="recordRetrieval" >
+        <div ng-controller ="RetrieveRecordsController" id="angularControllerId">
+            <div class="ng-cloak">
+                <apex:pageBlock >
+                    <apex:pageBlockSection html-ng-show="paginationList.length > 0" columns="1">                    
+                        <div>
+                            <apex:pageBlockSection columns="1">
+                                <table ng-show="paginationList.length > 0" class="list">
+                                    <thead>
+                                        <tr class="headerRow">
+                                            <th ng-repeat = "(key, value) in fieldSet">
+                                                <a ng-click="refreshOrderBy(key)">{{ key == orderByColumn ? isReverse ? value +' ▼' : value +' ▲' : value}}</a>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr ng-repeat = "meta in paginationList | orderBy: orderByColumn :isReverse | limitTo: viewLimit" ng-if="$index >= metaOffSet" class="dataRow" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} ">
+                                            <td ng-repeat = "(key, value) in fieldSet">
+                                                {{ meta[key] }}
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </apex:pageBlockSection>
+                        </div>    
+                    </apex:pageBlockSection>
+                    <apex:outputPanel html-ng-show="paginationList.length > 0" styleClass="pagination" layout="block">
+                        <button type="button" ng-click="showFirst();" ng-disabled="isPrevious();">First</button>
+                        <button type="button" ng-click="listPrevious();" ng-disabled="isPrevious();">Previous</button>
+                        Total {{(paginationList).length}} components, Page {{currentPageNo((paginationList).length)}} of {{totalPageCount((paginationList).length)}}
+                        <button type="button" ng-click="listNext((paginationList).length);" ng-disabled="isNext((paginationList).length);">Next</button>
+                        <button type="button" ng-click="showLast((paginationList).length);" ng-disabled="isNext((paginationList).length);">Last</button>
+                        <!--<button type="button" ng-click="listNext((paginationList).length);" ng-disabled="isNext((paginationList).length);">Next</button>
+                        <button type="button" ng-click="showLast((paginationList).length);" ng-disabled="isNext((paginationList).length);">Last</button>-->
+                    </apex:outputPanel>
+                </apex:pageBlock>
+            </div>
+        </div>
+    </div>
+    <script>
+        Visualforce.remoting.timeout = 120000;
+        
+        var myApp = angular.module("recordRetrieval", []);
+        myApp.controller("RetrieveRecordsController", ['$scope',function($scope) {
+            $scope.queryLimit = {!recordLimit};
+            $scope.objectName = '{!JSENCODE(objectName)}';
+            $scope.fieldNamesStr = '{!fieldNames}';
+            $scope.paginationList = [];
+            
+            $scope.getRetrieveRequest = function(objectName, fieldNamesStr, queryLimit) {
+                console.log('objectName-'+objectName);
+                console.log('fieldNamesStr-'+fieldNamesStr);
+                console.log('queryLimit-'+queryLimit);
+                if(objectName != '' && objectName != undefined && fieldNamesStr != '[]') {
+                    retrieveAllRecords(objectName, fieldNamesStr, queryLimit).then(function(response) {
+                        console.log(response);
+                        $scope.paginationList = response;
+                        $scope.showPagination();
+                    }, function(error) {
+                        if (error.type === 'exception') {
+                            console.log(error.message + " " + error.where);
+                        } else {
+                            console.log(error.message);
+                        }
+                    });
+                }
+            };
+            $scope.getRetrieveRequest($scope.objectName, $scope.fieldNamesStr, $scope.queryLimit);
+            
+            $scope.orderByColumn = 'Name';
+            $scope.isReverse = false;
+            $scope.metaOffSet = 0;
+            $scope.staticLimit = $scope.queryLimit;
+            $scope.viewLimit = $scope.staticLimit;
+            $scope.fieldSet = {};
+            $scope.fieldSet['Id'] = 'Id';
+            $scope.fieldSet['Name'] = 'Name';
+                        
+            $scope.showPagination = function() {
+                $scope.$apply(function() {
+                  $scope.metaOffSet = 0;
+                  $scope.viewLimit = $scope.staticLimit;
+                  $scope.orderByColumn = 'Name';
+                  $scope.isReverse = false;
+                });
+            };
+            
+            $scope.defaultNextPrevious = function(){
+                $scope.isAllChecked = false ;
+            }
+            
+            $scope.refreshOrderBy = function(orderVal) {
+                $scope.metaOffSet = 0;
+                $scope.viewLimit = $scope.metaOffSet + $scope.staticLimit;
+                if(orderVal == $scope.orderByColumn)
+                    $scope.isReverse = !$scope.isReverse;
+                else
+                {
+                    $scope.isReverse = false;
+                    $scope.orderByColumn = orderVal;
+                }
+                $scope.defaultNextPrevious();
+            };
+            
+            $scope.showFirst = function() {
+                $scope.metaOffSet = 0;
+                $scope.viewLimit = $scope.staticLimit;
+                $scope.defaultNextPrevious();    
+            };
+            
+            $scope.listPrevious = function() {
+                $scope.metaOffSet = $scope.metaOffSet - $scope.staticLimit;
+                if($scope.metaOffSet < 0)
+                    $scope.metaOffSet = 0;
+                $scope.viewLimit = $scope.metaOffSet + $scope.staticLimit;
+                $scope.defaultNextPrevious();
+            };
+            
+            $scope.listNext = function(tempTotal) {
+                if(($scope.metaOffSet + $scope.staticLimit) < tempTotal)
+                {
+                    $scope.metaOffSet = $scope.metaOffSet + $scope.staticLimit;
+                    $scope.viewLimit = $scope.metaOffSet + $scope.staticLimit;
+                }
+                $scope.defaultNextPrevious();
+            };
+            
+            $scope.showLast = function(tempTotal) {
+                $scope.metaOffSet = tempTotal - (tempTotal % $scope.staticLimit);
+                if($scope.metaOffSet == tempTotal && $scope.metaOffSet != 0)
+                    $scope.metaOffSet = tempTotal - $scope.staticLimit;
+                $scope.viewLimit = $scope.metaOffSet + $scope.staticLimit;
+                $scope.defaultNextPrevious();
+            };
+            
+            $scope.isPrevious = function() {
+                if($scope.metaOffSet < 1) 
+                    return true;
+                else
+                    return false;
+            };
+            
+            $scope.isNext = function(tempTotal){
+                if(tempTotal > $scope.metaOffSet+$scope.staticLimit)
+                    return false;
+                else 
+                    return true;
+            };
+            
+            $scope.totalPageCount = function(tempTotal){
+                var totalPage = parseInt(tempTotal % $scope.staticLimit > 0 ? (tempTotal / $scope.staticLimit)+1 : (tempTotal / $scope.staticLimit));
+                return totalPage;
+            };
+            
+            $scope.currentPageNo = function(tempTotal){
+                var currentPage = 1;
+                if($scope.metaOffSet <  $scope.staticLimit)
+                    currentPage =  1;
+                else
+                    currentPage = Math.ceil($scope.metaOffSet / $scope.staticLimit)+1;
+                return currentPage;
+            };            
+        }]);
+        
+        function retrieveAllRecords(objectName, fieldNamesStr, queryLimit) {
+            return new Promise(function (fulfill, reject) {
+                var resultLi = [];
+                var lastId = '';
+                var queryOneByOne = function() {
+                    Visualforce.remoting.Manager.invokeAction(
+                        '{!$RemoteAction.RecordFetchController.listRecords}',
+                        objectName,
+                        fieldNamesStr,
+                        queryLimit,
+                        lastId,
+                        function(result, event){
+                            if (event.status) {
+                                if(result != undefined)
+                                {
+                                    for(var index=0; index < result.length; index++)
+                                    {
+                                        resultLi.push(result[index]);
+                                        lastId = result[index].Id;
+                                    }
+                                }
+                                //Condition to query all.
+                                if(result != undefined && result.length == queryLimit && lastId != '')
+                                {
+                                    queryOneByOne();
+                                }
+                                else
+                                    fulfill(resultLi);
+                            } else {
+                                reject(event);
+                            }
+                        }, 
+                        {escape: true}
+                    );
+                }
+                queryOneByOne();
+            });
+        }
+    </script>
+</apex:component>

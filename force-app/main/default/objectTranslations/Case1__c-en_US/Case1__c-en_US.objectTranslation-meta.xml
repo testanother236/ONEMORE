@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case1__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Case1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case1</value>
+    </caseValues>
+    <layouts>
+        <layout>CaseLayout Copy</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Case Type1 --></label>
+        <name>Case_Type1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-1 --></label>
+        <name>TestCase1_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-2 --></label>
+        <name>TestCase1_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-3 --></label>
+        <name>TestCase1_3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-4 --></label>
+        <name>TestCase1_4</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-5 --></label>
+        <name>TestCase1_5</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-6 --></label>
+        <name>TestCase1_6</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase1-7 --></label>
+        <name>TestCase1_7</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Number_of_Intl_Distributor__c</fullName>
+    <description>If the Customer Number of Int. Dist. is populated on the Account, it is also populated on the associated Esri Developer Code records.</description>
+    <externalId>false</externalId>
+    <label>Customer Number of Intl Distributor</label>
+    <length>10</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestPublication__c-sv</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Testläge Publicering</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Testläge Publicering</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Testläge Publicering</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Testläge Publikationer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Testläge Publikationer</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Testläge Publikationer</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Test Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Response Publication --></label>
+            <section>Response Publication</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Publiceringsnamn för testläge</nameFieldLabel>
+    <webLinks>
+        <label>Installera och publicera</label>
+        <name>fferpcore__PublishMessage</name>
+    </webLinks>
+    <webLinks>
+        <label>Installera och publicera</label>
+        <name>fferpcore__SetupAndPublishMultipleMessages</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Key__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>キー</value>
+    </caseValues>
+    <layouts>
+        <layout>License Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Key --></label>
+            <section>Key</section>
+        </sections>
+        <sections>
+            <label><!-- License Information --></label>
+            <section>License Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>キー名</nameFieldLabel>
+</CustomObjectTranslation>
