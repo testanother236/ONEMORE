@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Add_To_Patch_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add To Patch Title</shortDescription>
+        <value>Add To Deployment</value>
+    </labels>
+    <labels>
+        <categories>AuditTrails</categories>
+        <fullName>AuditTrailsFeatureNotAvailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AuditTrailsFeatureNotAvailable</shortDescription>
+        <value>This feature is not available.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>AutoClosePeerReviewNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AutoClosePeerReviewNote</shortDescription>
+        <value>Note: Enabling this setting will auto-close peer review records:&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;1. When a new peer review is created on a branch, it will close older Pending peer reviews.&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;2. When a peer review is closed, it will also change the status on the reviewer records to Closed.&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;3. When a peer review has the required approvals, it will update the peer review status to Approved and the status of Pending reviewer records to Closed.&lt;br/&gt;
+&amp;nbsp;&amp;nbsp;4. When a peer review has more rejections that it can&apos;t be approved, it will update the peer review status to Rejected and the status of Pending reviewer records to Closed.</value>
+    </labels>
+    <labels>
+        <fullName>Auto_Include_All_Member_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto Include All Member Description</shortDescription>
+        <value>This will include all the members for the workflow notifications.</value>
+    </labels>
+    <labels>
+        <fullName>Auto_Include_All_Member_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto Include All Member Title</shortDescription>
+        <value>Auto-include all the members for the notifications</value>
+    </labels>
+    <labels>
+        <fullName>BackButtonLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BackButtonLabel</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <categories>Snapshot</categories>
+        <fullName>BranchSnapshotProfileNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BranchSnapshotProfileNote</shortDescription>
+        <value>Note: If you select a namespace and a profile component for retrieval, it will retrieve unmanaged and selected namespace-related permissions with the profile.</value>
+    </labels>
+    <labels>
+        <fullName>Build_Organization_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Build Organization Label</shortDescription>
+        <value>Build and Deploy Organization</value>
+    </labels>
+    <labels>
+        <fullName>Build_Organization_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Build Organization Title</shortDescription>
+        <value>Automated Builds for a Repository</value>
+    </labels>
+    <labels>
+        <fullName>CancelDeploySuccessMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CancelDeploySuccessMessage</shortDescription>
+        <value>Cancellation request has been successfully submitted and is in progress on the Salesforce server.</value>
+    </labels>
+    <labels>
+        <fullName>Changed_On</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Changed On</shortDescription>
+        <value>Changed On</value>
+    </labels>
+    <labels>
+        <fullName>CheckOrgAuthorization</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Check org authorization. If necessary, re-authorize.</shortDescription>
+        <value>Check org authorization. If necessary, re-authorize.</value>
+    </labels>
+    <labels>
+        <fullName>Code_Coverage_Check_error_incorrect_test_option</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Code Coverage Check error incorrect test option</shortDescription>
+        <value>You can&apos;t use the &quot;Default&quot; or &quot;Do not run tests&quot; options because code coverage checking is enabled for this org. If you want to use these options, please ask your Flosum Admin to disable the code coverage check option for this org. To use &quot;Run specified tests on Branch&quot;, you need to enter tests in the &quot;Specified Tests&quot; field on the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Comments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>Commit_Destructive_Changes_To_Repository_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit Destructive Changes To Repository Description</shortDescription>
+        <value>These components are destructive changes and will be deleted from the repository. These components will still be visible on branches, but will no longer be available in the source repository once this commit is completed.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_Select_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit Select Description</shortDescription>
+        <value>Please select the components you want to commit to the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_Time</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Commit Time column</shortDescription>
+        <value>Commit Time</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Description_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Description 1</shortDescription>
+        <value>In version control, a branch is an isolated, private area to keep your code changes separate from the main-line code (repository). Multiple developers who work on a particular feature share code in the branch:</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Description_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Description 2</shortDescription>
+        <value>They push (commit) those components that are needed for the feature from the snapshot into the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Description_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Description 3</shortDescription>
+        <value>Each time a component is committed into the branch, a new version of it is created in the branch. The branch preserves the older versions of a component if a new version replaces it; thus, accidental overwrite of code becomes a non-issue.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Description_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Description 4</shortDescription>
+        <value>Here, please select the components you want to commit to the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Description_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Description 5</shortDescription>
+        <value>To proceed with the committing of the changes to the branch, we need to check that the components you are committing have not been modified in your branch while you were making the changes.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Label</shortDescription>
+        <value>Commit to Branch</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Title</shortDescription>
+        <value>Commit to Branch: Select Components</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Branch_Title_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Branch Title 2</shortDescription>
+        <value>Commit to Branch: Status</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Repository_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Repository Button Label</shortDescription>
+        <value>Continue Commit to Repository</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Repository_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Repository Description</shortDescription>
+        <value>To proceed with the committing of the changes to the repository, we need to check that the branch components you are committing have not been modified in the repository while you were making the changes in the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Commit_To_Repository_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commit To Repository Label</shortDescription>
+        <value>Commit to Repository: Status</value>
+    </labels>
+    <labels>
+        <fullName>Commit_the_snapshot_title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Commit the snapshot title</shortDescription>
+        <value>Commit the snapshot</value>
+    </labels>
+    <labels>
+        <fullName>Commiter_ID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Commiter ID column</shortDescription>
+        <value>Committer</value>
+    </labels>
+    <labels>
+        <fullName>Committed_By</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Committed By</shortDescription>
+        <value>Committed By</value>
+    </labels>
+    <labels>
+        <fullName>Committed_On</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Committed On</shortDescription>
+        <value>Committed On</value>
+    </labels>
+    <labels>
+        <categories>Comparison</categories>
+        <fullName>ComparisonToBranchLimitMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ComparisonToBranchLimitMessage</shortDescription>
+        <value>You can&apos;t add more than 25 thousand components to a branch at a time.</value>
+    </labels>
+    <labels>
+        <fullName>CompleteOverwriteProtectionButtonLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Complete Overwrite Protection Button Label</shortDescription>
+        <value>Complete Overwrite Protection Step</value>
+    </labels>
+    <labels>
+        <fullName>CompletePreDeployFixButtonLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Complete PreDeploy Fix Button Label</shortDescription>
+        <value>Complete PreDeploy Fix Step</value>
+    </labels>
+    <labels>
+        <fullName>Component_History_Number</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Component History Number</shortDescription>
+        <value>Component History Number</value>
+    </labels>
+    <labels>
+        <fullName>Component_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Component Name</shortDescription>
+        <value>Component Name</value>
+    </labels>
+    <labels>
+        <fullName>Component_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Component Type</shortDescription>
+        <value>Component Type</value>
+    </labels>
+    <labels>
+        <fullName>Conflict_Components_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conflict Components Section Description</shortDescription>
+        <value>These components have been modified in the branch since you were editing your changes. Hence, there is a &quot;conflict&quot; that needs to be resolved to ensure that you not overwriting changes from previous versions.</value>
+    </labels>
+    <labels>
+        <fullName>Conflict_Components_Section_Description_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conflict Components Section Description 2</shortDescription>
+        <value>The corrective action is to refactor your code with the latest version of these components from the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Conflict_Components_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conflict Components Section Title</shortDescription>
+        <value>Components that have conflicts</value>
+    </labels>
+    <labels>
+        <fullName>Conflict_Merge_Components_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>merged component descr</shortDescription>
+        <value>This section includes  components which have conflicts or/and new components</value>
+    </labels>
+    <labels>
+        <fullName>Conflict_Merge_Components_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>conflict components</shortDescription>
+        <value>Components that will be merged</value>
+    </labels>
+    <labels>
+        <fullName>Create_Deployment_Results_for_Cartridge_Files</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Deployment Results for Cartridge Files</shortDescription>
+        <value>Create Deployment Results for Cartridge Files</value>
+    </labels>
+    <labels>
+        <fullName>Create_Patch_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Patch Title</shortDescription>
+        <value>Create Deployment</value>
+    </labels>
+    <labels>
+        <fullName>Create_Snapshot_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Create Snapshot Description</shortDescription>
+        <value>Snapshots retrieve changes from your org based on the specified last &quot;number of days&quot;.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DefaultPathAlreadyExist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DefaultPathAlreadyExist</shortDescription>
+        <value>A default deployment path has already been configured.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>DefaultReviewersNote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DefaultReviewersNote</shortDescription>
+        <value>Note: Enabling this setting will populate the &apos;Selected Users&apos; list on the &apos;Invite for Peer Review&apos; screen with user(s) who have both repository access and the &apos;Review Peer Review&apos; permission.</value>
+    </labels>
+    <labels>
+        <fullName>Default_Permission_Set_Settings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Default Permission Set Settings</shortDescription>
+        <value>Default Permission Set Settings for Selected Components on Deployment</value>
+    </labels>
+    <labels>
+        <categories>Deploy</categories>
+        <fullName>DeployIdNotFoundMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeployIdNotFoundMessage</shortDescription>
+        <value>No Deployment Request ID found in the log record. If the operation is still in progress, please wait for some time for the Deployment Request ID to generate.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeployPathDualTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeployPathDualTitle</shortDescription>
+        <value>Configure Deployment Path</value>
+    </labels>
+    <labels>
+        <categories>Deploy</categories>
+        <fullName>Deploy_Canceled_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deploy Canceled Message</shortDescription>
+        <value>The deployment job has been canceled.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardBackSyncDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardBackSyncDescription</shortDescription>
+        <value>Displays the branch(es) from the orgs selected in the Org Details table that are deployed to the selected target org but not to other orgs shown in the &quot;Not Deployed to Org&quot; column. Click on a branch name to go to its record.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardForwardSyncDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardForwardSyncDescription</shortDescription>
+        <value>Displays the branch(es) from the orgs selected in the Org Details table that are deployed to at least one org listed in the above target organization dropdown list, but not deployed to the target org and the orgs shown in the &quot;Not Deployed to Org&quot; column. Click on a branch name to go to its record.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardHistoryDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardHistoryDescription</shortDescription>
+        <value>Shows the deployment history records for the selected orgs, corresponding to the branches shown in the Results table.&lt;br&gt;
+Click the links under Deployment Name, Branch Name, and Org Name to view the respective record details.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardNotInSyncDetail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardNotInSyncDetail</shortDescription>
+        <value>The org is not in sync with the selected target org.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardOrgDetailsDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardOrgDetailsDescription</shortDescription>
+        <value>Displays the list of source orgs and target orgs from the deployment manager. For each org, it shows the number of forward syncs and back syncs. It also indicates if an org is synced with the selected target org or not.&lt;br&gt;
+To see more deployment details, select the org(s). This will display the details in the Deployment Details table below. You can select multiple orgs.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardPathDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardPathDescription</shortDescription>
+        <value>Displays all the deployment paths set up in the deployment manager for this repository.
+It also shows the number of forward syncs and back syncs for each org.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardResultsDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardResultsDescription</shortDescription>
+        <value>Displays branch records deployed within the selected time period. The deployment status of each branch to every org is presented in this table. The forward sync and back sync numbers under each org are computed relative to the selected target org.&lt;br&gt;&lt;lightning-icon icon-name=&quot;utility:back&quot; alternative-text=&quot;Delete&quot; title=&quot;Delete&quot;&gt;&lt;/lightning-icon&gt;
+The back sync count is the number of branches deployed to the target org and not to other orgs listed in the target org dropdown list.&lt;br&gt;
+The forward sync count is the number of branches deployed to any org listed in the above target organization dropdown list, but not deployed to the target org.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardSyncDetail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardSyncDetail</shortDescription>
+        <value>The org is in sync with the selected target org.</value>
+    </labels>
+    <labels>
+        <categories>DeploymentDashboard</categories>
+        <fullName>DeploymentDashboardTabTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentDashboardTabTitle</shortDescription>
+        <value>Deployment Dashboard</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeploymentPathAlreadyExistForType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentPathAlreadyExistForType</shortDescription>
+        <value>There is already a deployment path defined for branches with the release type</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeploymentPathDecription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentPathDecription</shortDescription>
+        <value>Note: When enabled, this setting will ensure that deployments occur in the selected orgs according to their specified sequence order.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeploymentPathDetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentPathDetails</shortDescription>
+        <value>Enabling Deployment Path will ensure that deployments occur in the selected orgs according to their specified sequence order.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeploymentPathDetails2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentPathDetails2</shortDescription>
+        <value>A repository can have multiple deployment paths. When you enable the Deployment Path, it allows you to select a specific Deployment Path in the branch record. If you attempt to deploy to an org that does not adhere to the selected Deployment Path, you will encounter an error.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>DeploymentPathViolation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeploymentPathViolation</shortDescription>
+        <value>Deployment Path violation. This org is not specified in the deployment path.</value>
+    </labels>
+    <labels>
+        <fullName>Deprecated_Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Deprecated Page</shortDescription>
+        <value>This feature or page is deprecated.</value>
+    </labels>
+    <labels>
+        <fullName>Destructive_Changes_Components_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>destructive components descr</shortDescription>
+        <value>This section includes destructive components that are not in another branch. If there is a &quot;conflict&quot;, this means that the target branch has the same component with a different Post / Pre-destructive change field.</value>
+    </labels>
+    <labels>
+        <fullName>Destructive_Changes_Components_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>destructive components</shortDescription>
+        <value>Destructive Changes Components</value>
+    </labels>
+    <labels>
+        <fullName>Developer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Developer</shortDescription>
+        <value>Changed By</value>
+    </labels>
+    <labels>
+        <categories>EditComponent</categories>
+        <fullName>EditOfOldVersionNotAllowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EditOfOldVersionNotAllowed</shortDescription>
+        <value>You can&apos;t edit old version of a component.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Descritpion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template Descritpion</shortDescription>
+        <value>This will enable all the email templates for notifications.</value>
+    </labels>
+    <labels>
+        <fullName>Email_Template_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template Title</shortDescription>
+        <value>Email templates</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>EnableAutoClosePeerReviewLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnableAutoClosePeerReviewLabel</shortDescription>
+        <value>Enable Auto Close Peer Review</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Enable_Default_Peer_Reviewers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Enable Default Peer Reviewers</shortDescription>
+        <value>Enable Default Peer Reviewers</value>
+    </labels>
+    <labels>
+        <fullName>External_Client_App_Auth_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>External Client App Auth Info</shortDescription>
+        <value>To register an org using the External Client App authentication type, you must create an External Client App in the Salesforce authentication org and provide the Consumer Key and Consumer Secret in Flosum.  You can use this article for guidance:&lt;a href=&quot;https://success.flosum.com/s/article/Salesforce-External-Client-Apps&quot; target=&quot;_blank&quot;&gt;Article&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Fix_The_Logo_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fix The Logo Description</shortDescription>
+        <value>This will install the latest Flosum logo in your notifications. The logo is used in all the email notifications.</value>
+    </labels>
+    <labels>
+        <fullName>Fix_The_Logo_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fix The Logo Title</shortDescription>
+        <value>Fix the logo</value>
+    </labels>
+    <labels>
+        <categories>RunPipeline</categories>
+        <fullName>Full_Branch_No_Components</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Full Branch No Components</shortDescription>
+        <value>Error during full Pipeline run: The pipeline can’t run because this branch doesn’t have any components.</value>
+    </labels>
+    <labels>
+        <fullName>Git_Credentials</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Git Credentials section title</shortDescription>
+        <value>Git Credentials</value>
+    </labels>
+    <labels>
+        <fullName>Git_Credentials_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Git Credentials Name column</shortDescription>
+        <value>Git Credentials Name</value>
+    </labels>
+    <labels>
+        <fullName>Git_enabled_label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Git enabled label</shortDescription>
+        <value>Git integration enabled</value>
+    </labels>
+    <labels>
+        <fullName>Go_To_Commit_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Go To Commit Button Label</shortDescription>
+        <value>Continue Commit to Branch</value>
+    </labels>
+    <labels>
+        <fullName>Heroku_service_settings_title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Heroku service settings title</shortDescription>
+        <value>Heroku service settings</value>
+    </labels>
+    <labels>
+        <fullName>Install_External_Client_App_Error_Info</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Install External Client App Error Info</shortDescription>
+        <value>To authenticate an org using Automatic authentication, the Flosum External Client App (2GP managed package) must be installed in the Salesforce authentication org. If the package is not installed, authentication will fail. You can use this article for guidance:&lt;a href=&quot;https://success.flosum.com/s/article/Salesforce-External-Client-Apps&quot; target=&quot;_blank&quot;&gt;Article&lt;/a&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Intelegent_Profile_Branch_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Intelegent_Profile_Branch_Label</shortDescription>
+        <value>Deploy profile settings only for components included in the branch</value>
+    </labels>
+    <labels>
+        <fullName>Intelegent_Profile_Deployment_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Intelegent Profile Deployment Label</shortDescription>
+        <value>Deploy profile settings only for components included in the deployment</value>
+    </labels>
+    <labels>
+        <fullName>JSforce_Library_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>JSforce Library Error</shortDescription>
+        <value>The Overwrite Protection feature in Flosum DevOps encountered an error from the Salesforce JSforce library: &apos;Cannot read properties of null (reading &apos;result&apos;)&apos;. This error is not caused by Flosum DevOps, please check Salesforce for any known issues with the JSforce library or API requests.</value>
+    </labels>
+    <labels>
+        <categories>Deployment</categories>
+        <fullName>LargeDeploymentResult</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LargeDeploymentResult</shortDescription>
+        <value>We received a large response as a result of this operation from the Salesforce API. Due to this, we are unable to store success, error, test logs, and Deployment Result records. So we are only marking this log as a success/failure. To get the details of deployment errors and test failures, please log in to the target organization. Check Deployment status with name:</value>
+    </labels>
+    <labels>
+        <fullName>List_of_available_components</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List of available components section title</shortDescription>
+        <value>List of available components</value>
+    </labels>
+    <labels>
+        <fullName>List_of_components_title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List of components title</shortDescription>
+        <value>List of components</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>LocedBranchDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LocedBranchDescription</shortDescription>
+        <value>Please note that only the selected operations can be performed from locked branches associated with this repository.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>LocedBranchSectionTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LocedBranchSectionTitle</shortDescription>
+        <value>Selected Permissions</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>LockedBranchAvailablePermissions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LockedBranchAvailablePermissions</shortDescription>
+        <value>Available permissions</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>LockedBranchSelectedPermissions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LockedBranchSelectedPermissions</shortDescription>
+        <value>Selected permissions</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>LockedBranchSettingTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LockedBranchSettingTitle</shortDescription>
+        <value>Locked Branch Setting</value>
+    </labels>
+    <labels>
+        <fullName>Manual_Steps_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manual Steps Section Description</shortDescription>
+        <value>This section displays the manual steps that are not present in the target branch.</value>
+    </labels>
+    <labels>
+        <fullName>Manual_Steps_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manual_Steps_Section_Title</shortDescription>
+        <value>Manual Steps</value>
+    </labels>
+    <labels>
+        <fullName>Merge_From_Multiple_Branches_Note</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge From Multiple Branches Note</shortDescription>
+        <value>Note: &quot;Add Branch&quot; allows a maximum of 10 branches per click. To Add more than 10 branches (e.g. 20), simply click the button twice.</value>
+    </labels>
+    <labels>
+        <fullName>Merge_Patches_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge Patches Description</shortDescription>
+        <value>The following components exist in two or more deployments. Please select the correct version.</value>
+    </labels>
+    <labels>
+        <categories>RunPipeline</categories>
+        <fullName>Merge_Was_Successful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Merge Was Successful</shortDescription>
+        <value>Branch merge completed successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message column</shortDescription>
+        <value>Message</value>
+    </labels>
+    <labels>
+        <fullName>Message_for_Change_Repository_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message for Change Repository Type</shortDescription>
+        <value>Cannot update repository type because deployment manager settings are already defined for this repository. To change the repository type, remove the selected source and target orgs and delete the deployment paths in the deployment manager settings.</value>
+    </labels>
+    <labels>
+        <fullName>Metadata_Types_Setting_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Metadata Types Setting Title</shortDescription>
+        <value>Snapshot Component Types to Retrieve</value>
+    </labels>
+    <labels>
+        <fullName>Modified_In_Last_Days_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Modified In Last Days Label</shortDescription>
+        <value>Retrieve changes in the last</value>
+    </labels>
+    <labels>
+        <categories>MuleSoft</categories>
+        <fullName>MuleSoftFeatureNotAvailable</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MuleSoftFeatureNotAvailable</shortDescription>
+        <value>This feature is not available.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Named_Credentials_Apex_PMD_Message_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Named_Credentials_Apex_PMD_Message_1</shortDescription>
+        <value>Selecting this option enables the use of a Named Credential for Apex PMD.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Named_Credentials_Apex_PMD_Message_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Named_Credentials_Apex_PMD_Message_2</shortDescription>
+        <value>It means that in the &quot;Access Point&quot; field, you should specify the Named Credential.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Named_Credentials_Apex_PMD_Message_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Named_Credentials_Apex_PMD_Message_3</shortDescription>
+        <value>It means that in the &quot;Access Point&quot; and &quot;Access Token URL&quot; fields, you should specify the Named Credential.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Named_Credentials_Vlocity_Message_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Named_Credentials_Vlocity_Message_1</shortDescription>
+        <value>Selecting this option enables the use of a Named Credential for Vlocity.</value>
+    </labels>
+    <labels>
+        <categories>Settings</categories>
+        <fullName>Named_Credentials_Vlocity_Message_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Named_Credentials_Vlocity_Message_2</shortDescription>
+        <value>It means that in the &quot;Access Token URL&quot; field, you should specify the Named Credential.</value>
+    </labels>
+    <labels>
+        <fullName>Not_Merge_Components_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>not merged descr</shortDescription>
+        <value>This section includes the components which are identical to those in another branch; they will not be merged</value>
+    </labels>
+    <labels>
+        <fullName>Not_Merge_Components_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>not merged</shortDescription>
+        <value>Component that will not be merged</value>
+    </labels>
+    <labels>
+        <fullName>Not_Merge_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Merge Section Description</shortDescription>
+        <value>Identical versions of these components already exist in the branch. Hence, they will not be committed to the branch.</value>
+    </labels>
+    <labels>
+        <fullName>Not_Merge_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Merge Section Title</shortDescription>
+        <value>Components that will not be committed</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>NoteToSelectReleaseType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NoteToSelectReleaseType</shortDescription>
+        <value>Note: Uncheck the Default checkbox to add a Deployment Path for the Release Type selected in the branch record.</value>
+    </labels>
+    <labels>
+        <categories>EditComponent</categories>
+        <fullName>NothingHasChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NothingHasChanged</shortDescription>
+        <value>Nothing has changed in the component. To use the Save button, change the content of the component, or use the Cancel button.</value>
+    </labels>
+    <labels>
+        <fullName>Number_of_Components</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Number of Components column</shortDescription>
+        <value>Number of Components</value>
+    </labels>
+    <labels>
+        <fullName>OAuth_Authentication_Details_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OAuth Authentication Details Title</shortDescription>
+        <value>OAuth Authentication Details</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>OneDeploymentIsRequired</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OneDeploymentIsRequired</shortDescription>
+        <value>Please set up a Deployment Path since you&apos;ve enabled the Deployment Path feature.</value>
+    </labels>
+    <labels>
+        <fullName>Overwrite_Protection_Pipeline_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A pipeline is currently in progress</shortDescription>
+        <value>A pipeline is currently in progress, Overwrite Protection must be completed by the user that initiated the pipeline.</value>
+    </labels>
+    <labels>
+        <categories>RunPipeline</categories>
+        <fullName>Partial_Branch_No_Components</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Partial Branch No Components</shortDescription>
+        <value>Error during partial Pipeline run: The pipeline can’t run because no components were merged using Smart Merge.</value>
+    </labels>
+    <labels>
+        <fullName>Pause_Cannot_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pause Cannot Complete</shortDescription>
+        <value>Abort</value>
+    </labels>
+    <labels>
+        <fullName>Pause_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pause Complete</shortDescription>
+        <value>Resume</value>
+    </labels>
+    <labels>
+        <fullName>Pipeline_Process_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pipeline Process Message</shortDescription>
+        <value>Please do not close this browser tab. Closing this window will halt the pipeline process.</value>
+    </labels>
+    <labels>
+        <categories>Domains Pipeline</categories>
+        <fullName>Pipeline_Sharing_Warning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pipeline Sharing Warning</shortDescription>
+        <value>Only an admin, a user with Modify All access, or the pipeline&apos;s owner (or a user with a higher role than the owner) can modify the pipeline sharing.</value>
+    </labels>
+    <labels>
+        <fullName>Pipeline_Step_Commit_Note_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pipeline step commit to source note message</shortDescription>
+        <value>Note: This step will force commit the branch component versions to the repository as-is. If users should review conflicts prior to committing to source, do not use this step in your pipeline.</value>
+    </labels>
+    <labels>
+        <fullName>Please_refresh_the_page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please refresh the page.</shortDescription>
+        <value>Please refresh the page.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Deployment_Change</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Deployment Change</shortDescription>
+        <value>Post Deployment Change</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Applicatoin_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Applicatoin Description</shortDescription>
+        <value>This section will re-arrange the tabs in the following order: Orgs, Comparison, Branches, Source, Commits, Peer Reviews, Pipelines, SwimLanes, Dashboards, Settings.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Applicatoin_Description_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Applicatoin Description 2</shortDescription>
+        <value>The tabs will be set in the correct order. However, this order may not be visible to the users since the user customizations have precedence over the default tab ordering. To overwrite the user customizations, please check the flag &quot;Overwrite User&apos;s personal tab customizations&quot; for the user profile.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Applicatoin_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Applicatoin Title</shortDescription>
+        <value>Applications</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Layout_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Layout Description</shortDescription>
+        <value>This section will set the default layouts for the application.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Layout_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Layout Title</shortDescription>
+        <value>Layouts</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Page_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Page Description</shortDescription>
+        <value>This page will reset Flosum to recommended factory settings. This will not affect your data.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Page_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Page Title</shortDescription>
+        <value>Reset Settings</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Profile_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Profile Description</shortDescription>
+        <value>This section will update the following: Custom object permissions, field level security, classes permissions, Visual page access and record type visibilities for the selected profiles.</value>
+    </labels>
+    <labels>
+        <fullName>Post_Install_Profile_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Install Profile Title</shortDescription>
+        <value>Profiles</value>
+    </labels>
+    <labels>
+        <fullName>Pre_Deploy_Fix_Pipeline_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>A pipeline is currently in progress</shortDescription>
+        <value>A pipeline is currently in progress, PreDeploy Fix must be completed by the user that initiated the pipeline.</value>
+    </labels>
+    <labels>
+        <fullName>Purge_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Purge Button Label</shortDescription>
+        <value>Analyze Snapshots</value>
+    </labels>
+    <labels>
+        <fullName>Purge_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Purge Description</shortDescription>
+        <value>Snapshots consume the bulk of data storage. This routine analyzes the snapshots that are not referenced in the deployments so that the unused snapshots can be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Purge_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Purge Title</shortDescription>
+        <value>Purge Routine</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RefreshWarning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RefreshWarning</shortDescription>
+        <value>Are you sure that you want to refresh the page? Any unsaved changes will be lost.</value>
+    </labels>
+    <labels>
+        <fullName>Release_2017_Feb_Page_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Release 2017 Feb Page Title</shortDescription>
+        <value>This page automates the post-install steps &amp; enables functionality that cannot be auto-enabled during push-upgrades. Please click on each of the buttons below to enable the new functionality.</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Repository</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remote Repository page title</shortDescription>
+        <value>Remote Repository</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Repository_Settings_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RR button label</shortDescription>
+        <value>Go to Remote Repository page</value>
+    </labels>
+    <labels>
+        <fullName>Remote_Repository_Settings_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>RR settings</shortDescription>
+        <value>Remote repository settings</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoGoToSetupButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoGoToSetupButton</shortDescription>
+        <value>Launch Deployment Manager</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoRestrictionButtonLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoRestrictionButtonLabel</shortDescription>
+        <value>Enable Deployment Manager</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoRestrictionCommitDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoRestrictionCommitDescription</shortDescription>
+        <value>Please note that only the snapshots/latest components from the selected organizations can be committed to this repository.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoRestrictionDeployDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoRestrictionDeployDescription</shortDescription>
+        <value>Please note that only the selected target orgs can receive deployments of changes from branches associated with this repository.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoRestrictionDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoRestrictionDescription</shortDescription>
+        <value>Enabling the Deployment Manager ensures that deployments adhere to the predefined configurations specified in it. Enabling Deployment Manager applies to all repositories, but you need to configure the Deployment Manager separately for each repository.&lt;/br&gt;
+Click the “Launch Deployment Manager” button to configure the Deployment Manager.
+Configuring the Deployment Manager involves three steps:&lt;/br&gt;
+&amp;nbsp;&amp;nbsp;1. Select the Source Orgs&lt;/br&gt;
+&amp;nbsp;&amp;nbsp;2. Select the Target Orgs&lt;/br&gt;
+&amp;nbsp;&amp;nbsp;3. Configure Deployment Path(s)&lt;/br&gt;
+The Deployment Manager helps you prevent accidental deployments to the wrong org.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>RepoRestrictionTitle</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RepoRestrictionTitle</shortDescription>
+        <value>Deployment Manager</value>
+    </labels>
+    <labels>
+        <fullName>Repo_Conflict_Components_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Repo Conflict Components Section Description</shortDescription>
+        <value>These components have been modified in the repository since you were making changes in your branch. Hence, there is a &quot;conflict&quot; that needs to be resolved to ensure that you are not overwriting changes from previous versions.</value>
+    </labels>
+    <labels>
+        <fullName>Repo_Conflict_Components_Section_Description_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Repo Conflict Components Section Description 2</shortDescription>
+        <value>The corrective action is to refactor your code with the latest version of these components from the repository.</value>
+    </labels>
+    <labels>
+        <fullName>Repo_Not_Merge_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Repo Not Merge Section Description</shortDescription>
+        <value>Identical versions of these components already exist in the repository. Hence, they will not be committed to the repository.</value>
+    </labels>
+    <labels>
+        <fullName>Repo_Safe_To_Commit_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Repo Safe To Commit Section Description</shortDescription>
+        <value>These components are either being committed for the first time in the repository or the changes were made on the latest copy (version) of the components in the repository. Hence, these components are &quot;safe&quot; to commit.</value>
+    </labels>
+    <labels>
+        <fullName>Repository_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Repository Description</shortDescription>
+        <value>Repository is the master branch or the trunk for version control.</value>
+    </labels>
+    <labels>
+        <categories>Peer Review</categories>
+        <fullName>ResetPeerReviewInfo1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Peer Review Descrition 1</shortDescription>
+        <value>If a peer review is fully approved, partially approved, or rejected on a branch and a component from the selected component types is committed to the branch, a new peer review will be created using the last peer review information.</value>
+    </labels>
+    <labels>
+        <categories>Peer Review</categories>
+        <fullName>ResetPeerReviewInfo2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Peer Review Descrition 2</shortDescription>
+        <value>Please select the component types that should create a new peer review and move them to the box on the right.</value>
+    </labels>
+    <labels>
+        <fullName>Reset_Settings_Button_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Settings Button Label</shortDescription>
+        <value>Launch Reset Settings page</value>
+    </labels>
+    <labels>
+        <fullName>Reset_Settings_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Settings Section Title</shortDescription>
+        <value>Reset Settings</value>
+    </labels>
+    <labels>
+        <fullName>Run_Test_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Run Test Label</shortDescription>
+        <value>Run Tests on Deployment</value>
+    </labels>
+    <labels>
+        <fullName>SHA1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SHA1 column</shortDescription>
+        <value>SHA</value>
+    </labels>
+    <labels>
+        <fullName>Safe_To_Commit_Section_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Safe To Commit Section Description</shortDescription>
+        <value>These components are either being committed for the first time in the branch or the changes were made on the latest copy (version) of the components in the branch. Hence, these components are &quot;safe&quot; to commit.</value>
+    </labels>
+    <labels>
+        <fullName>Safe_To_Commit_Section_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Safe To Commit Section Title</shortDescription>
+        <value>Components that are safe to commit</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>SelectAReleaseType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectAReleaseType</shortDescription>
+        <value>Please select a branch release type for the deployment path.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>SelectOrgForDeploymentPath</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectOrgForDeploymentPath</shortDescription>
+        <value>Please select at least 1 target org.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>SelectOrgForDeploymentPathSave</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectOrgForDeploymentPathSave</shortDescription>
+        <value>Please select at least one org in the Deployment Path configuration.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>SelectSourceOrgForDeploymentPath</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectSourceOrgForDeploymentPath</shortDescription>
+        <value>Please select at least 1 source org.</value>
+    </labels>
+    <labels>
+        <categories>RepoRestriction</categories>
+        <fullName>SelectSourceOrgForDeploymentPathSave</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SelectSourceOrgForDeploymentPathSave</shortDescription>
+        <value>Please select at least one source org in the Deployment Path configuration.</value>
+    </labels>
+    <labels>
+        <fullName>Size_of_Components</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Total size of Components column</shortDescription>
+        <value>Total size</value>
+    </labels>
+    <labels>
+        <fullName>Snapshot_Comparison_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Snapshot Comparison Title</shortDescription>
+        <value>Snapshot Comparison</value>
+    </labels>
+    <labels>
+        <fullName>SourceTrackingWarning1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submitted by a user who does not have &quot;Modify all data&quot;</shortDescription>
+        <value>The &quot;Tracking automation&quot; scheduler was submitted by a user who does not have &quot;Modify all data&quot; permission.</value>
+    </labels>
+    <labels>
+        <fullName>SourceTrackingWarning2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Source Tracking may not work correctly.</shortDescription>
+        <value>Source Tracking may not work correctly and may not process some organizations.</value>
+    </labels>
+    <labels>
+        <fullName>SourceTrackingWarning3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Please ask user with &quot;Modify All Data&quot; permission to visit the current page.</shortDescription>
+        <value>Please ask user with &quot;Modify All Data&quot; permission to visit the current page.</value>
+    </labels>
+    <labels>
+        <fullName>The_commit_history_title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The commit history section title</shortDescription>
+        <value>The commit history</value>
+    </labels>
+    <labels>
+        <fullName>Transfer_To_Patch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Transfer To Patch</shortDescription>
+        <value>Transfer to Deployment</value>
+    </labels>
+    <labels>
+        <fullName>Update</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>Version</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Version</shortDescription>
+        <value>Version</value>
+    </labels>
+    <labels>
+        <fullName>Vlocity_Warning_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Vlocity Warning Message</shortDescription>
+        <value>Due to the operations in the Vlocity Build Tool, additional conflicts maybe identified. More information on expected conflicts can be found in the documentation on the Flosum Success Portal.</value>
+    </labels>
+    <labels>
+        <fullName>action_column</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>action column</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>isLinked_column</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>isLinked column</shortDescription>
+        <value>isLinked</value>
+    </labels>
+</CustomLabels>
