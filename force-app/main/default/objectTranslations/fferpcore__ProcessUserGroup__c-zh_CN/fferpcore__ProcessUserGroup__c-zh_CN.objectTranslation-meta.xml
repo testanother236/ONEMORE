@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessUserGroup__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>流程用户组</value>
+    </caseValues>
+    <layouts>
+        <layout>Process Log Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>进程用户组名称</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Project__c-en_US</fullName>
+    <layouts>
+        <layout>Vlocity Project Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Module --></label>
+        <name>vlocity_cmt__Module</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Work Set --></label>
+        <name>vlocity_cmt__WorkSet</name>
+    </recordTypes>
+</CustomObjectTranslation>

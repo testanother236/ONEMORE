@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jDxmsOdxiH_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>jDxmsOdxiH</label>
+    <queue>jDxmsOdxiH</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

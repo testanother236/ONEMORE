@@ -1,0 +1,101 @@
+<apex:component controller="RecordViewerController">
+	<apex:attribute name="objectName" type="string" description="Name of the Object" required="true"/>
+	<apex:attribute name="recordLimit" type="Integer" description="offset of records" required="true"/>
+	<apex:attribute name="fieldNames" type="String" description="offset of records" required="false" assignTo="{!fieldStrLi}"/>
+	<apex:attribute name="fieldNamesLi" type="String[]" description="offset of records" required="false" assignTo="{!fieldLi}"/>
+	
+	<apex:includeScript value="{!URLFOR($Resource.jquery)}"/>
+	<style>
+		.recordcolumnVisible
+		{
+			
+		}
+		.recordcolumnInVisible
+		{
+			display:none;
+		}
+	</style>
+	<apex:actionFunction name="listFirst" action="{!listFirst}" reRender="masterBlock">
+		<apex:param name="countOfRecords" assignTo="{!countOfRecords}" value=""/>
+		<apex:param name="masterObjectName" assignTo="{!masterObjectName}" value="{!objectName}"/>
+		<apex:param name="rLimit" assignTo="{!LimitSize}" value="{!recordLimit}"/>
+	</apex:actionFunction>
+	<apex:pageMessages id="msg"/>
+	<apex:pageBlock id="masterBlock">
+		<apex:outputPanel rendered="{!If(masterList.size > 0,true,false)}" id="recordBlock">
+        	<table class="list">
+        		<thead>
+        			<tr class="headerRow">
+         				<apex:repeat value="{!selectedFieldMap}" var="selectField">
+								<th class="headerRow columnhead {!If(selectedFieldMap[selectField].IsSortable,'recordcolumnVisible','recordcolumnInVisible')}" id="{!selectField}">
+									<apex:commandLink action="{!arrangeOrderByRecords}" reRender="masterBlock">
+										<apex:param name="tempOrderBy" assignTo="{!TempOrderByFieldName}" value="{!selectedFieldMap[selectField].API_Name}"/>
+										{!If(selectedOrderByField == selectedFieldMap[selectField].API_Name,If(selectedSortingOrder == OrderAscending,selectedFieldMap[selectField].Label+' ▲',selectedFieldMap[selectField].Label+' ▼'),selectedFieldMap[selectField].Label)}
+									</apex:commandLink>
+								</th>
+	          					<th class="headerRow columnhead {!If(!selectedFieldMap[selectField].IsSortable,'recordcolumnVisible','recordcolumnInVisible')}" id="{!selectField}">
+	          						{!selectedFieldMap[selectField].Label}
+	          					</th>
+         				</apex:repeat>
+         			</tr>
+        		</thead>
+        		<tbody>
+        			<apex:repeat value="{!masterList}" var="rec">	
+        				<tr>
+							<apex:repeat value="{!selectedFieldMap}" var="clm">								 	
+								<td class="dataCell">{!rec[clm]}</td> 	
+							</apex:repeat>	
+						</tr>
+					</apex:repeat>
+        		</tbody>
+			</table>
+		</apex:outputPanel>
+		<apex:outputPanel layout="bttnBlock" styleClass="pagination" rendered="{!If(masterList.size > 0,true,false)}">
+			<apex:outputPanel layout="block" styleClass="pagination">
+				<apex:commandbutton value="First" action="{!listMasterRecords}" reRender="masterBlock,msg" disabled="{!prev}">
+					<apex:param value="First" assignTo="{!event}"/>
+				</apex:commandbutton>
+				<apex:commandbutton value="Previous" action="{!listMasterRecords}" reRender="masterBlock,msg" disabled="{!prev}">
+					<apex:param value="Previous" assignTo="{!event}"/>
+				</apex:commandbutton>
+				<apex:outputText value="{!paginationStr}" styleClass="paginationEle"/>
+				<apex:commandbutton value="Next" action="{!listMasterRecords}" reRender="masterBlock,msg" disabled="{!nxt}">
+					<apex:param value="Next" assignTo="{!event}"/>
+				</apex:commandbutton>
+				<apex:commandbutton value="Last" action="{!listMasterRecords}" reRender="masterBlock,msg" disabled="{!nxt}">
+					<apex:param value="Last" assignTo="{!event}"/>
+				</apex:commandbutton>
+			</apex:outputPanel>
+		</apex:outputPanel>
+	</apex:pageBlock>
+	<script>
+			var objectName = '{!objectName}';
+			
+			function countRecord()
+			{
+				console.log(objectName);
+				var countQuery = 'SELECT COUNT() FROM '+objectName;
+				Visualforce.remoting.Manager.invokeAction(
+						            '{!$RemoteAction.RecordViewerController.countRecords}',
+						            countQuery,
+						            handleCountRecord   
+						        );
+			}
+			
+			function handleCountRecord(r,e)
+			{
+				if(e.status && r) 
+			    {
+			    	console.log(r);
+			    	listFirst(r);
+			    }
+			    else
+			    {
+			    	console.log(e.message);
+			    }
+			}
+			$(function() {
+				countRecord();
+			});
+	</script>
+</apex:component>

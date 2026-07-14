@@ -1,0 +1,37 @@
+<apex:page controller="TestExecuterController">
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <apex:pageMessages id="msg"/>
+    <apex:form >
+        <apex:actionFunction name="checkStatus" action="{!checkStatus}" reRender="msg"/>
+        <apex:actionFunction name="executeTest" action="{!executeTest}" reRender="msg" onComplete="checkStatusOfDeployment();">
+            <apex:param name="zipData" assignTo="{!ZipData}" value=""/>
+        </apex:actionFunction>
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Execute Test" onClick="createZip(); return false;"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:selectList value="{!selectedRunTest}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!runTestOptions}"/>
+                </apex:selectList>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        function createZip()
+        {
+            var zip = new JSZip();
+            var xml = '<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">';
+            xml += '<version>29.0</version></Package>';
+            zip.file('package.xml',xml );
+            var zipStr = zip.generate({type:"base64",compression:"DEFLATE"});
+            console.log(zipStr);
+            //executeTest(zipStr);
+        }
+        
+        function checkStatusOfDeployment()
+        {
+            checkStatus();
+        }
+    </script>
+</apex:page>

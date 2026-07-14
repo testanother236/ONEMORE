@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__Revenue_Management_Selected__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Depending on your Revenue Management settings for the Project object, you can add the following fields to the Project Reporting dataset in your PS Cloud Core Analytics app: Project Cost Amortized, Project Revenue Recognized, Project Total Cost Amortized, and Project Total Revenue Recognized.</description>
+    <inlineHelpText>Depending on your Revenue Management settings for the Project object, you can add the following fields to the Project Reporting dataset in your PS Cloud Core Analytics app: Project Cost Amortized, Project Revenue Recognized, Project Total Cost Amortized, and Project Total Revenue Recognized.</inlineHelpText>
+    <label>Revenue Management Fields</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

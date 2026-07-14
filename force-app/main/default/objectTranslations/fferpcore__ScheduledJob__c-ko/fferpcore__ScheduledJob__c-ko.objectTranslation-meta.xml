@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJob__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>예정된 직업</value>
+    </caseValues>
+    <layouts>
+        <layout>Scheduled Job Job</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>이름</nameFieldLabel>
+    <webLinks>
+        <label>지금 실행</label>
+        <name>fferpcore__Run_Now</name>
+    </webLinks>
+    <webLinks>
+        <label>작업 예약</label>
+        <name>fferpcore__Schedule_Job</name>
+    </webLinks>
+    <webLinks>
+        <label>작업 스케줄 취소</label>
+        <name>fferpcore__Unschedule_Job</name>
+    </webLinks>
+</CustomObjectTranslation>

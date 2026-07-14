@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateGroup__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>為替レートグループ</value>
+    </caseValues>
+    <layouts>
+        <layout>Exchange Rate Group Layout</layout>
+        <sections>
+            <label><!-- Available Rate Currencies --></label>
+            <section>Available Rate Currencies</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Rate Group Details --></label>
+            <section>Exchange Rate Group Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>為替レートグループ名</nameFieldLabel>
+    <webLinks>
+        <label>通貨を管理する</label>
+        <name>fferpcore__ErpCurrenciesRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>料金履歴を表示</label>
+        <name>fferpcore__ExchangeRateHistoryRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>料金を管理</label>
+        <name>fferpcore__ExchangeRatesRedirect</name>
+    </webLinks>
+</CustomObjectTranslation>

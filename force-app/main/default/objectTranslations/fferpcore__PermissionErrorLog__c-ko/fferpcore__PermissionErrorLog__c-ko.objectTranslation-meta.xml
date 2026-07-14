@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__PermissionErrorLog__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>권한 오류 로그</value>
+    </caseValues>
+    <layouts>
+        <layout>Permission Error Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>권한 오류 로그 ID</nameFieldLabel>
+</CustomObjectTranslation>

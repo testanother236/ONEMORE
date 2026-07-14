@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingPublication__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Publicatie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Publicaties</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Messaging System Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Virtual Data Object --></label>
+            <section>Virtual Data Object</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Publicatienaam</nameFieldLabel>
+    <webLinks>
+        <label>Volledige kloon</label>
+        <name>fferpcore__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label>Publicatie exporteren</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>Publicaties exporteren</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>Activeer Linkbesturing</label>
+        <name>fferpcore__PublicationActivateLinkControl</name>
+    </webLinks>
+</CustomObjectTranslation>

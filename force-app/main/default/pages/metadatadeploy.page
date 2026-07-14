@@ -1,0 +1,54 @@
+<apex:page controller="MetadataDeployController" sidebar="false">
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <apex:form id="form">
+        <apex:sectionHeader title="Metadata Deploy Demo"/>
+        <apex:pageMessages />
+        <apex:actionPoller action="{!checkAsyncRequest}" interval="5" rerender="form" rendered="{!NOT(ISNULL(AsyncResult))}"/>
+        <apex:actionFunction name="deployZip" action="{!deployZip}" rendered="{!ISNULL(AsyncResult)}" rerender="form">
+            <apex:param name="data" assignTo="{!ZipData}" value=""/>
+        </apex:actionFunction>
+        <c:zip name="generateZip" oncomplete="deployZip(data);" rendered="{!ISNULL(AsyncResult)}">
+            <c:zipEntry path="Flosum/package.xml" data="{!PackageXml}"/>
+            <c:zipEntry path="Flosum/layouts/Snapshot__c-Snapshot Layout.layout" data="{!HelloWorldMetadata}"/>
+        </c:zip>
+        <apex:outputPanel rendered="{!ISNULL(AsyncResult)}">
+            <input type="button" onclick="generateZip();" value="Deploy"/>
+        </apex:outputPanel>
+        <apex:commandbutton value="Deploy Recent Validation" action="{!deployRecentValidation}" reRender="form"/>
+        <apex:commandbutton value="Deploy Roles" onClick="deployRoles(); return false;"/>
+    </apex:form>
+    <script>
+        function deployRoles()
+        {
+            var zipfile = new JSZip();
+            var parentRole = 'Team2';
+            var packageXML =   '<?xml version="1.0" encoding="UTF-8"?>'+
+                                '<Package xmlns="http://soap.sforce.com/2006/04/metadata">'+
+                                    '<apiAccessLevel>Unrestricted</apiAccessLevel>'+
+                                    '<types>';       
+            for(var index=0; index < 4; index++)
+            {
+                var roleName = parentRole +'Phase'+index;
+                packageXML += '<members>'+roleName+'</members>';
+                var roleXML =   '<?xml version="1.0" encoding="UTF-8"?>'+
+                                '<Role xmlns="http://soap.sforce.com/2006/04/metadata">'+
+                                    '<caseAccessLevel>Edit</caseAccessLevel>'+
+                                    '<contactAccessLevel>Edit</contactAccessLevel>'+
+                                    '<mayForecastManagerShare>false</mayForecastManagerShare>'+
+                                    '<name>'+roleName+'</name>'+
+                                    '<opportunityAccessLevel>Edit</opportunityAccessLevel>'+
+                                    '<parentRole>'+parentRole +'</parentRole>'+
+                                '</Role>';
+                zipfile.file('package/roles/'+roleName +'.role',roleXML);
+            }
+            packageXML += '<name>Role</name>'+
+                          '</types>'+
+                          '<version>38.0</version>'+
+                          '</Package>';
+            zipfile.file('package/package.xml',packageXML );
+            console.log(zipfile.files);
+            var base64Str = zipfile.generate({type:"base64",compression:"DEFLATE"});
+            deployZip(base64Str);
+        }
+    </script>
+</apex:page>

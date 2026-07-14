@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessUserGroup__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>프로세스 사용자 그룹</value>
+    </caseValues>
+    <layouts>
+        <layout>Process Log Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>프로세스 사용자 그룹 이름</nameFieldLabel>
+</CustomObjectTranslation>

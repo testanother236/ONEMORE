@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <fullName>OwnerAccount</fullName>
+        <label>OwnerAccount</label>
+        <sharedFrom>
+            <group>PPO</group>
+        </sharedFrom>
+        <sharedTo>
+            <group>TestGroup</group>
+        </sharedTo>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <fullName>Roles_and_internal</fullName>
+        <label>Roles and internal</label>
+        <sharedFrom>
+            <role>AdiManav</role>
+        </sharedFrom>
+        <sharedTo>
+            <roleAndSubordinatesInternal>AdiManavPhase13</roleAndSubordinatesInternal>
+        </sharedTo>
+    </sharingOwnerRules>
+</SharingRules>

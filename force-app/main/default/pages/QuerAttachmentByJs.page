@@ -1,0 +1,66 @@
+<apex:page >
+    <!--<apex:includeScript value="{!URLFOR($Resource.jsforce)}"/> -->
+    <apex:form >
+        <apex:pageBlock >
+            <apex:commandButton value="Query" onClick="query();" reRender="none" />
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        var conn;
+        var xhr;
+        function query()
+        {
+            conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}',
+                                                proxyUrl: "/services/proxy",
+                                                logLevel: "DEBUG" });
+            conn.query('SELECT Id FROM Attachment Where Id=\'00P28000000S8ASEA0\'',function(err, result) {
+                if(err) 
+                { 
+                    console.log(err); 
+                }
+                else
+                {
+                    console.log(result);
+                    var url = 'https://ap2.salesforce.com'+result.records[0].attributes.url;
+                    console.log('url-----'+url);
+                    conn.apex.get(url,function(err, res) {
+                      if(err) 
+                      {
+                          console.log(err); 
+                      }
+                      else
+                      {
+                          console.log(res);
+                      }
+                    });
+                }
+            });
+        }
+        
+        function query2()
+        {
+            xhr = new XMLHttpRequest();
+            var sfdcurl ='https://ap2.salesforce.com/services/data/v34.0/sobjects/Attachment/00P28000000S8ASEA0/Body';
+            xhr.open('GET','/services/proxy' );
+            xhr.setRequestHeader("Authorization","Bearer {!$Api.Session_ID}");
+            xhr.setRequestHeader('SalesforceProxy-Endpoint', sfdcurl);
+            xhr.setRequestHeader('X-User-Agent', 'DragAndDropAPI v1.0');
+            xhr.onload = function(){
+                console.log('onload');
+                console.log(xhr);
+            }
+            xhr.onreadystatechange=function(){
+                if(xhr.readyState==4 && xhr.status != 200)
+                {
+                    console.log('Error');
+                    console.log(xhr);
+                }
+            }
+            xhr.onloadend = function(){
+                console.log('onloadend');
+                console.log(xhr);
+            }
+            xhr.send();
+        }
+    </script>
+</apex:page>

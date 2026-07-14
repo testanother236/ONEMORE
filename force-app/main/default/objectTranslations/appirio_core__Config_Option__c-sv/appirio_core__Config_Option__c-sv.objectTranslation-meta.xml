@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Config_Option__c-sv</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Konfigurationsalternativ</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Configuration Option Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Picklist Values --></label>
+            <section>Picklist Values</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>namn</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Picklistvärden krävs för typ Picklist</errorMessage>
+        <name>appirio_core__Picklist_Values_Check</name>
+    </validationRules>
+</CustomObjectTranslation>

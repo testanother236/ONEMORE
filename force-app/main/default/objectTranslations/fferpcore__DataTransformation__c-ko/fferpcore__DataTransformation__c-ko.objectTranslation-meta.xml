@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__DataTransformation__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>데이터 변환</value>
+    </caseValues>
+    <layouts>
+        <layout>Data Transformation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>데이터 변환 번호</nameFieldLabel>
+</CustomObjectTranslation>

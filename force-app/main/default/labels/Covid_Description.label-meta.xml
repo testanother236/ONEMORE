@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>Covid_Description</fullName>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>Covid Description</shortDescription>
+    <value>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</value>
+</CustomLabel>

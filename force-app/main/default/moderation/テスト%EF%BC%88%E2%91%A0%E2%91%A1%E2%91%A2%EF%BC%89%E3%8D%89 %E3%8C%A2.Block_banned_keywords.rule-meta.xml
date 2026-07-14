@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModerationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <action>Block</action>
+    <active>false</active>
+    <description>Posts or comments with banned words aren&apos;t saved to the community feed</description>
+    <entitiesAndFields>
+        <entityName>FeedComment</entityName>
+        <fieldName>RawCommentBody</fieldName>
+        <keywordList>テスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>LinkUrl</fieldName>
+        <keywordList>テスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>RawBody</fieldName>
+        <keywordList>テスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedItem</entityName>
+        <fieldName>Title</fieldName>
+        <keywordList>テスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2.Banned</keywordList>
+    </entitiesAndFields>
+    <entitiesAndFields>
+        <entityName>FeedPollChoice</entityName>
+        <fieldName>ChoiceBody</fieldName>
+        <keywordList>テスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2.Banned</keywordList>
+    </entitiesAndFields>
+    <masterLabel>Block posts or comments containing banned keywords</masterLabel>
+    <type>Content</type>
+    <userMessage>You can&apos;t use %BLOCKED_KEYWORD% or other inappropriate words in this community. Review your content and try again.</userMessage>
+</ModerationRule>

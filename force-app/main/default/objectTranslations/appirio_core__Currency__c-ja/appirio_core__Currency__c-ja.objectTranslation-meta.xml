@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Currency__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>通貨</value>
+    </caseValues>
+    <layouts>
+        <layout>Currency Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>通貨名</nameFieldLabel>
+</CustomObjectTranslation>

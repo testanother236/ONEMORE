@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__IntegrationRetryPolicy__c-en_US</fullName>
+    <recordTypes>
+        <label><!-- Monotonous Forever Retry Policy --></label>
+        <name>vlocity_cmt__MonotonousForeverRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Monotonous Retry Policy --></label>
+        <name>vlocity_cmt__MonotonousRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- No Retry Policy --></label>
+        <name>vlocity_cmt__NoRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Staggered Retry Policy --></label>
+        <name>vlocity_cmt__StaggeredRetryPolicy</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Maximum Number Of Retries cannot be a negative number. --></errorMessage>
+        <name>vlocity_cmt__MaximumNumberOfRetriesValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Retry Intervals must be whole numbers separated by commas. --></errorMessage>
+        <name>vlocity_cmt__RetryIntervalsValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Time Between Retries cannot be a negative number. --></errorMessage>
+        <name>vlocity_cmt__TimeBetweenRetriesValidation</name>
+    </validationRules>
+</CustomObjectTranslation>

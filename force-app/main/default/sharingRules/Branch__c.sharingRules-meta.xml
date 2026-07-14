@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <accessLevel>Read</accessLevel>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notEqual</operation>
+            <value>null</value>
+        </criteriaItems>
+        <description>Sharing rule</description>
+        <fullName>Rule_3</fullName>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+        <label>Rule 3</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>CEO</roleAndSubordinatesInternal>
+        </sharedTo>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <accessLevel>Read</accessLevel>
+        <description>All Internal Users</description>
+        <fullName>Rule_2</fullName>
+        <label>Rule 2</label>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </sharingOwnerRules>
+</SharingRules>

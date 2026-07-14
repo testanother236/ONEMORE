@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component_History__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Component History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Component History</value>
+    </caseValues>
+    <layouts>
+        <layout>Component History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

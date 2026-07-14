@@ -1,0 +1,123 @@
+<apex:page >
+    <apex:includeScript value="{!URLFOR($Resource.NewJSZip)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.jquery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.jsforce)}"/>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageblockSection >
+                <input type="file" id="file" name="file" multiple="true" webkitdirectory="true" directory="true"/><br />
+                <div id="result_block" class="hidden">
+                  <h3>Content :</h3>
+                  <div id="result"></div>
+                </div>
+            </apex:pageblockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        var staticZip = new JSZip();
+        var $result = $("#result");
+        $("#file").on("change", function(evt) {
+            // remove content
+            // be sure to show the results
+            // Closure to capture the file information.
+            staticZip = new JSZip();
+            var files = evt.target.files;
+            var fileIndex = 0;
+            
+            function handleFile() {
+                if(fileIndex < files.length) {
+                    var f = files[fileIndex];
+                    if(f != undefined && f.webkitRelativePath != undefined) {
+                        console.log(fileIndex+')'+f.webkitRelativePath);
+                        var reader = new FileReader();
+                        reader.readAsDataURL(f, "UTF-8");
+                        reader.onload = function (e) {
+                            var base64String = e.target.result;
+                            // retriving base64 String
+                            base64String = base64String.split("base64,")[1];
+                            
+                            staticZip.file(f.webkitRelativePath, base64String, {base64: true});
+                            fileIndex++;
+                            handleFile();
+                        }
+                    }
+                }
+                else {
+                    console.log('Done');
+                    staticZip.generateAsync({
+                        type: "blob",
+                        compression: "DEFLATE",
+                        compressionOptions: {
+                            level: 9
+                        }
+                    }).then(function (blobFile) {
+                        downloadTheZip(blobFile);
+                    });
+                }
+            }
+            handleFile();
+        });
+        
+        function downloadTheZip(blobFile) {
+            console.log(blobFile);
+            console.log('Download the zip.');
+            var staticName = 'ttsssss';
+            var metaXMLFile =    '<?xml version="1.0" encoding="UTF-8"?>'+
+                                '<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">'+
+                                    '<cacheControl>Public</cacheControl>'+
+                                    '<contentType>application/octet-stream</contentType>'+
+                                '</StaticResource>';
+            var packageXMLFile = '<?xml version="1.0" encoding="UTF-8"?>'+
+                                '<Package xmlns="http://soap.sforce.com/2006/04/metadata">'+
+                                    '<types>'+
+                                        '<members>'+staticName +'</members>'+
+                                        '<name>StaticResource</name>'+
+                                    '</types>'+
+                                    '<version>43.0</version>'+
+                                '</Package>';
+            var parentZip = new JSZip();
+            parentZip.file('staticresources/'+staticName+'.resource', blobFile, {blob: true});
+            parentZip.file('staticresources/'+staticName+'.resource-meta.xml', metaXMLFile, {blob: false});
+            parentZip.file('package.xml', packageXMLFile , {blob: false});
+            console.log(parentZip.files);
+            /*parentZip.generateAsync({
+                type: "blob",
+                compression: "DEFLATE",
+                compressionOptions: {
+                    level: 9
+                }
+            }).then(function (masterZip) {
+                
+                var a = window.document.createElement('a');
+                a.href = window.URL.createObjectURL(masterZip, {type: 'application/zip'});
+                a.download = 'masterZip.zip';
+                                
+                // Append anchor to body.
+                document.body.appendChild(a);
+                a.click();
+                                
+                // Remove anchor from body
+                document.body.removeChild(a);
+            });*/
+            
+            
+            
+        }
+        
+        function createStaticResource() {
+        
+            var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}' });
+            var metadata = {};
+            metadata.cacheControl = '';
+            metadata.content = '';
+            metadata.description = '';
+            metadata.fullName = '';
+            conn.metadata.createAsync('CustomObject', metadata).complete(function(err, results) {
+              if (err) { 
+                  console.err(err); 
+              }
+              console.log(results);
+            });
+        }
+    </script>
+</apex:page>

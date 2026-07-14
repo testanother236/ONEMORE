@@ -1,0 +1,5 @@
+<aura:component >
+	<!--<div class="sfdc">
+        	<ui:button aura:id="submitButton" label="{!v.submitButtonLabel}" press="{!c.handleForgotPassword}" class="sfdc_button"/>
+        </div>-->
+</aura:component>

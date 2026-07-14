@@ -1,0 +1,160 @@
+<apex:page >
+    <!--<apex:includeScript value="{!URLFOR($Resource.jsforce)}"/> -->
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    
+    <script>
+        var apiVersion = '36';
+        var permissionMap = {};
+        permissionMap['CustomObject'] = ['*'];
+        permissionMap['CustomObjectTranslation'] = ['*'];
+        var selfConn = createSelfConnection();
+                
+        function createSelfConnection()
+        {
+            var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}' });
+            conn.metadata.pollTimeout = 12000000;
+            conn.metadata.pollInterval = 4000;
+            return conn;
+        }
+        
+        function getRetrieveRequest()
+        {
+            var retrieveRequest = new Object();
+            retrieveRequest.apiVersion = apiVersion;
+            retrieveRequest.singlePackage = true;
+            retrieveRequest.unpackaged = {};
+            retrieveRequest.unpackaged.types = [];
+            return retrieveRequest;
+        }
+        
+        //CustomObjectTranslation list request
+        function listCustomObjectTranslation()
+        {
+            var queryLi = [];
+            var query = new Object();
+            query.folder = '';
+            query.type = 'CustomObjectTranslation';
+            queryLi.push(query);
+            selfConn.metadata.list(queryLi, ''+apiVersion, function(err, result){
+                if(err)
+                {
+                    console.log(err);
+                }
+                else
+                {
+                    var tempLi = [];
+                    if(Array.isArray(result))
+                    {
+                        for(var index in result)
+                        {
+                            if(index < result.length)
+                            {
+                                var meta = result[index];
+                                if(meta != undefined && meta.fullName != undefined)
+                                {
+                                    tempLi.push(meta.fullName);
+                                    console.log(index + '  '+meta.fullName);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        var meta = result;
+                        if(meta != undefined && meta.fullName != undefined)
+                        {
+                            tempLi.push(meta.fullName);
+                            console.log('There is only single custom object translation---');
+                        }
+                    }
+                    if(tempLi.length > 0)
+                        permissionMap['CustomObjectTranslation'] = tempLi;
+                }
+                listCustomObjects();
+           });
+        }
+        
+        
+        function listCustomObjects()
+        {
+            var queryLi = [];
+            var query = new Object();
+            query.folder = '';
+            query.type = 'CustomObject';
+            queryLi.push(query);
+            selfConn.metadata.list(queryLi, ''+apiVersion, function(err, result){
+                if(err)
+                {
+                    console.log(err);
+                }
+                else
+                {
+                    var tempLi = [];
+                    if(Array.isArray(result))
+                    {
+                        for(var index in result)
+                        {
+                            if(index < result.length)
+                            {
+                                var meta = result[index];
+                                if(meta != undefined && meta.fullName != undefined)
+                                {
+                                    tempLi.push(meta.fullName);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        var meta = result;
+                        if(meta != undefined && meta.fullName != undefined)
+                        {
+                            tempLi.push(meta.fullName);
+                        }
+                    }
+                    if(tempLi.length > 0)
+                        permissionMap['CustomObject'] = tempLi;
+                }
+                createRetrieveRequestForTranslation();
+           });
+        }
+        
+        function createRetrieveRequestForTranslation()
+        {
+            var req = getRetrieveRequest(); 
+            var oneType = {};
+            oneType.name = 'CustomObjectTranslation';            
+            req.unpackaged.types.push(oneType);
+            for(var key in permissionMap)
+            {
+                var tempType = {};
+                tempType.name = key;
+                tempType.members = permissionMap[key];
+                req.unpackaged.types.push(tempType);
+            }
+            selfConn.metadata.retrieve(req).complete(function(err, result) {
+                if (err) { console.error(err); }
+                console.log(result);
+                if(result.done == "true" && result.success == "true" && result.zipFile != undefined)
+                {
+                    var zipLast = new JSZip(result.zipFile, {base64:true});
+                    for(var fileName in zipLast.files)
+                    {
+                        if(fileName != undefined && fileName.indexOf('objectTranslations/') == 0)
+                        {
+                            console.log(fileName);
+                            console.log(zipLast.file(fileName).asText());
+                            
+                        }
+                    }
+                    /*var index;
+                    for(index =0; index < zipLast.files.length; index++) {
+                        console.log(zipLast[i].name);
+                    } */
+                }
+            });
+        }
+         
+        listCustomObjectTranslation(); 
+    </script>
+</apex:page>

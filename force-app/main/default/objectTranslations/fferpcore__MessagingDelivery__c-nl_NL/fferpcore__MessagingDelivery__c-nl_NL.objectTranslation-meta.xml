@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingDelivery__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Levering</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Leveringen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Messaging System Delivery Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Body --></label>
+            <section>Message Body</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Levering ID</nameFieldLabel>
+    <webLinks>
+        <label>Leveringen opnieuw proberen</label>
+        <name>fferpcore__RetryMultiple</name>
+    </webLinks>
+    <webLinks>
+        <label>Levering opnieuw proberen</label>
+        <name>fferpcore__RetrySingle</name>
+    </webLinks>
+</CustomObjectTranslation>

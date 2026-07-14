@@ -1,0 +1,97 @@
+<apex:page docType="html-5.0" controller="UpdateMetadataByJS">
+    <apex:includeScript value="{!URLFOR($Resource.Flosum__Utility, 'JS/jsforce.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Flosum__jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <apex:includeScript value="{!$Resource.Flosum__X2JS}"/>
+    <apex:includeScript value="{!$Resource.Flosum__xmltojson}"/>
+    <apex:form >
+    <!--test-->
+        <apex:pageBlock title="Create Component">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Create" onClick="startCreating(); return false;" reRender="none"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+    
+    function startCreating(){        
+        var domainURL = window.location.origin
+        console.log(domainURL);
+        var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}',version: '62.0', });
+        conn.metadata.pollTimeout = 12000000;
+        conn.metadata.pollInterval = 15000;
+        conn.metadata.retrieve(getRetrieveRequest({"Settings":["Security"]})).complete(function(err, result) {
+            if (err) { console.error(err); }
+            const zzip = new JSZip(result.zipFile, { base64: true });
+            const fileTxt = zzip.files['settings/Security.settings'].asText();
+            var x2js = new X2JS({useDoubleQuotes : true, stripWhitespaces : false});
+            var orignal = x2js.xml_str2json(fileTxt);
+            console.log(orignal);
+            if(orignal && orignal.SecuritySettings && orignal.SecuritySettings.sessionSettings && (orignal.SecuritySettings.sessionSettings.enableClickjackNonsetupUser === 'true' || orignal.SecuritySettings.sessionSettings.enableClickjackNonsetupUserHeaderless === 'true')) {
+                console.log('iframe setting is true on the org');
+                checkAndUpdateIframeWhiteListUrlSettings(conn, domainURL)
+            }
+        });
+    }
+    
+    function checkAndUpdateIframeWhiteListUrlSettings(conn, domainURL) {
+        conn.metadata.read('IframeWhiteListUrlSettings',['IframeWhiteListUrlSettings'], function(err, setting) {
+            if (err) { console.error(err); }
+            console.log(JSON.stringify(setting));
+            if(setting) {
+                let allURL = [];
+                if(setting.iframeWhiteListUrls) {
+                    if(Array.isArray(setting.iframeWhiteListUrls)){
+                        allURL = setting.iframeWhiteListUrls;
+                    }
+                    else {
+                        allURL.push(setting.iframeWhiteListUrls);
+                    }
+                }
+                console.log('existing URLs',allURL);
+                for(let index=0; index < allURL.length; index++) {
+                    if(allURL[index].url === domainURL) {
+                        console.log('Setting already upto date.');
+                        return;
+                    }
+                }
+                console.log('URL not found in the list');
+                allURL.push({"context":"VisualforcePages","url":domainURL});
+                setting.iframeWhiteListUrls = allURL;
+                console.log('update to',setting);
+                conn.metadata.update('IframeWhiteListUrlSettings',setting, function(err, result) {
+                    if (err) { console.error(err); }
+                    console.log(result);
+                    if(result) {
+                        console.log('Updated successfully.');
+                    }
+                });
+                    
+            }
+        });
+    }
+    
+    function getRetrieveRequest(retrieveMap) {
+        console.log('getRetrieveRequest--------');
+        var retrieveRequest = new Object();
+        retrieveRequest.apiVersion = '62.0';
+        retrieveRequest.singlePackage = true;
+        retrieveRequest.unpackaged = {};
+        retrieveRequest.unpackaged.types = [];
+        for (var metaType in retrieveMap) {
+            var oneType = {};
+            oneType.name = metaType;
+            oneType.members = [];
+            var li = retrieveMap[metaType];
+            for (var index in li) {
+                if (index < li.length) {
+                    oneType.members.push(li[index]);
+                }
+            }
+            retrieveRequest.unpackaged.types.push(oneType);
+        }
+        return retrieveRequest;
+    }
+        
+    startCreating();
+    </script>
+</apex:page>

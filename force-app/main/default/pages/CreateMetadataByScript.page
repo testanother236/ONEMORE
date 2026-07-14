@@ -1,0 +1,248 @@
+<apex:page docType="html-5.0" controller="CreateMetadataByScriptController">
+    <apex:form >
+    <!--test-->
+        <apex:pageBlock title="Create Component">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Create" onClick="startCreating(); return false;" reRender="none"/>
+            </apex:pageBlockButtons>
+            <apex:pageblockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >No. of CustomObject</apex:outputLabel>
+                    <input type="number" id="noOfObject" value="{!noOfObjects}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name of CustomObject</apex:outputLabel>
+                    <input type="text" id="nameOfObject"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageblockSection>
+            <apex:pageblockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >No. of CustomField</apex:outputLabel>
+                    <input type="number" id="noOfFields" value="{!noOfFields}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name of CustomField</apex:outputLabel>
+                    <input type="text" id="nameOfFields"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageblockSection>
+            <apex:pageblockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >No. of ApexClass</apex:outputLabel>
+                    <input type="number" id="noOfOApexClass" value="{!noOfOApexClass}"/>
+                </apex:pageBlockSectionItem>
+                 <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name of ApexClass</apex:outputLabel>
+                    <input type="text" id="nameOfOApexClass"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageblockSection>
+            <apex:pageblockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >No. of ApexPage</apex:outputLabel>
+                    <input type="number" id="noOfOApexPage" value="{!noOfOApexPage}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name of ApexPage</apex:outputLabel>
+                    <input type="text" id="nameOfOApexPage" />
+                </apex:pageBlockSectionItem>
+            </apex:pageblockSection>
+             <apex:pageblockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >No. of ApexComponent</apex:outputLabel>
+                    <input type="number" id="noOfOApexComponent" value="{!noOfOApexComponent}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name of ApexComponent</apex:outputLabel>
+                    <input type="text" id="nameOfOApexComponent"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageblockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+    var j$ = jQuery.noConflict();
+    
+    function startCreating(){
+        
+        var noOfObject = parseInt(document.getElementById("noOfObject").value);
+        var noOfFields = parseInt(document.getElementById("noOfFields").value);
+        var noOfOApexClass = parseInt(document.getElementById("noOfOApexClass").value);
+        var noOfOApexPage = parseInt(document.getElementById("noOfOApexPage").value);
+        var noOfOApexComponent = parseInt(document.getElementById("noOfOApexComponent").value);
+        
+        var nameOfObject = document.getElementById("nameOfObject").value;
+        var nameOfFields = document.getElementById("nameOfFields").value;
+        var nameOfOApexClass = document.getElementById("nameOfOApexClass").value;
+        var nameOfOApexPage = document.getElementById("nameOfOApexPage").value;
+        var nameOfOApexComponent = document.getElementById("nameOfOApexComponent").value;
+        
+        console.log(nameOfObject);
+        console.log(nameOfFields);
+        console.log(nameOfOApexClass);
+        console.log(nameOfOApexPage);
+        console.log(nameOfOApexComponent);
+        
+        var zip = new JSZip();
+        var packageXML ='<?xml version="1.0" encoding="UTF-8"?>'
+        +'\n<Package xmlns="http://soap.sforce.com/2006/04/metadata">'
+        +'\n\t<types>';
+        for(var index=1; index <= noOfObject; index++){
+            var objectXML = '<?xml version="1.0" encoding="UTF-8"?>'
+            +'<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">'
+            +'<actionOverrides>'
+            +'<actionName>Accept</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>CancelEdit</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>Clone</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>Delete</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>Edit</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>List</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>New</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>SaveEdit</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>Tab</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<actionOverrides>'
+            +'<actionName>View</actionName>'
+            +'<type>Default</type>'
+            +'</actionOverrides>'
+            +'<allowInChatterGroups>true</allowInChatterGroups>'
+            +'<compactLayoutAssignment>SYSTEM</compactLayoutAssignment>'
+            +'<deploymentStatus>Deployed</deploymentStatus>'
+            +'<enableActivities>true</enableActivities>'
+            +'<enableBulkApi>true</enableBulkApi>'
+            +'<enableFeeds>false</enableFeeds>'
+            +'<enableHistory>true</enableHistory>'
+            +'<enableReports>true</enableReports>'
+            +'<enableSearch>true</enableSearch>'
+            +'<enableSharing>true</enableSharing>'
+            +'<enableStreamingApi>true</enableStreamingApi>'
+            +'<externalSharingModel>ReadWrite</externalSharingModel>';
+            for(var index2=1; index2 <= noOfFields; index2++){
+                objectXML +='<fields>'
+                +'<fullName>'+nameOfFields+''+index2+'__c</fullName>'
+                +'<externalId>false</externalId>'
+                +'<label>'+nameOfFields+''+index2+'</label>'
+                +'<length>255</length>'
+                +'<required>false</required>'
+                +'<trackHistory>true</trackHistory>'
+                +'<type>Text</type>'
+                +'<unique>false</unique>'
+                +'</fields>';
+            }
+            objectXML +='<label>'+nameOfObject+''+index+'</label>'
+                        +'<nameField>'
+                        +'<label>'+nameOfObject+''+index+' Name</label>'
+                        +'<trackHistory>false</trackHistory>'
+                        +'<type>Text</type>'
+                        +'</nameField>'
+                        +'<pluralLabel>'+nameOfObject+''+index+'s</pluralLabel>'
+                        +'<recordTypeTrackHistory>false</recordTypeTrackHistory>'
+                        +'<searchLayouts/>'
+                        +'<sharingModel>ReadWrite</sharingModel>'
+                        +'<visibility>Public</visibility>'
+                        +'</CustomObject>';
+            packageXML += '\n\t\t<members>'+nameOfObject+''+index+'</members>';
+            zip.file('objects/'+nameOfObject+''+index+'__c.object',objectXML );
+        }
+        packageXML+= '\n\t\t<name>CustomObject</name>'
+                    +'\n\t</types>'
+                    +'\n\t<types>';
+        
+        for(var index3 = 1; index3 <= noOfOApexClass; index3++)
+        {   
+            var apexClassXml = '<?xml version="1.0" encoding="UTF-8"?>'
+                                +'<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">'
+                                +'<apiVersion>39.0</apiVersion>'
+                                +'<status>Active</status>'
+                                +'</ApexClass>';
+            
+            console.log(apexClassXml+'>>>>>>>>>>>>>>>>>>>>>>>>>');
+            var apexClassContent = 'public class '+nameOfOApexClass+''+index3
+                                   +'{}';
+            zip.file('classes/'+nameOfOApexClass+''+index3+'.cls',apexClassContent);
+            zip.file('classes/'+nameOfOApexClass+''+index3+'.cls-meta.xml',apexClassXml);
+            packageXML += '\n\t\t<members>'+nameOfOApexClass+''+index3+'</members>';
+        }
+        
+        packageXML +=  '\n\t\t<name>ApexClass</name>'
+                        +'\n\t</types>'
+                        +'\n\t<types>';
+        
+        for(var index3 = 1; index3 <= noOfOApexPage; index3++)
+        {
+            var pageXml = '<?xml version="1.0" encoding="UTF-8"?>'
+                            +'<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">'
+                            +'<apiVersion>39.0</apiVersion>'
+                            +'<availableInTouch>false</availableInTouch>'
+                            +'<confirmationTokenRequired>false</confirmationTokenRequired>'
+                            +'<label>'+nameOfOApexPage+''+index3+'</label>'
+                            +'</ApexPage>';
+            
+            var apexPage = '{!pageHeader}';
+            zip.file('pages/'+nameOfOApexPage+''+index3+'.page',apexPage );
+            zip.file('pages/'+nameOfOApexPage+''+index3+'.page-meta.xml',pageXml);
+            packageXML += '\n\t\t<members>'+nameOfOApexPage+''+index3+'</members>';
+        }
+        packageXML +=  '\n\t\t<name>ApexPage</name>'
+                        +'\n\t</types>'
+                        +'\n\t<types>';
+        
+        for(var index3 = 1; index3 <= noOfOApexComponent; index3++)
+        {   
+            var componentXml = '<?xml version="1.0" encoding="UTF-8"?>'
+                                +'<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">'
+                                +'<apiVersion>39.0</apiVersion>'
+                                +'<label>'+nameOfOApexComponent+''+index3+'</label>'
+                                +'</ApexComponent>';
+            
+            var componentContent = '{!componentHeader}';
+            zip.file('components/'+nameOfOApexComponent+''+index3+'.component',componentContent);
+            zip.file('components/'+nameOfOApexComponent+''+index3+'.component-meta.xml',componentXml );
+            packageXML += '\n\t\t<members>'+nameOfOApexComponent+''+index3+'</members>';
+        }
+        
+        packageXML +=  '\n\t\t<name>ApexComponent</name>'
+                        +'\n\t</types>'
+                        +'\n\t<version>39.0</version>'
+                        +'\n</Package>';
+        
+        console.log(packageXML);
+        zip.file('package.xml',packageXML);                
+        var data = zip.generate({type:"base64",compression:"DEFLATE"});
+        var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}' });
+        conn.metadata.deploy(data , {   singlePackage: true,
+                                     allowMissingFiles: true,
+                                     checkOnly :false,
+                                     ignoreWarnings : true,
+                                     autoUpdatePackage :true,
+                                     rollbackOnError : true
+                                    })
+        .complete(function(err, result) {
+            if (err) { console.error(err); }
+            console.log(result);
+        });
+    }
+    </script>
+</apex:page>

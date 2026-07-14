@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateHistory__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>汇率历史</value>
+    </caseValues>
+    <nameFieldLabel>历史ID</nameFieldLabel>
+    <webLinks>
+        <label>管理货币</label>
+        <name>fferpcore__ErpCurrenciesRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>管理群组</label>
+        <name>fferpcore__ExchangeRateGroupsRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>管理费率</label>
+        <name>fferpcore__ExchangeRatesRedirect</name>
+    </webLinks>
+</CustomObjectTranslation>

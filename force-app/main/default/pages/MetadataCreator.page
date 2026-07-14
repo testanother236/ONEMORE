@@ -1,0 +1,40 @@
+<apex:page controller="MetadataCreatorController">
+<apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+	<apex:form >
+		<apex:pageMessages id="msg"/>
+		<apex:pageBlock >
+			<apex:commandButton value="Create Object" reRender="msg" action="{!objectCreator}"/>
+			<apex:commandButton value="Create Metadata" reRender="msg" action="{!objectCreator}"/>
+		</apex:pageBlock>
+	</apex:form>
+	<script>
+		function readDocFile(attId)
+		{
+			Visualforce.remoting.Manager.invokeAction(
+						            '{!$RemoteAction.MetadataCreatorController.getAttahcmentStr}',
+						            attId,
+						            handleDocFile   
+						        );
+		}
+		
+		function handleDocFile(r,e)
+		{
+			if(e.status)
+			{
+				//console.log(r);
+				//var zip = new JSZip();
+				//zip.file('My text in doc file.docx',r,{base64:true});
+				var zip = new JSZip(r, {base64:true});
+				for(var fileName in zip.files)
+				{
+					console.log(fileName);
+					console.log(zip.files[fileName].asText());
+				}
+			}
+			else
+			{
+				console.log(e.message);
+			}
+		}
+	</script>
+</apex:page>

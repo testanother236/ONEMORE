@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__fflib_BatchProcessDetail__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Detalhe do processo de lote do Foundations</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Detalhes do processo em lote do Foundations</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Batch Process Detail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

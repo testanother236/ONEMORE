@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__UserInformation__c-es</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Informacion del usuario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Informacion del usuario</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>User Information Layout</layout>
+        <sections>
+            <label><!-- Import Information --></label>
+            <section>Import Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de usuario</nameFieldLabel>
+</CustomObjectTranslation>

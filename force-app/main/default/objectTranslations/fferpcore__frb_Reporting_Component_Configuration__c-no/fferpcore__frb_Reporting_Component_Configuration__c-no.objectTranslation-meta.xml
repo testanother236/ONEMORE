@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Reporting_Component_Configuration__c-no</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Konfigurasjon av rapporteringskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Konfigurasjon av rapporteringskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Konfigurasjon av rapporteringskomponent</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Konfigurasjoner av rapporteringskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Konfigurasjoner av rapporteringskomponenter</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Konfigurasjoner av rapporteringskomponenter</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Reporting Component Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Konfigurasjonsnavn</nameFieldLabel>
+    <recordTypes>
+        <description>Brukes til å opprette en konfigurasjon for en rapportkomponent med flere linser.</description>
+        <label>Multilinserapport</label>
+        <name>fferpcore__Multi_Lens_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Brukes til å lage en konfigurasjon for en spørringsfilterkomponent.</description>
+        <label>Spørringsfilter</label>
+        <name>fferpcore__Query_Filter</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Brukes til å lage en konfigurasjon for en myk datofilterkomponent.</description>
+        <label>Mykt datofilter</label>
+        <name>fferpcore__Soft_Date_Filter</name>
+    </recordTypes>
+</CustomObjectTranslation>

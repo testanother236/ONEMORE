@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessageType__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>メッセージの種類</value>
+    </caseValues>
+    <layouts>
+        <layout>Message Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>名</nameFieldLabel>
+    <webLinks>
+        <label>メッセージングエクスポート</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>メッセージングエクスポート</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>メッセージングのインポート</label>
+        <name>fferpcore__Import</name>
+    </webLinks>
+</CustomObjectTranslation>
