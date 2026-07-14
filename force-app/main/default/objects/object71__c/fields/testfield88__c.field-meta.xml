@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>testfield88__c</fullName>
+    <description>Test</description>
+    <label>testfield88</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>first</fullName>
+                <default>true</default>
+                <label>first</label>
+            </value>
+            <value>
+                <fullName>second</fullName>
+                <default>false</default>
+                <label>second</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

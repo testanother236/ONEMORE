@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field2__c</fullName>
+    <label>従属ピックリスト</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>こんにちは</fullName>
+                <default>false</default>
+                <label>こんにちは</label>
+            </value>
+            <value>
+                <fullName>バイ</fullName>
+                <default>false</default>
+                <label>バイ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

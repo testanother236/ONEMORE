@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJob__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Trabalho Programado</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trabalhos programados</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Scheduled Job Job</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <webLinks>
+        <label>Corra agora</label>
+        <name>fferpcore__Run_Now</name>
+    </webLinks>
+    <webLinks>
+        <label>Agendar Trabalho</label>
+        <name>fferpcore__Schedule_Job</name>
+    </webLinks>
+    <webLinks>
+        <label>Trabalho não agendado</label>
+        <name>fferpcore__Unschedule_Job</name>
+    </webLinks>
+</CustomObjectTranslation>

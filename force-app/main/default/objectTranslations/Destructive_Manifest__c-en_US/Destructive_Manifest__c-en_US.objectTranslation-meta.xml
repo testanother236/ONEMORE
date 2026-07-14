@@ -3,19 +3,11 @@
     <fullName>Destructive_Manifest__c-en_US</fullName>
     <caseValues>
         <plural>false</plural>
-        <value>Destructive Changes</value>
+        <value>Destructive Manifest</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>Destructive Changes</value>
+        <value>Destructive Manifests</value>
     </caseValues>
     <startsWith>Consonant</startsWith>
-    <webLinks>
-        <label><!-- Add_Post_Destructive_Changes --></label>
-        <name>Add_Post_Destructive_Changes</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Add_Pre_Destructive_Changes --></label>
-        <name>Add_Pre_Destructive_Changes</name>
-    </webLinks>
 </CustomObjectTranslation>

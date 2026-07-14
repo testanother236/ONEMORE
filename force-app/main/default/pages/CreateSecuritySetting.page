@@ -1,0 +1,3 @@
+<apex:page controller="CreateSecuritySettingController">
+	<apex:pageMessages id="msg"/>
+</apex:page>

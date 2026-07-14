@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Currency_Exchange_Rate__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>汇率</value>
+    </caseValues>
+    <layouts>
+        <layout>Currency Exchange Rate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>货币汇率编号</nameFieldLabel>
+</CustomObjectTranslation>

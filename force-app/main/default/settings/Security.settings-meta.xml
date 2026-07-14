@@ -14,7 +14,7 @@
         <complexity>AlphaNumeric</complexity>
         <expiration>NinetyDays</expiration>
         <historyRestriction>3</historyRestriction>
-        <lockoutInterval>FifteenMinutes</lockoutInterval>
+        <lockoutInterval>Forever</lockoutInterval>
         <maxLoginAttempts>TenAttempts</maxLoginAttempts>
         <minimumPasswordLength>8</minimumPasswordLength>
         <minimumPasswordLifetime>false</minimumPasswordLifetime>
@@ -29,7 +29,7 @@
         <canConfirmEmailChangeInLightningCommunities>true</canConfirmEmailChangeInLightningCommunities>
         <canConfirmIdentityBySmsOnly>true</canConfirmIdentityBySmsOnly>
         <disableTimeoutWarning>false</disableTimeoutWarning>
-        <enableBuiltInAuthenticator>true</enableBuiltInAuthenticator>
+        <enableBuiltInAuthenticator>false</enableBuiltInAuthenticator>
         <enableCSPOnEmail>true</enableCSPOnEmail>
         <enableCSRFOnGet>true</enableCSRFOnGet>
         <enableCSRFOnPost>true</enableCSRFOnPost>
@@ -48,7 +48,7 @@
         <enablePermissionsPolicy>false</enablePermissionsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
         <enableSMSIdentity>true</enableSMSIdentity>
-        <enableU2F>true</enableU2F>
+        <enableU2F>false</enableU2F>
         <enforceIpRangesEveryRequest>false</enforceIpRangesEveryRequest>
         <enforceUserDeviceRevoked>false</enforceUserDeviceRevoked>
         <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
@@ -59,7 +59,7 @@
         <hasUserSwitching>true</hasUserSwitching>
         <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
-        <lockSessionsToDomain>true</lockSessionsToDomain>
+        <lockSessionsToDomain>false</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
         <lockerServiceCSP>true</lockerServiceCSP>
         <lockerServiceNext>true</lockerServiceNext>
@@ -70,7 +70,7 @@
         <referrerPolicyDirective>strict-origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>false</requireHttpOnly>
         <sendCspForUncommonClients>false</sendCspForUncommonClients>
-        <sessionTimeout>TwoHours</sessionTimeout>
+        <sessionTimeout>EightHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
         <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
         <terminateUserSessionsWhenAdminResetsPassword>false</terminateUserSessionsWhenAdminResetsPassword>

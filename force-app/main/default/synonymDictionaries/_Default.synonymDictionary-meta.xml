@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SynonymDictionary xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groups>
+        <languages>en_US</languages>
+        <terms>amity</terms>
+        <terms>compatibility</terms>
+        <terms>fit</terms>
+        <terms>smart</terms>
+        <terms>sympathy</terms>
+        <terms>unity</terms>
+    </groups>
+    <groups>
+        <languages>en_US</languages>
+        <languages>ja</languages>
+        <terms>intelligent</terms>
+        <terms>smart</terms>
+        <terms>wise</terms>
+    </groups>
+    <groups>
+        <languages>es</languages>
+        <languages>fr</languages>
+        <languages>ko</languages>
+        <terms>Best</terms>
+        <terms>Good</terms>
+        <terms>Great</terms>
+        <terms>very</terms>
+    </groups>
+    <label>_Default</label>
+</SynonymDictionary>

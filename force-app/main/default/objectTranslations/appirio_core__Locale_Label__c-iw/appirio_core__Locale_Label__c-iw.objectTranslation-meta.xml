@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Locale_Label__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>תווית מקומית</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>תווית מקומית</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>תוויות מקומיות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>תוויות מקומיות</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Locale Label Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם התווית</nameFieldLabel>
+    <validationRules>
+        <errorMessage>השם אינו יכול להכיל רווחים</errorMessage>
+        <name>appirio_core__Check_Spaces</name>
+    </validationRules>
+</CustomObjectTranslation>

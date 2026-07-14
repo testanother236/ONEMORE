@@ -1,0 +1,14 @@
+<!-- wireFunction.html -->
+<template>
+    <lightning-card title="Wire Function" icon-name="standard:contact">
+        <template if:true={record}>
+            <div class="slds-m-around_medium">
+                <p>{name}</p>
+                <p>{phone}</p>
+            </div>
+        </template>
+        <template if:true={error}>
+           
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dependent_Picklist__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Dependent Picklist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Dependent Picklist</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- City --></label>
+        <name>City</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Village --></label>
+        <name>Village</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

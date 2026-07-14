@@ -3,7 +3,7 @@
     <allowUsersToRelateMultipleContactsToTasksAndEvents>false</allowUsersToRelateMultipleContactsToTasksAndEvents>
     <autoRelateEventAttendees>false</autoRelateEventAttendees>
     <enableActivityReminders>true</enableActivityReminders>
-    <enableCalendarHomeLWC>true</enableCalendarHomeLWC>
+    <enableCalendarHomeLWC>false</enableCalendarHomeLWC>
     <enableClickCreateEvents>false</enableClickCreateEvents>
     <enableDragAndDropScheduling>true</enableDragAndDropScheduling>
     <enableEmailTracking>true</enableEmailTracking>

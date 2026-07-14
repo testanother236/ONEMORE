@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateHistory__c-sv</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Valutakurshistorik</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Historik ID</nameFieldLabel>
+    <webLinks>
+        <label>Hantera valutor</label>
+        <name>fferpcore__ErpCurrenciesRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>Hantera grupper</label>
+        <name>fferpcore__ExchangeRateGroupsRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>Hantera priser</label>
+        <name>fferpcore__ExchangeRatesRedirect</name>
+    </webLinks>
+</CustomObjectTranslation>

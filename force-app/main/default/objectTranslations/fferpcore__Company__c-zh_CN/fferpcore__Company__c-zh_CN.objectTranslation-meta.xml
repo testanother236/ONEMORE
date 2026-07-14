@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__Company__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>公司</value>
+    </caseValues>
+    <layouts>
+        <layout>Company Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>公司名</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>验证地址</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <webLinks>
+        <label>创建税务信息</label>
+        <name>fferpcore__CreateTaxInformation</name>
+    </webLinks>
+    <webLinks>
+        <label>验证地址</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

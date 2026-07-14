@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestSubscription__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Assinatura do modo de teste</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Assinaturas do modo de teste</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Test Subscription Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Subscription Information --></label>
+            <section>Subscription Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da assinatura do modo de teste</nameFieldLabel>
+    <webLinks>
+        <label>Configuração</label>
+        <name>fferpcore__SetupTestSubscription</name>
+    </webLinks>
+    <webLinks>
+        <label>Configuração</label>
+        <name>fferpcore__SetupTestSubscriptions</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jumbo__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Jumbo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jumbo</value>
+    </caseValues>
+    <layouts>
+        <layout>Jumbo Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Temp__c</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Test-Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- One --></label>
+        <name>One</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Two --></label>
+        <name>Two</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- test not allowed --></errorMessage>
+        <name>test</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Check_2 --></label>
+        <name>Check_2</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fetch_User_Role --></label>
+        <name>Fetch_User_Role</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- JavaScriptQuery --></label>
+        <name>JavaScriptQuery</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test1 --></label>
+        <name>Test1</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test3 --></label>
+        <name>Test3</name>
+    </webLinks>
+</CustomObjectTranslation>

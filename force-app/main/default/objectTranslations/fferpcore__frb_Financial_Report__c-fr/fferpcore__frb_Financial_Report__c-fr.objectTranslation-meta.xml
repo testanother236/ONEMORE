@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Financial_Report__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Rapport financier</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rapports financiers</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du rapport</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Exportation</label>
+        <name>fferpcore__Export_Action</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>sauvegarder</label>
+        <name>fferpcore__Save_Action</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

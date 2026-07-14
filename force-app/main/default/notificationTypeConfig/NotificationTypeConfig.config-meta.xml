@@ -243,13 +243,6 @@
             <desktopEnabled>true</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
-        <notificationType>mailapp_alert</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
         <notificationType>malicious_file_detected</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
@@ -338,13 +331,6 @@
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
-            <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
-        </notificationChannels>
-        <notificationType>security_center_alert</notificationType>
-    </notificationTypeSettings>
-    <notificationTypeSettings>
-        <notificationChannels>
             <desktopEnabled>false</desktopEnabled>
             <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
@@ -423,15 +409,22 @@
     <notificationTypeSettings>
         <notificationChannels>
             <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>true</mobileEnabled>
+            <mobileEnabled>false</mobileEnabled>
         </notificationChannels>
-        <notificationType>wave_condition</notificationType>
+        <notificationType>ya_contract_renewal_notify</notificationType>
     </notificationTypeSettings>
     <notificationTypeSettings>
         <notificationChannels>
             <desktopEnabled>true</desktopEnabled>
-            <mobileEnabled>false</mobileEnabled>
+            <mobileEnabled>true</mobileEnabled>
         </notificationChannels>
-        <notificationType>enablement_coaching_feedback_ready</notificationType>
+        <notificationType>DemoNotification</notificationType>
+    </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>true</mobileEnabled>
+        </notificationChannels>
+        <notificationType>Test_Notification_Type</notificationType>
     </notificationTypeSettings>
 </NotificationTypeConfig>

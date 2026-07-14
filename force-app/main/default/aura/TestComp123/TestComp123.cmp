@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <div class="slds-grid">
+        <ul class="slds-accordion">
+            <li class="slds-accordion__list-item">
+                <section class="slds-accordion__section slds-is-open">
+                    <div class="slds-accordion__summary">
+                        <h3 class="slds-text-heading_small slds-accordion__summary-heading">
+                            <lightning:buttonIcon iconName="utility:switch" alternativeText="Close"/>
+                            Title : -
+                        </h3>
+                        <lightning:buttonIcon iconName="utility:down" alternativeText="Close"/>
+                    </div>
+                    <div aria-hidden="false" class="slds-accordion__content" id="accordion-details-01">Accordion details - A</div>
+                    <div aria-hidden="false" class="slds-accordion__content" id="accordion-details-01">Accordion details - A</div>
+                    <!--<div aria-hidden="false" class="slds-accordion__content" id="accordion-details-01">Accordion details - A</div>
+                    <div aria-hidden="false" class="slds-accordion__content" id="accordion-details-01">Accordion details - A</div>-->
+                </section>
+            </li>
+        </ul>
+    </div>
+</aura:component>

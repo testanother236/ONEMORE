@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateEntry__c-it</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Voce di cambio</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Voci di cambio</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Exchange Rate Entry Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Effective Dates --></label>
+            <section>Effective Dates</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Rate Group and Type --></label>
+            <section>Exchange Rate Group and Type</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Rates --></label>
+            <section>Exchange Rates</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>ID voce tasso di cambio</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

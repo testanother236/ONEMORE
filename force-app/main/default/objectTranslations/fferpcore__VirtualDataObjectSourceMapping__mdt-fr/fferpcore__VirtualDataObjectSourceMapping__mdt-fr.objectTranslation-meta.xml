@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__VirtualDataObjectSourceMapping__mdt-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Mappage de sources d&apos;objets de données virtuelles --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Mappages de sources d&apos;objets de données virtuelles --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Virtual Data Object Source Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith><!-- Vowel --></startsWith>
+</CustomObjectTranslation>

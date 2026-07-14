@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Test-G8 Description</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TempTest__Letterhead123</letterhead>
+    <name>Test-G8</name>
+    <style>formalLetter</style>
+    <subject>Turn On</subject>
+    <textOnly>Title
+Hi,
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+The end</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

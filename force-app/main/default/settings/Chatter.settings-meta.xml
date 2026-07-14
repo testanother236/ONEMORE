@@ -7,7 +7,7 @@
     <enableChatterEmoticons>false</enableChatterEmoticons>
     <enableFeedEdit>true</enableFeedEdit>
     <enableFeedPinning>true</enableFeedPinning>
-    <enableFeedsDraftPosts>true</enableFeedsDraftPosts>
+    <enableFeedsDraftPosts>false</enableFeedsDraftPosts>
     <enableFeedsRichText>true</enableFeedsRichText>
     <enableInviteCsnUsers>false</enableInviteCsnUsers>
     <enableOutOfOfficeEnabledPref>false</enableOutOfOfficeEnabledPref>

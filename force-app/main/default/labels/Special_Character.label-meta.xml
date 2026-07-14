@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>Special_Character</fullName>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Special Character</shortDescription>
+    <value>These components have been modified in the branch since you were editing your changes. Hence, there is a “conflict” that needs to be resolved to ensure that you not overwriting changes from previous versions. The corrective action is to refactor your code with the latest version of these components from the branch.</value>
+</CustomLabel>

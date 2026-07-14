@@ -13,9 +13,10 @@
             &lt;/p&gt;
             &lt;p&gt;
             Click the link for access: &lt;a href={!Community_URL}&gt;{!Community_Name}&lt;/a&gt;
+            Username: {!Receiving_User.Username}
             &lt;/p&gt;
             Regards,&lt;br&gt;
-            {!Sending_User.Name}
+            {!User.Name}
             &lt;/html&gt;</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>

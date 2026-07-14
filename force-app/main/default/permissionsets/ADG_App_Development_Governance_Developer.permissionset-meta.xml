@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set generated for access to all components in the App Development Governance app from Force.com Labs.  Use this for the Developer.  Clone to create one for End Users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ADG App Development Governance: Developer</label>
+    <license>Salesforce</license>
+</PermissionSet>

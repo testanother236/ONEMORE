@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Fill</fullName>
+        <field>Description</field>
+        <formula>&apos;Test Duplicate&apos;</formula>
+        <name>Fill</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MEtaDataFieldUpdate</fullName>
+        <field>MetaDataTest__c</field>
+        <name>MetaDataFieldUpdate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Null</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>AccountOutBound</fullName>
+        <apiVersion>37.0</apiVersion>
+        <description>Test</description>
+        <endpointUrl>https://ap2.salesforce.com/calloutbound</endpointUrl>
+        <fields>AccountNumber</fields>
+        <fields>Id</fields>
+        <fields>Name</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>ravikant@agiletargetorg.com</integrationUser>
+        <name>AccountOutBound</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>New40</fullName>
+        <apiVersion>40.0</apiVersion>
+        <endpointUrl>https://saini123-dev-ed.my.salesforce.com</endpointUrl>
+        <fields>AccountNumber</fields>
+        <fields>AccountSource</fields>
+        <fields>Id</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>ravikant@agiletargetorg.com</integrationUser>
+        <name>New40</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>MetaDataTEsting</fullName>
+        <actions>
+            <name>MEtaDataFieldUpdate</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <description>used in metaDataTYpTesting</description>
+        <formula>MetaDataTest__c != &apos;&apos;</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>My_Workflow</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>contains</operation>
+            <value>semi</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>Test</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>TestRule</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.Name</field>
+            <operation>equals</operation>
+            <value>ABC</value>
+        </criteriaItems>
+        <description>This is test account rule.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Check_CRC</fullName>
+        <assignedTo>ravikant@agiletargetorg.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>Check CRC</subject>
+    </tasks>
+    <tasks>
+        <fullName>TempTest__test</fullName>
+        <assignedTo>ravikant@agiletargetorg.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <description>test updated</description>
+        <dueDateOffset>1</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Not Started</status>
+        <subject>test</subject>
+    </tasks>
+</Workflow>

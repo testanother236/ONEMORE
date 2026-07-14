@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__Company__c-it</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Azienda</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Aziende</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Company Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome della ditta</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Convalida indirizzo</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Creare informazioni fiscali</label>
+        <name>fferpcore__CreateTaxInformation</name>
+    </webLinks>
+    <webLinks>
+        <label>Convalida indirizzo</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

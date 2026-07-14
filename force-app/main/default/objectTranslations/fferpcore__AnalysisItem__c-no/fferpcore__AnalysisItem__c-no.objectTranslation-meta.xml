@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-no</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Analysepost</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Analysepost</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Analysepost</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Analyseelementer</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Analyseelementer</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Analyseelementer</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Navn</nameFieldLabel>
+    <recordTypes>
+        <description>Brukes til å analysere faktureringsdokumenter og kan brukes til å representere et antall forskjellige forretningskonsepter.</description>
+        <label>Analyse 1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Brukes til å analysere faktureringsdokumenter og kan brukes til å representere et antall forskjellige forretningskonsepter.</description>
+        <label>Analyse 2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Brukes til å analysere faktureringsdokumenter og kan brukes til å representere et antall forskjellige forretningskonsepter.</description>
+        <label>Analyse 3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Brukes til å analysere faktureringsdokumenter og kan brukes til å representere et antall forskjellige forretningskonsepter.</description>
+        <label>Analyse 4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__CompanySite__c-en_US</fullName>
+    <quickActions>
+        <label><!-- Validate Address --></label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- ValidateAddress --></label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

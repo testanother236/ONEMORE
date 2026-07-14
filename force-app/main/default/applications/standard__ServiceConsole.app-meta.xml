@@ -181,7 +181,11 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Custom_Employee__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Custom_Employee__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

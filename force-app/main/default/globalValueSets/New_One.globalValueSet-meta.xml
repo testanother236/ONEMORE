@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Bye</fullName>
+        <default>false</default>
+        <label>Bye</label>
+    </customValue>
+    <customValue>
+        <fullName>Hello</fullName>
+        <default>false</default>
+        <label>Hello</label>
+    </customValue>
+    <customValue>
+        <fullName>Hi</fullName>
+        <default>false</default>
+        <label>Hi</label>
+    </customValue>
+    <description>Known as globle value set</description>
+    <masterLabel>New One</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

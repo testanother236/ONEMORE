@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestPublication__c-en_US</fullName>
+    <layouts>
+        <layout>Test Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Response Publication --></label>
+            <section>Response Publication</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- PublishMessage --></label>
+        <name>fferpcore__PublishMessage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetupAndPublishMultipleMessages --></label>
+        <name>fferpcore__SetupAndPublishMultipleMessages</name>
+    </webLinks>
+</CustomObjectTranslation>

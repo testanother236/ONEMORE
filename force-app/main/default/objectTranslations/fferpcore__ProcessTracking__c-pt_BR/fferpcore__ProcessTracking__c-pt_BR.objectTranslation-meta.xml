@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessTracking__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Rastreamento de Processo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rastreamento de Processo</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome do ProcessState</nameFieldLabel>
+</CustomObjectTranslation>

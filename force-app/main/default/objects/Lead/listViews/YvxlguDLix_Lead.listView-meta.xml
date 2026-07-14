@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YvxlguDLix_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>YvxlguDLix</label>
+    <queue>YvxlguDLix</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

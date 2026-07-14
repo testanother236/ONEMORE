@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__VirtualDataObjectSourceMapping__mdt-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 가상 데이터 객체 소스 매핑 --></value>
+    </caseValues>
+    <layouts>
+        <layout>Virtual Data Object Source Mapping Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

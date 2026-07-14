@@ -36,4 +36,29 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Test One</fullName>
+        <default>false</default>
+        <label>Test One</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Test 2</fullName>
+        <default>false</default>
+        <label>Test 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Test 3</fullName>
+        <default>false</default>
+        <label>Test 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>metaDataType</fullName>
+        <default>false</default>
+        <label>metaDataType</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NewCustomValue</fullName>
+        <default>false</default>
+        <label>NewCustomValue</label>
+    </standardValue>
 </StandardValueSet>

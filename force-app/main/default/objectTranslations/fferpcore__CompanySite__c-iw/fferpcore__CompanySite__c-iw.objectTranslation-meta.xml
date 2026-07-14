@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__CompanySite__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>אתר החברה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>אתר החברה</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>אתרי חברה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>אתרי חברה</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>שם אתר החברה</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>אמת כתובת</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <webLinks>
+        <label>אמת כתובת</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

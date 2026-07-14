@@ -26,4 +26,14 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Test</fullName>
+        <default>false</default>
+        <label>Test</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MetaDataTest</fullName>
+        <default>false</default>
+        <label>MetaDataTest</label>
+    </standardValue>
 </StandardValueSet>

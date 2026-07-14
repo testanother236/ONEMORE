@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ravi@flosum.com</contactEmail>
+    <label>ManagedTestingJWT</label>
+    <oauthConfig>
+        <callbackUrl>https://flosumagileintegration123.my.salesforce.com/
+oob</callbackUrl>
+        <certificate>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</certificate>
+        <consumerKey>3MVG9oZtFCVWuSwOvwwAVjUooDQTPtdYWtwByMPvxpUGGLyp8fKTDJOy2IJKqnN_HGhIlHe9gbv1gKzuyYP1Y</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

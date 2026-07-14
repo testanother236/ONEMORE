@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LocalFlosum__Number_of_Components__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Number of Components</label>
+    <summaryForeignKey>LocalFlosum__FL_Sync_Component__c.LocalFlosum__Sync__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

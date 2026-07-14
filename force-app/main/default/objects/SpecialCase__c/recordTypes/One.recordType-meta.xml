@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>One</fullName>
+    <label>One</label>
+    <picklistValues>
+        <picklist>SpecialFieldGVS__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>ds%21%40%23%24%25%5E%26*%28%29_%2B%3D-0</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SpecialField__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>%3C%3E%3F%7C%7B%7D%5B%5D</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>sdfds %21%40%23%24%25%5E%26*%28%29_%2B%60-%3D</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

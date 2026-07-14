@@ -1,0 +1,20 @@
+.THIS {
+    padding: 16px;
+}
+.THIS input[type=text] {
+    font-size: 14px;
+    width: 150px;
+    padding: 8px;
+    margin: 4px 0;
+    border: solid 1px #DDDDDD;
+    border-radius: 4px;
+}
+
+.THIS button {
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.THIS label {
+    
+}

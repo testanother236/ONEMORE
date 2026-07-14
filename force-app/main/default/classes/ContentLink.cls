@@ -47,4 +47,3 @@ public class ContentLink implements Database.Batchable<SObject>, Database.Statef
         System.debug('Batch finished.');
     }
 }
-//test

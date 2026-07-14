@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordActionDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <channelConfigurations>
+        <channel>Chat</channel>
+        <channelItems>
+            <action>CreateBranchTest</action>
+            <isMandatory>false</isMandatory>
+            <isUiRemoveHidden>false</isUiRemoveHidden>
+            <pinned>Top</pinned>
+            <position>0</position>
+            <type>QuickAction</type>
+        </channelItems>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <channelConfigurations>
+        <channel>Phone</channel>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <channelConfigurations>
+        <channel>Other</channel>
+        <isAutopopEnabled>false</isAutopopEnabled>
+    </channelConfigurations>
+    <deploymentContexts>
+        <entityName>Account__mdt</entityName>
+    </deploymentContexts>
+    <hasComponents>false</hasComponents>
+    <hasGuidedActions>true</hasGuidedActions>
+    <hasOmniscripts>false</hasOmniscripts>
+    <hasRecommendations>false</hasRecommendations>
+    <masterLabel>NewActionDeployment</masterLabel>
+    <selectableItems>
+        <action>CreateBranchTest</action>
+        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
+        <isFrequentAction>false</isFrequentAction>
+        <type>QuickAction</type>
+    </selectableItems>
+</RecordActionDeployment>

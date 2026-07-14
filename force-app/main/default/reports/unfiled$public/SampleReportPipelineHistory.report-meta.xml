@@ -40,6 +40,7 @@
         <aggregateTypes>Sum</aggregateTypes>
         <field>TAMOUNT</field>
     </columns>
+    <currency>USD</currency>
     <description>What did the pipeline look like as of...</description>
     <format>Matrix</format>
     <groupingsAcross>
