@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agile_Work_Item_Filters__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Agile Work Item Filters</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agile Work Item Filters</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

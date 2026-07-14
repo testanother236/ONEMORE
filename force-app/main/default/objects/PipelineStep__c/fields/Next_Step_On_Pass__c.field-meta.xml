@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Step_On_Pass__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Next_Step_Id_On_Pass__r.Number__c=0, &quot;Stop&quot;, &quot;Step &quot; &amp; TEXT(Next_Step_Id_On_Pass__r.Number__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Next Step On Pass</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

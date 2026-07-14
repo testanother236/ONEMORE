@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metadata_Item_Vlocity__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Metadata Item Vlocity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Metadata Items Vlocity</value>
+    </caseValues>
+    <layouts>
+        <layout>Metadata Item Vlocity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Attachment --></label>
+        <name>Attachment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AttributeAssignmentRule --></label>
+        <name>AttributeAssignmentRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AttributeCategory --></label>
+        <name>AttributeCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AuraDefinitionBundle --></label>
+        <name>AuraDefinitionBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CalculationMatrix --></label>
+        <name>CalculationMatrix</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CalculationMatrixVersion --></label>
+        <name>CalculationMatrixVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CalculationProcedure --></label>
+        <name>CalculationProcedure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CalculationProcedureVersion --></label>
+        <name>CalculationProcedureVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Catalog --></label>
+        <name>Catalog</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ChargeMeasurement --></label>
+        <name>ChargeMeasurement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContentVersion --></label>
+        <name>ContentVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContextAction --></label>
+        <name>ContextAction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContextDimension --></label>
+        <name>ContextDimension</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContextScope --></label>
+        <name>ContextScope</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContractType --></label>
+        <name>ContractType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CpqConfigurationSetup --></label>
+        <name>CpqConfigurationSetup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomFieldMap --></label>
+        <name>CustomFieldMap</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomObjectMap --></label>
+        <name>CustomObjectMap</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataRaptor --></label>
+        <name>DataRaptor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DecisionMatrix --></label>
+        <name>DecisionMatrix</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DecisionMatrixVersion --></label>
+        <name>DecisionMatrixVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Document --></label>
+        <name>Document</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentClause --></label>
+        <name>DocumentClause</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentTemplate --></label>
+        <name>DocumentTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentTemplates --></label>
+        <name>DocumentTemplates</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EntityFilter --></label>
+        <name>EntityFilter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSet --></label>
+        <name>ExpressionSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSetVersion --></label>
+        <name>ExpressionSetVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FlexCard --></label>
+        <name>FlexCard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GeneralSettings --></label>
+        <name>GeneralSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IntegrationProcedure --></label>
+        <name>IntegrationProcedure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IntegrationProcedureVersion --></label>
+        <name>IntegrationProcedureVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IntegrationRetryPolicy --></label>
+        <name>IntegrationRetryPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InterfaceImplementation --></label>
+        <name>InterfaceImplementation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ItemImplementation --></label>
+        <name>ItemImplementation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ManualQueue --></label>
+        <name>ManualQueue</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ObjectClass --></label>
+        <name>ObjectClass</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ObjectContextRule --></label>
+        <name>ObjectContextRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ObjectLayout --></label>
+        <name>ObjectLayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OfferMigrationPlan --></label>
+        <name>OfferMigrationPlan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OfferingProcedure --></label>
+        <name>OfferingOfferingProcedureProcedure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniScript --></label>
+        <name>OmniScript</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniScriptVersion --></label>
+        <name>OmniScriptVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OrchestrationDependencyDefinition --></label>
+        <name>OrchestrationDependencyDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OrchestrationItemDefinition --></label>
+        <name>OrchestrationItemDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OrchestrationPlanDefinition --></label>
+        <name>OrchestrationPlanDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OrchestrationQueueAssignmentRule --></label>
+        <name>OrchestrationQueueAssignmentRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PriceList --></label>
+        <name>PriceList</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pricebook2 --></label>
+        <name>Pricebook2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PricingPlan --></label>
+        <name>PricingPlan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PricingVariable --></label>
+        <name>PricingVariable</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product2 --></label>
+        <name>Product2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Project --></label>
+        <name>Project</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Promotion --></label>
+        <name>Promotion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QueryBuilder --></label>
+        <name>QueryBuilder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RateBand --></label>
+        <name>RateBand</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RelationshipGraph --></label>
+        <name>RelationshipGraph</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Rule --></label>
+        <name>Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SpecTemplateMapping --></label>
+        <name>SpecTemplateMapping</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StoryObjectConfiguration --></label>
+        <name>StoryObjectConfiguration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- String --></label>
+        <name>String</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- System --></label>
+        <name>System</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ThorOrchestrationQueue --></label>
+        <name>ThorOrchestrationQueue</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TimePlan --></label>
+        <name>TimePlan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TimePolicy --></label>
+        <name>TimePolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UIFacet --></label>
+        <name>UIFacet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UISection --></label>
+        <name>UISection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityAction --></label>
+        <name>VlocityAction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityAttachment --></label>
+        <name>VlocityAttachment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityCard --></label>
+        <name>VlocityCard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityDataStore --></label>
+        <name>VlocityDataStore</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityFunction --></label>
+        <name>VlocityFunction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityPicklist --></label>
+        <name>VlocityPicklist</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityScheduledJob --></label>
+        <name>VlocityScheduledJob</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocitySearchWidgetSetup --></label>
+        <name>VlocitySearchWidgetSetup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityStateModel --></label>
+        <name>VlocityStateModel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityTrackingGroup --></label>
+        <name>VlocityTrackingGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityUILayout --></label>
+        <name>VlocityUILayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityUITemplate --></label>
+        <name>VlocityUITemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VlocityWebTrackingConfiguration --></label>
+        <name>VlocityWebTrackingConfiguration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VqMachine --></label>
+        <name>VqMachine</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VqResource --></label>
+        <name>VqResource</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
