@@ -1,0 +1,7 @@
+<apex:page controller="Rollback1Controller">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page which will be updated.
+  <h2>Thank you</h2>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

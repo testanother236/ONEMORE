@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestPublication__c-ru</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Публикация тестового режима</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Публикации в тестовом режиме</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Test Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Response Publication --></label>
+            <section>Response Publication</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Название публикации в тестовом режиме</nameFieldLabel>
+    <webLinks>
+        <label>Настройка и публикация</label>
+        <name>fferpcore__PublishMessage</name>
+    </webLinks>
+    <webLinks>
+        <label>Настройка и публикация</label>
+        <name>fferpcore__SetupAndPublishMultipleMessages</name>
+    </webLinks>
+</CustomObjectTranslation>

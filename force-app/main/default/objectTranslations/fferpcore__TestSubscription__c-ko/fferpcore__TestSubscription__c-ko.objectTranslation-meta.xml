@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestSubscription__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>테스트 모드 구독</value>
+    </caseValues>
+    <layouts>
+        <layout>Test Subscription Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Subscription Information --></label>
+            <section>Subscription Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>테스트 모드 구독 이름</nameFieldLabel>
+    <webLinks>
+        <label>설정</label>
+        <name>fferpcore__SetupTestSubscription</name>
+    </webLinks>
+    <webLinks>
+        <label>설정</label>
+        <name>fferpcore__SetupTestSubscriptions</name>
+    </webLinks>
+</CustomObjectTranslation>

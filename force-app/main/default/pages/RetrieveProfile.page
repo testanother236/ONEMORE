@@ -1,0 +1,179 @@
+<apex:page >
+    <!--<apex:includeScript value="{!URLFOR($Resource.jsforce)}"/> -->
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <script>
+        var apiVersion = '36';
+        var permissionMap = {};
+        permissionMap['CustomObject'] = ['*'];
+        permissionMap['ApexClass'] = ['*'];
+        permissionMap['ApexPage'] = ['*'];
+        permissionMap['Layout'] = ['*'];
+        permissionMap['CustomTab'] = ['*'];
+        permissionMap['CustomApplication'] = ['*'];
+        permissionMap['ExternalDataSource'] = ['*'];
+        permissionMap['CustomPermission'] = ['*'];
+        var selfConn = createSelfConnection();
+                
+        function createSelfConnection()
+        {
+            var conn = new jsforce.Connection({ accessToken: '{!$Api.Session_Id}' });
+            conn.metadata.pollTimeout = 12000000;
+            conn.metadata.pollInterval = 4000;
+            return conn;
+        }
+        
+        function getRetrieveRequest()
+        {
+            var retrieveRequest = new Object();
+            retrieveRequest.apiVersion = apiVersion;
+            retrieveRequest.singlePackage = true;
+            retrieveRequest.unpackaged = {};
+            retrieveRequest.unpackaged.types = [];
+            return retrieveRequest;
+        }
+        
+        function listProfiles()
+        {
+            var queryLi = [];
+            var query = new Object();
+            query.folder = '';
+            query.type = 'Profile';
+            queryLi.push(query);
+            selfConn.metadata.list(queryLi, ''+apiVersion, function(err, result){
+                if(err)
+                {
+                    console.log(err);
+                }
+                else
+                {
+                    var metaItemLi = [];
+                    if(Array.isArray(result))
+                    {
+                        for(var index in result)
+                        {
+                            if(index < result.length)
+                            {
+                                var meta = result[index];
+                                if(meta != undefined && meta.lastModifiedDate != undefined)
+                                {
+                                    metaItemLi.push(meta);
+                                }
+                            }
+                        }
+                    }
+                    console.log(metaItemLi);
+                }
+            });
+        }
+        
+        function listCustomObjects()
+        {
+            var queryLi = [];
+            var query = new Object();
+            query.folder = '';
+            query.type = 'CustomObject';
+            queryLi.push(query);
+            selfConn.metadata.list(queryLi, ''+apiVersion, function(err, result){
+                if(err)
+                {
+                    console.log(err);
+                }
+                else
+                {
+                    var tempLi = [];
+                    if(Array.isArray(result))
+                    {
+                        for(var index in result)
+                        {
+                            if(index < result.length)
+                            {
+                                var meta = result[index];
+                                if(meta != undefined && meta.fullName != undefined)
+                                {
+                                    tempLi.push(meta.fullName);
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        var meta = result;
+                        if(meta != undefined && meta.fullName != undefined)
+                        {
+                            tempLi.push(meta.fullName);
+                        }
+                    }
+                    if(tempLi.length > 0)
+                        permissionMap['CustomObject'] = tempLi;
+                }
+                createRetrieveRequestForProfile();
+           });
+        }
+        
+        function createRetrieveRequestForProfile()
+        {
+            var req = getRetrieveRequest();
+            var oneType = {};
+            oneType.name = 'Profile';
+            oneType.members = ['Admin'];
+            req.unpackaged.types.push(oneType);
+            for(var key in permissionMap)
+            {
+                var tempType = {};
+                tempType.name = key;
+                tempType.members = permissionMap[key];
+                req.unpackaged.types.push(tempType);
+            }
+            selfConn.metadata.retrieve(req).complete(function(err, result) {
+                if (err) { console.error(err); }
+                console.log(result);
+                if(result.done == "true" && result.success == "true" && result.zipFile != undefined)
+                {
+                    var zipLast = new JSZip(result.zipFile, {base64:true});
+                    var profileFile = zipLast.file("profiles/Admin.profile");
+                    if(profileFile != null && profileFile != undefined)
+                    {
+                        var deployZip = new JSZip();
+                        deployZip.file("profiles/Admin.profile",profileFile.asBinary(),{binary:true});
+                        var xml = '<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">'+
+                                  '<types>'+
+                                      '<members>'+'Admin'+'</members>'+
+                                      '<name>Profile</name>'+
+                                  '</types>'+
+                                  '<version>'+apiVersion+'</version></Package>';
+                        deployZip.file("package.xml",xml);
+                        console.log(deployZip.files);
+                        var base64Str = deployZip.generate({type:"base64",compression:"DEFLATE"});
+                        startDeployment(base64Str );
+                    }
+                }
+            });
+        }
+        
+        function startDeployment(base64Str)
+        {
+            var deployOption = getDeployOptions();
+            selfConn.metadata.deploy(base64Str, deployOption )
+              .complete(function(err, result) {
+                if (err) { console.error(err); }
+                console.log(result);
+              });
+        }
+        
+        function getDeployOptions()
+        {
+            var deployOption = new Object();
+            deployOption.allowMissingFiles=true;
+            deployOption.autoUpdatePackage=false;
+            deployOption.checkOnly=true;
+            deployOption.ignoreWarnings=false;
+            deployOption.performRetrieve=false;
+            deployOption.purgeOnDelete=false;
+            deployOption.rollbackOnError=true;
+            deployOption.singlePackage=true;
+            console.log(deployOption);
+            return deployOption;
+        }
+
+    </script>
+</apex:page>

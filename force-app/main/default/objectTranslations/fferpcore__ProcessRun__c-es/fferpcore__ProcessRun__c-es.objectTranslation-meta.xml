@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessRun__c-es</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Ejecución del proceso</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ejecuciones de proceso</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Process Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nombre de ejecución del proceso</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Eliminar ejecución</label>
+        <name>fferpcore__DeleteRun</name>
+    </quickActions>
+</CustomObjectTranslation>

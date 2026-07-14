@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__Company__c-no</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Selskap</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Selskap</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Selskap</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Selskaper</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Selskaper</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Selskaper</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Company Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Selskapsnavn</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Valider adresse</label>
+        <name>fferpcore__ValidateAddress</name>
+    </quickActions>
+    <webLinks>
+        <label>Opprett Skatteinformasjon</label>
+        <name>fferpcore__CreateTaxInformation</name>
+    </webLinks>
+    <webLinks>
+        <label>Valideringsadresse</label>
+        <name>fferpcore__ValidateAddress</name>
+    </webLinks>
+</CustomObjectTranslation>

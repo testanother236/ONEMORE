@@ -1,0 +1,26 @@
+@font-face {
+    /*
+        font family is used to give a name to the custom font,
+         you use this for referencing the custom font later
+    */
+    font-family: "my custom font";
+ 
+    /*
+        This is the location of the Custom Font, note, I have stored in a ZIP file
+     */
+    src: url('/resource/Fonts/Poppins-Regular.ttf') format('TrueType');
+ }
+ 
+ h1{
+    color: #00a3e9;
+    font-size: xx-large;
+ 
+    /*This is where we reference our custom font*/
+    font-family: "my custom font";
+ }
+  /*Let’s add some p styling too*/
+ p {
+    /*This is where we reference our custom font again*/
+    font-size: xx-large;
+    font-family: "my custom font";
+ }

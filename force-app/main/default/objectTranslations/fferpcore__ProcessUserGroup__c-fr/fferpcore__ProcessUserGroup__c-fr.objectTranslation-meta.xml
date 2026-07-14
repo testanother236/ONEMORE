@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessUserGroup__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Groupe d’utilisateurs de processus</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Groupes d’utilisateurs de processus</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Process Log Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du groupe d’utilisateurs de processu</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

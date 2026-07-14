@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Branch__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Branch</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Branches</value>
+    </caseValues>
+    <layouts>
+        <layout>Branch Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Second Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Test Action --></label>
+        <name>Test_Action</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Jumbo --></label>
+        <name>Jumbo</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Desc --></description>
+        <label><!-- Tingu --></label>
+        <name>Tingu</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Reason One (A)U --></label>
+        <name>Reason_One</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Reason Two --></label>
+        <name>Reason_Two</name>
+    </sharingReasons>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- error --></errorMessage>
+        <name>one</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Weblink --></label>
+        <name>New_Weblink</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TTButton --></label>
+        <name>TTButton</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- New test task. --></description>
+        <name>Test_Task</name>
+        <subject><!-- Test Task --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

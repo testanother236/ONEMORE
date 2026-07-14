@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ERPProduct__c-no</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Registrert produkt</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Registrert produkt</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Registrert produkt</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Registrerte produkter</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Registrerte produkter</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Registrerte produkter</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>ERP Linked Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Version Details --></label>
+            <section>Version Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Produktnavn</nameFieldLabel>
+</CustomObjectTranslation>

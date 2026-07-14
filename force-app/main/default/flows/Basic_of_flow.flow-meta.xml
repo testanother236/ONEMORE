@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>Basic of flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Basic of flow</label>
+    <processType>Flow</processType>
+    <screens>
+        <name>Value_of_Variable</name>
+        <label>Value of Variable</label>
+        <locationX>603</locationX>
+        <locationY>210</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>SelectedLead</name>
+            <fieldText>Selected Lead Record Id - {!varLeadId}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Value_of_Variable</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>varLeadId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+</Flow>

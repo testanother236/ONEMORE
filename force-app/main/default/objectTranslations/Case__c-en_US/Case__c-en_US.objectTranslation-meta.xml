@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Case Custom</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case</value>
+    </caseValues>
+    <layouts>
+        <layout>Case Layout Copy</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Test Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CaseLayout Copy 2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Case Test Type --></label>
+        <name>Case_Test_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Case Type --></label>
+        <name>Case_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Test --></label>
+        <name>Test</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2 --></label>
+        <name>TestCase2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase3 --></label>
+        <name>TestCase3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase4 --></label>
+        <name>TestCase4</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase5 --></label>
+        <name>TestCase5</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase6 --></label>
+        <name>TestCase6</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase7 --></label>
+        <name>TestCase7</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Testcase1 --></label>
+        <name>Testcase1</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

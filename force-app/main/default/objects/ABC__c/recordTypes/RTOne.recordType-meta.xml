@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>RTOne</fullName>
+    <label>RTOne</label>
+    <picklistValues>
+        <picklist>One__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>%26%26%26%26%26%26%26%26%26</fullName>
+        </values>
+        <values>
+            <default>true</default>
+            <fullName>One</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

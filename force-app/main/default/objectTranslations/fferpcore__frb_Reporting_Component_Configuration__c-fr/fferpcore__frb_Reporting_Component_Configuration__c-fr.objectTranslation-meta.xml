@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Reporting_Component_Configuration__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuration du composant de rapport</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configurations des composants de rapport</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Reporting Component Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de configuration</nameFieldLabel>
+    <recordTypes>
+        <description>Utilisé pour créer une configuration pour un composant de rapport multi-objectif.</description>
+        <label>Rapport multi-lentilles</label>
+        <name>fferpcore__Multi_Lens_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour créer une configuration pour un composant de filtre de requête.</description>
+        <label>Filtre de requête</label>
+        <name>fferpcore__Query_Filter</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour créer une configuration pour un composant de filtre de date logiciel.</description>
+        <label>Filtre de date souple</label>
+        <name>fferpcore__Soft_Date_Filter</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

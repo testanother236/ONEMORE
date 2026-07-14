@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>New_Label_One</fullName>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>New Label One</shortDescription>
+    <value>New Label One two</value>
+</CustomLabel>

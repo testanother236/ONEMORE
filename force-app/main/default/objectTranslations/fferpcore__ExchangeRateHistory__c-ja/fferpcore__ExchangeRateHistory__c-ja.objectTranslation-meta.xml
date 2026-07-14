@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateHistory__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>為替レートの履歴</value>
+    </caseValues>
+    <nameFieldLabel>履歴ID</nameFieldLabel>
+    <webLinks>
+        <label>通貨を管理する</label>
+        <name>fferpcore__ErpCurrenciesRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>グループを管理する</label>
+        <name>fferpcore__ExchangeRateGroupsRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>料金を管理</label>
+        <name>fferpcore__ExchangeRatesRedirect</name>
+    </webLinks>
+</CustomObjectTranslation>

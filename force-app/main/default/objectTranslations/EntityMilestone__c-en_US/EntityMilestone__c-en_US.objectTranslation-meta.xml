@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EntityMilestone__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>EntityMilestone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EntityMilestones</value>
+    </caseValues>
+    <layouts>
+        <layout>Milestone</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

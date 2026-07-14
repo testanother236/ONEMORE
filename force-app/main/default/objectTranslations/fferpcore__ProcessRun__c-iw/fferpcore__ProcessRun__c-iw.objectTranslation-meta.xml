@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessRun__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>הפעלת תהליך</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>הפעלת תהליך</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>רצים בתהליך</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>רצים בתהליך</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Process Run Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>עיבוד שם הפעלה</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>מחק הפעלה</label>
+        <name>fferpcore__DeleteRun</name>
+    </quickActions>
+</CustomObjectTranslation>

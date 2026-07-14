@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__BillingDocument__c-de</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Rechnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Rechnungsbelege</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Rechnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Rechnungsbelege</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Rechnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Rechnungsbelege</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Rechnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Rechnungsbelege</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Billing Document Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Analysis Information --></label>
+            <section>Analysis Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Dokumentnummer</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Adressen aktualisieren</label>
+        <name>fferpcore__RefreshAddresses</name>
+    </quickActions>
+    <webLinks>
+        <label>Steuer berechnen</label>
+        <name>fferpcore__CalculateTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Steuer berechnen</label>
+        <name>fferpcore__CalculateTaxList</name>
+    </webLinks>
+</CustomObjectTranslation>

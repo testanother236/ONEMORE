@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__BillingDocument__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Facturatiedocument</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Facturatiedocumenten</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Billing Document Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Analysis Information --></label>
+            <section>Analysis Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Documentnummer</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Vernieuw adressen</label>
+        <name>fferpcore__RefreshAddresses</name>
+    </quickActions>
+    <webLinks>
+        <label>Belasting berekenen</label>
+        <name>fferpcore__CalculateTax</name>
+    </webLinks>
+    <webLinks>
+        <label>Belasting berekenen</label>
+        <name>fferpcore__CalculateTaxList</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,56 @@
+<apex:page controller="TypeAheadController">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+    <link rel="stylesheet" href="/resources/demos/style.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <apex:form id="myform">
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel >Name</apex:outputLabel>
+                    <apex:inputText id="developer"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        var fieldLi = ['Id','Name'];
+        
+        $('[id$=":developer"]').autocomplete({
+            source: function( request, response ) {
+                console.log(request);
+                console.log(response);
+                var text = request.term;
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.TypeAheadController.retrieveSameRecords}',
+                    text,
+                    'Account',
+                    'Name',
+                    fieldLi, 
+                    function(result, event) {
+                        if (event.status) {
+                            console.log(result);
+                            var resultLi = [];
+                            for(var index in result)
+                            {
+                                if(index < result.length)
+                                {
+                                    var obj = result[index];
+                                    console.log(obj);
+                                    resultLi.push(obj['Name']);
+                                }
+                            }
+                            //response = resultLi;
+                            response( resultLi );
+                        } else if (event.type === 'exception') {
+                            console.log(event.message+' '+event.where);
+                        } else {
+                            console.log(event.message);
+                        }
+                    }, 
+                    {escape: true}
+                );
+            }
+        });
+    </script>
+</apex:page>

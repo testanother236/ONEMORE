@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJobLog__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Journal des tâches planifiées</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Journaux de travail planifiés</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Scheduled Job Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du log</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

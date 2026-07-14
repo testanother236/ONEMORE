@@ -1,0 +1,3 @@
+<aura:component >
+    <aura:attribute type="TempTest__FieldSetTest__c" name="rec"/>
+</aura:component>
