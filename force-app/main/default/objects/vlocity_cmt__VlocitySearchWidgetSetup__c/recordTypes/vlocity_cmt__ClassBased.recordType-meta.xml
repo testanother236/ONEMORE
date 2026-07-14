@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>vlocity_cmt__ClassBased</fullName>
+    <label>Class Based</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Caller Identification</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>More Information Needed</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Related Party</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

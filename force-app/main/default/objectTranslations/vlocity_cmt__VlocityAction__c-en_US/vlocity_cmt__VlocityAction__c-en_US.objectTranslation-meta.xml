@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__VlocityAction__c-en_US</fullName>
+    <layouts>
+        <layout>Vlocity Action Layout</layout>
+        <sections>
+            <label><!-- Vlocity Icons --></label>
+            <section>Vlocity Icons</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportExport --></label>
+        <name>vlocity_cmt__ImportExport</name>
+    </webLinks>
+</CustomObjectTranslation>

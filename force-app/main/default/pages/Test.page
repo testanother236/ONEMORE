@@ -1,0 +1,16 @@
+<apex:page controller="TestPageController" sidebar="false" doctype="html-5.0"
+           standardStylesheets="false" lightningStyleSheets="true">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page
+   <apex:form >
+   <apex:commandButton styleClass="slds-button slds-button_neutral" value="Start" action="{!startScan}" rerender="msg1"/>
+   <apex:outputPanel id="msg1">
+       <apex:outputText value="{!message}"></apex:outputText>
+   </apex:outputPanel>
+   <apex:commandButton styleClass="slds-button slds-button_neutral" value="get Result" action="{!getResult}" rerender="msg2"/>
+   <apex:outputPanel id="msg2">
+       <apex:outputText value="{!result}"></apex:outputText>
+   </apex:outputPanel>
+   </apex:form> 
+</apex:page>

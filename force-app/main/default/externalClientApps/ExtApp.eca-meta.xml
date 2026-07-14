@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>dmitry.zabolotny@succraft.com</contactEmail>
+    <distributionState>Packaged</distributionState>
+    <isProtected>false</isProtected>
+    <label>ExtApp</label>
+    <orgScopedExternalApp>00D0900000DXnb3:ExtApp</orgScopedExternalApp>
+</ExternalClientApplication>
