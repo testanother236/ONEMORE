@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__BillingDocumentLineItem__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>請求伝票明細</value>
+    </caseValues>
+    <layouts>
+        <layout>Billing Document Line Item Layout</layout>
+        <sections>
+            <label><!-- Analysis Information --></label>
+            <section>Analysis Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Address Information --></label>
+            <section>Shipping Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tax Breakdown --></label>
+            <section>Tax Breakdown</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>伝票明細</nameFieldLabel>
+</CustomObjectTranslation>

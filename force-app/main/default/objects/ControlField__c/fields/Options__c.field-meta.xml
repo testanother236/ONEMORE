@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Options__c</fullName>
+    <label>Pick an Option</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Gender__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>ControlOptions</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <controllingFieldValue>Female</controllingFieldValue>
+            <valueName>A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <controllingFieldValue>Female</controllingFieldValue>
+            <valueName>B</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,24 @@
+<apex:page controller="MetadataDeployDeleteController">
+    <script>
+        console.log('update 1.1);
+    </script>
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <apex:form id="form">
+        <apex:sectionHeader title="Metadata Delete Demo"/>
+        <apex:pageMessages />
+        <apex:actionPoller action="{!checkAsyncRequest}" interval="5" rerender="form" rendered="{!NOT(ISNULL(AsyncResult))}"/>
+        <apex:actionFunction name="deployZip" action="{!deployZip}" rendered="{!ISNULL(AsyncResult)}" rerender="form">
+            <apex:param name="data" assignTo="{!ZipData}" value=""/>
+        </apex:actionFunction>
+        <c:zip name="generateZip" oncomplete="deployZip(data);" rendered="{!ISNULL(AsyncResult)}">
+            <c:zipEntry path="package.xml" data="{!PackageXml}"/>
+            <c:zipEntry path="destructiveChangesPre.xml" data="{!DestructiveChangesPreXml}"/>
+            <c:zipEntry path="destructiveChangesPost.xml" data="{!DestructiveChangesPostXml}"/>
+            <c:zipEntry path="classes/AsyncMetadataService.cls" data="{!DeployClass}"/>
+            <c:zipEntry path="classes/AsyncMetadataService.cls-meta.xml" data="{!MetaXml}"/>
+        </c:zip>
+        <apex:outputPanel rendered="{!ISNULL(AsyncResult)}">
+            <input type="button" onclick="generateZip();" value="Delete"/>
+        </apex:outputPanel>
+    </apex:form>
+</apex:page>

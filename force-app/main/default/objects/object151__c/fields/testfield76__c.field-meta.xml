@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>testfield76__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Test</description>
+    <label>testfield76</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>object151_testfield76s</relationshipLabel>
+    <relationshipName>object151_testfield76s</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__DataTransformationTable__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Table de transformation de données</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tableaux de transformation de données</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Data Transformation Table Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de la table de transformation de don</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

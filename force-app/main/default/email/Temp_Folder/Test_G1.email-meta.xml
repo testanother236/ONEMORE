@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Test-G1 Description check</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TempTest__Letterhead123</letterhead>
+    <name>Test-G1</name>
+    <style>formalLetter</style>
+    <subject>Shutdown</subject>
+    <textOnly>The Senate was expected to pass a massive spending deal in the early morning hours Friday that would reopen the government. The legislation would then head to the House, but the outlook there was less certain because of opposition from liberal Democrats and conservative Republicans, and quick passage was not assured.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

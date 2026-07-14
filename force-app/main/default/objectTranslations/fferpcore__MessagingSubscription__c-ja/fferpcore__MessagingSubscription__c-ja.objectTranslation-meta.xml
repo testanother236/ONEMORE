@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessagingSubscription__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>購読</value>
+    </caseValues>
+    <layouts>
+        <layout>Messaging System Subscription Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Routing Details --></label>
+            <section>Routing Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>サブスクリプション名</nameFieldLabel>
+    <webLinks>
+        <label>フルクローン</label>
+        <name>fferpcore__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label>サブスクリプションをエクスポート</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>サブスクリプションをエクスポートする</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>リンク制御を有効にする</label>
+        <name>fferpcore__SubscriptionActivateLinkControl</name>
+    </webLinks>
+</CustomObjectTranslation>

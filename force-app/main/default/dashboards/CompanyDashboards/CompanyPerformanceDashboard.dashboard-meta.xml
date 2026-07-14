@@ -188,7 +188,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </middleSection>
-    <owner>ravi.saini.1@flosum.demo</owner>
+    <owner>ravikant@agiletargetorg.com</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
@@ -250,7 +250,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </rightSection>
-    <runningUser>ravi.saini.1@flosum.demo</runningUser>
+    <runningUser>ravikant@agiletargetorg.com</runningUser>
     <textColor>#000000</textColor>
     <title>Company Performance Dashboard</title>
     <titleColor>#000099</titleColor>

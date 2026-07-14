@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ravi@flosum.com</contactEmail>
+    <label>FlosumApp2</label>
+    <oauthConfig>
+        <callbackUrl>https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__registerorganizations
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__editrepositorysettings
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__appsetting
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__createvlocitysnapshot
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__vlocitycleanorgdata
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__vlocityinstallvlocityinitial
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__componentvlocitydeployment
+https://flosumagileintegration123--flosum.vf.force.com/apex/flosum__componentbranchdeploy
+oob</callbackUrl>
+        <consumerKey>3MVG9oZtFCVWuSwOvwwAVjUooDQTPtdYWtwBy21Ss_g.DkLgC4n439gQwAv3uc_cRTK42tLKQeUyMHa.wYG9s</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+    <profileName>Minimum Access - Salesforce</profileName>
+    <profileName>MinimumCustom-1</profileName>
+    <profileName>MinimumCustom&apos;2</profileName>
+    <profileName>Activity Profile</profileName>
+    <profileName>Admin Clone</profileName>
+    <profileName>Admin Clone2</profileName>
+    <profileName>Admin Sales Sloution</profileName>
+    <profileName>ArticleType123 Profile</profileName>
+    <profileName>Clone System Admin</profileName>
+    <profileName>Custom Profile</profileName>
+    <profileName>Custom: Marketing Profile</profileName>
+    <profileName>Custom: Sales Profile</profileName>
+    <profileName>Custom: Support Profile</profileName>
+    <profileName>IP Filter</profileName>
+    <profileName>MC Integration Profile</profileName>
+    <profileName>MC Profile</profileName>
+    <profileName>Profile For Testing</profileName>
+    <profileName>QuickText</profileName>
+    <profileName>SU Test</profileName>
+    <profileName>SourceT1</profileName>
+    <profileName>Special Access+ Profile</profileName>
+    <profileName>Temp Profile</profileName>
+    <profileName>Temp ProfileChange</profileName>
+    <profileName>Test Deploy</profileName>
+    <profileName>Test Profile</profileName>
+    <profileName>Test1</profileName>
+    <profileName>Test10</profileName>
+    <profileName>Test11</profileName>
+    <profileName>Test12</profileName>
+    <profileName>Test13</profileName>
+    <profileName>Test14</profileName>
+    <profileName>Test15</profileName>
+    <profileName>Test16</profileName>
+    <profileName>Test17</profileName>
+    <profileName>Test18</profileName>
+    <profileName>Test2</profileName>
+    <profileName>Test20</profileName>
+    <profileName>Test21</profileName>
+    <profileName>Test22</profileName>
+    <profileName>Test3</profileName>
+    <profileName>Test4</profileName>
+    <profileName>Test5</profileName>
+    <profileName>Test6</profileName>
+    <profileName>Test7</profileName>
+    <profileName>Test8</profileName>
+    <profileName>Test9</profileName>
+    <profileName>UserTest</profileName>
+    <profileName>test japani</profileName>
+    <profileName>новый профи</profileName>
+    <profileName>本部_コイン_閲覧のみ</profileName>
+    <profileName>こんにちはテキスト</profileName>
+</ConnectedApp>

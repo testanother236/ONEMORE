@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Item de Análise</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Itens de Análise</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <recordTypes>
+        <description>Usado para subanálise de documentos de faturamento e pode ser usado para representar vários conceitos de negócios diferentes.</description>
+        <label>Análise 1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Usado para subanálise de documentos de faturamento e pode ser usado para representar vários conceitos de negócios diferentes.</description>
+        <label>Análise 2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Usado para subanálise de documentos de faturamento e pode ser usado para representar vários conceitos de negócios diferentes.</description>
+        <label>Análise 3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Usado para subanálise de documentos de faturamento e pode ser usado para representar vários conceitos de negócios diferentes.</description>
+        <label>Análise 4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

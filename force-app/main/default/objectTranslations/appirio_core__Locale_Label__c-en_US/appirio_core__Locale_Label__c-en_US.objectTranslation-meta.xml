@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Locale_Label__c-en_US</fullName>
+    <layouts>
+        <layout>Locale Label Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Name cannot contain spaces --></errorMessage>
+        <name>appirio_core__Check_Spaces</name>
+    </validationRules>
+</CustomObjectTranslation>

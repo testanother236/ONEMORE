@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessageType__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Berichttype</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Berichttypen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Message Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Naam</nameFieldLabel>
+    <webLinks>
+        <label>Berichten exporteren</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>Berichten exporteren</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>Berichten importeren</label>
+        <name>fferpcore__Import</name>
+    </webLinks>
+</CustomObjectTranslation>

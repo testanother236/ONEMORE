@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJob__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>ג&apos;וב מתוזמן</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>ג&apos;וב מתוזמן</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>משרות מתוזמנות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>משרות מתוזמנות</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Scheduled Job Job</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם</nameFieldLabel>
+    <webLinks>
+        <label>רוץ עכשיו</label>
+        <name>fferpcore__Run_Now</name>
+    </webLinks>
+    <webLinks>
+        <label>תזמן איוב</label>
+        <name>fferpcore__Schedule_Job</name>
+    </webLinks>
+    <webLinks>
+        <label>בטל את תזמון העבודה</label>
+        <name>fferpcore__Unschedule_Job</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__SequencePart__mdt-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- 序列部分 --></value>
+    </caseValues>
+    <layouts>
+        <layout>Sequence Part Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__App_Log__c-sv</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>App-logg</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>App-logg</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>App-logg</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Apploggar</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Apploggar</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Apploggar</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>App Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data --></label>
+            <section>Data</section>
+        </sections>
+        <sections>
+            <label><!-- Message --></label>
+            <section>Message</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Ingångs-ID</nameFieldLabel>
+</CustomObjectTranslation>

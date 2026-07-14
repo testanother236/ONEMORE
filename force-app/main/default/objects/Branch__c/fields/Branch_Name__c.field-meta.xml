@@ -4,10 +4,8 @@
     <externalId>false</externalId>
     <label>Branch Name</label>
     <length>255</length>
-    <required>true</required>
-    <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>

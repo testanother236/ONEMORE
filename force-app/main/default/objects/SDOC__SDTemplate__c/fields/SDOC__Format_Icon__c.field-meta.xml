@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDOC__Format_Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE(SDOC__Template_Format__c,
+&quot;XLS&quot;, &quot;/sfc/images/docicons/doctype_excel_16.png&quot;,
+&quot;DOC&quot;, &quot;/sfc/images/docicons/doctype_word_16.png&quot;,
+&quot;PDF&quot;, &quot;/sfc/images/docicons/doctype_pdf_16.png&quot;,
+&quot;HTML&quot;, &quot;/sfc/images/docicons/doctype_html_16.png&quot;,
+&quot;PPT&quot;, &quot;/sfc/images/docicons/doctype_ppt_16.png&quot;,
+&quot;&quot;),TEXT(SDOC__Template_Format__c ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Format_Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

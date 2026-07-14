@@ -1,0 +1,11 @@
+<apex:page controller="HomePageForJumboController" sidebar="false" showHeader="false">
+    <apex:form >
+        <c:HeaderForJumbo />
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!redirectToCreateNewUser}" value="Create New User"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        <c:footerfojumbo />
+    </apex:form>
+</apex:page>

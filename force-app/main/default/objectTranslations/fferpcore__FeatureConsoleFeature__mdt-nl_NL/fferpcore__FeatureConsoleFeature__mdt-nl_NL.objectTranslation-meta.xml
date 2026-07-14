@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__FeatureConsoleFeature__mdt-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Functie --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Functies --></value>
+    </caseValues>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Feature Layout</layout>
+        <sections>
+            <label><!-- Configuration --></label>
+            <section>Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

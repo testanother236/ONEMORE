@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>one</fullName>
+    <active>false</active>
+    <description>Branch Validation Rule2</description>
+    <errorConditionFormula>Name = null</errorConditionFormula>
+    <errorMessage>error</errorMessage>
+</ValidationRule>

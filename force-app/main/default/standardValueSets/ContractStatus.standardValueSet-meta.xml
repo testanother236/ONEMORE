@@ -20,4 +20,10 @@
         <label>Draft</label>
         <groupingString>Draft</groupingString>
     </standardValue>
+    <standardValue>
+        <fullName>Expired</fullName>
+        <default>false</default>
+        <label>Expired</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
 </StandardValueSet>

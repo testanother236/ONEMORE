@@ -4,7 +4,7 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <doesWarnOnForceComRedirect>false</doesWarnOnForceComRedirect>
     <doesWarnOnRedirect>false</doesWarnOnRedirect>
-    <domainPartition>develop</domainPartition>
+    <domainPartition>sandbox</domainPartition>
     <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
@@ -13,10 +13,10 @@
     <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <isFirstPartyCookieUseRequired>false</isFirstPartyCookieUseRequired>
     <logRedirections>false</logRedirections>
-    <myDomainName>dwu00000zrjla2av-dev-ed</myDomainName>
+    <myDomainName>flosumagileintegration123</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
-    <redirectPriorMyDomain>true</redirectPriorMyDomain>
+    <redirectPriorMyDomain>false</redirectPriorMyDomain>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
     <useEdge>true</useEdge>
     <useEnhancedDomainsInSandbox>true</useEnhancedDomainsInSandbox>

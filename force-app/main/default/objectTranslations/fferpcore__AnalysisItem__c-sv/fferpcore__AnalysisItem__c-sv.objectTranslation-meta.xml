@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-sv</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>Analyspost</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>false</plural>
+        <value>Analyspost</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>Analyspost</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>Analysobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>Indefinite</article>
+        <plural>true</plural>
+        <value>Analysobjekt</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>Analysobjekt</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Namn</nameFieldLabel>
+    <recordTypes>
+        <description>Används för att analysera faktureringsdokument och kan användas för att representera ett antal olika affärsidéer.</description>
+        <label>Analys 1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Används för att analysera faktureringsdokument och kan användas för att representera ett antal olika affärsidéer.</description>
+        <label>Analys 2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Används för att analysera faktureringsdokument och kan användas för att representera ett antal olika affärsidéer.</description>
+        <label>Analys 3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Används för att analysera faktureringsdokument och kan användas för att representera ett antal olika affärsidéer.</description>
+        <label>Analys 4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

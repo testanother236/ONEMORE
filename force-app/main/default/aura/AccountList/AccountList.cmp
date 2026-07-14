@@ -1,0 +1,57 @@
+<aura:component implements="force:appHostable" controller="AccountListController">
+    <aura:handler name="refreshChildComponent" event="c:RefreshParentAccountList" action="{!c.doInit}" />
+    <!-- attributes -->
+    <aura:attribute name="title" type="String" default="Account"/>
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="selectedRowsCount" type="Integer" default="0"/>
+    <aura:attribute name="maxRowSelection" type="Integer" default="5"/>
+
+	<!-- handlers-->
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
+    
+    
+    
+	<lightning:card>
+        <aura:set attribute="title">
+            {! v.title }
+            <lightning:button variant="brand" label="Mass New" title="Mass New" onclick="{! c.newMassAccount }" class="customFloatLeft"/>
+            <lightning:button variant="brand" label="New" title="New" onclick="{! c.newAccount }" class="customFloatLeft"/>
+        </aura:set>
+        <aura:set attribute="footer">
+        </aura:set>
+        <!-- the container element determine the height of the datatable -->
+        <div style="height: 500px">
+            <h1>Selected Rows: {! v.selectedRowsCount }</h1>
+            <lightning:datatable
+                columns="{!v.columns}"
+                data="{! v.data }"
+                keyField="id"
+                maxRowSelection="{! v.maxRowSelection }"
+                onrowselection="{! c.updateSelectedText }"
+                onrowaction="{! c.handleRowAction }"/>
+        </div>
+    </lightning:card>
+    <!-- new accounts modal-->
+    <div class="demo-only" style="height: 640px;">
+        <section role="dialog" tabindex="-1" class="slds-modal slds-modal_large" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" aura:id="newAccountModal">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick="{! c.hideNewAccountModal }">
+                        <span class="slds-assistive-text">Close</span>
+                        <lightning:icon iconName="action:close" alternativeText="Close" />
+                    </button>
+                    <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Dynamic Row Create/Edit/Delete</h2>
+                </header>
+                <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                    <div aura:id="driveDiv" />
+                </div>
+                <!--<footer class="slds-modal__footer">
+                    <lightning:button variant="neutral" label="Cancel" title="Cancel" onclick="{! c.hideNewAccountModal }"/>
+                    <lightning:button variant="brand" label="Save" title="Save" onclick="{! c.hideNewAccountModal }"/>
+                </footer>-->
+            </div>
+        </section>
+        <div class="slds-backdrop" aura:id="newAccountBackdrop"></div>
+    </div>
+</aura:component>

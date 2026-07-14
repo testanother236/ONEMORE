@@ -4,6 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <label>Metadata Item</label>
     <referenceTo>Metadata_Item__c</referenceTo>
+    <relationshipLabel>Destructive Manifests</relationshipLabel>
     <relationshipName>Destructive_Manifests</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -1,0 +1,28 @@
+<apex:page controller="GitHubController">
+	<script>
+	var child;
+	var code;
+	function openWindow(url)
+	{
+		child = window.open(url, '', 'width=600, height=400');
+	}
+	
+	function getAccessToken(codeStr)
+	{
+		code = codeStr;
+		console.log('code '+code);
+		if(code != null && code != undefined && code != '')
+		{
+			getToken(code);
+		}
+	}
+	</script>
+	<apex:pageMessages id="msg"/>
+    <apex:form >
+    	<apex:actionFunction action="{!authorize}" name="getToken" reRender="msg" >
+    		<apex:param assignTo="{!code}" value="" name="authCode"/>
+    	</apex:actionFunction>
+        <apex:commandButton action="{!gitAuth}" value="Authorize" onComplete="openWindow('{!authUrl}');"/>
+        <apex:commandButton action="{!directAuth}" value="Direct Authorize" reRender="msg"/>
+    </apex:form>
+</apex:page>

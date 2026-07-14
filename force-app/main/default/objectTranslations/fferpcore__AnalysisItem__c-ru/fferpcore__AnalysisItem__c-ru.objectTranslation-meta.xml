@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-ru</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>false</plural>
+        <value>Элемент анализа</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Prepositional</caseType>
+        <plural>true</plural>
+        <value>Элементы анализа</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>название</nameFieldLabel>
+    <recordTypes>
+        <description>Используется для субанализа документов фактуры и может использоваться для представления ряда различных бизнес-концепций.</description>
+        <label>Анализ 1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Используется для субанализа документов фактуры и может использоваться для представления ряда различных бизнес-концепций.</description>
+        <label>Анализ 2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Используется для субанализа документов фактуры и может использоваться для представления ряда различных бизнес-концепций.</description>
+        <label>Анализ 3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Используется для субанализа документов фактуры и может использоваться для представления ряда различных бизнес-концепций.</description>
+        <label>Анализ 4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

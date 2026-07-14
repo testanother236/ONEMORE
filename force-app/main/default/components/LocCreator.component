@@ -1,0 +1,4 @@
+<apex:component controller="LogController" access="global">
+    <apex:attribute assignTo="{!recId}" name="recordId" description="Record Id." type="String" />
+    <p>{!RunTestLog}</p>
+</apex:component>

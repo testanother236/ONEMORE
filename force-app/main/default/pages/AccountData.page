@@ -1,0 +1,5 @@
+<apex:page controller="AccountDataRetriever">
+	<apex:pageBlock >
+		<apex:outputText value="{!Data}" />	
+	</apex:pageBlock>
+</apex:page>

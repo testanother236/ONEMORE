@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Request for Busines Requirement</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Request for Busines Requirement</name>
+    <style>none</style>
+    <subject>Request for Busines Requirement</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

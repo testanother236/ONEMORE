@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessageType__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>סוג הודעה</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>סוג הודעה</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>סוגי הודעות</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>סוגי הודעות</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Message Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם</nameFieldLabel>
+    <webLinks>
+        <label>ייצוא הודעות</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>ייצוא הודעות</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>ייבוא הודעות</label>
+        <name>fferpcore__Import</name>
+    </webLinks>
+</CustomObjectTranslation>

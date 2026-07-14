@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ProcessUserGroup__c-it</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Elabora gruppo utenti</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Elaborare gruppi utenti</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Process Log Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Elabora nome gruppo utenti</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

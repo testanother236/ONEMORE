@@ -10,28 +10,12 @@
         <value>Components</value>
     </caseValues>
     <recordTypes>
-        <label><!-- Branch --></label>
-        <name>Branch</name>
+        <label><!-- Test1 --></label>
+        <name>Test1</name>
     </recordTypes>
     <recordTypes>
-        <label><!-- Repository --></label>
-        <name>Repository</name>
+        <label><!-- Test 2 --></label>
+        <name>Test2</name>
     </recordTypes>
     <startsWith>Consonant</startsWith>
-    <validationRules>
-        <errorMessage><!-- Repository or Branch can not be empty. --></errorMessage>
-        <name>ValidateComponent</name>
-    </validationRules>
-    <webLinks>
-        <label><!-- Add_Components --></label>
-        <name>Add_Components</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Delete_Components --></label>
-        <name>Delete_Components</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- Search_Replace_Text --></label>
-        <name>Search_Replace_Text</name>
-    </webLinks>
 </CustomObjectTranslation>

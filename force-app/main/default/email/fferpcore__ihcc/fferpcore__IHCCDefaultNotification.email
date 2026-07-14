@@ -1,0 +1,13 @@
+<h2>Notification from Integration</h2>
+<br/>Integration ID: {IHCC_INTEGRATION_ID}<br/>
+<br/>Notification Classification: {IHCC_NOTIFICATION_CLASSIFICATION}<br/>
+<br/>Object Correlation ID: {IHCC_CORRELATION_ID}<br/>
+<br/>Dataflow Direction: {IHCC_DIRECTION}<br/>
+<br/>User: {IHCC_USER_ID}<br/>
+<br/>Date/Time: {IHCC_DATE_TIME}<br/>
+<br/>Message: {IHCC_MESSAGE_TEXT}<br/>
+<p>
+<b>Regards,</b>
+<br/>
+<b>FinancialForce Integration Hub</b>
+</p>

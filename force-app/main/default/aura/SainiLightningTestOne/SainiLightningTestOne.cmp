@@ -1,0 +1,23 @@
+<aura:component >
+    <aura:attribute name="principal" type="double" default="1000"/>
+    <aura:attribute name="years" type="double" default="10"/>
+    <aura:attribute name="rate" type="double" default="5"/>
+    <aura:attribute name="monthlyPayment" type="double"/>
+    
+    <aura:handler name="change" value="{!v.principal}" action="{!c.calculateMonthlyPayment}"/>
+    <aura:handler name="change" value="{!v.years}" action="{!c.calculateMonthlyPayment}"/>
+    <aura:handler name="change" value="{!v.rate}" action="{!c.calculateMonthlyPayment}"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <div>
+    	<ui:inputNumber label="Principal" value="{!v.principal}" format="#"/>
+        <ui:inputNumber label="Years" value="{!v.years}"/>
+        <ui:inputNumber label="Rate" value="{!v.rate}"/>
+        <button onClick="{!c.calculateMonthlyPayment}" >Calculate Monthly Payment</button>
+        <h2>Monthly Payment: <ui:outputCurrency value="{!v.monthlyPayment}" class="princi"/></h2>
+    </div>
+    
+    <!--<aura:handler name="change" value="{!v.principal}" action="{!c.calculateMonthlyPayment}"/>
+    <aura:handler name="change" value="{!v.years}" action="{!c.calculateMonthlyPayment}"/>
+    <aura:handler name="change" value="{!v.rate}" action="{!c.calculateMonthlyPayment}"/>-->
+</aura:component>

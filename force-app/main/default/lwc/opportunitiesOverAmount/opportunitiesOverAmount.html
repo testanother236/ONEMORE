@@ -1,0 +1,12 @@
+<!-- opportunitiesOverAmount.html -->
+<template>
+        <!-- Display a list of opportunies -->
+        <template if:true={opptiesOverAmount.data}>
+            <template for:each={opptiesOverAmount.data} for:item="oppty" for:index="idx">
+                {idx}. {oppty.Name} ({oppty.Probability})
+            </template>
+            <!-- Click the button to change the opportunities. Requires the data to be refetched
+                 and re-rendered -->
+            <button onclick={handleClick}>Mark all Opportunities as Won</button>
+        </template>
+    </template>

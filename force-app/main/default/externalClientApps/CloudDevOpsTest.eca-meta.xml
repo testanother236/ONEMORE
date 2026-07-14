@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>oleg.kolesnik@succraft.com</contactEmail>
+    <distributionState>Local</distributionState>
+    <isProtected>false</isProtected>
+    <label>CloudDevOpsTest</label>
+    <orgScopedExternalApp>00D3C0000005Oj9:CloudDevOpsTest</orgScopedExternalApp>
+</ExternalClientApplication>

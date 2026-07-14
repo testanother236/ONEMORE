@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessageType__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>메시지 유형</value>
+    </caseValues>
+    <layouts>
+        <layout>Message Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>이름</nameFieldLabel>
+    <webLinks>
+        <label>메시징 내보내기</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>메시징 내보내기</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>메시징 가져 오기</label>
+        <name>fferpcore__Import</name>
+    </webLinks>
+</CustomObjectTranslation>

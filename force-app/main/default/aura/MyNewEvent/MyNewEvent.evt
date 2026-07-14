@@ -1,0 +1,6 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="principal" type="double" />
+    <aura:attribute name="years" type="double" />
+    <aura:attribute name="rate" type="double" />
+    <aura:attribute name="monthlyPayment" type="double" />
+</aura:event>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Test Template A2</name>
+    <style>none</style>
+    <subject>Test Template A2</subject>
+    <textOnly>Title
+Hi,
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+
+The partial shutdown began just after midnight when the government, ran out of money because Congress missed its deadline to pass a new one. But the closure could be brief, with minimal disruptions to federal workers and others.
+The end</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

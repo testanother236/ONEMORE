@@ -1,0 +1,65 @@
+<apex:page controller="RecordFetchController">
+    <apex:form >
+        <apex:pageblock >
+            <Apex:pageBlockButtons >
+                <apex:commandButton value="List" reRender="none" onclick="getAccountRecords('Account','Id,Name,CreatedDate,LastModifiedDate'); return false;"/>
+            </Apex:pageBlockButtons>
+            <apex:pageblockSection >
+                
+            </apex:pageblockSection>
+        </apex:pageblock>
+    </apex:form>
+    <script>
+        function retrieveAllRecords(objectName, fieldNamesStr) {
+            var queryLimit = 5;
+            return new Promise(function (fulfill, reject){
+                var resultLi = [];
+                var lastId = '';
+                var queryOneByOne = function() {
+                    Visualforce.remoting.Manager.invokeAction(
+                        '{!$RemoteAction.RecordFetchController.listRecords}',
+                        objectName,
+                        fieldNamesStr,
+                        queryLimit,
+                        lastId,
+                        function(result, event){
+                            if (event.status) {
+                                if(result != undefined)
+                                {
+                                    for(var index=0; index < result.length; index++)
+                                    {
+                                        resultLi.push(result[index]);
+                                        lastId = result[index].Id;
+                                    }
+                                }
+                                //Condition to query all.
+                                if(result != undefined && result.length == queryLimit && lastId != '')
+                                {
+                                    queryOneByOne();
+                                }
+                                else
+                                    fulfill(resultLi);
+                            } else {
+                                reject(event);
+                            }
+                        }, 
+                        {escape: true}
+                    );
+                }
+                queryOneByOne();
+            });
+        }
+        
+        function getAccountRecords(objectName, fieldNamesStr) {
+            retrieveAllRecords(objectName, fieldNamesStr).then(function(response) {
+                    console.log(response);
+            }, function(error) {
+                if (error.type === 'exception') {
+                    console.log(error.message + " " + error.where);
+                } else {
+                    console.log(error.message);
+                }
+            });
+        }
+    </script>
+</apex:page>

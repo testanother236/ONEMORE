@@ -58,6 +58,10 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -65,12 +69,6 @@
         <actionName>Edit</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <content>EditComponentHistory</content>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Visualforce</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>List</actionName>
@@ -150,15 +148,15 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>true</enableReports>
+    <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Component History</label>
     <nameField>
-        <displayFormat>CH-{000000}</displayFormat>
-        <label>Component History Number</label>
-        <type>AutoNumber</type>
+        <label>Component History Name</label>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Component History</pluralLabel>
     <searchLayouts></searchLayouts>

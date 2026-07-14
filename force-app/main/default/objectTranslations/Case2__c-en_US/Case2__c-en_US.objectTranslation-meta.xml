@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case2__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Case2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Case2</value>
+    </caseValues>
+    <layouts>
+        <layout>Case2 Layout Copy</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case2Layout Copy2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Case Type2 --></label>
+        <name>Case_Type2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-1 --></label>
+        <name>TestCase2_1</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-2 --></label>
+        <name>TestCase2_2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-3 --></label>
+        <name>TestCase2_3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-4 --></label>
+        <name>TestCase2_4</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-5 --></label>
+        <name>TestCase2_5</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-6 --></label>
+        <name>TestCase2_6</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestCase2-7 --></label>
+        <name>TestCase2_7</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

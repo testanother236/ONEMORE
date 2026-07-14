@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__UserManagementTemplate__mdt-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Beheersjabloon gebruiker --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Beheersjablonen gebruiker --></value>
+    </caseValues>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>User Management Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
