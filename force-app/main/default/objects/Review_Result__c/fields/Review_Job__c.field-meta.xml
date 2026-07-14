@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Job__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Review Job</label>
+    <referenceTo>Flosum_Task__c</referenceTo>
+    <relationshipLabel>Review Results</relationshipLabel>
+    <relationshipName>Review_Results</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
