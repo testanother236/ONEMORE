@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Reporting_Component_Configuration__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Configuratie van rapportagecomponenten</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Configuraties van rapportagecomponenten</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Reporting Component Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Configuratienaam:</nameFieldLabel>
+    <recordTypes>
+        <description>Wordt gebruikt om een configuratie te maken voor een rapportonderdeel met meerdere lenzen.</description>
+        <label>Rapport met meerdere lenzen</label>
+        <name>fferpcore__Multi_Lens_Report</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Wordt gebruikt om een configuratie te maken voor een queryfiltercomponent.</description>
+        <label>Zoekfilter</label>
+        <name>fferpcore__Query_Filter</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Wordt gebruikt om een configuratie te maken voor een zachte datumfiltercomponent.</description>
+        <label>Zachte datumfilter</label>
+        <name>fferpcore__Soft_Date_Filter</name>
+    </recordTypes>
+</CustomObjectTranslation>

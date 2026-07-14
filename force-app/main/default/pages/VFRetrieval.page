@@ -1,0 +1,135 @@
+<apex:page controller="VFRetrievalControl">
+    <apex:includeScript value="{!URLFOR($Resource.jszipmaster, 'jszip-master/dist/jszip.js')}"/>
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Start Retrieval" onclick="queryMetadataItems(); return false;"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+    <script>
+        Visualforce.remoting.timeout = 120000;
+        var requestId;
+        var retrieveMap = {};
+        retrieveMap['CustomObject'] = ['*'];
+        retrieveMap['ApexClass'] = ['*'];
+        retrieveMap['ApexPage'] = ['*'];
+        retrieveMap['Layout'] = ['*'];
+        retrieveMap['CustomTab'] = ['*'];
+        retrieveMap['CustomApplication'] = ['*'];
+        retrieveMap['ExternalDataSource'] = ['*'];
+        retrieveMap['CustomPermission'] = ['*'];
+        var metaTypeLi = ['CustomObject','Profile','PermissionSet'];
+        var metaTypeIndex = 0;
+        
+        function listAllTypes()
+        {
+            metaTypeIndex = 0;
+            queryMetadataItems(metaType);
+        }
+        
+        
+        function queryMetadataItems()
+        {
+            if(metaTypeIndex < metaTypeLi.length)
+            {
+                var metaType = metaTypeLi[metaTypeIndex];
+                console.log('queryMetadataItems');
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.VFRetrievalControl.listMetadataItems}',
+                    metaType,
+                    function(result, event) {
+                        if (event.status) 
+                        {
+                            var NameLi = [];
+                            if(result.length > 0)
+                            {
+                                for(var index=0; index < result.length; index++)
+                                {
+                                    var meta = result[index];
+                                    if(meta != undefined && meta.fullName != undefined)
+                                    {
+                                       NameLi.push(meta.fullName);
+                                    }
+                                }
+                            }
+                            console.log(result);
+                            retrieveMap[metaType]=NameLi;
+                            metaTypeIndex++;
+                            queryMetadataItems();
+                        }
+                        else
+                        {
+                            console.log(event);
+                        }
+                });
+            }
+            else
+            {
+                createRetrieveRequest(retrieveMap);
+            }
+        }
+        
+        
+        
+        function createRetrieveRequest(retrieveMap)
+        {
+            console.log('createRetrieveRequest');
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.VFRetrievalControl.createRetrievalRequest}',
+                JSON.stringify(retrieveMap),
+                function(result, event) {
+                    if (event.status) 
+                    {
+                        console.log(result);
+                        if(result != null)
+                        {
+                            //checkRetrievalRequest(requestId);
+                            requestId = result;
+                            setTimeout(checkRetrievalRequest,10000);
+                        }
+                    }
+                    else
+                    {
+                        console.log(event);
+                    }
+            });
+        }
+        
+        function checkRetrievalRequest()
+        {
+            console.log('checkRetrievalRequest');
+            console.log(requestId);
+            Visualforce.remoting.Manager.invokeAction(
+                '{!$RemoteAction.VFRetrievalControl.checkRequestRetrieveStatus}',
+                requestId,
+                function(result, event) {
+                    if(event.status) 
+                    {
+                        if(result.done)
+                        {
+                            if(!result.success)
+                            {
+                                console.log('Error :'+result.errorMessage);
+                            }
+                            else
+                            {
+                                console.log(result.zipFile.length);
+                                var myZip = new JSZip(result.zipFile, {base64:true});
+                                console.log(myZip.files);
+                            }
+                        }
+                        else
+                        {
+                            console.log('Waiting for file from server...');
+                            setTimeout(checkRetrievalRequest,10000);
+                        }
+                    }
+                    else
+                    {
+                        console.log(event);
+                    }
+            });
+        }
+    </script>
+</apex:page>

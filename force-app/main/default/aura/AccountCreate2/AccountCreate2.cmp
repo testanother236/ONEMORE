@@ -1,0 +1,30 @@
+<aura:component implements="lightning:actionOverride">
+    <aura:registerEvent name="refreshChildComponent" type="c:RefreshParentAccountList"/>
+    <aura:attribute name="fields"
+                    type="String[]"
+                    default="['Name', 'Type', 'Description']"/>
+    <aura:attribute name="recordId"
+                    type="String" />
+    
+    <aura:if isTrue="{!v.recordId == ''}">
+        New
+    	<lightning:recordForm objectApiName="Account"
+                          fields="{!v.fields}"
+                          onsuccess="{!c.handleSuccess}"
+                          oncancel="{!c.onCancel}"
+                          recordId=""/>
+        
+        <aura:set attribute="else">
+            Edit
+			<lightning:recordEditForm recordId="{!v.recordId}" objectApiName="Account" onsuccess="{!c.handleSuccess}">
+                <lightning:messages />
+                <lightning:outputField fieldName="Id" />
+                <lightning:inputField fieldName="Name" />
+                <lightning:inputField fieldName="Type" />
+                <lightning:inputField fieldName="Description" />
+                <lightning:button class="slds-m-top_small" variant="brand" type="submit" name="update" label="Update" />
+            </lightning:recordEditForm>
+        </aura:set>
+  	</aura:if>
+    
+</aura:component>

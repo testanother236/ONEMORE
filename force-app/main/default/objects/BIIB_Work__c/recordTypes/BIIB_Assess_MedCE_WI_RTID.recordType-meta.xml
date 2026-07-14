@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>BIIB_Assess_MedCE_WI_RTID</fullName>
+    <label>BIIB_Assess_MedCE_WI_RTID</label>
+    <picklistValues>
+        <picklist>BIIB_Role__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>MS FA Team</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BIIB_Status__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Open</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BIIB_Work_Type__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Contact RDRM</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

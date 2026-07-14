@@ -1,0 +1,19 @@
+<apex:page >
+	<apex:form >
+		<apex:commandButton value="Close" onClick="windowCloser();"/>
+	</apex:form>
+	<Script>
+		var codeStr = '{!JSENCODE($CurrentPage.parameters.code)}';
+		
+		
+		function windowCloser()
+		{
+			//window.opener.code = codeStr;
+			if(codeStr != null && codeStr != undefined && codeStr != '')
+			{
+				window.opener.getAccessToken(codeStr);
+			}
+			window.close();
+		}
+	</Script>
+</apex:page>

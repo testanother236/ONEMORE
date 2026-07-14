@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AccountCreditTerms__c-de</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Konto-Kreditbedingungen</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Account Credit Terms Layout</layout>
+        <sections>
+            <label><!-- Credit Terms 1 --></label>
+            <section>Credit Terms 1</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms 2 --></label>
+            <section>Credit Terms 2</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms 3 --></label>
+            <section>Credit Terms 3</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Terms 4 --></label>
+            <section>Credit Terms 4</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name der Kontogutschrift</nameFieldLabel>
+</CustomObjectTranslation>

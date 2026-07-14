@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__frb_Financial_Report__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>재무 보고서</value>
+    </caseValues>
+    <layouts>
+        <layout>Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>보고서 이름</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>내 보내다</label>
+        <name>fferpcore__Export_Action</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>구하다</label>
+        <name>fferpcore__Save_Action</name>
+    </quickActions>
+</CustomObjectTranslation>

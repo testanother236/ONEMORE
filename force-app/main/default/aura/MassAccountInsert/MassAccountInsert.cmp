@@ -1,0 +1,48 @@
+<aura:component >
+    <aura:attribute name="accountList" type="List" />
+	<aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
+    
+    <div class="c-container">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_striped">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="S. No.">S. No.</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Account Name">Account Name</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Account Type">Account Type</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Account Phone">Account Phone</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration items="{!v.accountList}" var="acc" indexVar="sno">
+                    <tr class="slds-hint-parent">
+                        <td data-label="">
+                            <ui:outputText value="{!sno+1}"/>
+                        </td>
+                        <td data-label="">
+                            <lightning:input name="input1" value="{!acc.Name}" required="true"/>
+                        </td>
+                        <td data-label="">
+                            <lightning:select name="select1" required="false" value="{!acc.Type}">
+                                <option value="">--None--</option>
+                            </lightning:select>
+                        </td>
+                        <td data-label="">
+                            <lightning:input name="input1" value="{!acc.Phone}" />
+                        </td>
+                        <td data-label="">
+                        	<lightning:button variant="brand" label="Clone" title="Clone" onclick="{! c.getClone }" name="{!sno}"/>
+                    	</td>
+                    </tr>
+                </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+</aura:component>

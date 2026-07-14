@@ -1,0 +1,4 @@
+<apex:page >
+    <apex:includeScript value="{!URLFOR($Resource.jquery)}"/>
+    <apex:includeScript value="{!URLFOR($Resource.jqueryformat)}"/>
+</apex:page>

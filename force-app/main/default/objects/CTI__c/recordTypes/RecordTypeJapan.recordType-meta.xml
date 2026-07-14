@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>RecordTypeJapan</fullName>
+    <label>レコードタイプ</label>
+    <picklistValues>
+        <picklist>Field1__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>一つ</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>二</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Field2__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>こんにちは</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>バイ</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

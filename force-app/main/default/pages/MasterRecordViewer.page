@@ -1,0 +1,157 @@
+<apex:page controller="MasterRecordViewerController" docType="html-5.0">
+	<style>
+		.pagination { 
+			padding: 1%; 
+		} 
+		div .pagination { 
+			text-align: center; 
+		} 
+		td .dataCell label { 
+			font-weight: normal; 
+		} 
+		span.paginationEle { 
+			margin-left: 4px; 
+		} 
+		.pagination input { 
+			margin-left: 4px; 
+		} 
+	</style>
+	<style>
+			td.fieldColumn {
+		    text-align: center;
+		    background-color: rgba(40, 114, 173, 0.75);
+		    min-width: 100px;
+		}
+		table.fulltable{
+			width: 100%;
+		}
+		td.fieldColumn {
+		    width: 12%;
+		    border: groove;
+		}
+	</style>
+	<c:Wait />
+	<apex:form >
+		<apex:pageBlock title="Master" id="mastersection">
+			<apex:actionFunction name="addColumn" action="{!addAnotherField}" rerender="mastersection" onComplete="hide();">
+				<apex:param name="q" assignTo="{!selectedDropField}" value=""/>
+			</apex:actionFunction>
+			<apex:actionFunction name="removeColumn" action="{!removeAnotherField}" rerender="mastersection" onComplete="hide();">
+				<apex:param name="q" assignTo="{!selectedDropField}" value=""/>
+			</apex:actionFunction>
+			<apex:pageBlockSection columns="1">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Master Object"/>
+					<apex:selectList size="1" value="{!masterObjectName}" styleClass="disableitem">
+		                <apex:selectOptions value="{!masterObjList}"/>
+		                <apex:actionSupport event="onchange"  action="{!selectObject}" rerender="mastersection" onsubmit="show();" oncomplete="hide();"/>
+		            </apex:selectList>
+	            </apex:pageBlockSectionItem>
+	            <apex:pageBlockSectionItem >
+		            <apex:outputLabel value="Child Object"/>
+		            <apex:selectList size="1" value="{!childObjectname}" styleClass="disableitem">
+		                <apex:selectOptions value="{!childObjList}"/>
+		                <apex:actionSupport event="onchange"  action="{!selectChild}" rerender="mastersection" onsubmit="show();" oncomplete="hide();"/>
+		            </apex:selectList>
+	            </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="1" rendered="{!if(masterList.size > 0,true,false)}">
+            	<apex:outputPanel >
+            		<table class="fulltable">
+            			<tr>
+	            			<td class="recordColumn">
+			            		<table class="list" ondrop="show();masterColumnDrop(event);" ondragover="allowDrop(event)">
+			            			<thead>
+			            				<tr class="headerRow">
+			            					<th class="headerRow">Record Id</th>
+				            				<apex:repeat value="{!selectedFieldMap}" var="selectField">
+					            					<th class="headerRow columnhead" id="{!selectField}" draggable="true" onDragStart="onFieldDragStart(event);">{!selectedFieldMap[selectField]}</th>
+				            				</apex:repeat>
+				            			</tr>
+			            			</thead>
+			            			<tbody>
+			            				<apex:repeat value="{!masterList}" var="rec">	
+			            					<tr>
+				 								<td class="dataCell">{!rec.Id}</td>	
+					 							<apex:repeat value="{!selectedFieldMap}" var="clm">								 	
+					 								<td class="dataCell">{!rec[clm]}</td> 	
+												</apex:repeat>	
+											</tr>
+										</apex:repeat>
+			            			</tbody>
+			            		</table>
+		            		</td>
+		            		<td class="fieldColumn"  ondrop="show();masterColumnRemove(event);" ondragover="allowDrop(event)">
+			            		<div class="fieldDivColumn"> 
+			 						<apex:repeat value="{!masterFieldMap}" var="flds"> 
+			 							<div draggable="true" id="{!flds}" onDragStart="onFieldDragStart(event);" class="objField">{!masterFieldMap[flds]}</div> 
+			 						</apex:repeat> 
+				 				</div>
+				 			</td>
+				 		</tr>
+					</table>
+				</apex:outputPanel>
+				<apex:outputPanel layout="block" styleClass="pagination">
+					<apex:commandbutton value="First" action="{!listMasterRecords}" reRender="tb,msg" disabled="{!prev}" onClick="show();" onComplete="hide();">
+						<apex:param value="First" assignTo="{!event}"/>
+					</apex:commandbutton>
+					<apex:commandbutton value="Previous" action="{!listMasterRecords}" reRender="tb,msg" disabled="{!prev}" onClick="show();" onComplete="hide();">
+						<apex:param value="Previous" assignTo="{!event}"/>
+					</apex:commandbutton>
+					<apex:outputText value="{!paginationStr}" styleClass="paginationEle"/>
+					<apex:commandbutton value="Next" action="{!listMasterRecords}" reRender="tb,msg" disabled="{!nxt}" onClick="show();" onComplete="hide();">
+						<apex:param value="Next" assignTo="{!event}"/>
+					</apex:commandbutton>
+					<apex:commandbutton value="Last" action="{!listMasterRecords}" reRender="tb,msg" disabled="{!nxt}" onClick="show();" onComplete="hide();">
+						<apex:param value="Last" assignTo="{!event}"/>
+					</apex:commandbutton>
+				</apex:outputPanel>
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+	<script>
+		var event1;
+		var dragFieldName = '';
+		var dragclassName = '';
+		
+		function masterColumnDrop(event)
+		{
+			if(dragFieldName != undefined && dragFieldName != null && dragFieldName != '' && dragclassName == 'objField')
+			{
+					addColumn(dragFieldName);
+					dragFieldName = '';
+					dragclassName = '';
+			}
+			else
+			{
+				hide();
+			}
+		}
+		
+		function masterColumnRemove(event)
+		{
+			if(dragFieldName != undefined && dragFieldName != null && dragFieldName != '' && dragclassName == 'headerRow columnhead')
+			{
+					removeColumn(dragFieldName);
+					dragFieldName = '';
+					dragclassName = '';
+			}
+			else
+			{
+				hide();
+			}
+		}
+		
+		function allowDrop(ev) 
+		{
+    		ev.preventDefault();
+		}
+		
+		function onFieldDragStart(ev)
+		{
+			dragFieldName = ev.target.id;
+			dragclassName = ev.target.className;
+			event1 = ev;
+		}
+	</script>
+</apex:page>

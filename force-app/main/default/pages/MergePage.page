@@ -1,0 +1,462 @@
+<apex:page doctype="html-5.0"
+           sidebar="false"
+           showheader="true"
+           standardstylesheets="false"
+           cache="false"
+           applybodytag="false">
+    <apex:stylesheet value="{!URLFOR($Resource.Merge, 'Merge/css/bootstrapSF.min.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Merge, 'Merge/ngDialog/ngDialog.min.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.Merge, 'Merge/ngDialog/ngDialog-theme-default.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.Merge, 'Merge/ngDialog/ngDialog-theme-plain.min.css')}" />
+    
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/jquery-2.1.4.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/angular.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/jquery-ui.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/ngDialog/ngDialog.min.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/diff.js')}"/>
+    <apex:includeScript value="{!URLFOR($Resource.Merge, 'Merge/angular-base64.min.js')}"/>
+    <script>
+        var app = angular.module("MergeApp", ['ngDialog', 'base64']);
+    	app.directive("fileread", [function () {
+            return {
+                scope: {
+                    fileread: "="
+                },
+                link: function (scope, element, attributes) {
+                    element.bind("change", function (changeEvent) {
+                        var reader = new FileReader();
+                        reader.onload = function (loadEvent) {
+                            scope.$apply(function () {
+                                scope.fileread = loadEvent.target.result;
+                            });
+                        }
+                        reader.readAsDataURL(changeEvent.target.files[0]);
+                    });
+                }
+            }
+        }]);
+    	var mergeinfoTemplate = '<div ng-show="!Show">'+
+            						'<div class="spinner">'+
+                                      '<div class="rect1"></div>'+
+                                      '<div class="rect2"></div>'+
+                                      '<div class="rect3"></div>'+
+                                      '<div class="rect4"></div>'+
+                                      '<div class="rect5"></div>'+
+                                    '</div>'+
+                                '</div>'+
+            					'<div ng-show="table.length > 0 && Show">'+
+            						'<div >'+
+                                        '<div style="width: 48%;float: left;border: 1px solid #36a0fe;;border-radius: 6px;padding: 5px;text-align: center;background-color: #36a0fe;">'+
+                                            '<strong>Sourse File</strong>'+
+                                        '</div>'+
+                                        '<div style="float: left;width: 36px;height: 12px;"></div>'+
+                                        '<div style="width: 48%;float: left;border: 1px solid #13FF00;border-radius: 6px;padding: 5px;text-align: center;background-color: #13FF00;">'+
+                                            '<strong>Target File</strong>'+
+                                        '</div>'+
+                                    '</div>'+
+                                    '<div >'+
+                                        '<div class="BASE" style="width: 48%;overflow-x: scroll;float: left;border: 1px solid #9C9C9C;border-radius: 6px;padding: 5px;">'+
+                                            '<table>'+
+                                                '<tbody id="display">'+
+                                                    '<tr ng-repeat="line in table">'+
+            											'<td>'+
+            												'{{line.indexBase}}'+
+            											'</td>'+
+            											'<td>'+
+            												'<pre class="{{line.BaseClass}}" >{{line.valueBase}}</pre>'+
+            											'</td>'+
+                    								'</tr>'+
+                                                '</tbody>'+
+                                            '</table>'+
+                                        '</div>'+
+                                        '<div style="float: left;padding-top: 5px;">'+
+                                            '<table>'+
+                                                '<tbody id="displayA">'+
+                                                	'<tr ng-repeat="line in table">'+
+            											'<td ng-show="line.removed && line.Button">'+
+            												'<span ng-show="!line.edit" class="iconnDiff glyphicon glyphicon-plus" ng-click="remove(line)"></span>'+
+                                                            '<span ng-show="line.edit" class="iconnDiff glyphicon glyphicon-fast-backward" ng-click="removeBack(line)"></span>'+
+            											'</td>'+
+            											'<td ng-show="!line.removed">'+
+            												'<div class="EmpyBlock"></div>'+
+            											'</td>'+
+            											'<td ng-show="line.add && line.Button">'+
+            												'<span ng-show="!line.edit" class="iconnDiff glyphicon glyphicon-minus" ng-click="add(line)"></span>'+
+            												'<span ng-show="line.edit" class="iconnDiff glyphicon glyphicon-fast-forward" ng-click="addBack(line)"></span>'+
+            											'</td>'+
+            											'<td ng-show="!line.add">'+
+            												'<div class="EmpyBlock"></div>'+
+            											'</td>'+
+                    								'</tr>'+
+		                                         '</tbody>'+
+                                            '</table>'+
+                                        '</div>'+
+                                        
+                                        '<div class="NEW" style="width: 48%;overflow-x: scroll;border: 1px solid #9C9C9C;border-radius: 6px;padding: 5px;">'+
+                                            '<table>'+
+                                                '<tbody id="display2">'+
+                                                    '<tr ng-repeat="line in table">'+
+            											'<td>'+
+            												'{{line.indexNew}}'+
+            											'</td>'+
+            											'<td>'+
+            												'<pre class="{{line.NewClass}}" >{{line.valueNew}}</pre>'+
+            											'</td>'+
+                    								'</tr>'+
+                                                '</tbody>'+
+                                            '</table>'+
+                                        '</div>'+
+                                    '</div>'+
+        						'</div>';
+    	app.directive("mergeinfo", [function () {
+            return {
+                scope: {
+                    sourse: '@',
+                    target: '@',
+                    file: "="
+            	},
+                restrict: 'E',
+                template: mergeinfoTemplate,
+                link: function (scope, element, attributes, ngModelController) {
+                    console.log(scope);
+                    console.log(ngModelController);
+                    var BaseElement = $(element).find(".BASE");
+                    var NewElement = $(element).find(".NEW");
+                    console.log(BaseElement);
+                    scope.Show = false;
+                    scope.start = false;
+                    scope.table = [];
+                    scope.returnValue = '';
+                    BaseElement.scroll(function(event){
+                        if (event.type == 'scroll') {
+                        	var inf = event.currentTarget.scrollLeft;
+                            NewElement.scrollLeft(inf);
+                        }
+                        
+                    })
+                    NewElement.scroll(function(event){
+                        if (event.type == 'scroll') {
+                        	var inf = event.currentTarget.scrollLeft;
+                            BaseElement.scrollLeft(inf);
+                        }
+                    })
+                    scope.$watch('sourse', function(newValue, oldValue) {
+                      if (scope.sourse != null && scope.sourse != '' && scope.start) {
+                      	  getView();
+                      }
+                      else if (scope.sourse != null && scope.sourse != '' && !scope.start) {
+                      	scope.start = true;
+                      }
+                    });
+                    scope.$watch('target', function(newValue, oldValue) {
+                      if (scope.target != null && scope.target != '' && scope.start) {
+                      	  getView();
+                      }
+                      else if (scope.target != null && scope.target != '' && !scope.start) {
+                      	scope.start = true;
+                      }
+                    });
+                    
+                    scope.add = function(line) {
+                    	for (var x= line.index -1; x< scope.table.length ; x++) {
+                        	if (scope.table[x].add) {
+                                scope.table[x].edit = true;
+                                scope.table[x].valueNew = '';
+                                scope.table[x].BaseClass = 'editClass';
+                                scope.table[x].NewClass = 'editClass';
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        scope.getReturnModel();
+                        
+                        
+                    }
+                    
+                    scope.addBack = function(line) {
+                    	for (var x= line.index -1; x< scope.table.length ; x++) {
+                        	if (scope.table[x].add) {
+                            	scope.table[x].edit = false;
+                                scope.table[x].valueNew = scope.table[x].NewBackup;
+                                scope.table[x].BaseClass = '';
+                                scope.table[x].NewClass = 'addClass';
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        scope.getReturnModel();
+                        
+                        
+                    }
+                    
+                    scope.remove = function(line) {
+                    	for (var x= line.index-1; x< scope.table.length ; x++) {
+                        	if (scope.table[x].removed) {
+                                scope.table[x].edit = true;
+                                scope.table[x].valueNew = scope.table[x].valueBase;
+                                scope.table[x].BaseClass = 'editClass';
+                                scope.table[x].NewClass = 'editClass';
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        scope.getReturnModel();
+                        
+                    }
+                    
+                    scope.removeBack = function(line) {
+                    	for (var x= line.index -1; x< scope.table.length ; x++) {
+                        	if (scope.table[x].removed) {
+                            	scope.table[x].edit = false;
+                                scope.table[x].valueNew = '';
+                                scope.table[x].BaseClass = 'removeClass';
+                                scope.table[x].NewClass = '';
+                            }
+                            else {
+                            	break;
+                            }
+                        }
+                        scope.getReturnModel();
+                        
+                    }
+                    
+                    scope.getReturnModel = function () {
+                    	var returnST = '';
+                        for (var x= 0; x< scope.table.length ; x++) {
+                        	var line = scope.table[x];
+                            if (line.removed && line.edit || line.add && !line.edit || !line.removed && !line.add) {
+                            	returnST += line.valueNew + '\n';
+                            }
+                        }
+                        scope.file = returnST;
+                        
+                        
+                    }
+                    
+                    function getView() {
+                    	scope.table = [];
+                        var diff = JsDiff.diffLines(scope.sourse, scope.target);
+                        
+                        var indexBase = 1;
+                        var indexNew = 1;
+                        var index = 1;
+                        diff.forEach(function(part){
+                            var lin = part.value.split('\n');
+                            var color = part.added ? '#78F178' :
+                            part.removed ? '#F9ADAD' : 'white';
+                            var ButtonCheck = false;
+                            for (var x=0; x< lin.length; x++) {
+                                if (x == (lin.length -1) && lin[x] == '') {
+                                    continue;
+                                }
+                                var Line = {};
+                                Line.index = index;
+                                Line.edit = false;
+                                
+                                index++;
+                                if (part.added) {
+                                    Line.indexBase = '';
+                                    Line.indexNew = indexNew;
+                                    Line.valueBase = '';
+                                    Line.valueNew = lin[x] == '' ? '': lin[x];
+                                    Line.NewBackup = lin[x] == '' ? '': lin[x];
+                                    Line.add = true;
+                                    Line.NewClass = 'addClass'
+                                    if (!ButtonCheck) {
+                                    	Line.Button = true;
+                                        ButtonCheck = true;
+                                    }
+                                    else {
+                                    	Line.Button = false;
+                                    }
+                                    Line.color = color;
+                                    Line.removed = false;
+                                    indexNew++;
+                                }
+                                else if (part.removed) {
+                                    Line.indexBase = indexBase;
+                                    Line.indexNew = '';
+                                    Line.valueBase = lin[x] == '' ? '': lin[x];
+                                    Line.valueNew = '';
+                                    Line.add = false;
+                                    if (!ButtonCheck) {
+                                    	Line.Button = true;
+                                        ButtonCheck = true;
+                                    }
+                                    else {
+                                        Line.Button = false;
+                                    	
+                                    }
+                                    Line.color = color;
+                                    Line.removed = true;
+                                    Line.BaseClass = 'removeClass'
+                                    indexBase++;
+                                }
+                                else {
+                                    Line.indexBase = indexBase;
+                                    Line.indexNew = indexNew;
+                                    Line.valueBase = lin[x] != '' ? lin[x]: '';
+                                    Line.valueNew = lin[x] != '' ? lin[x]: '';
+                                    Line.add = false;
+                                    Line.color = color;
+                                    Line.removed = false;
+                                    indexBase++;
+                                    indexNew++;
+                                }
+                                scope.table.push(Line);
+                            }
+                       });
+                       scope.Show = true;
+                       console.log(scope.table);
+                       scope.getReturnModel();
+                    }
+                    
+                }
+            }
+        }]);
+    
+        app.controller('MergeCtrl', function ($scope, ngDialog, $base64, $compile) {
+            var indexBase = 1;
+            var indexNew = 1;
+            var index = 1;
+            var table = [];
+            $scope.EtalonValue = '';
+            $scope.getFile  = function() {
+            	console.log($scope.EtalonValue);
+            }
+            $scope.getDiff = function() {
+            	console.log($scope.vm);
+                var base = $scope.vm.Base.split('base64,')[1];
+                var newfile = $scope.vm.New.split('base64,')[1];
+                var one = decodeURIComponent(escape($base64.decode(base)));
+                var other = decodeURIComponent(escape($base64.decode(newfile)));
+                $scope.base = one;
+                $scope.newfile = other;
+                
+            }
+           
+            
+        });
+    </script>
+    <style>
+        
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
+        .sf-inner-container pre {
+        	display: block; 
+            padding: 0px; 
+            margin: 0px;
+            font-size: 12px;
+            line-height: normal;
+            color: #333;
+            word-break: break-all;
+            word-wrap: break-word;
+            background-color: ;
+            border-radius: 0px;
+            border: ivory;
+        	height: 18px;
+        	background-color: white;
+        }
+        .iconnDiff {
+        	cursor: pointer;
+            border: 1px solid #9C9C9C;
+            padding: 2px;
+            border-radius: 3px;
+            background-color: #DEDEDE;
+        }
+        .EmpyBlock {
+        	height: 18px;
+        }
+        .sf-inner-container .removeClass {
+        	background-color: #F9ADAD;
+        	min-width: 850px;
+        }
+        .sf-inner-container .addClass{
+        	background-color: #78F178;
+        	min-width: 850px;
+        }
+        .sf-inner-container .editClass{
+        	background-color: #F9F2AD;
+        	min-width: 850px;
+        }
+        
+        .spinner {
+          width: 50px;
+          height: 40px;
+          text-align: center;
+          font-size: 10px;
+          border: 0.1px solid #36a0fe;
+          border-radius: 6px;
+          width: 100%;
+        }
+
+        .spinner > div {
+          background-color: #5E7AF7;
+          height: 100%;
+          width: 6px;
+          display: inline-block;
+           margin-left: 1px;
+          -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+          animation: sk-stretchdelay 1.2s infinite ease-in-out;
+        }
+        
+        .spinner .rect2 {
+          -webkit-animation-delay: -1.1s;
+          animation-delay: -1.1s;
+        }
+        
+        .spinner .rect3 {
+          -webkit-animation-delay: -1.0s;
+          animation-delay: -1.0s;
+        }
+        
+        .spinner .rect4 {
+          -webkit-animation-delay: -0.9s;
+          animation-delay: -0.9s;
+        }
+        
+        .spinner .rect5 {
+          -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+        }
+        
+        @-webkit-keyframes sk-stretchdelay {
+          0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+          20% { -webkit-transform: scaleY(1.0) }
+        }
+        
+        @keyframes sk-stretchdelay {
+          0%, 40%, 100% { 
+            transform: scaleY(0.4);
+            -webkit-transform: scaleY(0.4);
+          }  20% { 
+            transform: scaleY(1.0);
+            -webkit-transform: scaleY(1.0);
+          }
+        }
+        
+    </style>
+    <body class="sf-inner-container">
+		<div ng-app = "MergeApp" class="g-container sf-inner-container">
+            <div ng-controller="MergeCtrl" style="min-height: 400px">
+                <input type="file" fileread="vm.Base" >Base</input>
+            	<br/>
+            	<input type="file" fileread="vm.New" >New</input>
+                <br/>
+        		<button class="btn btn-default" ng-click="getDiff()" type="submit">get Diff</button>
+        		<button class="btn btn-default" ng-click="getFile()" type="submit">get File</button>
+        		<div>
+                    <mergeinfo sourse="{{base}}" target="{{newfile}}" file="EtalonValue"/>
+        		</div>
+                
+            </div>
+        </div>
+    </body>
+    
+</apex:page>

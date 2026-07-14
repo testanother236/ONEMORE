@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__fflib_BatchProcess__c-de</fullName>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Batch-Prozess für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Batch-Prozesse für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Batch-Prozess für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Batch-Prozesse für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Batch-Prozess für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Batch-Prozesse für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Batch-Prozess für Stiftungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Batch-Prozesse für Stiftungen</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Batch Process Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Job Status --></label>
+            <section>Job Status</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Name</nameFieldLabel>
+    <webLinks>
+        <label>Lauf</label>
+        <name>fferpcore__Run</name>
+    </webLinks>
+    <webLinks>
+        <label>Führen Sie Jobs aus</label>
+        <name>fferpcore__RunJobs</name>
+    </webLinks>
+</CustomObjectTranslation>

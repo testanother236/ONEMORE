@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__MessageType__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Type de message</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Types de message</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Message Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Exportation de messagerie</label>
+        <name>fferpcore__Export</name>
+    </webLinks>
+    <webLinks>
+        <label>Exportation de messagerie</label>
+        <name>fferpcore__ExportList</name>
+    </webLinks>
+    <webLinks>
+        <label>Importation de messagerie</label>
+        <name>fferpcore__Import</name>
+    </webLinks>
+</CustomObjectTranslation>

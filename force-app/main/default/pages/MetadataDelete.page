@@ -1,0 +1,45 @@
+<apex:page controller="MetadataDeleteController" action="{!init}" sidebar="false">
+    <script>console.log('update 1.1');</script>
+    <apex:form id="form" >
+        <apex:sectionHeader title="Metadata Delete Demo"/>
+        <apex:pageMessages id="messages"/>
+
+        <apex:pageBlock title="Layouts">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="List" action="{!listMetadataItems}" />
+                <apex:commandButton value="Delete" action="{!deleteMetadataItems}" reRender="form"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection columns="1">
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Metadata Type:" />
+                    <apex:selectList size="1" value="{!MetadataType}" >
+                        <apex:selectOptions value="{!MetadataTypes}"/>
+                        <apex:actionSupport event="onchange"  action="{!listMetadataItems}"/> 
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Metadata Folder" />
+                    <apex:inputText value="{!MetaDataFolder}" /> 
+                </apex:pageBlockSectionItem>                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Metadata Item:" />
+                    <apex:selectList size="1" value="{!MetaDataItem}" >
+                        <apex:selectOptions value="{!MetaDataItems}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        <apex:pageBlock id="files" title="Delete Result" rendered="{!IF(deleteResultList.size > 0,true,false)}">
+            <apex:pageBlockSection columns="1">
+                <apex:repeat value="{!deleteResultList}" var="file">
+                    <apex:pageBlockSectionItem >
+                        <apex:outputLabel value="{!file.fullName}"/>
+                        <apex:repeat value="{!file.errors}" var="err" rendered="{!IF(file.errors.size > 0,true,false)}">
+                            <apex:outputLabel ><pre>{!err}</pre></apex:outputLabel> 
+                        </apex:repeat>               
+                    </apex:pageBlockSectionItem>
+                </apex:repeat>
+            </apex:pageBlockSection>
+        </apex:pageBlock>   
+    </apex:form>
+</apex:page>

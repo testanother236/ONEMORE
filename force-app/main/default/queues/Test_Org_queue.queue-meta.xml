@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Test Org queue</name>
+    <queueMembers>
+        <users>
+            <user>pavel.mitrohin.managed@flosumtesting.com</user>
+            <user>ravi.saini.managed@flosumtesting.com</user>
+            <user>p.amitrovel@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Dataplier__Organisation__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Flosum__Branch__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Flosum__Organisation__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Flosum__Pipeline__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Flosum__Repository__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,37 @@
+import { LightningElement, api, track } from 'lwc';
+import { loadScript } from 'lightning/platformResourceLoader';
+import mermaidLib from '@salesforce/resourceUrl/mermaid'; // Replace 'mermaid' with the actual name of your static resource
+
+export default class FlowDiagramRenderer extends LightningElement {
+    @api mermaidCode = '<Flow xmlns="http://soap.sforce.com/2006/04/metadata"> <actionCalls> <name>Log_Error</name> <label>Log Error</label> <locationX>704</locationX> <locationY>242</locationY> <actionName>Demo</actionName> <actionType>apex</actionType> <flowTransactionModel>CurrentTransaction</flowTransactionModel> <nameSegment>Demo</nameSegment> <offset>0</offset> <versionSegment>1</versionSegment> </actionCalls> <actionCalls> <name>Log_Error2</name> <label>Log Error</label> <locationX>440</locationX> <locationY>458</locationY> <actionName>Demo</actionName> <actionType>apex</actionType> <flowTransactionModel>CurrentTransaction</flowTransactionModel> <nameSegment>Demo</nameSegment> <offset>0</offset> <versionSegment>1</versionSegment> </actionCalls> <apiVersion>62.0</apiVersion> <assignments> <name>Set_the_Description</name> <label>Set the Description</label> <name>Set_the_Type</name> <label>Set the Type</label> <locationX>176</locationX> <locationY>242</locationY> <assignmentItems> <assignToReference>Get_the_Acme_Account.Description</assignToReference> <assignToReference>Get_the_Acme_Account.Type</assignToReference> <operator>Assign</operator> <value> <stringValue>This is a Demonstration!</stringValue> <stringValue>Other</stringValue> </value> </assignmentItems> <connector> <targetReference>Update_the_Acme_Account</targetReference> </connector> </assignments> <constants> <name>Acme</name> <dataType>String</dataType> <value> <stringValue>Acme</stringValue> </value> </constants> <environments>Default</environments> <interviewLabel>Demo {!$Flow.CurrentDateTime}</interviewLabel> <label>Demo</label> <processMetadataValues> <name>BuilderType</name> <value> <stringValue>LightningFlowBuilder</stringValue> </value> </processMetadataValues> <processMetadataValues> <name>CanvasMode</name> <value> <stringValue>AUTO_LAYOUT_CANVAS</stringValue> </value> </processMetadataValues> <processMetadataValues> <name>OriginBuilderType</name> <value> <stringValue>LightningFlowBuilder</stringValue> </value> </processMetadataValues> <processType>AutoLaunchedFlow</processType> <recordLookups> <name>Get_the_Acme_Account</name> <label>Get the &quot;Acme&quot; Account</label> <locationX>176</locationX> <locationY>134</locationY> <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound> <connector> <targetReference>Set_the_Description</targetReference> <targetReference>Set_the_Type</targetReference> </connector> <faultConnector> <targetReference>Log_Error</targetReference> </faultConnector> <filterLogic>and</filterLogic> <filters> <field>Name</field> <operator>EqualTo</operator> <value> <elementReference>Acme</elementReference> </value> </filters> <getFirstRecordOnly>true</getFirstRecordOnly> <object>Account</object> <storeOutputAutomatically>true</storeOutputAutomatically> </recordLookups> <recordUpdates> <name>Update_the_Acme_Account</name> <label>Update the &quot;Acme&quot; Account</label> <locationX>176</locationX> <locationY>350</locationY> <faultConnector> <targetReference>Log_Error2</targetReference> </faultConnector> <inputReference>Get_the_Acme_Account</inputReference> </recordUpdates> <start> <locationX>50</locationX> <locationY>0</locationY> <connector> <targetReference>Get_the_Acme_Account</targetReference> </connector> </start> <status>Active</status> </Flow>';
+    @track isLibraryLoaded = false;
+
+    renderedCallback() {
+        if (this.mermaidCode && !this.isLibraryLoaded) {
+            this.loadMermaid();
+            this.isLibraryLoaded = true;
+        } else if (this.mermaidCode && this.isLibraryLoaded) {
+            this.renderDiagram();
+        }
+    }
+
+    loadMermaid() {
+        loadScript(this, mermaidLib + '/mermaid.min.js') // Adjust path if needed
+            .then(() => {
+                console.log('Mermaid library loaded.');
+                this.renderDiagram();
+            })
+            .catch(error => {
+                console.error('Error loading Mermaid library:', error);
+            });
+    }
+
+    renderDiagram() {
+        const mermaidDiv = this.template.querySelector('.mermaid');
+        if (mermaidDiv && this.mermaidCode) {
+            mermaid.mermaidAPI.render('flowChart', this.mermaidCode, (svgCode) => {
+                mermaidDiv.innerHTML = svgCode;
+            });
+        }
+    }
+}

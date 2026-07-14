@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" >
+	<div>Page View ctrl+s</div>
+    <!--<div class="sfdc">
+        	<ui:button aura:id="submitButton" label="{!v.submitButtonLabel}" press="{!c.handleForgotPassword}" class="sfdc_button"/>
+        </div>-->
+</aura:component>

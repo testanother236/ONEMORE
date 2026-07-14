@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Lead%2Eテスト%EF%BC%88%E2%91%A0%E2%91%A1%E2%91%A2%EF%BC%89%E3%8D%89 %E3%8C%A2</fullName>
+        <active>false</active>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>LeadMetaDataTestingT</fullName>
+        <active>false</active>
+    </autoResponseRule>
+    <autoResponseRule>
+        <fullName>Rule four</fullName>
+        <active>false</active>
+    </autoResponseRule>
+</AutoResponseRules>

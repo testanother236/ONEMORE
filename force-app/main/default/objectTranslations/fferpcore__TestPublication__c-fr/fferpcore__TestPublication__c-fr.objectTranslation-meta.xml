@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestPublication__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Publication en mode test</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Publications en mode test</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Test Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Response Publication --></label>
+            <section>Response Publication</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom de publication en mode test</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Configurer et publier</label>
+        <name>fferpcore__PublishMessage</name>
+    </webLinks>
+    <webLinks>
+        <label>Configurer et publier</label>
+        <name>fferpcore__SetupAndPublishMultipleMessages</name>
+    </webLinks>
+</CustomObjectTranslation>

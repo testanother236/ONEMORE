@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ERPProduct__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>登録製品</value>
+    </caseValues>
+    <layouts>
+        <layout>ERP Linked Product Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Details --></label>
+            <section>Implementation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Version Details --></label>
+            <section>Version Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>商品名</nameFieldLabel>
+</CustomObjectTranslation>

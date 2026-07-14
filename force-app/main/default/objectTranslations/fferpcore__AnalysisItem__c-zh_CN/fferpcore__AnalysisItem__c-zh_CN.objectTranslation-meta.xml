@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-zh_CN</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>分析项目</value>
+    </caseValues>
+    <nameFieldLabel>名称</nameFieldLabel>
+    <recordTypes>
+        <description>用于子计算开票凭证，可用于表示许多不同的业务概念。</description>
+        <label>分析1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>用于子计算开票凭证，可用于表示许多不同的业务概念。</description>
+        <label>分析2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>用于子计算开票凭证，可用于表示许多不同的业务概念。</description>
+        <label>分析3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>用于子计算开票凭证，可用于表示许多不同的业务概念。</description>
+        <label>分析4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+</CustomObjectTranslation>

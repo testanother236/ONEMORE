@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pick2__c</fullName>
+    <label>Pick2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Pick1__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>ColorChoice</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <controllingFieldValue>Female</controllingFieldValue>
+            <valueName>Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <controllingFieldValue>Female</controllingFieldValue>
+            <valueName>Yellow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <valueName>Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Male</controllingFieldValue>
+            <valueName>Brown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Female</controllingFieldValue>
+            <valueName>Pink</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,34 @@
+<apex:page controller="AngularPagination">
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+    <apex:form >
+        <apex:pageBlock >
+              
+        </apex:pageBlock>
+    </apex:form> 
+    <script>
+        Visualforce.remoting.timeout = 120000;
+        document.onload = function() {
+          getAllRecord();
+        };
+        
+        function getAllRecord()
+        {
+            Visualforce.remoting.Manager.invokeAction(
+                                        '{!$RemoteAction.AngularPagination.getAllRecords}',
+                                        handleResult
+                                    );
+        }
+        
+        function handleResult(r,e)
+        {
+            if(e.status && r) 
+            {
+                console.log(r);
+            }
+            else
+            {
+                console.log(e.message);
+            }
+        }
+    </script>
+</apex:page>
