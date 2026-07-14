@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metadata_Item__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Metadata Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Metadata Items</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- AIApplication --></label>
+        <name>AIApplication</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AIApplicationConfig --></label>
+        <name>AIApplicationConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AIScoringModelDefinition --></label>
+        <name>AIScoringModelDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AIUsecaseDefinition --></label>
+        <name>AIUsecaseDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AccountForecastSettings --></label>
+        <name>AccountForecastSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AccountPlanObjMeasCalcDef --></label>
+        <name>AccountPlanObjMeasCalcDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AccountRelationshipShareRule --></label>
+        <name>AccountRelationshipShareRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AccountingFieldMapping --></label>
+        <name>AccountingFieldMapping</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AccountingModelConfig --></label>
+        <name>AccountingModelConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AcctMgrTargetSettings --></label>
+        <name>AcctMgrTargetSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActionLinkGroupTemplate --></label>
+        <name>ActionLinkGroupTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActionPlanTemplate --></label>
+        <name>ActionPlanTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActionableEventOrchDef --></label>
+        <name>ActionableEventOrchDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActionableEventTypeDef --></label>
+        <name>ActionableEventTypeDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActionableListDefinition --></label>
+        <name>ActionableListDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActivationPlatform --></label>
+        <name>ActivationPlatform</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActivationPlatformActvAttr --></label>
+        <name>ActivationPlatformActvAttr</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActivationPlatformField --></label>
+        <name>ActivationPlatformField</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActvPfrmDataConnectorS3 --></label>
+        <name>ActvPfrmDataConnectorS3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActvPlatformAdncIdentifier --></label>
+        <name>ActvPlatformAdncIdentifier</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActvPlatformFieldValue --></label>
+        <name>ActvPlatformFieldValue</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ActvPlatformOAuthConnector --></label>
+        <name>ActvPlatformOAuthConnector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AdvAccountForecastSet --></label>
+        <name>AdvAccountForecastSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AffinityScoreDefinition --></label>
+        <name>AffinityScoreDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AiAuthoringBundle --></label>
+        <name>AiAuthoringBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AiEvaluationDefinition --></label>
+        <name>AiEvaluationDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AnalyticSnapshot --></label>
+        <name>AnalyticSnapshot</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AnalyticsDashboard --></label>
+        <name>AnalyticsDashboard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AnalyticsVisualization --></label>
+        <name>AnalyticsVisualization</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AnalyticsWorkspace --></label>
+        <name>AnalyticsWorkspace</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AnimationRule --></label>
+        <name>AnimationRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexClass --></label>
+        <name>ApexClass</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexComponent --></label>
+        <name>ApexComponent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexEmailNotifications --></label>
+        <name>ApexEmailNotifications</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexPage --></label>
+        <name>ApexPage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexTestSuite --></label>
+        <name>ApexTestSuite</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApexTrigger --></label>
+        <name>ApexTrigger</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AppFrameworkTemplateBundle --></label>
+        <name>AppFrameworkTemplateBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AppMenu --></label>
+        <name>AppMenu</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApplicationRecordTypeConfig --></label>
+        <name>ApplicationRecordTypeConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApplicationSubtypeDefinition --></label>
+        <name>ApplicationSubtypeDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AppointmentAssignmentPolicy --></label>
+        <name>AppointmentAssignmentPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AppointmentSchedulingPolicy --></label>
+        <name>AppointmentSchedulingPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ApprovalProcess --></label>
+        <name>ApprovalProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AssessmentQuestion --></label>
+        <name>AssessmentQuestion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AssessmentQuestionSet --></label>
+        <name>AssessmentQuestionSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AssignmentRule --></label>
+        <name>AssignmentRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AssignmentRules --></label>
+        <name>AssignmentRules</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Audience --></label>
+        <name>Audience</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AuraDefinitionBundle --></label>
+        <name>AuraDefinitionBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AuthProvider --></label>
+        <name>AuthProvider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AutoResponseRule --></label>
+        <name>AutoResponseRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AutoResponseRules --></label>
+        <name>AutoResponseRules</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BaseSharingRule --></label>
+        <name>BaseSharingRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BatchCalcJobDefinition --></label>
+        <name>BatchCalcJobDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BatchProcessJobDefinition --></label>
+        <name>BatchProcessJobDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BlacklistedConsumer --></label>
+        <name>BlacklistedConsumer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Bot --></label>
+        <name>Bot</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BotBlock --></label>
+        <name>BotBlock</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BotTemplate --></label>
+        <name>BotTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BotVersion --></label>
+        <name>BotVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BrandingSet --></label>
+        <name>BrandingSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BriefcaseDefinition --></label>
+        <name>BriefcaseDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BusinessProcess --></label>
+        <name>BusinessProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BusinessProcessGroup --></label>
+        <name>BusinessProcessGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- BusinessProcessTypeDefinition --></label>
+        <name>BusinessProcessTypeDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CMSConnectSource --></label>
+        <name>CMSConnectSource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CallCenter --></label>
+        <name>CallCenter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CallCenterRoutingMap --></label>
+        <name>CallCenterRoutingMap</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CallCoachingMediaProvider --></label>
+        <name>CallCoachingMediaProvider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CampaignInfluenceModel --></label>
+        <name>CampaignInfluenceModel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CareBenefitVerifySettings --></label>
+        <name>CareBenefitVerifySettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CareLimitType --></label>
+        <name>CareLimitType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CareProviderSearchConfig --></label>
+        <name>CareProviderSearchConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CareRequestConfiguration --></label>
+        <name>CareRequestConfiguration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CareSystemFieldMapping --></label>
+        <name>CareSystemFieldMapping</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CaseSubjectParticle --></label>
+        <name>CaseSubjectParticle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Certificate --></label>
+        <name>Certificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ChannelLayout --></label>
+        <name>ChannelLayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ChatterExtension --></label>
+        <name>ChatterExtension</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ChoiceList --></label>
+        <name>ChoiceList</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ClaimFinancialSettings --></label>
+        <name>ClaimFinancialSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ClauseCatgConfiguration --></label>
+        <name>ClauseCatgConfiguration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CleanDataService --></label>
+        <name>CleanDataService</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Commerce Cloud --></label>
+        <name>Commerce_Cloud</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Community --></label>
+        <name>Community</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CommunityTemplateDefinition --></label>
+        <name>CommunityTemplateDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CommunityThemeDefinition --></label>
+        <name>CommunityThemeDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CompactLayout --></label>
+        <name>CompactLayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConnectedApp --></label>
+        <name>ConnectedApp</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContentAsset --></label>
+        <name>ContentAsset</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContentTypeBundle --></label>
+        <name>ContentTypeBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContextDefinition --></label>
+        <name>ContextDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContextUseCaseMapping --></label>
+        <name>ContextUseCaseMapping</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ContractType --></label>
+        <name>ContractType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConvIntelligenceSignalRule --></label>
+        <name>ConvIntelligenceSignalRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConversationChannelDefinition --></label>
+        <name>ConversationChannelDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConversationMessageDefinition --></label>
+        <name>ConversationMessageDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ConversationVendorInfo --></label>
+        <name>ConversationVendorInfo</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CorsWhitelistOrigin --></label>
+        <name>CorsWhitelistOrigin</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CriteriaBasedSharingRule --></label>
+        <name>CriteriaBasedSharingRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CspTrustedSite --></label>
+        <name>CspTrustedSite</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomApplication --></label>
+        <name>CustomApplication</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomApplicationComponent --></label>
+        <name>CustomApplicationComponent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomFeedFilter --></label>
+        <name>CustomFeedFilter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomField --></label>
+        <name>CustomField</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomFieldDisplay --></label>
+        <name>CustomFieldDisplay</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomHelpMenuSection --></label>
+        <name>CustomHelpMenuSection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomIndex --></label>
+        <name>CustomIndex</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomLabel --></label>
+        <name>CustomLabel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomLabels --></label>
+        <name>CustomLabels</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomMetadata --></label>
+        <name>CustomMetadata</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomNotificationType --></label>
+        <name>CustomNotificationType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomObject --></label>
+        <name>CustomObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomObjectTranslation --></label>
+        <name>CustomObjectTranslation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomPageWebLink --></label>
+        <name>CustomPageWebLink</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomPermission --></label>
+        <name>CustomPermission</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomSite --></label>
+        <name>CustomSite</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CustomTab --></label>
+        <name>CustomTab</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Dashboard --></label>
+        <name>Dashboard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DashboardFolder --></label>
+        <name>DashboardFolder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataCalcInsightTemplate --></label>
+        <name>DataCalcInsightTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataCategoryGroup --></label>
+        <name>DataCategoryGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataConnector --></label>
+        <name>DataConnector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataConnectorIngestApi --></label>
+        <name>DataConnectorIngestApi</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataConnectorS3 --></label>
+        <name>DataConnectorS3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataKitObjectDependency --></label>
+        <name>DataKitObjectDependency</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataKitObjectTemplate --></label>
+        <name>DataKitObjectTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataObjectBuildOrgTemplate --></label>
+        <name>DataObjectBuildOrgTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataObjectSearchIndexConf --></label>
+        <name>DataObjectSearchIndexConf</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataPackageKitDefinition --></label>
+        <name>DataPackageKitDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataPackageKitObject --></label>
+        <name>DataPackageKitObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSource --></label>
+        <name>DataSource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSourceBundleDefinition --></label>
+        <name>DataSourceBundleDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSourceField --></label>
+        <name>DataSourceField</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSourceObject --></label>
+        <name>DataSourceObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSourceTenant --></label>
+        <name>DataSourceTenant</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataSrcDataModelFieldMap --></label>
+        <name>DataSrcDataModelFieldMap</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataStreamDefinition --></label>
+        <name>DataStreamDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataStreamTemplate --></label>
+        <name>DataStreamTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DataWeaveResource --></label>
+        <name>DataWeaveResource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DecisionMatrixDefinition --></label>
+        <name>DecisionMatrixDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DecisionTable --></label>
+        <name>DecisionTable</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DecisionTableDatasetLink --></label>
+        <name>DecisionTableDatasetLink</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DelegateGroup --></label>
+        <name>DelegateGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DgtAssetMgmtProvider --></label>
+        <name>DgtAssetMgmtProvider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DgtAssetMgmtPrvdLghtCpnt --></label>
+        <name>DgtAssetMgmtPrvdLghtCpnt</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DigitalExperience --></label>
+        <name>DigitalExperience</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DigitalExperienceBundle --></label>
+        <name>DigitalExperienceBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DigitalExperienceConfig --></label>
+        <name>DigitalExperienceConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DisclosureDefinition --></label>
+        <name>DisclosureDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DisclosureDefinitionVersion --></label>
+        <name>DisclosureDefinitionVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DisclosureType --></label>
+        <name>DisclosureType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DiscoveryAIModel --></label>
+        <name>DiscoveryAIModel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DiscoveryGoal --></label>
+        <name>DiscoveryGoal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DiscoveryStory --></label>
+        <name>DiscoveryStory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Document --></label>
+        <name>Document</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentCategory --></label>
+        <name>DocumentCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentCategoryDocumentType --></label>
+        <name>DocumentCategoryDocumentType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentFolder --></label>
+        <name>DocumentFolder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentTemplate --></label>
+        <name>DocumentTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DocumentType --></label>
+        <name>DocumentType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- DuplicateRule --></label>
+        <name>DuplicateRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ESignatureConfig --></label>
+        <name>ESignatureConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ESignatureEnvelopeConfig --></label>
+        <name>ESignatureEnvelopeConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EclairGeoData --></label>
+        <name>EclairGeoData</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmailFolder --></label>
+        <name>EmailFolder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmailServicesFunction --></label>
+        <name>EmailServicesFunction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmailTemplate --></label>
+        <name>EmailTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmailTemplateFolder --></label>
+        <name>EmailTemplateFolder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceBranding --></label>
+        <name>EmbeddedServiceBranding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceConfig --></label>
+        <name>EmbeddedServiceConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceFieldService --></label>
+        <name>EmbeddedServiceFieldService</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceFlowConfig --></label>
+        <name>EmbeddedServiceFlowConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceLiveAgent --></label>
+        <name>EmbeddedServiceLiveAgent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EmbeddedServiceMenuSettings --></label>
+        <name>EmbeddedServiceMenuSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EnablementMeasureDefinition --></label>
+        <name>EnablementMeasureDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EnablementProgramDefinition --></label>
+        <name>EnablementProgramDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EnblProgramTaskSubCategory --></label>
+        <name>EnblProgramTaskSubCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EntitlementProcess --></label>
+        <name>EntitlementProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EntitlementTemplate --></label>
+        <name>EntitlementTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EscalationRule --></label>
+        <name>EscalationRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EscalationRules --></label>
+        <name>EscalationRules</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EventRelayConfig --></label>
+        <name>EventRelayConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExperienceBundle --></label>
+        <name>ExperienceBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExplainabilityActionDefinition --></label>
+        <name>ExplainabilityActionDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExplainabilityActionVersion --></label>
+        <name>ExplainabilityActionVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExplainabilityMsgTemplate --></label>
+        <name>ExplainabilityMsgTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSetDefinition --></label>
+        <name>ExpressionSetDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSetDefinitionVersion --></label>
+        <name>ExpressionSetDefinitionVersion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSetMessageToken --></label>
+        <name>ExpressionSetMessageToken</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExpressionSetObjectAlias --></label>
+        <name>ExpressionSetObjectAlias</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalAIModel --></label>
+        <name>ExternalAIModel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalAuthIdentityProvider --></label>
+        <name>ExternalAuthIdentityProvider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalClientApplication --></label>
+        <name>ExternalClientApplication</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalCredential --></label>
+        <name>ExternalCredential</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalDataConnector --></label>
+        <name>ExternalDataConnector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalDataSource --></label>
+        <name>ExternalDataSource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalDataSrcDescriptor --></label>
+        <name>ExternalDataSrcDescriptor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalDataTranObject --></label>
+        <name>ExternalDataTranObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExternalServiceRegistration --></label>
+        <name>ExternalServiceRegistration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppCanvasSettings --></label>
+        <name>ExtlClntAppCanvasSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppConfigurablePolicies --></label>
+        <name>ExtlClntAppConfigurablePolicies</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppGlobalOauthSettings --></label>
+        <name>ExtlClntAppGlobalOauthSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppMobileConfigurablePolicies --></label>
+        <name>ExtlClntAppMobileConfigurablePolicies</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppOauthConfigurablePolicies --></label>
+        <name>ExtlClntAppOauthConfigurablePolicies</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppOauthSettings --></label>
+        <name>ExtlClntAppOauthSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ExtlClntAppSamlConfigurablePolicies --></label>
+        <name>ExtlClntAppSamlConfigurablePolicies</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FeatureParameterBoolean --></label>
+        <name>FeatureParameterBoolean</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FeatureParameterDate --></label>
+        <name>FeatureParameterDate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FeatureParameterInteger --></label>
+        <name>FeatureParameterInteger</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FieldMappingConfig --></label>
+        <name>FieldMappingConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FieldRestrictionRule --></label>
+        <name>FieldRestrictionRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FieldSet --></label>
+        <name>FieldSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FieldSrcTrgtRelationship --></label>
+        <name>FieldSrcTrgtRelationship</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FlexiPage --></label>
+        <name>FlexiPage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Flow --></label>
+        <name>Flow</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FlowCategory --></label>
+        <name>FlowCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FlowDefinition --></label>
+        <name>FlowDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FlowTest --></label>
+        <name>FlowTest</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ForecastingFilter --></label>
+        <name>ForecastingFilter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ForecastingFilterCondition --></label>
+        <name>ForecastingFilterCondition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ForecastingSourceDefinition --></label>
+        <name>ForecastingSourceDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ForecastingType --></label>
+        <name>ForecastingType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ForecastingTypeSource --></label>
+        <name>ForecastingTypeSource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FuelType --></label>
+        <name>FuelType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FuelTypeSustnUom --></label>
+        <name>FuelTypeSustnUom</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FunctionReference --></label>
+        <name>FunctionReference</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FundraisingConfig --></label>
+        <name>FundraisingConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GatewayProviderPaymentMethodType --></label>
+        <name>GatewayProviderPaymentMethodType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiFunction --></label>
+        <name>GenAiFunction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiPlanner --></label>
+        <name>GenAiPlanner</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiPlannerBundle --></label>
+        <name>GenAiPlannerBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiPlugin --></label>
+        <name>GenAiPlugin</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiPromptTemplate --></label>
+        <name>GenAiPromptTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GenAiPromptTemplateActv --></label>
+        <name>GenAiPromptTemplateActv</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GlobalPicklist --></label>
+        <name>GlobalPicklist</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GlobalPicklistValue --></label>
+        <name>GlobalPicklistValue</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GlobalValueSet --></label>
+        <name>GlobalValueSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GlobalValueSetTranslation --></label>
+        <name>GlobalValueSetTranslation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Group --></label>
+        <name>Group</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HomePageComponent --></label>
+        <name>HomePageComponent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HomePageLayout --></label>
+        <name>HomePageLayout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IPAddressRange --></label>
+        <name>IPAddressRange</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Icon --></label>
+        <name>Icon</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IdentityVerificationProcDef --></label>
+        <name>IdentityVerificationProcDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IdentityVerificationProcDtl --></label>
+        <name>IdentityVerificationProcDtl</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IdentityVerificationProcFld --></label>
+        <name>IdentityVerificationProcFld</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IframeWhiteListUrlSettings --></label>
+        <name>IframeWhiteListUrlSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InboundCertificate --></label>
+        <name>InboundCertificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InboundNetworkConnection --></label>
+        <name>InboundNetworkConnection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InstalledPackage --></label>
+        <name>InstalledPackage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- IntegrationProviderDef --></label>
+        <name>IntegrationProviderDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InternalDataConnector --></label>
+        <name>InternalDataConnector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- InvocableActionExtension --></label>
+        <name>InvocableActionExtension</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- KeywordList --></label>
+        <name>KeywordList</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Layout --></label>
+        <name>Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LeadConvertSettings --></label>
+        <name>LeadConvertSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LearningItemType --></label>
+        <name>LearningItemType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Letterhead --></label>
+        <name>Letterhead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LifeSciConfigCategory --></label>
+        <name>LifeSciConfigCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LifeSciConfigRecord --></label>
+        <name>LifeSciConfigRecord</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningBolt --></label>
+        <name>LightningBolt</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningComponentBundle --></label>
+        <name>LightningComponentBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningExperienceTheme --></label>
+        <name>LightningExperienceTheme</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningMessageChannel --></label>
+        <name>LightningMessageChannel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningOnboardingConfig --></label>
+        <name>LightningOnboardingConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningOutApp --></label>
+        <name>LightningOutApp</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LightningTypeBundle --></label>
+        <name>LightningTypeBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ListView --></label>
+        <name>ListView</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LiveChatAgentConfig --></label>
+        <name>LiveChatAgentConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LiveChatButton --></label>
+        <name>LiveChatButton</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LiveChatDeployment --></label>
+        <name>LiveChatDeployment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LiveChatSensitiveDataRule --></label>
+        <name>LiveChatSensitiveDataRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LoyaltyProgramSetup --></label>
+        <name>LoyaltyProgramSetup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MLDataDefinition --></label>
+        <name>MLDataDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MLPredictionDefinition --></label>
+        <name>MLPredictionDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ManagedContentType --></label>
+        <name>ManagedContentType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ManagedTopics --></label>
+        <name>ManagedTopics</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MarketSegmentDefinition --></label>
+        <name>MarketSegmentDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MarketingAppExtension --></label>
+        <name>MarketingAppExtension</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Marketing Cloud --></label>
+        <name>Marketing_Cloud</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MatchingRule --></label>
+        <name>MatchingRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MatchingRules --></label>
+        <name>MatchingRules</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MessagingChannel --></label>
+        <name>MessagingChannel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MfgProgramTemplate --></label>
+        <name>MfgProgramTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MilestoneType --></label>
+        <name>MilestoneType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MktCalcInsightObjectDef --></label>
+        <name>MktCalcInsightObjectDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MktDataConnection --></label>
+        <name>MktDataConnection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MktDataTranObject --></label>
+        <name>MktDataTranObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MlDomain --></label>
+        <name>MlDomain</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobSecurityCertPinConfig --></label>
+        <name>MobSecurityCertPinConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobileApplicationDetail --></label>
+        <name>MobileApplicationDetail</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobileSecurityAssignment --></label>
+        <name>MobileSecurityAssignment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MobileSecurityPolicy --></label>
+        <name>MobileSecurityPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ModerationRule --></label>
+        <name>ModerationRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MuleSoft --></label>
+        <name>MuleSoft</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MutingPermissionSet --></label>
+        <name>MutingPermissionSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MyDomainDiscoverableLogin --></label>
+        <name>MyDomainDiscoverableLogin</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NamedCredential --></label>
+        <name>NamedCredential</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NavigationMenu --></label>
+        <name>NavigationMenu</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Network --></label>
+        <name>Network</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NetworkBranding --></label>
+        <name>NetworkBranding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- NotificationTypeConfig --></label>
+        <name>NotificationTypeConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OauthCustomScope --></label>
+        <name>OauthCustomScope</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OauthTokenExchangeHandler --></label>
+        <name>OauthTokenExchangeHandler</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ObjectHierarchyRelationship --></label>
+        <name>ObjectHierarchyRelationship</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ObjectSourceTargetMap --></label>
+        <name>ObjectSourceTargetMap</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OcrSampleDocument --></label>
+        <name>OcrSampleDocument</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OcrTemplate --></label>
+        <name>OcrTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniDataTransform --></label>
+        <name>OmniDataTransform</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniExtTrackingDef --></label>
+        <name>OmniExtTrackingDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniIntegrationProcedure --></label>
+        <name>OmniIntegrationProcedure</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniInteractionAccessConfig --></label>
+        <name>OmniInteractionAccessConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniInteractionConfig --></label>
+        <name>OmniInteractionConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniScript --></label>
+        <name>OmniScript</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniSupervisorConfig --></label>
+        <name>OmniSupervisorConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniTrackingGroup --></label>
+        <name>OmniTrackingGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OmniUiCard --></label>
+        <name>OmniUiCard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OutboundNetworkConnection --></label>
+        <name>OutboundNetworkConnection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ParticipantRole --></label>
+        <name>ParticipantRole</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PathAssistant --></label>
+        <name>PathAssistant</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PaymentGatewayProvider --></label>
+        <name>PaymentGatewayProvider</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSetGroup --></label>
+        <name>PermissionSetGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet_ApexClass --></label>
+        <name>PermissionSet_ApexClass</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet_ApexPage --></label>
+        <name>PermissionSet_ApexPage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet_CustomObject --></label>
+        <name>PermissionSet_CustomObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet_Layout --></label>
+        <name>PermissionSet_Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet_Other_Permissions --></label>
+        <name>PermissionSet_Other_Permissions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PermissionSet --></label>
+        <name>PermissonSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PersonAccountOwnerPowerUser --></label>
+        <name>PersonAccountOwnerPowerUser</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PipelineInspMetricConfig --></label>
+        <name>PipelineInspMetricConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PlatformCachePartition --></label>
+        <name>PlatformCachePartition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PlatformEventChannel --></label>
+        <name>PlatformEventChannel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PlatformEventChannelMember --></label>
+        <name>PlatformEventChannelMember</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PlatformEventSubscriberConfig --></label>
+        <name>PlatformEventSubscriberConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Portal --></label>
+        <name>Portal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PortalDelegablePermissionSet --></label>
+        <name>PortalDelegablePermissionSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PostTemplate --></label>
+        <name>PostTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PresenceDeclineReason --></label>
+        <name>PresenceDeclineReason</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PresenceUserConfig --></label>
+        <name>PresenceUserConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PricingActionParameters --></label>
+        <name>PricingActionParameters</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PricingRecipe --></label>
+        <name>PricingRecipe</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProcessFlowMigration --></label>
+        <name>ProcessFlowMigration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProductAttributeSet --></label>
+        <name>ProductAttributeSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProductSpecificationRecType --></label>
+        <name>ProductSpecificationRecType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProductSpecificationType --></label>
+        <name>ProductSpecificationType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile --></label>
+        <name>Profile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProfilePasswordPolicy --></label>
+        <name>ProfilePasswordPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ProfileSessionSetting --></label>
+        <name>ProfileSessionSetting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile_ApexClass --></label>
+        <name>Profile_ApexClass</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile_ApexPage --></label>
+        <name>Profile_ApexPage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile_CustomObject --></label>
+        <name>Profile_CustomObject</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile_Layout --></label>
+        <name>Profile_Layout</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile_Other_Permissions --></label>
+        <name>Profile_Other_Permissions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prompt --></label>
+        <name>Prompt</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PublicKeyCertificate --></label>
+        <name>PublicKeyCertificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PublicKeyCertificateSet --></label>
+        <name>PublicKeyCertificateSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Queue --></label>
+        <name>Queue</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QueueRoutingConfig --></label>
+        <name>QueueRoutingConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QuickAction --></label>
+        <name>QuickAction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecAlrtDataSrcExpSetDef --></label>
+        <name>RecAlrtDataSrcExpSetDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecommendationStrategy --></label>
+        <name>RecommendationStrategy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordActionDeployment --></label>
+        <name>RecordActionDeployment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordAggregationDefinition --></label>
+        <name>RecordAggregationDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordAlertCategory --></label>
+        <name>RecordAlertCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordAlertDataSource --></label>
+        <name>RecordAlertDataSource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordAlertTemplate --></label>
+        <name>RecordAlertTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RecordType --></label>
+        <name>RecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RedirectWhitelistUrl --></label>
+        <name>RedirectWhitelistUrl</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ReferencedDashboard --></label>
+        <name>ReferencedDashboard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RegisteredExternalService --></label>
+        <name>RegisteredExternalService</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RelatedRecordAssocCriteria --></label>
+        <name>RelatedRecordAssocCriteria</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RelationshipGraphDefinition --></label>
+        <name>RelationshipGraphDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RemoteSiteSetting --></label>
+        <name>RemoteSiteSetting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Report --></label>
+        <name>Report</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ReportFolder --></label>
+        <name>ReportFolder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ReportType --></label>
+        <name>ReportType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RestrictionRule --></label>
+        <name>RestrictionRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RetrievalSummaryDefinition --></label>
+        <name>RetrievalSummaryDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Role --></label>
+        <name>Role</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SalesWorkQueueSettings --></label>
+        <name>SalesWorkQueueSettings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SamlSsoConfig --></label>
+        <name>SamlSsoConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SchedulingObjective --></label>
+        <name>SchedulingObjective</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SchedulingRule --></label>
+        <name>SchedulingRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Scontrol --></label>
+        <name>Scontrol</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ScoreCategory --></label>
+        <name>ScoreCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SearchCustomization --></label>
+        <name>SearchCustomization</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SearchOrgWideObjectConfig --></label>
+        <name>SearchOrgWideObjectConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServiceAISetupDefinition --></label>
+        <name>ServiceAISetupDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServiceAISetupField --></label>
+        <name>ServiceAISetupField</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServiceChannel --></label>
+        <name>ServiceChannel</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServiceMgmtKnwlgArtclConfig --></label>
+        <name>ServiceMgmtKnwlgArtclConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServicePresenceStatus --></label>
+        <name>ServicePresenceStatus</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ServiceProcess --></label>
+        <name>ServiceProcess</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Settings --></label>
+        <name>Settings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SharingCriteriaRule --></label>
+        <name>SharingCriteriaRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SharingGuestRule --></label>
+        <name>SharingGuestRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SharingOwnerRule --></label>
+        <name>SharingOwnerRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SharingReason --></label>
+        <name>SharingReason</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SharingSet --></label>
+        <name>SharingSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SiteDotCom --></label>
+        <name>SiteDotCom</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Skill --></label>
+        <name>Skill</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StageAssignment --></label>
+        <name>StageAssignment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StageDefinition --></label>
+        <name>StageDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StandardValueSet --></label>
+        <name>StandardValueSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StandardValueSetTranslation --></label>
+        <name>StandardValueSetTranslation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Represents a static resource file, often a code library in a ZIP file. --></description>
+        <label><!-- StaticResource --></label>
+        <name>StaticResource</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StnryAssetEnvSrcCnfg --></label>
+        <name>StnryAssetEnvSrcCnfg</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- StreamingAppDataConnector --></label>
+        <name>StreamingAppDataConnector</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SustainabilityUom --></label>
+        <name>SustainabilityUom</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SustnUomConversion --></label>
+        <name>SustnUomConversion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SvcCatalogCategory --></label>
+        <name>SvcCatalogCategory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SvcCatalogFulfillmentFlow --></label>
+        <name>SvcCatalogFulfillmentFlow</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SvcCatalogItemDef --></label>
+        <name>SvcCatalogItemDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SynonymDictionary --></label>
+        <name>SynonymDictionary</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Territory --></label>
+        <name>Territory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Territory2 --></label>
+        <name>Territory2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Territory2Model --></label>
+        <name>Territory2Model</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Territory2Rule --></label>
+        <name>Territory2Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Territory2Type --></label>
+        <name>Territory2Type</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TimeSheetTemplate --></label>
+        <name>TimeSheetTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TimelineObjectDefinition --></label>
+        <name>TimelineObjectDefinition</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TopicsForObjects --></label>
+        <name>TopicsForObjects</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TransactionSecurityPolicy --></label>
+        <name>TransactionSecurityPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Translations --></label>
+        <name>Translations</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UIObjectRelationConfig --></label>
+        <name>UIObjectRelationConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UiFormatSpecificationSet --></label>
+        <name>UiFormatSpecificationSet</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UiPlugin --></label>
+        <name>UiPlugin</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UiPreviewMessageTabDef --></label>
+        <name>UiPreviewMessageTabDef</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UserAccessPolicy --></label>
+        <name>UserAccessPolicy</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UserAuthCertificate --></label>
+        <name>UserAuthCertificate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UserCriteria --></label>
+        <name>UserCriteria</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- UserProvisioningConfig --></label>
+        <name>UserProvisioningConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ValidationRule --></label>
+        <name>ValidationRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VehicleAssetEmssnSrcCnfg --></label>
+        <name>VehicleAssetEmssnSrcCnfg</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VirtualVisitConfig --></label>
+        <name>VirtualVisitConfig</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- VisualizationPlugin --></label>
+        <name>VisualizationPlugin</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveAnalyticAssetCollection --></label>
+        <name>WaveAnalyticAssetCollection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveApplication --></label>
+        <name>WaveApplication</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveComponent --></label>
+        <name>WaveComponent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveDashboard --></label>
+        <name>WaveDashboard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveDataflow --></label>
+        <name>WaveDataflow</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveDataset --></label>
+        <name>WaveDataset</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveLens --></label>
+        <name>WaveLens</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveRecipe --></label>
+        <name>WaveRecipe</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveTemplateBundle --></label>
+        <name>WaveTemplateBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WaveXmd --></label>
+        <name>WaveXmd</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WebLink --></label>
+        <name>WebLink</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WebStoreBundle --></label>
+        <name>WebStoreBundle</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WebStoreTemplate --></label>
+        <name>WebStoreTemplate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkSkillRouting --></label>
+        <name>WorkSkillRouting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Workflow --></label>
+        <name>Workflow</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowAlert --></label>
+        <name>WorkflowAlert</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowFieldUpdate --></label>
+        <name>WorkflowFieldUpdate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowKnowledgePublish --></label>
+        <name>WorkflowKnowledgePublish</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowOutboundMessage --></label>
+        <name>WorkflowOutboundMessage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowRule --></label>
+        <name>WorkflowRule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- WorkflowTask --></label>
+        <name>WorkflowTask</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- XOrgHub --></label>
+        <name>XOrgHub</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
