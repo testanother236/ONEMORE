@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fetch_User_Role</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Fetch User Role</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var __sfdcSessionId = &apos;00D90000000xAkK!ARgAQFER9UMDhC9H7a3in4r8JhQqilsbTkCbxMgH864Q2PnCpwXaksr81KJz3FAHoRhLTxjFhg6RIAawVB_axfOJ0eRJYNgd&apos;;
+{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/31.0/apex.js&quot;)}
+var envelope = &quot;&quot;; //request envelope, empty for this example
+sforce.connection.remoteFunction({
+       url : &quot;https://ap1.salesforce.com/services/data/v30.0/query/?q=SELECT+Id,Name,DeveloperName+FROM+UserRole&quot;,
+       requestHeaders: {
+             &quot;Content-Type&quot;: &quot;text/plain&quot;, 
+             &quot;Authorization&quot;: &quot;Bearer &quot; + &quot;{!$Api.Session_Id}&quot;
+          },
+       //requestData: envelope,
+       method: &quot;GET&quot;,
+       onSuccess : function(response) {
+              console.log(response);
+          },
+       onFailure : function(response) {
+              console.log(&quot;Failed&quot; + response);
+          }
+   });</url>
+</WebLink>

@@ -1,0 +1,5 @@
+<apex:page >
+	<apex:form >
+		<c:RecordViewer objectName="Account" recordLimit="3" fieldNames="id,name,accountnumber"/>
+	</apex:form>
+</apex:page>

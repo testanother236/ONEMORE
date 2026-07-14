@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <fullName>TestR</fullName>
+    <label>TestR</label>
+    <picklistValues>
+        <picklist>Pick1__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>One</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Three</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Two</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pick2__c</picklist>
+        <values>
+            <default>false</default>
+            <fullName>Double</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Single</fullName>
+        </values>
+        <values>
+            <default>false</default>
+            <fullName>Triple</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

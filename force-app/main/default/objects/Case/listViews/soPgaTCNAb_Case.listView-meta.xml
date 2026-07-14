@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>soPgaTCNAb_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>soPgaTCNAb</label>
+    <queue>soPgaTCNAb</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

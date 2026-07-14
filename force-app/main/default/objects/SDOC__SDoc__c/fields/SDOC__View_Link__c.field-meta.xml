@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDOC__View_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>If(
+AND (NOT(isblank(SDOC__GD_Link__c)),OR(ISPICKVAL(SDOC__GD_Status__c, &apos;Linked to Google Doc&apos;),ISPICKVAL(SDOC__GD_Status__c,&apos;Linked to S3&apos;)) )
+,
+
+HYPERLINK( SDOC__GD_Link__c
+,IMAGE(&quot;/sfc/images/docicons/doctype_gdoc_16.png&quot;,&quot;View&quot;)
+,&quot;_blank&quot;)
+,
+
+HYPERLINK(
+IF(
+AND (NOT(isblank(SDOC__GD_Link__c)),ISPICKVAL(SDOC__GD_Status__c, &apos;Linked to Attachment&apos;) ) ,
+SDOC__GD_Link__c,
+&quot;/apex/SDOC__SDTemplate&quot;&amp;TEXT(SDOC__SDTemplate__r.SDOC__Template_Format__c) &amp;&apos;?Id=&apos; &amp; Id
+)
+
+,IMAGE(
+CASE(SDOC__SDTemplate__r.SDOC__Template_Format__c,
+&quot;XLS&quot;, &quot;/sfc/images/docicons/doctype_excel_16.png&quot;,
+&quot;DOC&quot;, &quot;/sfc/images/docicons/doctype_word_16.png&quot;,
+&quot;PDF&quot;, &quot;/sfc/images/docicons/doctype_pdf_16.png&quot;,
+&quot;HTML&quot;, &quot;/sfc/images/docicons/doctype_html_16.png&quot;,
+&quot;PPT&quot;, &quot;/sfc/images/docicons/doctype_ppt_16.png&quot;,
+&quot;XML&quot;, &quot;/sfc/images/docicons/doctype_XML_16.png&quot;,
+&quot;&quot;),
+&apos;View&apos; &amp; &apos; &apos; &amp; TEXT(SDOC__SDTemplate__r.SDOC__Template_Format__c ))
+, &quot;_blank&quot;)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>View</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

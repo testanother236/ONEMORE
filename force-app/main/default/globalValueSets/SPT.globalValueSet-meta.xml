@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ds!@#$%^&amp;*()_+=-0</fullName>
+        <default>false</default>
+        <label>ds!@#$%^&amp;*()_+=-0</label>
+    </customValue>
+    <customValue>
+        <fullName>ds&lt;&gt;?|</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ds&lt;&gt;?|</label>
+    </customValue>
+    <masterLabel>SPT</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

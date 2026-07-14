@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ErpMessagingSettings__c-ko</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- FDN 메시징 설정 --></value>
+    </caseValues>
+</CustomObjectTranslation>

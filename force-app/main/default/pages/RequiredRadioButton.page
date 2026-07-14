@@ -1,0 +1,98 @@
+<apex:page standardcontroller="Contact" showHeader="false" extensions="RequiredRadioButtonController" docType="html-5.0">
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Submit" action="{!save}" onclick="return validateReglementFields();"/>
+            </apex:pageBlockButtons>
+            <table class="detailList" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td class="labelCol">First Name</td>
+                    <td class="dataCol">
+                        <div class="requiredInput">
+                            <div class="requiredBlock"></div>
+                            <apex:selectRadio value="{!selectedValue }" html-Class="jq_req" id="select1">
+                                <apex:selectOptions value="{!radioOptions }"/>
+                            </apex:selectRadio>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelCol">Last Name</td>
+                    <td class="dataCol">
+                        <div class="requiredInput">
+                            <div class="requiredBlock"></div>
+                            <apex:selectRadio value="{!selectedValue }" styleClass="jq_req">
+                                <apex:selectOptions value="{!radioOptions }"/>
+                            </apex:selectRadio>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelCol">Phone</td>
+                    <td class="dataCol">
+                        <div class="requiredInput">
+                            <div class="requiredBlock"></div>
+                            <apex:selectRadio value="{!selectedValue }" styleClass="jq_req">
+                                <apex:selectOptions value="{!radioOptions }" html-style="kk"/>
+                            </apex:selectRadio>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="labelCol">Email</td>
+                    <td class="dataCol">
+                        <div class="requiredInput">
+                            <div class="requiredBlock"></div>
+                            <apex:selectRadio value="{!selectedValue }" styleClass="jq_req">
+                                <apex:selectOptions value="{!radioOptions }"/>
+                            </apex:selectRadio>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </apex:pageBlock>
+        <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script>
+        if(typeof jQuery != 'undefined'){
+            $j =jQuery.noConflict();
+        }
+        //2.ADDING AND REMOVING ERRORS ON PAGE
+        function jq_addError(me,msg){
+            if(!($j(me).hasClass('error'))){
+                $j(me).addClass("error");
+                $j(me).parent().append("<div class='errorMsg'>" + msg + "</div>");
+            }
+            else{
+                $j(me).siblings('.errorMsg').remove();
+                $j(me).parent().append("<div class='errorMsg'>" + msg + "</div>");
+            }
+        }
+        
+        function jq_removeError(me){
+            if($j(me).hasClass('error')){
+                $j(me).removeClass("error");
+                $j(me).siblings('.errorMsg').remove();
+            }          
+        }
+        
+        //3.VALIDATE FOR REQUIRED BLANK FIELDS
+        function validateReglementFields(){
+            var b = true;
+            document.getEleMentsByClassName
+            /* */
+            /*$j('.jq_req').each(function(){
+                if($j(this).val().length == 0){
+                    jq_addError($j(this),"<b>Error:</b>This field is required");
+                    b = false;
+                }
+                else{
+                    jq_removeError($j(this));
+                }               
+            });*/
+            return b;
+        }
+        
+        </script> 
+    </apex:form>
+</apex:page>

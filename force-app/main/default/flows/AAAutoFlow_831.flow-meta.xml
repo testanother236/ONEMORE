@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <description>AAAutoFlow_831-1</description>
+    <label>AAAutoFlow_831-1</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>RecordCreate</name>
+        <label>Record Create</label>
+        <locationX>10</locationX>
+        <locationY>10</locationY>
+        <inputAssignments>
+            <field>AccountNumber</field>
+            <value>
+                <stringValue>1234</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <startElementReference>RecordCreate</startElementReference>
+    <status>Draft</status>
+</Flow>

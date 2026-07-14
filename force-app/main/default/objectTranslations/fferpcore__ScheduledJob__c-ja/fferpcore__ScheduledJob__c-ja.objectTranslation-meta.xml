@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ScheduledJob__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>スケジュールされた仕事</value>
+    </caseValues>
+    <layouts>
+        <layout>Scheduled Job Job</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>名</nameFieldLabel>
+    <webLinks>
+        <label>今すぐ実行</label>
+        <name>fferpcore__Run_Now</name>
+    </webLinks>
+    <webLinks>
+        <label>スケジュールジョブ</label>
+        <name>fferpcore__Schedule_Job</name>
+    </webLinks>
+    <webLinks>
+        <label>予定外の仕事</label>
+        <name>fferpcore__Unschedule_Job</name>
+    </webLinks>
+</CustomObjectTranslation>

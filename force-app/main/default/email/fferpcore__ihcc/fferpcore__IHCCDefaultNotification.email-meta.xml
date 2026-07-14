@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Default error notification email for IHCC.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IHCC.Default</name>
+    <style>none</style>
+    <subject>Notification from Integration</subject>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

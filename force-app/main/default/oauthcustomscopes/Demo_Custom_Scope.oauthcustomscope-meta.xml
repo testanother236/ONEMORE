@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OauthCustomScope xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Demo Custom Scope</description>
+    <developerName>Demo_Custom_Scope</developerName>
+    <isProtected>false</isProtected>
+    <isPublic>false</isPublic>
+    <masterLabel>Demo_Custom_Scope</masterLabel>
+</OauthCustomScope>

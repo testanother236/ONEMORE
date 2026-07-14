@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTI__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>【コールセンター】CTIダミーテスト</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>【コールセンター】CTIダミーテスト</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- レコードタイプ --></label>
+        <name>RecordTypeJapan</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- レコードタイプ2 --></label>
+        <name>X2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

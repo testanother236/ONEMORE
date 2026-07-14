@@ -1,0 +1,14 @@
+<template>
+	<lightning-card title="Bears" icon-name="utility:animal_and_nature">
+		<div class="slds-card__body_inner">
+			<!-- Start bear list -->
+			<!-- End bear list -->
+			<!-- Data failed to load -->
+			<template if:true={error}>
+				<div class="slds-text-color_error">
+					An error occurred while loading the bear list
+				</div>
+			</template>
+		</div>
+	</lightning-card>
+</template>

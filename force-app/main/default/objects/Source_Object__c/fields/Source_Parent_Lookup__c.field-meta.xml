@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Parent_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Source Parent Lookup</label>
+    <referenceTo>Source_Parent__c</referenceTo>
+    <relationshipLabel>Source Object (Source Parent Lookup)</relationshipLabel>
+    <relationshipName>Source_Object1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

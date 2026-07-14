@@ -1,0 +1,16 @@
+<apex:page >
+    <apex:pageBlock >
+      <apex:form >
+          <apex:outputText value="{!$Site.Name}"></apex:outputText>
+          <apex:outputText value="{!$Site.Domain}"></apex:outputText>
+          <apex:outputText value="{!$Site.OriginalUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.CurrentSiteUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.Prefix}"></apex:outputText>
+          <apex:outputText value="{!$Site.BaseCustomUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.BaseInsecureUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.BaseRequestUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.BaseSecureUrl}"></apex:outputText>
+          <apex:outputText value="{!$Site.BaseUrl}"></apex:outputText>
+      </apex:form>
+  </apex:pageBlock>
+</apex:page>

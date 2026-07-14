@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AccountExtension__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Accountextensie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accountextensies</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Account Extension Layout</layout>
+        <sections>
+            <label><!-- Electronic Invoicing --></label>
+            <section>Electronic Invoicing</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Accountextensie-ID</nameFieldLabel>
+</CustomObjectTranslation>
