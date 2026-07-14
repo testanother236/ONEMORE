@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LocalFlosum__Upload_Log__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Upload Log</label>
+    <referenceTo>LocalFlosum__FL_Upload_Log__c</referenceTo>
+    <relationshipLabel>Upload Manifest</relationshipLabel>
+    <relationshipName>Upload_Manifest</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

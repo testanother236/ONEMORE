@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabel>
+    <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+    <language>en_US</language>
+    <protected>true</protected>
+    <shortDescription>You have already taken this survey!</shortDescription>
+    <value>You have already taken this survey!</value>
+</CustomLabel>

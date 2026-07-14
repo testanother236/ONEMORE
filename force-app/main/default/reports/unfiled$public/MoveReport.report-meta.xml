@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Hello_Object__c$Name</field>
+    </columns>
+    <columns>
+        <field>Hello_Object__c$Test__c</field>
+    </columns>
+    <columns>
+        <field>Hello_Object__c$Test2__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>MoveReport</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Hell_2__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Hello_Object__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURRENT</interval>
+    </timeFrameFilter>
+</Report>

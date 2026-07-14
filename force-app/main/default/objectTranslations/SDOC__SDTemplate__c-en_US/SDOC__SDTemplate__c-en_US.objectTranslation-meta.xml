@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDOC__SDTemplate__c-en_US</fullName>
+    <layouts>
+        <layout>SDoc Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Edit_TemplateXML --></label>
+        <name>SDOC__Edit_TemplateXML</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SDClone --></label>
+        <name>SDOC__SDClone</name>
+    </webLinks>
+</CustomObjectTranslation>

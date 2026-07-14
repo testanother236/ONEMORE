@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TBK__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>TBK Label</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TBK</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- TestOne --></label>
+        <name>TestOne</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TestTwo --></label>
+        <name>TestTwo</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

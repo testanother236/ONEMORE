@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__SequenceField__mdt-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- シーケンスフィールド --></value>
+    </caseValues>
+    <layouts>
+        <layout>Sequence Field Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

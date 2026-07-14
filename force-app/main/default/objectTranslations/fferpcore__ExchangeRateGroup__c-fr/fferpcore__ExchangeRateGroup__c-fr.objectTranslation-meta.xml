@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__ExchangeRateGroup__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Groupe de taux de change</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Groupes de taux de change</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Exchange Rate Group Layout</layout>
+        <sections>
+            <label><!-- Available Rate Currencies --></label>
+            <section>Available Rate Currencies</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exchange Rate Group Details --></label>
+            <section>Exchange Rate Group Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du groupe de taux de change</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label>Gérer les devises</label>
+        <name>fferpcore__ErpCurrenciesRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>Afficher l&apos;historique des taux</label>
+        <name>fferpcore__ExchangeRateHistoryRedirect</name>
+    </webLinks>
+    <webLinks>
+        <label>Gérer les tarifs</label>
+        <name>fferpcore__ExchangeRatesRedirect</name>
+    </webLinks>
+</CustomObjectTranslation>

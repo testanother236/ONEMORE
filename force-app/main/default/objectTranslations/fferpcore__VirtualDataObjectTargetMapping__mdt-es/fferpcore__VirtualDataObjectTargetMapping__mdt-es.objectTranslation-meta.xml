@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__VirtualDataObjectTargetMapping__mdt-es</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Asignación de objetivos de objetos de datos virtuales --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Asignaciones de objetos de objetos de datos virtuales --></value>
+    </caseValues>
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Virtual Data Object Target Mapping Layout</layout>
+        <sections>
+            <label><!-- Child Mapping --></label>
+            <section>Child Mapping</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

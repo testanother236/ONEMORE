@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TestPublication__c-iw</fullName>
+    <caseValues>
+        <article>Definite</article>
+        <plural>false</plural>
+        <value>פרסום מצב מבחן</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>false</plural>
+        <value>פרסום מצב מבחן</value>
+    </caseValues>
+    <caseValues>
+        <article>Definite</article>
+        <plural>true</plural>
+        <value>פרסומי מצב מבחן</value>
+    </caseValues>
+    <caseValues>
+        <article>None</article>
+        <plural>true</plural>
+        <value>פרסומי מצב מבחן</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Test Publication Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Information --></label>
+            <section>Message Information</section>
+        </sections>
+        <sections>
+            <label><!-- Response Publication --></label>
+            <section>Response Publication</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>שם הפרסום מצב מבחן</nameFieldLabel>
+    <webLinks>
+        <label>התקנה ופרסום</label>
+        <name>fferpcore__PublishMessage</name>
+    </webLinks>
+    <webLinks>
+        <label>התקנה ופרסום</label>
+        <name>fferpcore__SetupAndPublishMultipleMessages</name>
+    </webLinks>
+</CustomObjectTranslation>

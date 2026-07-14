@@ -1,0 +1,19 @@
+<apex:page controller="AuthenticateController">
+    <apex:form >
+        <apex:pageblock >
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!authorize}" value="Authenticate"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="UserName" />
+                    <apex:inputText value="{!userName}"/>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Password" />
+                    <apex:inputText value="{!password}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+        </apex:pageblock>
+    </apex:form>
+</apex:page>

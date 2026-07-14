@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Config_Value__c-ja</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>設定値</value>
+    </caseValues>
+    <layouts>
+        <layout>Configuration Value Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>値ID</nameFieldLabel>
+</CustomObjectTranslation>

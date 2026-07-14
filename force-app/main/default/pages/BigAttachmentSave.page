@@ -1,0 +1,57 @@
+<apex:page >
+	<apex:form >
+		<apex:pageBlock title="Attachemt Uploader">
+			<apex:pageBlockButtons >
+				<apex:commandButton value="Upload" onClick="save(); return false;" reRender="none"/>
+				<apex:commandButton value="Deploy" onClick="callDeploy(); return false;" reRender="none"/>
+			</apex:pageBlockButtons>
+		</apex:pageBlock>
+	</apex:form>
+	<script>
+		var tempUrl = window.location.protocol + "//" + window.location.host;
+		var parId = '00128000003cBWI';
+		function save()
+		{
+	    	var xhr = new XMLHttpRequest();
+	    	console.log(tempUrl);
+	    	console.log(parId);
+	    	var sfdcurl = tempUrl+'/services/apexrest/DragAndDrop?FileName='+encodeURIComponent('att name')+'&cType='+encodeURIComponent('application/zip')+'&parId='+parId ;
+	    	xhr.open('POST','/services/proxy' );
+			xhr.setRequestHeader("Authorization","Bearer {!$Api.Session_ID}");
+            xhr.setRequestHeader('SalesforceProxy-Endpoint', sfdcurl);
+            xhr.setRequestHeader('X-User-Agent', 'DragAndDropAPI v1.0');
+            
+			xhr.onreadystatechange=function()
+			{
+	        	if (xhr.readyState==4 && xhr.status != 200)
+	        	{
+	        		if(xhr.responseText)
+	            	{
+                    	console.log(xhr.responseText.split('error:')[1].split(',')[0]);
+                        return;
+                    }
+                    else
+                    {
+                        console.log('Some error occurred while uploading file');
+                        return;
+                    }   
+				}
+				else if(xhr.status == 200) 
+				{
+					console.log('attachemnt saved succesfully.');
+					console.log(xhr);
+					console.log(xhr.responseText);
+				}
+			}
+			xhr.onloadend = function()
+            { 
+            	console.log('onloadend');
+            }
+            xhr.onload = function() 
+            {
+            	console.log('onload');
+	        }
+            xhr.send('1234');
+		}
+	</script>
+</apex:page>

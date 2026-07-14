@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__AnalysisItem__c-fr</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Elément d&apos;analyse</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Articles d&apos;analyse</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom</nameFieldLabel>
+    <recordTypes>
+        <description>Utilisé pour sous-analyser les documents de facturation et peut être utilisé pour représenter un certain nombre de concepts commerciaux différents.</description>
+        <label>Analyse 1</label>
+        <name>fferpcore__Analysis_1</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour sous-analyser les documents de facturation et peut être utilisé pour représenter un certain nombre de concepts commerciaux différents.</description>
+        <label>Analyse 2</label>
+        <name>fferpcore__Analysis_2</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour sous-analyser les documents de facturation et peut être utilisé pour représenter un certain nombre de concepts commerciaux différents.</description>
+        <label>Analyse 3</label>
+        <name>fferpcore__Analysis_3</name>
+    </recordTypes>
+    <recordTypes>
+        <description>Utilisé pour sous-analyser les documents de facturation et peut être utilisé pour représenter un certain nombre de concepts commerciaux différents.</description>
+        <label>Analyse 4</label>
+        <name>fferpcore__Analysis_4</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

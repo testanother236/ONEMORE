@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AIIAAiJCro_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>AIIAAiJCro</label>
+    <queue>AIIAAiJCro</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

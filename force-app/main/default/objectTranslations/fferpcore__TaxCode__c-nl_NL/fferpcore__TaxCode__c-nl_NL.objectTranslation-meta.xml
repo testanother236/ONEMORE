@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__TaxCode__c-nl_NL</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Belastingcode</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Belastingcodes</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Naam belastingcode</nameFieldLabel>
+</CustomObjectTranslation>

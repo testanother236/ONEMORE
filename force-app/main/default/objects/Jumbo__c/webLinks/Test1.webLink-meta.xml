@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test1</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Test1</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>//Bob’s code//
+
+{!REQUIRESCRIPT(&quot;/apex/dsfs__DocuSign_JavaScript&quot;)}
+
+//********* Option Declarations (Do not modify )*********//
+
+var RC = &apos;&apos;;var RSL=&apos;&apos;;var RSRO=&apos;&apos;;var RROS=&apos;&apos;;var CCRM=&apos;&apos;;var CCTM=&apos;&apos;;var CCNM=&apos;&apos;;var CRCL=&apos;&apos;; var CRL=&apos;&apos;;var OCO=&apos;&apos;;var DST=&apos;&apos;;var LA=&apos;&apos;;var CEM=&apos;&apos;;var CES=&apos;&apos;;var STB=&apos;&apos;;var SSB=&apos;&apos;;var SES=&apos;&apos;;var SEM=&apos;&apos;;var SRS=&apos;&apos;;var SCS =&apos;&apos;;var RES=&apos;&apos;;
+
+//*************************************************//
+LA=&apos;0&apos;;
+
+CES=&apos;Ultimate Software Documents for your Signature - {!URLENCODE(JSENCODE(Account.Name))}&apos;;
+
+
+CEM=&apos;I am sending you this request for electronic signature, please review and electronically sign by following the link below. Please contact us with any questions or concerns.&apos;;
+
+RES=&apos;1,1,1,1,90,2&apos;;
+
+CRL=&apos;Email~ultimatesoftware@test.com;FirstName~Customer;LastName~Signer1;Role~A;RoutingOrder~1;,Email~Email~ultimatesoftware@test.com;FirstName~Customer;LastName~Signer2;Role~B;RoutingOrder~2;,Email~Email~ultimatesoftware@test.com;FirstName~Ultimate;LastName~Signer1;Role~C;RoutingOrder~3;,Email~Email~ultimatesoftware@test.com;FirstName~Ultimate;LastName~Signer2;Role~D;RoutingOrder~4;&apos;;
+
+CCTM=&apos;A~Signer;B~Signer;C~Signer;D~Signer;&apos;;
+
+CCRM=&apos;A~Signer 1;B~Signer 2;C~Signer 3;D~Signer 4;&apos;;
+
+//********* Page Callout (Do not modify) *********//
+
+window.location.href =&quot;/apex/dsfs__DocuSign_CreateEnvelope?DSEID=0&amp;SourceID={!Account.Id}&amp;RC=&quot;+RC+&quot;&amp;RSL=&quot;+RSL+&quot;&amp;RSRO=&quot;+RSRO+&quot;&amp;RROS=&quot;+RROS+&quot;&amp;CCRM=&quot;+CCRM+&quot;&amp;CCTM=&quot;+CCTM+&quot;&amp;CRCL=&quot;+CRCL+&quot;&amp;CRL=&quot;+CRL+&quot;&amp;OCO=&quot;+OCO+&quot;&amp;DST=&quot;+DST+&quot;&amp;CCNM=&quot;+CCNM+&quot;&amp;LA=&quot;+LA+&quot;&amp;CEM=&quot;+CEM+&quot;&amp;CES=&quot;+CES+&quot;&amp;SRS=&quot;+SRS+&quot;&amp;STB=&quot;+STB+&quot;&amp;SSB=&quot;+SSB+&quot;&amp;SES=&quot;+SES+&quot;&amp;SEM=&quot;+SEM+&quot;&amp;SRS=&quot;+SRS+&quot;&amp;SCS=&quot;+SCS+&quot;&amp;RES=&quot;+RES;</url>
+</WebLink>

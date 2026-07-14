@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>appirio_core__Locale_Label__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Etiqueta local</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Etiquetas locais</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Locale Label Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome do rótulo</nameFieldLabel>
+    <validationRules>
+        <errorMessage>O nome não pode conter espaços</errorMessage>
+        <name>appirio_core__Check_Spaces</name>
+    </validationRules>
+</CustomObjectTranslation>

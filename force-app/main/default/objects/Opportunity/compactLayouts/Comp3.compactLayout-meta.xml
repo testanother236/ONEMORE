@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comp3</fullName>
+    <fields>Amount</fields>
+    <fields>Pick1__c</fields>
+    <fields>CloseDate</fields>
+    <fields>Field1__c</fields>
+    <fields>Field2__c</fields>
+    <fields>LastModifiedById</fields>
+    <fields>NextStep</fields>
+    <label>Comp3</label>
+</CompactLayout>

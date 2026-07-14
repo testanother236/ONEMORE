@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PickList__c</fullName>
+    <label>PickList</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change  email</fullName>
+                <color>#FFFF66</color>
+                <default>false</default>
+                <label>Change  email</label>
+            </value>
+            <value>
+                <fullName>Problem  email</fullName>
+                <default>false</default>
+                <label>Problem  email</label>
+            </value>
+            <value>
+                <fullName>· Special¶±Problem email</fullName>
+                <default>false</default>
+                <label>· Special¶±Problem email</label>
+            </value>
+            <value>
+                <fullName>Problem email</fullName>
+                <default>false</default>
+                <label>Problem email</label>
+            </value>
+            <value>
+                <fullName>^S</fullName>
+                <default>false</default>
+                <label>^S</label>
+            </value>
+            <value>
+                <fullName>Problem</fullName>
+                <default>false</default>
+                <label>Problem</label>
+            </value>
+            <value>
+                <fullName>Don</fullName>
+                <default>false</default>
+                <label>Don</label>
+            </value>
+            <value>
+                <fullName>Problem  web recommendations</fullName>
+                <default>false</default>
+                <label>Problem  web recommendations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

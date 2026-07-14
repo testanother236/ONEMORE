@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="FieldSetTest" recipientType="User" relatedToType="TempTest__FieldSetTest__c">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

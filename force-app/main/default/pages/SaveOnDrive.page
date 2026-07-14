@@ -1,0 +1,10 @@
+<apex:page >
+<script src="https://apis.google.com/js/platform.js"></script>
+    <center>
+        <div class="g-savetodrive"
+         data-src="https://c.ap2.salesforce.com/servlet/servlet.FileDownload?file=00P28000000T9VV"
+         data-filename="Null_Response_1.jpg"
+         data-sitename="Salesforce 2015 Winter">
+        </div>
+    </center>
+</apex:page>

@@ -1,0 +1,6 @@
+<apex:page >
+    <apex:includeScript value="{!URLFOR($Resource.utilityConfig)}" />
+    <script>
+        console.log('utilityConfig',utilityConfig);
+    </script>
+</apex:page>

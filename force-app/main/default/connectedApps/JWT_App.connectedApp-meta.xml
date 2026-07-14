@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>ravi@flosum.com</contactEmail>
+    <label>JWT App</label>
+    <oauthConfig>
+        <callbackUrl>https://login.salesforce.com/auth2/callback</callbackUrl>
+        <certificate>MIIEUjCCAzqgAwIBAgIOAYpQg1+rAAAAADbCgVowDQYJKoZIhvcNAQELBQAwdDEMMAoGA1UEAwwDSldUMRgwFgYDVQQLDA8wMEQxNzAwMDAwMGhNUDUxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIzMDkwMTExMzE0MVoXDTI0MDkwMTAwMDAwMFowdDEMMAoGA1UEAwwDSldUMRgwFgYDVQQLDA8wMEQxNzAwMDAwMGhNUDUxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjiEPDobUTRRx3u+ORqqJo9v0MeP+VypYQ7YcqVPqfckVdMMrHuuGqjcwg4QcLRhjfhl+xbLPhmfHpp741N9pUxhLXtDbi7Lnby70TLez5jqM33RC3+FL4tXwmMNdu2J/Hrh4IZ36RO6mlBQaWmxx+av9RylmnxdzitsQLjtsB936tZmruUgoAF09mBnat7yKRRwSn2eX2EKkUA6CKEtTnb8e7TnLX/BO+BYPAW5D7HheUXkQF9m8p64cqQ9litdpNZjD3HDLJrjwyRrGV+mzTQN295jSHvBFh4H72fTrNa4G96ajcjA4A3+ssDg137UTuYabv/blwTzyH4+U5jXOLwIDAQABo4HhMIHeMB0GA1UdDgQWBBRXovgMyrCkwNfhIFfBE6S12kjrrzAPBgNVHRMBAf8EBTADAQH/MIGrBgNVHSMEgaMwgaCAFFei+AzKsKTA1+EgV8ETpLXaSOuvoXikdjB0MQwwCgYDVQQDDANKV1QxGDAWBgNVBAsMDzAwRDE3MDAwMDAwaE1QNTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGKUINfqwAAAAA2woFaMA0GCSqGSIb3DQEBCwUAA4IBAQAbw+acVkarbZiNcRdIMlGdRCPB22B6itD9wQvIHG2RmK0FtydSVpAQDg50tZOtkMxp3/AfxBnLwtUZz0uZAk88l2PWvL91erbd6Fplhnsfxb0qHrX/NwixOg37sw5UTUr94ea0BeOHItIzV/GM7p8xzG7tjwCyHqqEXIaSMXcIrTKR2Rb/8po0BOJBnNkLOQYjqYJ6HpohbhSy5jMj7YAbB0xZ+FdgL5u1ZlbNqSiIE/xwWfmNj26ilcLfbDwsyZzzatUi48Pio6XnnXHjLcfkaw1z7xHWp9VjIvdPBhbaEXzJ7xAOHdT1/M/UFdH4BCza2uST2trqjsyR6nz0+hrO</certificate>
+        <consumerKey>3MVG9oZtFCVWuSwOvwwAVjUooDQTPtdYWtwByPW9cYt1HXxQm47SCM2WKmdDBznLpvXaLuB.pbdrIN3NiYQ9V</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
+        <isPkceRequired>false</isPkceRequired>
+        <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
+        <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+        <scopes>Pardot</scopes>
+        <scopes>Lightning</scopes>
+        <scopes>Content</scopes>
+        <scopes>CDPIngest</scopes>
+        <scopes>CDPProfile</scopes>
+        <scopes>CDPQuery</scopes>
+        <scopes>Chatbot</scopes>
+        <scopes>CDPSegment</scopes>
+        <scopes>CDPIdentityResolution</scopes>
+        <scopes>CDPCalculatedInsight</scopes>
+        <scopes>ForgotPassword</scopes>
+        <scopes>UserRegistration</scopes>
+        <scopes>SFAP</scopes>
+        <scopes>Interaction</scopes>
+        <scopes>CDP</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <isTokenExchangeFlowEnabled>false</isTokenExchangeFlowEnabled>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <profileName>System Administrator</profileName>
+</ConnectedApp>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fferpcore__DPNodeDeclaration__c-pt_BR</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Nó de Publicação Declarativa</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Nó de Publicação Declarativa</value>
+    </caseValues>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Declarative Publication Node Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nó de Publicação Declarativa</nameFieldLabel>
+</CustomObjectTranslation>
