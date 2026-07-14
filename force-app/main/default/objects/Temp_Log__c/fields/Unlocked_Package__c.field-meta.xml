@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unlocked_Package__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Unlocked Package</label>
+    <referenceTo>Unlocked_Package__c</referenceTo>
+    <relationshipLabel>Temp Logs</relationshipLabel>
+    <relationshipName>Temp_Logs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
