@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Component</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Components</value>
+    </caseValues>
+    <recordTypes>
+        <label><!-- Branch --></label>
+        <name>Branch</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Repository --></label>
+        <name>Repository</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Repository or Branch can not be empty. --></errorMessage>
+        <name>ValidateComponent</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Components --></label>
+        <name>Add_Components</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete_Components --></label>
+        <name>Delete_Components</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Search_Replace_Text --></label>
+        <name>Search_Replace_Text</name>
+    </webLinks>
+</CustomObjectTranslation>

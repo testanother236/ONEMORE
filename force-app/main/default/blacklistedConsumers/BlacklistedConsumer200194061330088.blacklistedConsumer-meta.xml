@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlacklistedConsumer xmlns="http://soap.sforce.com/2006/04/metadata">
+    <blockedByApiWhitelisting>false</blockedByApiWhitelisting>
+    <consumerKey>3MVG9sG9Z3Q1Rlbdjeh6dp5mSnOBFbMqAe9U9Pnn9ZTs6ly0NzhJrio612bTp24l2Vx61EGNKZrTueQ6UNiiq</consumerKey>
+    <consumerName>Flosum Dev</consumerName>
+    <masterLabel>BlacklistedConsumer200194060778100</masterLabel>
+</BlacklistedConsumer>
