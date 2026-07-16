@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__CalculationMatrix__c-en_US</fullName>
+    <layouts>
+        <layout>Vlocity Grouped Pricing Matrix Layout</layout>
+        <sections>
+            <label><!-- Active Pricing Matrix --></label>
+            <section>Active Pricing Matrix</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Vlocity Pricing Matrix Layout</layout>
+        <sections>
+            <label><!-- Active Pricing Matrix --></label>
+            <section>Active Pricing Matrix</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Grouped --></label>
+        <name>vlocity_cmt__Grouped</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Row-Versioned --></label>
+        <name>vlocity_cmt__RowVersioned</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>vlocity_cmt__Standard</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+</CustomObjectTranslation>
