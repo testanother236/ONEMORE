@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__AttributeCategory__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- VlocityAdmin --></label>
+        <name>vlocity_cmt__VlocityAdmin</name>
+    </fieldSets>
+    <layouts>
+        <layout>AttrCategory_ProductConsole Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Process_EPC_Attributes --></label>
+        <name>Process_EPC_Attributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ContentAttributes --></label>
+        <name>vlocity_cmt__ContentAttributes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+</CustomObjectTranslation>
