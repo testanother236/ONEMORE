@@ -1,0 +1,18 @@
+{
+    "%vlocity_namespace%__Channel__c": "",
+    "%vlocity_namespace%__ContentType__c": "Image",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__DisplayConditionsData__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "e350f4cb-6fd0-2c93-7cc0-1d242ceff6d6",
+    "%vlocity_namespace%__IsDefaultImage__c": true,
+    "%vlocity_namespace%__IsPrivate__c": false,
+    "%vlocity_namespace%__ObjectId__c": "01tfj0000061mU0AAI",
+    "%vlocity_namespace%__ProductGroupKey__c": "4e899d62-5fda-e87c-7331-531923a17c44",
+    "%vlocity_namespace%__SequenceNumber__c": 10,
+    "%vlocity_namespace%__UrlLong__c": "https://www.salesforce.com/content/dam/web/en_us/www/images/resources/training-images/tempered-glass-screen-protector.jpg",
+    "%vlocity_namespace%__Url__c": "",
+    "Name": "Glass Screen Protector",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__VlocityAttachment__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__VlocityAttachment__c/e350f4cb-6fd0-2c93-7cc0-1d242ceff6d6"
+}

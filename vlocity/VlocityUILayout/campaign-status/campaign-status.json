@@ -1,0 +1,32 @@
+{
+    "Cards": [
+    ],
+    "componentName": "cfCampaignStatus",
+    "dataSource": {
+        "contextVariables": [
+            {
+                "name": "params.id",
+                "val": "70136000000JwSFAA0"
+            }
+        ],
+        "type": "ApexRemote",
+        "value": {
+            "inputMap": {
+                "campaignId": "{{params.id}}"
+            },
+            "optionsMap": {
+                "vlcClass": "%vlocity_namespace%.CampaignListHandler"
+            },
+            "remoteClass": "CampaignListHandler",
+            "remoteMethod": "getMemberStatusByCampaign",
+            "remoteNSPrefix": "%vlocity_namespace%",
+            "resultVar": ""
+        }
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-status"
+        }
+    }
+}

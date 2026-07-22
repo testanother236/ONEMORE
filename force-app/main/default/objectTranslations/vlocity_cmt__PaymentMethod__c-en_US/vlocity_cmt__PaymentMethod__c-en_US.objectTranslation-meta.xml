@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__PaymentMethod__c-en_US</fullName>
+    <layouts>
+        <layout>Payment Method (Vlocity Telecommunication Services) Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- This payment method is used in auto pay and it can&apos;t be inactivated. --></errorMessage>
+        <name>vlocity_cmt__EnforceActivePaymentMethodInAutoPay</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Expiration Year is not valid --></errorMessage>
+        <name>vlocity_cmt__ExpirationYearIsValid</name>
+    </validationRules>
+</CustomObjectTranslation>

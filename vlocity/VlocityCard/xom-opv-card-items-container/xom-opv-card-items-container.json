@@ -1,0 +1,98 @@
+{
+    "dataSource": {
+        "type": "Custom",
+        "value": {
+            "body": "{\n  \"OrcAttributes\":{\n    \"OrcAttributeItems\": [\n      {\n        \"type\": \"Callout\",\n        \"attributes\": [\n          \"System Interface\",\n          \"Orchestration Queue\",\n          \"Error Queue\",\n          \"Timeout (ms)\",\n          \"Priority\",\n          \"Actual Number Of Retries\",\n          \"Maximum Number Of Retries\"\n        ]\n      },\n      {\n        \"type\": \"AutoTask\",\n        \"attributes\": []\n      },\n      {\n        \"type\": \"Milestone\",\n        \"attributes\": []\n      },\n      {\n        \"type\": \"ManualTask\",\n        \"attributes\": [\n          \"Assigned To User\",\n          \"Assigned To Manual Queue\",\n          \"Manual Queue\"\n        ]\n      },\n      {\n        \"type\": \"PullEvent\",\n        \"attributes\": []\n      },\n      {\n        \"type\": \"PushEvent\",\n        \"attributes\": []\n      }\n    ]}\n  }"
+        }
+    },
+    "filter": {
+    },
+    "lwc": {
+        "DeveloperName": "cfXomOpvCardItemsContainer",
+        "Id": "0Rbfj000001sgmTCAQ",
+        "ManageableState": "unmanaged",
+        "MasterLabel": "cfXomOpvCardItemsContainer",
+        "NamespacePrefix": "c"
+    },
+    "states": [
+        {
+            "actionCtxId": "['Id']",
+            "blankStateCheck": false,
+            "conditions": {
+                "group": [
+                    {
+                        "field": "$scope.data.status",
+                        "operator": "===",
+                        "type": "system",
+                        "value": "'active'"
+                    }
+                ]
+            },
+            "definedActions": {
+                "actions": [
+                    {
+                        "collapse": true,
+                        "hasExtraParams": false,
+                        "id": "ViewTaskDetails",
+                        "isCustomAction": false,
+                        "type": "Vlocity Action"
+                    }
+                ]
+            },
+            "fields": [
+            ],
+            "flyout": {
+                "data": "$scope",
+                "layout": "xom-opv-item-modal"
+            },
+            "name": "ActiveItemList",
+            "sObjectType": "%vlocity_namespace%__OrchestrationPlan__c",
+            "templateUrl": "xom-opv-plan-item"
+        }
+    ],
+    "title": "xom orchestration card items",
+    "xmlJson": [
+        {
+            "@attributes": {
+                "targets": "lightning__AppPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                },
+                {
+                    "@attributes": {
+                        "name": "recordId",
+                        "type": "String"
+                    }
+                }
+            ]
+        },
+        {
+            "@attributes": {
+                "targets": "lightning__RecordPage"
+            },
+            "property": [
+                {
+                    "@attributes": {
+                        "name": "debug",
+                        "type": "Boolean"
+                    }
+                }
+            ]
+        }
+    ],
+    "xmlObject": {
+        "targetConfigs": "PHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX0FwcFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgICAgICA8cHJvcGVydHkgbmFtZT0icmVjb3JkSWQiIHR5cGU9IlN0cmluZyIvPgogICAgICAgICAgICAgICAgICA8L3RhcmdldENvbmZpZz4KICAgICAgICAgICAgICAgICAgPHRhcmdldENvbmZpZyB0YXJnZXRzPSJsaWdodG5pbmdfX1JlY29yZFBhZ2UiPgogICAgICAgICAgICAgICAgICAgICAgPHByb3BlcnR5IG5hbWU9ImRlYnVnIiB0eXBlPSJCb29sZWFuIi8+CiAgICAgICAgICAgICAgICAgIDwvdGFyZ2V0Q29uZmlnPg==",
+        "targets": {
+            "target": [
+                "lightning__RecordPage",
+                "lightning__AppPage",
+                "lightning__HomePage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__TimePlan__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Time Plan --></label>
+        <name>vlocity_cmt__NewTimePlan</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity EPC Time Plan Layout</layout>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- General Properties --></label>
+            <section>General Properties</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

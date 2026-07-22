@@ -1,0 +1,433 @@
+{
+    "%vlocity_namespace%__ApprovedBy__c": "",
+    "%vlocity_namespace%__ApprovedOn__c": "",
+    "%vlocity_namespace%__AttributeAssignment__c": "Infiwave-Tablet-10-PS_AttributeAssignments.json",
+    "%vlocity_namespace%__AttributeDefaultValues__c": {
+        "ATT_DT_BRD": "Samsung",
+        "ATT_DT_CAP": null,
+        "ATT_DT_SZ": null,
+        "ATT_RT_CLR": null,
+        "ATT_RT_MOS": "Android",
+        "ATT_RT_PAY_TYPE": null
+    },
+    "%vlocity_namespace%__AttributeMetadata__c": {
+        "messages": [
+        ],
+        "records": [
+            {
+                "Code__c": "ACAT_Phones",
+                "Name": "Mobile Devices",
+                "displaySequence": 20,
+                "id": "a0Jfj000000OjAXEA0",
+                "messages": [
+                ],
+                "productAttributes": {
+                    "messages": [
+                    ],
+                    "records": [
+                        {
+                            "attributeId": "a0Kfj00000KOLl1EAH",
+                            "cloneable": true,
+                            "code": "ATT_RT_PAY_TYPE",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 1,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Payment Type",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": null
+                        },
+                        {
+                            "attributeId": "a0Kfj00000KOLknEAH",
+                            "cloneable": true,
+                            "code": "ATT_DT_BRD",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 10,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Brand",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "3eb374af-293b-647f-3770-538711878820",
+                                    "label": "Samsung",
+                                    "name": "3eb374af-293b-647f-3770-538711878820",
+                                    "readonly": true,
+                                    "value": "Samsung"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "4a5e1aba-18a3-da49-c150-ca803b8e0556",
+                                    "label": "LG",
+                                    "name": "4a5e1aba-18a3-da49-c150-ca803b8e0556",
+                                    "readonly": true,
+                                    "value": "LG"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "ac5b52df-143d-2038-6bdb-0eab8087ac37",
+                                    "label": "Apple",
+                                    "name": "ac5b52df-143d-2038-6bdb-0eab8087ac37",
+                                    "readonly": true,
+                                    "value": "Apple"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "d8edad84-cb33-a62f-e9a4-5fcfd10acb35",
+                                    "label": "Google",
+                                    "name": "d8edad84-cb33-a62f-e9a4-5fcfd10acb35",
+                                    "readonly": true,
+                                    "value": "Google"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kfj00000KOLkmEAH",
+                            "cloneable": true,
+                            "code": "ATT_RT_CLR",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 20,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Color",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "21e5a6a4-e35c-d8be-da29-256a89de057a",
+                                    "label": "Prism Black",
+                                    "name": "21e5a6a4-e35c-d8be-da29-256a89de057a",
+                                    "readonly": false,
+                                    "value": "Prism Black"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "3ee19410-a332-a7d8-1af2-b58f0781c1c1",
+                                    "label": "Prism Blue",
+                                    "name": "3ee19410-a332-a7d8-1af2-b58f0781c1c1",
+                                    "readonly": false,
+                                    "value": "Prism Blue"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 40,
+                                    "id": "b3ac4d0c-22d2-e780-3037-baf7297b4d22",
+                                    "label": "Flamingo Pink",
+                                    "name": "b3ac4d0c-22d2-e780-3037-baf7297b4d22",
+                                    "readonly": false,
+                                    "value": "Flamingo Pink"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "f0f63999-855e-fa74-0e0a-9fab79608472",
+                                    "label": "Prism White",
+                                    "name": "f0f63999-855e-fa74-0e0a-9fab79608472",
+                                    "readonly": false,
+                                    "value": "Prism White"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kfj00000KOLkoEAH",
+                            "cloneable": true,
+                            "code": "ATT_DT_CAP",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 30,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Capacity",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": true,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "915c93b6-7ccc-9964-5b1b-181a9939911a",
+                                    "label": "128 GB",
+                                    "name": "915c93b6-7ccc-9964-5b1b-181a9939911a",
+                                    "readonly": false,
+                                    "value": "128 GB"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "91cb16d6-8a32-2991-e026-608658e179f5",
+                                    "label": "512 GB",
+                                    "name": "91cb16d6-8a32-2991-e026-608658e179f5",
+                                    "readonly": false,
+                                    "value": "512 GB"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kfj00000KOLkpEAH",
+                            "cloneable": true,
+                            "code": "ATT_RT_MOS",
+                            "dataType": "text",
+                            "disabled": true,
+                            "displaySequence": 40,
+                            "filterable": true,
+                            "hasRules": false,
+                            "hidden": false,
+                            "inputType": "dropdown",
+                            "isNotTranslatable": false,
+                            "label": "Mobile OS",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": true,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 30,
+                                    "id": "4243cab6-f134-f2b7-2e19-5adbecabffe3",
+                                    "label": "watchOS 4",
+                                    "name": "4243cab6-f134-f2b7-2e19-5adbecabffe3",
+                                    "readonly": true,
+                                    "value": "watchOS 4"
+                                },
+                                {
+                                    "defaultSelected": true,
+                                    "disabled": false,
+                                    "displaySequence": 10,
+                                    "id": "46beacf1-47e4-5842-41ea-4cf14173e627",
+                                    "label": "Android",
+                                    "name": "46beacf1-47e4-5842-41ea-4cf14173e627",
+                                    "readonly": true,
+                                    "value": "Android"
+                                },
+                                {
+                                    "defaultSelected": false,
+                                    "disabled": false,
+                                    "displaySequence": 20,
+                                    "id": "6f93b6d7-c602-42f9-fa85-89dca333c9bb",
+                                    "label": "iOS",
+                                    "name": "6f93b6d7-c602-42f9-fa85-89dca333c9bb",
+                                    "readonly": true,
+                                    "value": "iOS"
+                                }
+                            ]
+                        },
+                        {
+                            "attributeId": "a0Kfj00000KOLkrEAH",
+                            "cloneable": true,
+                            "code": "ATT_DT_SZ",
+                            "dataType": "text",
+                            "disabled": false,
+                            "displaySequence": 50,
+                            "filterable": false,
+                            "hasRules": false,
+                            "hidden": true,
+                            "inputType": "text",
+                            "isNotTranslatable": false,
+                            "label": "Size",
+                            "messages": [
+                            ],
+                            "multiselect": false,
+                            "readonly": false,
+                            "required": false,
+                            "userValues": null,
+                            "values": [
+                                {
+                                    "disabled": false,
+                                    "readonly": false
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSize": 6
+                }
+            }
+        ],
+        "totalSize": 1
+    },
+    "%vlocity_namespace%__AttributeRules__c": "{}",
+    "%vlocity_namespace%__AttributesMarkupConfig__c": "",
+    "%vlocity_namespace%__CategoryData__c": [
+        {
+            "actions": {
+            },
+            "childCategories": [
+            ],
+            "displaySequence": -1,
+            "fields": {
+            },
+            "id": "a0c1I000006e70zQAA",
+            "messages": [
+            ],
+            "name": "Phones",
+            "nameResult": {
+            },
+            "uiStates": {
+            }
+        }
+    ],
+    "%vlocity_namespace%__ChangeDetectorImplementation__c": "",
+    "%vlocity_namespace%__ClassId__c": "",
+    "%vlocity_namespace%__DefaultImageId__c": "",
+    "%vlocity_namespace%__EffectiveDate__c": "2019-02-01",
+    "%vlocity_namespace%__EndDate__c": "",
+    "%vlocity_namespace%__EndOfLifeDate__c": "",
+    "%vlocity_namespace%__FulfilmentStartDate__c": "2019-02-01T08:00:00.000Z",
+    "%vlocity_namespace%__GlobalGroupKey__c": "69b8c573-8176-d0f9-afdf-3bdf6d8ba8d1",
+    "%vlocity_namespace%__GlobalKey__c": "6ff55065-3051-4db7-cc99-f6896cc1f9cf",
+    "%vlocity_namespace%__HeaderData__c": "",
+    "%vlocity_namespace%__HelpText__c": "",
+    "%vlocity_namespace%__IsConfigurable__c": true,
+    "%vlocity_namespace%__IsCustomerSubscription__c": false,
+    "%vlocity_namespace%__IsLocationDependent__c": false,
+    "%vlocity_namespace%__IsNotAssetizable__c": false,
+    "%vlocity_namespace%__IsOrderable__c": false,
+    "%vlocity_namespace%__JeopardySafetyIntervalUnit__c": "Seconds",
+    "%vlocity_namespace%__JeopardySafetyInterval__c": "",
+    "%vlocity_namespace%__LifecycleStatus__c": "",
+    "%vlocity_namespace%__MainFeatureQuantityUom__c": "",
+    "%vlocity_namespace%__MainFeatureQuantity__c": "",
+    "%vlocity_namespace%__MainFeatureTermInDays__c": "",
+    "%vlocity_namespace%__Modification__c": "",
+    "%vlocity_namespace%__ObjectTypeId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "36384a9ea3ec791e6bd4ab6b36f2ff2a",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "%vlocity_namespace%__ObjectClass__c/36384a9ea3ec791e6bd4ab6b36f2ff2a",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__ObjectClass__c"
+    },
+    "%vlocity_namespace%__ObjectTypeName__c": "Tablet",
+    "%vlocity_namespace%__ParentClassId__c": "",
+    "%vlocity_namespace%__PriceListEntry__c": "Infiwave-Tablet-10-PS_PriceListEntries.json",
+    "%vlocity_namespace%__ProductChildItem__c": "Infiwave-Tablet-10-PS_ProductChildItems.json",
+    "%vlocity_namespace%__ProductSpecId__c": "",
+    "%vlocity_namespace%__ProductTemplateProductId__c": "",
+    "%vlocity_namespace%__Scope__c": "Order Item",
+    "%vlocity_namespace%__SellingEndDate__c": "",
+    "%vlocity_namespace%__SellingStartDate__c": "2019-02-01T08:00:00.000Z",
+    "%vlocity_namespace%__SpecificationSubType__c": "",
+    "%vlocity_namespace%__SpecificationType__c": "Product",
+    "%vlocity_namespace%__StandardPremium__c": "",
+    "%vlocity_namespace%__Status__c": "Active",
+    "%vlocity_namespace%__SubType__c": "None",
+    "%vlocity_namespace%__TimeToLive__c": "",
+    "%vlocity_namespace%__TrackAsAgreement__c": false,
+    "%vlocity_namespace%__Type__c": "None",
+    "%vlocity_namespace%__VendorAccountId__c": "",
+    "%vlocity_namespace%__VersionEndDateTime__c": "",
+    "%vlocity_namespace%__VersionLabel__c": "V1",
+    "%vlocity_namespace%__VersionStartDateTime__c": "",
+    "CanUseQuantitySchedule": true,
+    "CanUseRevenueSchedule": true,
+    "Description": "Imagine a tablet with the enhanced intelligence, powerful camera, and stunning display of an Infiwave Phone and you have the new Infiwave Tablet 10.",
+    "DisplayUrl": "",
+    "ExternalDataSourceId": "",
+    "ExternalId": "",
+    "Family": "Handset",
+    "IsActive": true,
+    "IsArchived": false,
+    "Name": "Infiwave Tablet 10 PS",
+    "NumberOfQuantityInstallments": "",
+    "NumberOfRevenueInstallments": "",
+    "PricebookEntry": "Infiwave-Tablet-10-PS_PricebookEntries.json",
+    "ProductCode": "IW-TABLET10-01-PS",
+    "QuantityInstallmentPeriod": "",
+    "QuantityScheduleType": "",
+    "QuantityUnitOfMeasure": "",
+    "RecordTypeId": {
+        "DeveloperName": "Product",
+        "SobjectType": "Product2",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/Product2/Product",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "RevenueInstallmentPeriod": "",
+    "RevenueScheduleType": "",
+    "StandardPricebookEntry": [
+        {
+            "%vlocity_namespace%__FloorPrice__c": "",
+            "%vlocity_namespace%__OverageCharge__c": "",
+            "%vlocity_namespace%__OverageUOM__c": "",
+            "%vlocity_namespace%__RecurringPrice__c": 0,
+            "%vlocity_namespace%__RecurringUOM__c": "Monthly",
+            "IsActive": true,
+            "IsArchived": false,
+            "Name": "Infiwave Tablet 10 PS",
+            "Pricebook2.Name": "Standard Price Book",
+            "Pricebook2Id": {
+                "Name": "Standard Price Book",
+                "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+                "VlocityLookupRecordSourceKey": "Pricebook2/Standard Price Book",
+                "VlocityRecordSObjectType": "Pricebook2"
+            },
+            "Product2.%vlocity_namespace%__GlobalKey__c": "6ff55065-3051-4db7-cc99-f6896cc1f9cf",
+            "Product2Id": {
+                "%vlocity_namespace%__GlobalKey__c": "6ff55065-3051-4db7-cc99-f6896cc1f9cf",
+                "VlocityDataPackType": "VlocityMatchingKeyObject",
+                "VlocityMatchingRecordSourceKey": "Product2/6ff55065-3051-4db7-cc99-f6896cc1f9cf",
+                "VlocityRecordSObjectType": "Product2"
+            },
+            "ProductCode": "IW-TABLET10-01-PS",
+            "UnitPrice": 0,
+            "UseStandardPrice": false,
+            "VlocityDataPackType": "SObject",
+            "VlocityRecordSObjectType": "PricebookEntry",
+            "VlocityRecordSourceKey": "PricebookEntry/Generated1614713156"
+        }
+    ],
+    "StockKeepingUnit": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "Product2",
+    "VlocityRecordSourceKey": "Product2/6ff55065-3051-4db7-cc99-f6896cc1f9cf"
+}

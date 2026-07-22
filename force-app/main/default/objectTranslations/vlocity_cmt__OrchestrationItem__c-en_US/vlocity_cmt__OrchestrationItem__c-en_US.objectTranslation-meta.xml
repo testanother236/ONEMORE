@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__OrchestrationItem__c-en_US</fullName>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V3</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V4</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Jeopardy Management --></label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Orchestration Item (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label><!-- Interaction Details --></label>
+            <section>Interaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Jeopardy Management --></label>
+            <section>Jeopardy Management</section>
+        </sections>
+        <sections>
+            <label><!-- Orchestration Item Definition --></label>
+            <section>Orchestration Item Definition</section>
+        </sections>
+        <sections>
+            <label><!-- Order Item --></label>
+            <section>Order Item</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Timeout cannot be negative. --></errorMessage>
+        <name>vlocity_cmt__TimeoutMinValueValidation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CompleteItem --></label>
+        <name>vlocity_cmt__CompleteItem</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Execute --></label>
+        <name>vlocity_cmt__Execute</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RetryItem --></label>
+        <name>vlocity_cmt__RetryItem</name>
+    </webLinks>
+</CustomObjectTranslation>

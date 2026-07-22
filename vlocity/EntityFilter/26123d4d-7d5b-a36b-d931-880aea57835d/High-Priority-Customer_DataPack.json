@@ -1,0 +1,23 @@
+{
+    "%vlocity_namespace%__AttributeLookupFieldName__c": "",
+    "%vlocity_namespace%__AttributesMetadataFieldName__c": "",
+    "%vlocity_namespace%__AttributesValuesFieldName__c": "",
+    "%vlocity_namespace%__Code__c": "HIGH_PRI_CUSTOMER",
+    "%vlocity_namespace%__Description__c": "",
+    "%vlocity_namespace%__EntityFilterCondition__c": "High-Priority-Customer_EntityFilterConditions.json",
+    "%vlocity_namespace%__EvaluationCriteria__c": "",
+    "%vlocity_namespace%__Expression__c": "",
+    "%vlocity_namespace%__FailureMessage__c": "",
+    "%vlocity_namespace%__FilterOnObjectName__c": "",
+    "%vlocity_namespace%__FormulaForConditions__c": "",
+    "%vlocity_namespace%__GlobalKey__c": "26123d4d-7d5b-a36b-d931-880aea57835d",
+    "%vlocity_namespace%__IsActive__c": true,
+    "%vlocity_namespace%__Operation__c": "",
+    "%vlocity_namespace%__Type__c": "",
+    "%vlocity_namespace%__ValidFromDate__c": "2021-12-23",
+    "%vlocity_namespace%__ValidUntilDate__c": "",
+    "Name": "High Priority Customer",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__EntityFilter__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__EntityFilter__c/26123d4d-7d5b-a36b-d931-880aea57835d"
+}

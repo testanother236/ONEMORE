@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__TimePolicy__c-en_US</fullName>
+    <fieldSets>
+        <label><!-- Console Admin Search --></label>
+        <name>vlocity_cmt__ConsoleAdminSearch</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- New Time Policy --></label>
+        <name>vlocity_cmt__NewTimePolicy</name>
+    </fieldSets>
+    <layouts>
+        <layout>Vlocity EPC Time Policy Layout</layout>
+        <sections>
+            <label><!-- Delay --></label>
+            <section>Delay</section>
+        </sections>
+        <sections>
+            <label><!-- Effectivity --></label>
+            <section>Effectivity</section>
+        </sections>
+        <sections>
+            <label><!-- Proratable --></label>
+            <section>Proratable</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

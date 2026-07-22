@@ -1,0 +1,19 @@
+{
+    "Cards": [
+        "acuity-sidebar-offer-card",
+        "bar-chart"
+    ],
+    "dataSource": {
+        "type": null
+    },
+    "previewType": "runTime",
+    "templates": {
+        "0": {
+            "templateUrl": "campaign-member-detail"
+        }
+    },
+    "workspace": [
+        "acuity-sidebar-offer-card/Vlocity/1495043462798",
+        "bar-chart/Vlocity/1/1530530136249"
+    ]
+}
