@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Create",
+  "contentBody" : {
+    "activeViewId" : "Create",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-create",
+    "urlPrefix" : "create"
+  },
+  "urlName" : "create"
+}

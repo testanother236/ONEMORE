@@ -1,0 +1,42 @@
+<template>
+    <template if:true={isComponentVisible}>
+        <lightning-card title="Send Invoice" icon-name="custom:custom14">
+            <div class="slds-p-around_medium">
+                <div class="title">Invoice Details</div> <!-- Заголовок для секции -->
+                
+                <lightning-input
+                    label="Email Subject"
+                    value={emailSubject}
+                    disabled
+                    readonly>
+                </lightning-input>
+
+                <lightning-input-rich-text
+                    label="Email Body"
+                    value={emailBody}
+                    onchange={handleEmailBodyChange}
+                    required>
+                </lightning-input-rich-text>
+
+                <lightning-input
+                    label="Recipient Name"
+                    value={recipientName}
+                    disabled
+                    readonly>
+                </lightning-input>
+
+                <lightning-input
+                    label="Recipient Email"
+                    value={recipientEmail}
+                    disabled
+                    readonly>
+                </lightning-input>
+
+                <div class="button-container slds-m-top_medium">
+                    <lightning-button label="Preview Invoice" onclick={previewInvoice}></lightning-button>
+                    <lightning-button label="Send" variant="brand" onclick={sendEmail}></lightning-button>
+                </div>
+            </div>
+        </lightning-card>
+    </template>
+</template>

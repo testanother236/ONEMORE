@@ -1,0 +1,18 @@
+:host {
+  --color-button-text: #000;
+  --color-button-background: #fff;
+  --color-button-background-hover: orange;
+  --color-button-border:#fff;
+}
+
+.custom-button {
+  --slds-c-button-brand-text-color: var(--color-button-text);
+  --slds-c-button-brand-color-background: var(--color-button-background);
+  --slds-c-button-brand-color-border: var(--color-button-background);
+  --slds-c-button-brand-color-background-hover: var(--color-button-background-hover);
+  --slds-c-button-spacing-inline-end:10px;
+  --slds-c-button-spacing-inline-start:10px;
+  --slds-c-button-spacing-block-end:2px;
+  --slds-c-button-spacing-block-start:2px;
+  --sds-c-button-radius-border:7px;
+}

@@ -1,0 +1,92 @@
+<template>
+    <lightning-card title="Customer Summary">
+        <template if:true={isLoading}>
+            <div class="slds-text-align_center">
+                <lightning-spinner alternative-text="Loading" size="small"></lightning-spinner>
+            </div>
+        </template>
+
+        <template if:false={isLoading}>
+            <template if:true={isRecordIdMissing}>        
+                <lightning-input class="custom-input" label="Search Account or Amount" value={searchKey} onchange={handleSearchChange}></lightning-input>
+            </template>
+        </template>
+
+        <lightning-accordion allow-multiple-sections-open>
+            <template for:each={accountLabels} for:item="account">
+                <lightning-accordion-section name={account.Id} label={account.label} key={account.Id}>
+                    <!--<template if:true={account.OpportunityTotal}>
+                        <lightning-button label="View Opportunities" data-id={account.Id} onclick={handleAccountSelect}></lightning-button>
+                    </template>-->
+
+                    <template if:true={account.Opportunities.length}>
+                        <lightning-datatable
+                            key-field="Id"
+                            data={account.Opportunities}
+                            columns={columns}
+                            hide-checkbox-column="true"
+                            onrowaction={handleRowAction}
+                        >
+                        </lightning-datatable>
+                    </template>
+                    <template if:false={account.Opportunities.length}>
+                        <p class="slds-text-align_center">No opportunities found for this account.</p>
+                    </template>
+                    
+                </lightning-accordion-section>
+            </template>
+        </lightning-accordion>
+
+        <template if:true={isRecordIdMissing}> <!-- Пагинация только для вкладки -->
+            <div class="pagination">
+                <lightning-button  variant="brand" label="Previous" onclick={handlePreviousPage} disabled={isPreviousDisabled}></lightning-button>
+                     <!-- Отображение номеров страниц -->
+                        <template for:each={visiblePageNumbers} for:item="page">
+                            <lightning-button 
+                                key={page} 
+                                label={page} 
+                                variant={buttonVariants} 
+                                data-page={page} 
+                                onclick={handlePageChange}>
+                            </lightning-button>
+                    </template>
+                
+                <lightning-button  variant="brand" label="Next" onclick={handleNextPage} disabled={isNextDisabled}></lightning-button>
+            </div>
+        </template>
+    </lightning-card>
+
+    <!-- Модальное окно -->
+    <template if:true={showModal}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                        <lightning-icon icon-name="utility:close" alternative-text="close" size="small"></lightning-icon>
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    <h2 class="slds-text-heading_medium">Products for Opportunity</h2>
+                </div>
+                <div class="slds-modal__content slds-p-around_medium">
+                    <template if:true={productData.length}>
+                        <lightning-datatable
+                        key-field="Id"
+                        data={productData} 
+                        columns={productColumns} 
+                        hide-checkbox-column="true"
+                        >
+                        </lightning-datatable>
+                    </template>
+                    <template if:false={productData.length}>
+                        <p class="slds-text-align_center">No products found for this opportunity.</p>
+                    </template>
+
+                </div>
+                <div class="slds-modal__footer">
+                    <lightning-button variant="neutral" label="Close" onclick={closeModal}></lightning-button>
+                </div>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

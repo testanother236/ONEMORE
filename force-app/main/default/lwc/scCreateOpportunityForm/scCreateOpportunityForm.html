@@ -1,0 +1,65 @@
+<template>
+  <c-sc-custom-toast auto-close-time="8000"></c-sc-custom-toast>
+  <lightning-layout style="width:550px;" multiple-rows="true">
+    <lightning-layout-item
+      class="custom-input"
+      size="12"
+      flexibility="auto"
+      padding="around-small"
+    >
+      <label
+        id="Name"
+        class="slds-form-element__label slds-text-color_inverse"
+        for="form-element-01"
+        >Name</label
+      >
+      <lightning-input
+        aria-labelledby="Name"
+        variant="label-hidden"
+        class="custom-input"
+        type="text"
+        value={name}
+        name="name"
+        required
+        disabled={isDisabled}
+        onchange={handleInputChange}
+      ></lightning-input>
+    </lightning-layout-item>
+    <lightning-layout-item size="12" flexibility="auto" padding="around-small">
+      <div>
+        <label
+          id="Amount"
+          class="slds-form-element__label slds-text-color_inverse"
+          for="form-element-02"
+          >Amount</label
+        >
+        <lightning-input
+          aria-labelledby="Amount"
+          class="custom-input"
+          type="text"
+          value={amount}
+          name="amount"
+          required
+          disabled={isDisabled}
+          variant="label-hidden"
+          onchange={handleInputChange}
+        ></lightning-input>
+      </div>
+    </lightning-layout-item>
+    <lightning-layout-item
+      class="slds-align_absolute-center"
+      size="12"
+      flexibility="auto"
+      padding="around-small"
+    >
+      <lightning-button
+        variant="brand"
+        stretch
+        style="width: 250px"
+        label="Submit"
+        class="custom-button"
+        onclick={handleSubmit}
+      ></lightning-button>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

@@ -1,0 +1,43 @@
+.button-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    margin: 20px 0; /* Top and bottom margin */
+}
+
+.slds-modal__header {
+    background-color: #f4f6f9; /* Background color for the modal header */
+    border-bottom: 1px solid #d8dde6; /* Bottom border under the header */
+}
+
+.slds-modal__content {
+    position: relative; /* For positioning the spinner */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.slds-modal__footer {
+    text-align: right; /* Align buttons to the right in the footer */
+}
+
+.slds-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+.slds-spinner {
+    position: absolute; /* Position the spinner */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true center */
+}
+
+.footer-button {
+    margin-right: 0.5rem; /* Right margin for all buttons */
+}
+
+.footer-button:last-child {
+    margin-right: 0; /* Remove margin for the last button */
+}
+
+.button-separator {
+    display: inline-block; /* Makes the element block-level for spacing */
+    width: 0.5rem; /* Width of the separator */
+}

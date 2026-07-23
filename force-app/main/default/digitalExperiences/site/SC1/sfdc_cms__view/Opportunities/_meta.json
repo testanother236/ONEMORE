@@ -1,0 +1,5 @@
+{
+  "apiName" : "Opportunities",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

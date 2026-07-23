@@ -1,0 +1,100 @@
+/* Styles for the custom header */
+.custom-header {
+  text-align: center; /* Center text alignment */
+  margin: 0; /* Remove top and bottom margins */
+  position: relative; /* For absolute positioning of pseudo-element */
+}
+
+.custom-header h2 {
+  margin: 0; /* Remove margins from the header */
+  font-size: 1.5rem; /* Set the font size for the header */
+}
+
+/* Pseudo-element to create a line under the header */
+.custom-header h2::after,
+.documentation-link::after {
+  content: ""; /* Pseudo-element for the line */
+  display: block; /* Display as a block */
+  width: 100%; /* Line width */
+  height: 1px; /* Line height */
+  background-color: gray; /* Line color */
+  margin: 0.2rem auto 0; /* Center line under the header */
+}
+
+/* Styles for the schedule batch block */
+.schedule-batch {
+  margin: 1rem 0; /* Vertical margins for the Schedule Batch block */
+  margin-left: 0.5rem; /* Shift to the right */
+}
+
+/* Styles for description text */
+.description-text {
+  margin: 0.2rem 0; /* Vertical margins for description */
+  color: #555; /* Description text color */
+}
+
+/* Styles for valid input fields */
+.valid-input {
+  border: 2px solid green; /* Green border for valid input */
+}
+
+/* Styles for invalid input fields */
+.invalid-input {
+  border: 2px solid red; /* Red border for invalid input */
+}
+
+/* Styles for documentation link */
+.documentation-link {
+  margin-top: 0.5rem; /* Top margin for the link */
+  text-decoration: none; /* Remove underline from the link */
+  position: relative; /* For absolute positioning of pseudo-element */
+}
+
+.documentation-link a {
+  color: #0070d2; /* Link color */
+  opacity: 0.7; /* Link opacity */
+}
+
+.documentation-link a:hover {
+  opacity: 1; /* Full opacity on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Styles for button container */
+.button-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+  margin-top: 1rem; /* Top margin for buttons */
+  gap: 10px; /* Space between buttons */
+}
+
+/* Styles for custom buttons */
+.custom-button {
+  background-color: #0070d2; /* Blue background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 0.25rem; /* Rounded corners */
+}
+
+.custom-button:hover {
+  background-color: #005fb2; /* Darker blue on hover */
+}
+
+/* Styles for destructive buttons */
+.custom-button-destructive {
+  background-color: #d50000; /* Red background for destructive action */
+  color: white; /* White text */
+}
+
+.custom-button-destructive:hover {
+  background-color: #a00000; /* Darker red on hover */
+}
+
+/* Duplicate styles for button container (redundant) */
+.button-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: flex-end; /* Align items to the right */
+  margin-top: 1rem; /* Top margin for buttons */
+}
