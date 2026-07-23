@@ -1,0 +1,49 @@
+.custom-input {
+    width: 600px; /* Set the desired width */
+    max-width: 100%; /* Adapt to smaller screens */
+    margin: 20px auto; /* Center the input field */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for input fields */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Styles for pagination */
+.pagination {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center pagination items */
+    gap: 20px; /* Space between pagination items */
+    margin-top: 1rem; /* Top margin for pagination */
+}
+
+/* Center text in modal header */
+.slds-modal__header h2 {
+    text-align: center; /* Center align header text */
+}
+
+/* Styles for loading spinner */
+.slds-spinner {
+    margin: 0 auto; /* Center the spinner */
+}
+
+/* Styles for table elements */
+.slds-datatable {
+    margin-top: 1rem; /* Top margin for the table */
+}
+
+/* Increase padding in the table */
+.slds-table th, .slds-table td {
+    padding: 0.75rem; /* Increased padding for table cells */
+}
+
+/* Mobile adaptation */
+@media (max-width: 768px) {
+    .slds-modal__container {
+        width: 90%; /* Width of the modal on mobile devices */
+    }
+}
+
+/* Styles for modal container */
+.slds-modal__container {
+    margin-top: 150px; /* Top margin for the modal */
+    max-height: 80vh; /* Maximum height of the modal, adjustable as needed */
+    height: auto; /* Automatic height */
+}

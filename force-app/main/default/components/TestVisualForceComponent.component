@@ -1,0 +1,6 @@
+<apex:component >
+    <apex:attribute name="title" description="Component Title" type="String" required="true"/>
+    <h1>Hello</h1>
+    <p>This is a custom reusable component.</p>
+    <p>This component have been modified.</p>
+</apex:component>

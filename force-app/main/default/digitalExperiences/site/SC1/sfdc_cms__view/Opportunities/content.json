@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Opportunities",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"586bc459-6d30-484f-b040-045e34cbb216\",\"columns\":[{\"UUID\":\"c5174e01-aad1-42dd-bac3-380cb65c4356\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:scOpportunityPage",
+              "id" : "c1243466-2a95-4843-a627-00be7514f2b0",
+              "type" : "component"
+            } ],
+            "id" : "c5174e01-aad1-42dd-bac3-380cb65c4356",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "586bc459-6d30-484f-b040-045e34cbb216",
+          "type" : "component"
+        } ],
+        "id" : "761f6c33-29ae-408a-b963-11056127a9d1",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Opportunities",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "3d69ab0e-5eae-40cf-8968-11a92f7f510d",
+          "type" : "component"
+        } ],
+        "id" : "65af0aef-9aa8-4c52-8b59-94b6cd16ec0f",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "280cc0d9-258b-465a-9cbb-8b2ec564bbc8",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "nCya0UZFvmfs1vVnmI53a6xcXEG6sl",
+    "viewType" : "custom-opportunities"
+  },
+  "urlName" : "opportunities"
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailServicesFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apexClass>OrderResponseEmailHandler</apexClass>
+    <attachmentOption>None</attachmentOption>
+    <authenticationFailureAction>Discard</authenticationFailureAction>
+    <authorizationFailureAction>Discard</authorizationFailureAction>
+    <emailServicesAddresses>
+        <authorizedSenders>karpecivan304@gmail.com</authorizedSenders>
+        <developerName>order_confirmation</developerName>
+        <isActive>true</isActive>
+        <localPart>orderconfirmationservice</localPart>
+        <runAsUser>karpeciv@codesandbox.com</runAsUser>
+    </emailServicesAddresses>
+    <functionInactiveAction>Discard</functionInactiveAction>
+    <functionName>OrderConfirmationService</functionName>
+    <isActive>true</isActive>
+    <isAuthenticationRequired>false</isAuthenticationRequired>
+    <isErrorRoutingEnabled>false</isErrorRoutingEnabled>
+    <isTextAttachmentsAsBinary>false</isTextAttachmentsAsBinary>
+    <isTlsRequired>false</isTlsRequired>
+    <overLimitAction>Discard</overLimitAction>
+</EmailServicesFunction>

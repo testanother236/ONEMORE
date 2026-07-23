@@ -1,0 +1,75 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Login Theme",
+  "contentBody" : {
+    "component" : {
+      "attributes" : {
+        "backgroundColor" : "rgb(227, 146, 51)",
+        "nameOrg" : "Success Motors"
+      },
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f2cffa8d-f695-4180-90a8-1b6b80329c29\",\"columns\":[{\"UUID\":\"71cae770-b38a-4f82-9253-748c1731c907\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "71cae770-b38a-4f82-9253-748c1731c907",
+            "name" : "headerSection",
+            "title" : "Theme Header",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f2cffa8d-f695-4180-90a8-1b6b80329c29",
+          "type" : "component"
+        } ],
+        "id" : "1e650afa-321a-437e-9101-af92fcf2165e",
+        "name" : "header",
+        "title" : "Theme Header",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"f7d0a77a-026c-48a2-9ddf-3d6f50451094\",\"columns\":[{\"UUID\":\"d912f612-4055-40ea-aa15-e1a8aa565b03\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "id" : "d912f612-4055-40ea-aa15-e1a8aa565b03",
+            "name" : "footerSection",
+            "title" : "Theme Footer",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f7d0a77a-026c-48a2-9ddf-3d6f50451094",
+          "type" : "component"
+        } ],
+        "id" : "4e73d9e2-1e36-4527-a804-47d30c1cf4da",
+        "name" : "footer",
+        "title" : "Theme Footer",
+        "type" : "region"
+      } ],
+      "definition" : "c:scCustomLoginPageTheme",
+      "id" : "7328749a-2a85-42c5-9e49-cd4960e8f71c",
+      "type" : "component"
+    }
+  },
+  "urlName" : "login-theme"
+}

@@ -1,0 +1,281 @@
+<apex:page standardController="Opportunity" extensions="InvoicePDFController" applyHtmlTag="false" showHeader="false" contenttype="application/pdf" renderAs="pdf">
+  <html>         
+    <head>
+        <style>
+        
+            @page {
+                size: A4;
+                margin: 10mm;
+            }
+            
+            
+            
+            * {
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            
+             body {
+                    padding-top: 300px; /* Отступ для размещения содержимого ниже заголовка */
+                }
+
+
+        .header, .footer {
+            position: fixed; 
+            width: 100%;
+            z-index: 1000; 
+        }
+
+.header{
+    top:0;
+    height: 250px;
+    width: 100%;
+    background:  #f3f3f3;
+    border-top: 20px solid #ff5722;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #68717c;
+}
+
+.company{
+    margin-top:1350px;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 45px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #606060;
+    color: #fdfdfd;
+    text-align: center;
+    position: relative;
+    font-size: 10px;
+    color: #b9b9b9;
+    overflow: hidden;
+    display: inline-block; 
+}
+
+.logo h2{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.logo {
+    float: left;
+}
+
+.info {
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    font-size: 14px;
+}
+
+.invoice{
+     margin-top: 20px; /* Отступ сверху, чтобы отделить от других элементов */
+     margin-right: 60px; /* Отступ справа */
+     float: right;
+}
+
+.invoice h3{
+    font-size: 20px;
+}
+
+.invoice .date,
+.invoice .number
+{
+    text-align: center;
+    color:#28406a;
+    font-size: 15px;
+    border-bottom: 1px #dbdbdb solid;
+    padding-bottom: 7px;
+}
+
+
+.company::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.bill{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.bill__header{
+    border-bottom: 2px #c7c7c7 solid;
+    color: #263f69;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.bill__name,
+.bill__company,
+.bill__phone,
+.bill__email{
+    font-size: 14px;
+    color: #2a2a2a;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table thead{
+    background: #ff5722;
+    color: #fdfdfd;
+}
+
+thead th{
+    padding: 5px 0px 5px 0px;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: white !important;; 
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3 !important;; 
+}
+
+table td{
+    border: 1px solid #b2b2b2;
+    padding: 5px 0px 5px 0px;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table td:first-child{
+    padding-left: 3px;
+    text-align: left;
+}
+
+
+tbody td:nth-child(3),
+tbody td:last-child
+{
+    text-align: right;
+    padding-right: 3px
+}
+
+
+tbody tr:nth-last-child(2) td {
+    border-bottom: 1px solid #b2b2b2; 
+}
+
+
+
+table tbody  .balance{
+    border-left: none;
+    border-right:none;
+    text-align: right;
+    background-color: white;
+    color:#3d4958;
+    font-size: 20px;
+    padding-right:5px;
+}
+
+table .summ{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f4cccc;
+    border-bottom: 1px solid #b2b2b2; 
+}
+
+.footer{
+    bottom:0;
+    width: 100%;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #ff5722;
+    color: #fdfdfd;
+}
+
+
+        </style>
+    </head>
+    
+    <body>
+    <div class="header">
+       <div class="logo">
+           <h2>LOGO</h2>
+        </div>
+        <div class="info">
+                <h2>{!companyName}</h2>
+                <h4>{!companyAddress}</h4>
+                <h4>{!oppOwnerName}</h4>
+                <h4>{!$User.City}</h4>
+         </div>
+        <div class="invoice">
+            <h3>INVOICE</h3>
+            <h4 class="date">{!formattedInvoiceDate}</h4>
+            <h4 class="number">{!invoiceNumber}</h4>
+        </div>  
+    </div>
+    
+    <div class="bill">
+        <h2 class="bill__header">BILL TO</h2>
+        <h4 class="bill__name"> {!customerName} </h4>
+        <h4 class="bill__company"> {!clientCompanyName}</h4>
+        <h4 class="bill__phone"> {!customerPhone} </h4>
+        <h4 class="bill__email"> {!customerEmail} </h4>
+        
+         <table>
+            <thead>
+                <tr>
+                    <th style="text-align:center">PRODUCT NAME</th>
+                    <th style="text-align:center">QTY</th>
+                    <th style="text-align:center">UNIT PRICE</th>
+                    <th style="text-align:center">TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <apex:repeat value="{!products}" var="product">
+                    <tr>
+                        <td>{!product.Product2.Name}</td>
+                        <td>
+                            <apex:outputText value="{0, number, 0}">
+                                <apex:param value="{!product.Quantity}" />
+                            </apex:outputText>
+                        </td>
+                        <td style="text-align:right">{!product.UnitPrice}</td>
+                        <td style="text-align:right">
+                            <apex:outputText value="{0, number, #,##0.00}">
+                                <apex:param value="{!product.Quantity * product.UnitPrice}" />
+                            </apex:outputText>
+                        </td>
+                    </tr>
+                </apex:repeat>
+                
+                <tr>
+                    <td class="balance" style="border-top: 1px solid #b2b2b2" colspan="3">Balance Due</td>
+                    <td class="summ" style="border-top: 1px solid #b2b2b2">
+                         <apex:outputText value="{0, number, #,##0.00}">
+                                <apex:param value="{!totalAmount}" />
+                            </apex:outputText>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    </div>
+    <div class="footer">
+        <h3>{!companyName}</h3>
+    </div>
+
+    
+    </body>
+ </html>
+</apex:page>
