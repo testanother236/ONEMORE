@@ -1,0 +1,15 @@
+<apex:page >
+  <apex:slds />
+  <apex:includeLightning />
+  <div id="lwc"></div>
+  <script>
+    let domainsComponent;
+    let namespacePrefix = 'Flosum';
+    $Lightning.use(`${namespacePrefix}:DomainsApp`, function () {
+      $Lightning.createComponent(`${namespacePrefix}:domainSettings`, {}, 'lwc', (component) => {
+        domainsComponent = component.elements[0];
+        domainsComponent.dispatchEvent(new CustomEvent('is_show_domains', { detail: true }));
+      });
+    });
+  </script>
+</apex:page>

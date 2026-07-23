@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Flosum__EmailAlertOnOrgRegistration</fullName>
+        <description>EmailAlertOnOrgRegistration</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>chatty.00dhn0000018pnlmaq.wdma8onx0lvz@chatter.salesforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>flosum.trailforce.testing.zrw1udtf2ean.g83nbxqkkxus@flosumtesting.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ravi.saini.managed@flosumtesting.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Flosum__Flosum/Flosum__OrgRegisterTemplate</template>
+    </alerts>
+    <rules>
+        <fullName>Flosum__OnOrgRegistration</fullName>
+        <actions>
+            <name>Flosum__EmailAlertOnOrgRegistration</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>true</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

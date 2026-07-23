@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowApiName>Fully_Paid</flowApiName>
+    <label>New_Test</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{&quot;AccountId&quot;:&quot;001bm00000MphEOAAZ&quot;,&quot;Amount&quot;:993,&quot;CloseDate&quot;:&quot;2024-09-30&quot;,&quot;ForecastCategoryName&quot;:&quot;Pipeline&quot;,&quot;Invoice_Date__c&quot;:&quot;2024-10-01&quot;,&quot;IsPrivate&quot;:false,&quot;Name&quot;:&quot;SuccessMotors-&quot;,&quot;OwnerId&quot;:&quot;005bm000005GJVFAA4&quot;,&quot;Pricebook2Id&quot;:&quot;01sbm0000048lFaAAI&quot;,&quot;Probability&quot;:70,&quot;StageName&quot;:&quot;Perception Analysis&quot;,&quot;Status_Paid__c&quot;:&quot;Partially Paid&quot;,&quot;TotalOpportunityQuantity&quot;:2}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Fully_Paid</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+</FlowTest>

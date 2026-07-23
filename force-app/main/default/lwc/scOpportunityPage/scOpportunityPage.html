@@ -1,0 +1,31 @@
+<template>
+  <c-page-container>
+    <div slot="left">
+      <c-sc-spinner if:true={isLoading}></c-sc-spinner>
+      <c-sc-description-info
+        header-text = {oppHeaderText}
+        info-text = {opportunityText}
+      >
+    </c-sc-description-info>
+      <template 
+      if:false={isLoading}
+      for:each={oppNames} for:item="opp">
+        <c-sc-opportunity-header
+          key={opp.opportunityId}
+          opp-id = {opp.opportunityId}
+          ongetoppid={handleGetOppId}
+          opp-name = {opp.opportunityName}
+    >
+    </c-sc-opportunity-header>
+      </template>
+    </div>
+    
+    <c-sc-opportunity-info
+      slot="right"
+      is-render={isRenderOpp}
+      opp-props={oppInfoProperties}
+      opp-name={opportunityName} 
+    >
+    </c-sc-opportunity-info>
+  </c-page-container>
+</template>

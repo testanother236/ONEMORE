@@ -1,0 +1,18 @@
+:host{
+    --color-header-text:#fff;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header_title{
+    margin-top: 30px;
+    color: var(--color-header-text);
+    font-size: 30px;
+}

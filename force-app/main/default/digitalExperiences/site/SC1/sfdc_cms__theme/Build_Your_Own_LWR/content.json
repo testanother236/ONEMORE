@@ -1,0 +1,22 @@
+{
+  "type" : "sfdc_cms__theme",
+  "title" : "Build Your Own (LWR)",
+  "contentBody" : {
+    "activeBrandingSetId" : "Build_Your_Own_LWR",
+    "definitionName" : "byo",
+    "layouts" : [ {
+      "layoutId" : "Login_Theme",
+      "layoutType" : "jTs1WzWBZDlzJ0cRbhpSWLwHKRB6k8"
+    }, {
+      "layoutId" : "snaThemeLayout",
+      "layoutType" : "ServiceNotAvailable"
+    }, {
+      "layoutId" : "scopedHeaderAndFooter",
+      "layoutType" : "Inner"
+    }, {
+      "layoutId" : "Base_Theme",
+      "layoutType" : "nCya0UZFvmfs1vVnmI53a6xcXEG6sl"
+    } ]
+  },
+  "urlName" : "build-your-own-lwr"
+}

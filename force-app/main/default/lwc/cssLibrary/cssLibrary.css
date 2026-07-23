@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+:host{
+    --color-background-body:#e39233;
+    --color-background-box:#8f622a;
+    --radius-border:0.938rem;
+    --font-size-box:0.5rem;
+}
+
+header, main, footer{
+    background: var(--color-background-body);
+}
+
+.info-box{
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: var(--color-background-box);
+    border-radius: var(--radius-border);
+    width: 335px;
+    border:none;
+}
+
+
+.info-box .slds-table{
+    background-color: var(--color-background-box);
+    width: 100%;
+    font-size: var(--font-size-box);
+}
+
+
+.info-box .slds-table tr:first-child{
+    border: none;
+}
+
+.info-header{
+    width: 335px;
+    font-size: 9px;
+}

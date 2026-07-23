@@ -1,0 +1,5 @@
+<h1>Dear {!Contact.FirstName},</h1>
+<p>Your invoice has been generated successfully.</p>
+<p>Invoice Number:{!Opportunity.Invoice_Number__c}</p>
+<p>Thank you for your business!</p>
+<p>Best regards,<br>Your Company Name</p>

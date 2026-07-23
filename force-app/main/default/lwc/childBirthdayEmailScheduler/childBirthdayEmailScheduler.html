@@ -1,0 +1,54 @@
+<template>
+  <lightning-card>
+    <div class="custom-header">
+      <h2>Email Scheduler</h2>
+    </div>
+    <div class="slds-m-around_medium">
+
+      <div class="schedule-batch">
+        <strong>Schedule Batch</strong>
+      </div>
+      <div class="description-text">Description text</div>
+
+      <lightning-input
+        label="CRON String"
+        value={cronString}
+        onchange={handleCronChange}
+        disabled={isCronInputDisabled}
+      >
+      </lightning-input>
+
+      
+      <div class="documentation-link">
+        <a
+          href="https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_scheduler.htm"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Read more about scheduling
+        </a>
+      </div>
+
+      <div class="button-container">
+        <!-- Условное отображение кнопки Schedule Batch -->
+        <template if:false={isBatchScheduled}>
+          <button class="custom-button" onclick={handleScheduleBatch}>
+            Schedule Batch
+          </button>
+        </template>
+
+        <!-- Условное отображение кнопки Abort Batch -->
+        <template if:true={isBatchScheduled}>
+          <button
+            class="custom-button custom-button-destructive"
+            onclick={handleAbortBatch}
+          >
+            Abort Batch
+          </button>
+        </template>
+
+        <button class="custom-button" onclick={handleRunOnce}>Run Once</button>
+      </div>
+    </div>
+  </lightning-card>
+</template>

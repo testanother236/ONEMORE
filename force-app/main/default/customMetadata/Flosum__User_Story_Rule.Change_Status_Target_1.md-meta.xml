@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <label>Change Status Target 1</label>
+    <protected>false</protected>
+    <values>
+        <field>Flosum__Failed_Value__c</field>
+        <value xsi:type="xsd:string">On Hold</value>
+    </values>
+    <values>
+        <field>Flosum__Field_API__c</field>
+        <value xsi:type="xsd:string">Status</value>
+    </values>
+    <values>
+        <field>Flosum__Operation__c</field>
+        <value xsi:type="xsd:string">After Deploy</value>
+    </values>
+    <values>
+        <field>Flosum__Organization_ID__c</field>
+        <value xsi:type="xsd:string">00D5j00000CuFvREAV</value>
+    </values>
+    <values>
+        <field>Flosum__Success_Value__c</field>
+        <value xsi:type="xsd:string">Escalated</value>
+    </values>
+    <values>
+        <field>Flosum__User_Story_Objects__c</field>
+        <value xsi:type="xsd:string">PSand</value>
+    </values>
+</CustomMetadata>

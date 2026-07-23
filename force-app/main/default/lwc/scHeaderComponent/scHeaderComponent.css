@@ -1,0 +1,19 @@
+:host {
+  --text-color: #fff;
+}
+
+a, 
+a:link:not(.slds-button, .slds-dropdown__item > a), 
+a:visited:not(.slds-button, .slds-dropdown__item > a) 
+{
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+
+/* Media query for widths less than 769px */
+@media (max-width: 768px) {
+  .header-name{
+      padding-top: 10px; /* Increased padding for smaller screens */
+  }
+}

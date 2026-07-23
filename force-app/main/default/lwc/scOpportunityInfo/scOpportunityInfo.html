@@ -1,0 +1,26 @@
+<template>
+    <div if:true={isRender}>    
+        
+        <div class="slds-box slds-m-top_xx-small info-box">
+            <div>
+                <h1 class="slds-text-color_inverse opp-text">{oppName}</h1>
+            </div>
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-m-top_large">
+                <tbody>
+                    <template for:each={oppProps} for:item="oppProp">
+                        <tr key={oppProp.key} class="slds-hint-parent slds-text-color_inverse slds-table_bordered">
+                            <td>
+                                <div class="slds-truncate slds-p-top_xx-small slds-p-bottom_xx-small">{oppProp.key}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate slds-text-align_right slds-p-top_xx-small slds-p-bottom_xx-small">
+                                    {oppProp.value}
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</template>
