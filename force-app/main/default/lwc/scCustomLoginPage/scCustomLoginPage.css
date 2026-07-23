@@ -1,0 +1,72 @@
+:host{
+    --color-background:#fdefcf;
+    --color-button:#fdefcf;
+    --color-placeholder:#000;
+    --color-text:#000;
+    --padding-vertical: 0.625rem;
+    --padding-horizontal: 0.313rem;
+    --gap-elements: 1.25rem;
+    --size-font: 0.875rem;
+    --form-border: 1.563rem;
+}
+
+form{
+    height: 420px;
+    width: 400px;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+form * {
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.5px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-elements);
+    outline: none;
+    border: none;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color:var(--color-background);
+    border-radius: var(--form-border);
+    font-size: var(--size-font);
+    outline: none;
+    border: none;
+}
+
+.icon_color{
+    margin-left: 10px;
+   --slds-c-icon-color-foreground-default: black; 
+   --slds-c-icon-color-foreground:black;  
+}
+
+::placeholder{
+    color: var(--color-placeholder);
+    text-align:center;
+}
+
+.login_button{
+    --sds-c-button-destructive-color-background:var(--color-background);
+    --sds-c-button-destructive-color-border:var(--color-background);
+    --sds-c-button-destructive-color-border-hover:var(--color-background);
+    --sds-c-button-destructive-color-background-hover:var(--color-background);
+    --sds-c-button-destructive-text-color: var(--color-text);
+    --sds-c-button-destructive-color-background-hover:var(--color-background);
+    --sds-c-button-destructive-text-color-hover: var(--color-text);
+    --sds-c-button-destructive-color-border-active:var(--color-background);
+    --sds-c-button-destructive-color-background-active:var(--color-background);
+    --sds-c-button-shadow-focus:var(--color-background);
+    width: 100%;
+    background-color:var(--color-background); 
+    padding: 7px 0;
+    margin-right: 13px;
+    font-size: 18px;
+    border-radius: var(--form-border);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+<template>
+    <header>
+        <div class="slds-grid slds-grid_align-spread">
+            <div class="slds-col">
+                <h1 class="slds-text-color_inverse slds-p-top_x-small header-name">{name}</h1>
+            </div>
+            <div class="slds-col">
+                <ul class="slds-list_horizontal slds-has-inline-block-links_space">
+                    <template for:each={arrLinks} for:item="link">
+                        <li key={link.apiName} class="slds-text-color_inverse">
+                            <a 
+                                href={link.href} 
+                                data-api={link.apiName}
+                                onclick={handleClick}
+                                > {link.label}</a>
+                        </li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+    </header>
+</template>

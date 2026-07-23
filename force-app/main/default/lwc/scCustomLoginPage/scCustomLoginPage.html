@@ -1,0 +1,39 @@
+<template>
+    <c-sc-custom-toast auto-close-time="8000"></c-sc-custom-toast>
+    <form>
+        <div class="slds-p-around_large">
+            <div class="slds-form-element">
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                    <lightning-icon size="x-small" class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default icon_color" icon-name="utility:user"></lightning-icon>
+                    <input
+                        type="text" 
+                        id="text-input-id-2" 
+                        placeholder={textObj.username}
+                        class="slds-input slds-text-align_center" 
+                        onchange={handleUsernameChange}/>
+                </div>
+            </div>
+    
+            <div class="slds-form-element">
+                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                    <lightning-icon size="x-small" class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default icon_color" icon-name="utility:reset_password"></lightning-icon>
+                    <input 
+                        type="password" 
+                        id="text-input-id-3" 
+                        placeholder={textObj.password}
+                        class="slds-input slds-text-align_center" 
+                        onchange={handlePasswordChange}                    
+                        />
+                </div>
+            </div>
+            <div class="slds-form-element">
+                <lightning-button
+                    variant="destructive"
+                    label="LOGIN"  
+                    onclick={handleClick} 
+                    class="slds-m-right_x-small login_button">
+                </lightning-button>
+            </div>
+        </div>
+    </form>
+</template>

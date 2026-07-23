@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Opportunities",
+  "contentBody" : {
+    "activeViewId" : "Opportunities",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-opportunities",
+    "urlPrefix" : "opportunities"
+  },
+  "urlName" : "opportunities"
+}

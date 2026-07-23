@@ -1,0 +1,36 @@
+<template>
+    <c-sc-custom-toast auto-close-time="8000"></c-sc-custom-toast>
+    <c-sc-spinner if:true={isLoading}></c-sc-spinner>
+    <div if:false={isLoading}>
+        <div>
+            <h1 class="slds-text-color_inverse">User Info</h1>
+        </div>
+        <div>
+            <p class="slds-text-color_inverse slds-text-title slds-m-top_xx-small info-header">Make sure the data displayed is
+                correct. If is the data not correct, contact your system adminstrator</p>
+        </div>
+        <div class="slds-box slds-m-top_xx-small info-box">
+            <lightning-avatar variant="circle" src={userObjectProperties.photoUrl} fallback-icon-name="standard:person_account"
+                alternative-text="Account Name" class="slds-m-around_small userinfo-photo">
+            </lightning-avatar>
+            <table class="slds-table slds-table_cell-buffer slds-no-row-hover slds-m-top_small"
+                aria-label="Example table of Opportunities with no row hovers">
+                <tbody>
+                    <template for:each={userObjectProperties} for:item="userProperty">
+                        <tr key={userProperty.key} class="slds-hint-parent slds-text-color_inverse slds-table_bordered">
+                            <td>
+                                <div class="slds-truncate slds-p-top_xx-small slds-p-bottom_x-small">{userProperty.key}</div>
+                            </td>
+                            <td>
+                                <div class="slds-truncate slds-text-align_right slds-p-top_x-small slds-p-bottom_xx-small">
+                                    {userProperty.value}
+                                </div>
+                            </td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</template>

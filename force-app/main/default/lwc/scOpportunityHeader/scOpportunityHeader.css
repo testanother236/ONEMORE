@@ -1,0 +1,43 @@
+:host{
+  --color-background-box: #ffae66;
+  --border-radius-box: 1.563rem;
+  --color-text-box: #fff;
+  --font-size-box:0.56rem;
+  --color-border-box:#EE4B2B;
+  --color-icon:#fff;
+}
+
+
+.opportunity__header-box {
+  background-color: var(--color-background-box);
+  width: 350px;
+  height: 50px;
+  border-radius: var(--border-radius-box);
+  border: none;
+  color: var(--color-text-box);
+  transition: .5s;
+}
+
+.opportunity__header-box:hover{
+  border: 2px solid var(--color-border-box);
+  box-shadow: 4px 4px 8px 0px var(--color-border-box);
+  cursor: pointer;
+}
+
+.opportunity__header-box .opportunity__header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-box);
+  font-size: var(--font-size-box);
+}
+
+.opportunity__header-box .opportunity__header-info div:first-child {
+  margin-top: -10px;
+}
+
+.slds-icon{
+    margin-top: 5px;
+  --sds-c-icon-color-foreground-default: var(--color-icon); 
+  --sds-c-icon-color-foreground: var(--color-icon);  
+}
