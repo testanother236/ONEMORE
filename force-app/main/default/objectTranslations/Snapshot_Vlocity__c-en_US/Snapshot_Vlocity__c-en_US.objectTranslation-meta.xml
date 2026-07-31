@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Snapshot_Vlocity__c-en_US</fullName>
+    <caseValues>
+        <plural>false</plural>
+        <value>Snapshot Vlocity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Snapshots Vlocity</value>
+    </caseValues>
+    <layouts>
+        <layout>Snapshot Vlocity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Commit_To_Branch --></label>
+        <name>Commit_To_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pack_Retry --></label>
+        <name>Pack_Retry</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Recreate_Snapshot_Vlocity --></label>
+        <name>Recreate_Snapshot_Vlocity</name>
+    </webLinks>
+</CustomObjectTranslation>
