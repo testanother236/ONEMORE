@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__AssessmentQuestion__c-en_US</fullName>
+    <recordTypes>
+        <label><!-- Checkbox --></label>
+        <name>vlocity_cmt__Checkbox</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Date --></label>
+        <name>vlocity_cmt__Date</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Free Text --></label>
+        <name>vlocity_cmt__FreeText</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Instruction --></label>
+        <name>vlocity_cmt__Instruction</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Multi Select --></label>
+        <name>vlocity_cmt__MultiSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Number --></label>
+        <name>vlocity_cmt__Number</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Question Table Multi Select --></label>
+        <name>vlocity_cmt__QuestionTableMultiSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Question Table Single Select --></label>
+        <name>vlocity_cmt__QuestionTableSingleSelect</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single Select --></label>
+        <name>vlocity_cmt__SingleSelect</name>
+    </recordTypes>
+</CustomObjectTranslation>
