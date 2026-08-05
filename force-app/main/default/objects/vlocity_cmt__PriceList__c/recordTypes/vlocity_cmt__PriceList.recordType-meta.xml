@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <compactLayoutAssignment>vlocity_cmt__Vlocity_EPC_Price_List_Compact_Layout</compactLayoutAssignment>
+    <description>PriceList record</description>
+    <fullName>vlocity_cmt__PriceList</fullName>
+    <label>PriceList</label>
+    <picklistValues>
+        <picklist>vlocity_cmt__CurrencyCode__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>USD</fullName>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__LoyaltyCode__c</picklist>
+        <values>
+            <default>true</default>
+            <fullName>PTS</fullName>
+        </values>
+    </picklistValues>
+</RecordType>

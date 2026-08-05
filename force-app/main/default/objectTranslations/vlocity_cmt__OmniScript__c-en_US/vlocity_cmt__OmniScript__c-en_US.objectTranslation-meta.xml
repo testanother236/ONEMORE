@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__OmniScript__c-en_US</fullName>
+    <layouts>
+        <layout>OmniScript Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- OmniScript Property Set --></label>
+            <section>OmniScript Property Set</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- ActivateVersion --></label>
+        <name>vlocity_cmt__ActivateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateVersion --></label>
+        <name>vlocity_cmt__CreateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeactivateVersion --></label>
+        <name>vlocity_cmt__DeactivateVersion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Designer --></label>
+        <name>vlocity_cmt__Designer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HorizontalModePreview --></label>
+        <name>vlocity_cmt__HorizontalModePreview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ImportExportScripts --></label>
+        <name>vlocity_cmt__ImportExportScripts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>vlocity_cmt__Preview</name>
+    </webLinks>
+</CustomObjectTranslation>

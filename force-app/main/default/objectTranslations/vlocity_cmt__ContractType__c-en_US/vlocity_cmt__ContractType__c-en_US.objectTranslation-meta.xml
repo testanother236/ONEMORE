@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__ContractType__c-en_US</fullName>
+    <layouts>
+        <layout>Contract Type Layout</layout>
+        <sections>
+            <label><!-- Contract Type Term --></label>
+            <section>Contract Type Term</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- ContractTypeDeepCopy --></label>
+        <name>vlocity_cmt__ContractTypeDeepCopy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeepCopy --></label>
+        <name>vlocity_cmt__DeepCopy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export --></label>
+        <name>vlocity_cmt__Export</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Publish --></label>
+        <name>vlocity_cmt__Publish</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__ManualQueue__c-en_US</fullName>
+    <layouts>
+        <layout>Manual Queue (Vlocity Hybrid) Layout</layout>
+        <sections>
+            <label><!-- Items In The Queue - OM Plus --></label>
+            <section>Items In The Queue - OM Plus</section>
+        </sections>
+        <sections>
+            <label><!-- Items In The Queue - OM Std --></label>
+            <section>Items In The Queue - OM Std</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V2</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V3</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V4</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity Thor) Layout V5</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V2</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V5</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V6</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V7</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual Queue (Vlocity XOM) Layout V8</layout>
+        <sections>
+            <label><!-- Items In The Queue --></label>
+            <section>Items In The Queue</section>
+        </sections>
+        <sections>
+            <label><!-- User Membership --></label>
+            <section>User Membership</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
