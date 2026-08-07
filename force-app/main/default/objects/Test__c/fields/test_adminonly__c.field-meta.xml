@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_adminonly__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>test</description>
+    <inlineHelpText>this is a test field.</inlineHelpText>
+    <label>test_adminonly</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
