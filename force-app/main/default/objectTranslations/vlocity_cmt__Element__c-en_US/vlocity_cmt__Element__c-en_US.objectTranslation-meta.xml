@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>vlocity_cmt__Element__c-en_US</fullName>
+    <layouts>
+        <layout>Element Layout</layout>
+        <sections>
+            <label><!-- Property Set --></label>
+            <section>Property Set</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>
