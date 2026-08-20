@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CONTRACT.STATUS_CODE</field>
+        <operation>equals</operation>
+        <value>A</value>
+    </filters>
+    <fullName>MyActivatedContracts</fullName>
+    <label>My Activated Contracts</label>
+</ListView>
