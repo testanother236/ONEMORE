@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Org Component Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Commit_To_Branch</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Track_Changes</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>Flosum__Transfer_To_Patch</name>
+    </webLinks>
+</CustomObjectTranslation>
